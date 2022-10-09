@@ -6,6 +6,7 @@
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://trli.coding.net/public/
 ! Total: 111213
+! 特殊说明：本规则为冷漠油管规则。
 |.localdomain^
 |2975c.v.fwmrm.net^
 |2mdn.net^
