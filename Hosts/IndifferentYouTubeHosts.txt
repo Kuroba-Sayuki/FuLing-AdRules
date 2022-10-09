@@ -1,12 +1,11 @@
-! Checksum: MTY1NDU2NDM3Nwo=
+! Checksum: MTY2NTI3OTk3NQo=
 ! Title: trli's Ad Filter Youtube for adguardhome
 ! Description: HOSTS Project
-! Version: 20220607-3
-! TimeUpdated: 2022-06-07T09:12:57+08:00
+! Version: 20221009-3
+! TimeUpdated: 2022-10-09T09:46:15+08:00
 ! Expires: 24 hours (update frequency)
-! Homepage: https://trli.coding.net/public/
-! Total: 111213
-! 特殊说明：本规则为冷漠油管规则。
+! Homepage: https://file.trli.club:2087/ad-youtube-hosts/
+! Total: 111204
 |.localdomain^
 |2975c.v.fwmrm.net^
 |2mdn.net^
@@ -66950,7 +66949,6 @@
 |r3---sn-4g5e6ns6.googlevideo.com^
 |r3---sn-4g5e6ns7.googlevideo.com^
 |r3---sn-4g5e6nsd.googlevideo.com^
-|r3---sn-4g5e6nsd.googlevideo.comr1---sn-4g5e6nz7.googlevideo.com^
 |r3---sn-4g5e6nsk.googlevideo.com^
 |r3---sn-4g5e6nsr.googlevideo.com^
 |r3---sn-4g5e6nss.googlevideo.com^
@@ -110910,7 +110908,6 @@
 |rr1---sn-o097znss.googlevideo.com^
 |rr1---sn-o097znsz.googlevideo.com^
 |rr1---sn-o097znz7.googlevideo.com^
-|rr1---sn-o097znze.googlevideo.com^
 |rr1---sn-uhvcpax0n5-nh4l.googlevideo.com^
 |rr1.sn-a5mekn6d.googlevideo.com^
 |rr1.sn-a5mekn6s.googlevideo.com^
@@ -110941,10 +110938,10 @@
 |rr2---sn-a5mlrnel.googlevideo.com^
 |rr2---sn-a5msenek.googlevideo.com^
 |rr2---sn-a5msenes.googlevideo.com^
-|rr2---sn-jvhj5nu-nh4e.googlevideo.com^
 |rr2---sn-jvhj5nu-nh4l.googlevideo.com^
 |rr2---sn-jvhj5nu-nh4s.googlevideo.com^
 |rr2---sn-jvhj5nu-nh4z.googlevideo.com^
+|rr2---sn-n4v7snl7.googlevideo.com^
 |rr2---sn-o097znlk.googlevideo.com^
 |rr2---sn-o097znlr.googlevideo.com^
 |rr2---sn-o097znsk.googlevideo.com^
@@ -110997,7 +110994,6 @@
 |rr3---sn-a5msenek.googlevideo.com^
 |rr3---sn-a5msenes.googlevideo.com^
 |rr3---sn-jvhj5nu-nh4e.googlevideo.com^
-|rr3---sn-jvhj5nu-nh4l.googlevideo.com^
 |rr3---sn-jvhj5nu-nh4s.googlevideo.com^
 |rr3---sn-jvhj5nu-nh4z.googlevideo.com^
 |rr3---sn-o097znlk.googlevideo.com^
@@ -111062,14 +111058,11 @@
 |rr4---sn-jvhj5nu-nh4l.googlevideo.com^
 |rr4---sn-jvhj5nu-nh4l.googlevideo.com.local^
 |rr4---sn-jvhj5nu-nh4s.googlevideo.com^
-|rr4---sn-jvhj5nu-nh4z.googlevideo.com^
 |rr4---sn-o097znld.googlevideo.com^
 |rr4---sn-o097znlk.googlevideo.com^
 |rr4---sn-o097znsk.googlevideo.com^
-|rr4---sn-o097znsr.googlevideo.com^
 |rr4---sn-o097znss.googlevideo.com^
 |rr4---sn-o097znsz.googlevideo.com^
-|rr4---sn-o097znz7.googlevideo.com^
 |rr4---sn-o097znze.googlevideo.com^
 |rr4---sn-uhvcpax0n5-nh4l.googlevideo.com^
 |rr4.sn-a5mekn6s.googlevideo.com^
@@ -111120,16 +111113,13 @@
 |rr5---sn-a5msen7s.googlevideo.com^
 |rr5---sn-a5msenek.googlevideo.com^
 |rr5---sn-a5msenes.googlevideo.com^
-|rr5---sn-jvhj5nu-nh4e.googlevideo.com^
 |rr5---sn-jvhj5nu-nh4l.googlevideo.com^
 |rr5---sn-jvhj5nu-nh4s.googlevideo.com^
 |rr5---sn-jvhj5nu-nh4z.googlevideo.com^
 |rr5---sn-o097znl6.googlevideo.com^
 |rr5---sn-o097znld.googlevideo.com^
 |rr5---sn-o097znlr.googlevideo.com^
-|rr5---sn-o097znsk.googlevideo.com^
 |rr5---sn-o097znsr.googlevideo.com^
-|rr5---sn-o097znss.googlevideo.com^
 |rr5---sn-o097znsz.googlevideo.com^
 |rr5---sn-o097znz7.googlevideo.com^
 |rr5---sn-o097znze.googlevideo.com^
