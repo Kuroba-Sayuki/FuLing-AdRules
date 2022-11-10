@@ -1,0 +1,60 @@
+#***************************************************#
+# 本规则为自用拦截名单，所有规则均为网络冲浪时抓取。#
+#***************************************************#
+
+
+#******************#
+# 正经内容拦截规则 #
+#******************#
+# 拼多多拦截规则
+! 助力短链接
+||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^$important
+! 助力扫码
+||mobile.yangkeduo.com^$important
+
+# 拦截小米主题3.3.3.0广告界面加载
+||lite.a.market.xiaomi.com^$important
+
+# 拦截哔哩哔哩直播启用p2p卡顿请求
+||*live-p2p*.bilibili*^$important
+
+
+#********************#
+# 不正经内容拦截规则 #
+#********************#
+# 拦截Pornhub视频片头广告
+! 拦截后可能会导致某些浏览器无法正常加载视频
+||evtubescms.phncdn.com^$important
+
+# 拦截搜书网流氓地址与图片
+||cbu01.alicdn.com^$important
+||65564535.com^$important
+||91.yelang8.cc^$important
+||bob4892.com^$important
+||9983x.com:8055^$important
+
+# 拦截盗版视频网站色情广告
+||cp.758758.xyz^$important
+||i670.cimumusic.com^$important
+||hchh.capmvb.net^$important
+||xd0411.xdt.usqiryn.cn^$important
+||701110.xyz^$important
+||9dg6a.xyz^$important
+
+# 拦截盗版小说网站色情广告
+||qq17.toytoy.xyz^$important
+||www.a50xf.com^$important
+||www.vexd8.com^$important
+||xiaorongyan.com^$important
+||syzbd57.com^$important
+||as69d5.ailianna.cn^$important
+||e5m2gp.sujev.cn^$important
+||tp4sul.jwzd.com.cn^$important
+||henanpenqitu.com^$important
+||200kp.vip^$important
+||jwhk.hfbqet.cn^$important
+||www.liwbei.cn^$important
+||b5zzr.cc^$important
+||2lc8.vip^$important
+||img4.qy0.ru^$important
+
