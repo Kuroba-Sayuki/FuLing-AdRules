@@ -15,6 +15,9 @@
 # 放行嗅觉浏览器搜索结果接口
 @@||suggestion.baidu.com^$important
 
+# 放行Yep搜索引擎
+@@||yep.com^$important
+
 # 放行夸克浏览器相关内容
 ! 夸克搜索引擎
 @@||quark.sm.cn^$important
@@ -135,6 +138,12 @@
 @@||wallpaperm.cmcm.com^$important
 @@||wpvip.duba.net^$important
 
+# 放行网站收录 - 外网
+@@||theporndude.com^$important
+
+# 放行漫画网站 - 外网
+@@||toonily.com^$important
+
 
 #******************#
 # 百度相关内容规则 #
@@ -202,6 +211,27 @@
 
 
 #******************#
+# 小说相关放行规则 #
+#******************#
+# 放行起点中文网相关内容
+@@||www.qidian.com^$important
+@@||m.qidian.com^$important
+! 网页排版
+@@||qdfepccdn.qidian.com^$important
+! 小说封面图
+@@||bookcover.yuewen.com^$important
+! 作家说头像
+@@||facepic.qidian.com^$important
+
+# 放行番茄小说网相关内容
+@@||fanqienovel.com^$important
+! 网页排版
+@@||lf-cdn-tos.bytescm.com^$important
+@@||lf3-cdn-tos.bytescm.com^$important
+@@||lf3-short.bytegoofy.com^$important
+
+
+#******************#
 # 视频相关内容规则 #
 #******************#
 # 放行哔哩哔哩相关内容
@@ -254,6 +284,8 @@
 ! 小程序头像加载
 ! 场景：云上山科-龙兴湖-小额缴费里的头像
 @@||thirdwx.qlogo.cn^$important
+! 青春大学习开始学习按钮跳转
+@@||vm.gtimg.cn^$important
 
 # 放行QQ相关内容
 ! 卡片加载
@@ -279,6 +311,12 @@
 @@||wxmini-api.uyouqu.com^$important
 @@||txmov2.a.kwimgs.com^$important
 @@||*.a.yximgs.com^$important
+! 群公告加载
+@@||qq-web.cdn-go.cn^$important
+@@||npm.cdn-go.cn^$important
+@@||pub.idqqimg.com^$important
+! 用户等级与能力值等页面
+@@||qqvip-web.cdn-go.cn^$important
 
 # 放行QQ音乐相关内容
 ! 听歌时长记录
@@ -392,9 +430,6 @@
 # 放行heroku
 @@||heroku.com^$important
 
-# 放行养猪场免流订阅地址
-@@||xn--7ova.xn--l6qx3l9s1a.com^$important
-
 
 #**************#
 # 游戏放行规则 #
@@ -426,6 +461,8 @@
 @@||abs.twimg.com^$important
 @@||pbs.twimg.com^$important
 @@||mobile.twitter.com^$important
+! 链接跳转
+@@||t.co^$important
 
 # 放行TikTok - 抖音国际版
 @@||tiktokv.com^$important
@@ -445,6 +482,9 @@
 @@||lf6-cdn-tos.bytegoofy.com^$important
 @@||sf6-cdn-tos.douyinstatic.com^$important
 
+# 放行电子图书馆 - 可下载
+@@||annas-archive.org^$important
+
 
 #********************#
 # 不正经网站放行规则 #
@@ -455,13 +495,23 @@
 # 放行里番在线观看网站
 ! 主站
 @@||hanime1.me^$important
+! 特殊按钮加载
+@@||fonts.googleapis.com^$important
 ! 视频加载引擎
 @@||vdownload-*.sb-cd.com^$important
 @@||cdn5-videos.motherlessmedia.com^$important
 
+# 放行哔咔图片加载
+@@||storage.wikawika.xyz^$important
+
+# 放行绅士漫画
+@@||www.wnacg.org^$important
+
 # 放行E站
 @@||e-hentai.org^$important
 @@||ehgt.org^$important
+! 资源下载网站跳转
+@@||ehtracker.org^$important
 
 # 放行黄漫加载
 @@||toonily.me^$important
@@ -469,17 +519,25 @@
 # 放行禁漫天堂主域名 - 广告与主页同域名
 @@||18comic.org^$important
 
+# 放行5f自拍色情视频
+@@||www.porn5f.com^$important
+
+# 放行老王论坛
+@@||laowang.vip^$important
+! 图片加载
+@@||ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz^$important
+
 # 放行xvideos某些必要场景
 @@||www.xvideos.com^$important
 @@||img-l3.xvideos-cdn.com^$important
 @@||img-hw.xvideos-cdn.com^$important
 @@||cdn77-pic.xvideos-cdn.com^$important
 @@||cdn77-vid-mp4.xvideos-cdn.com^$important
-@@||static-hw.xvideos-cdn.com^$important
+@@||cdn77-vid.xvideos-cdn.com^$important
+@@||static-*.xvideos-cdn.com^$important
+@@||*-cf.xvideos-cdn.com^$important
 @@||hls3-l3.xvideos-cdn.com^$important
 @@||hls-hw.xvideos-cdn.com^$important
-! 如果个别视频无法加载可放行此条规则，或者自行抓取规则放行。
-# @@||*.xvideos-cdn.com^$important
 
 # 放行javtrust.com视频加载及网页加载
 @@||javfinder.li^$important
@@ -498,10 +556,27 @@
 @@||em.phncdn.com^$important
 @@||ei.phncdn.com^$important
 @@||di.phncdn.com^$important
+@@||www.pornhub.com^$important
 @@||cn.pornhub.com^$important
 @@||e1m-h.phncdn.com^$important
 @@||cdn1d-static-shared.phncdn.com^$important
 @@||a.adtng.com^$important
+
+# 放行avgle色情视频网站
+@@||avgle.com^$important
+! 视频加载
+@@||*.qooqlevideo.com^$important
+
+# 放行xnxx色情视频网站
+@@||www.xnxx.com^$important
+! 网页排版
+@@||static-l3.xnxx-cdn.com^$important
+@@||static-hw.xnxx-cdn.com^$important
+@@||static-cdn77.xnxx-cdn.com^$important
+! 网页图片
+@@||img-l3.xnxx-cdn.com^$important
+@@||img-hw.xnxx-cdn.com^$important
+@@||img-cf.xnxx-cdn.com^$important
 
 # 放行工口实验室及其图片加载
 @@||www.54647.io^$important
