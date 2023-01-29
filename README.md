@@ -5,11 +5,11 @@
 
 
 ## 开胃图
-![Image](https://img1.imgtp.com/2022/11/10/tn8ztLxW.jpg)
+![Image](https://raw.githubusercontent.com/MkingSakura/Sakura-img/main/Image/202211201015857.jpg)
 
 
 ## 拦截规则
-### GitHub直连（截止2022-11-10）：
+### GitHub直连（截止2023-01-29）：
 
 ###### 浏览器规则：
 
@@ -61,13 +61,16 @@
 |[酷安广告规则](https://raw.githubusercontent.com/MkingSakura/AD-Hosts/main/Hosts/CoolapkHosts.txt)|
 |--|
 
+|[番茄免费小说规则](https://raw.githubusercontent.com/MkingSakura/AD-Hosts/main/Hosts/TomatoNovelHosts.txt)|
+|--|
+
 ###### 特殊说明：
 1. 冷漠广告规则由于本体文件过大，所以拆分成1、2两个规则文件。
 2. 冷漠广告规则与冷漠(旧)广告规则建议选择其中一个使用。
 
 
 ## 自用规则
-### GitHub直连（截止2022-11-10）：
+### GitHub直连（截止2023-01-29）：
 
 ###### 拦截规则：
 
