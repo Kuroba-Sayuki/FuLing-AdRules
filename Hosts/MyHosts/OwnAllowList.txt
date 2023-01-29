@@ -50,8 +50,11 @@
 # 放行小鸡词典官网加载
 @@||jikipedia.com^$important
 
-# 放行微博某些页面加载 - 更改头像＆更改封面
+# 放行微博相关内容
+! 某些页面加载 - 更改头像＆更改封面
 @@||new.vip.weibo.cn^$important
+! 文章布局加载
+@@||js.t.sinajs.cn^$important
 
 # 放行学信网APP内刷新
 @@||push.chsi.com.cn^$important
@@ -105,6 +108,9 @@
 @@||cdn.akamai.steamstatic.com^$important
 @@||community.akamai.steamstatic.com^$important
 
+# 放行ip查询网
+@@||ip.cn^$important
+
 # ip138相关内容
 ! ip测试页 - PC
 @@||www.ip138.com^$important
@@ -114,12 +120,15 @@
 @@||cache.ip138.com^$important
 
 # 放行网易云音乐相关内容
-! 音乐加载
+! 页面端及资源加载
+@@||music.163.com^$important
+@@||*.music.126.net^$important
+! 客户端音乐加载
 @@||m701.music.126.net^$important
 @@||m801.music.126.net^$important
 @@||m8.music.126.net^$important
 @@||m7.music.126.net^$important
-! 云村视频加载
+! 客户端云村视频加载
 @@||vodkgeyttp9.vod.126.net^$important
 @@||vodkgeyttp8.vod.126.net^$important
 
@@ -143,6 +152,45 @@
 
 # 放行漫画网站 - 外网
 @@||toonily.com^$important
+
+# 放行破解应用收录网站
+@@||modyolo.com^$important
+
+
+#******************#
+# 网易相关内容规则 #
+#******************#
+# 放行网易官网
+@@||www.163.com^$important
+@@||3g.163.com^$important
+! 页面排版
+@@||static.ws.126.net^$important
+! 文章图片
+@@||nimg.ws.126.net^$important
+
+# 放行网易游戏内容社区
+@@||play.163.com^$important
+! 网页图片
+@@||img3.cache.netease.com^$important
+@@||cms-bucket.ws.126.net^$important
+
+# 放行网易云游戏平台
+@@||cg.163.com^$important
+
+# 放行网易163邮箱官网
+@@||mail.163.com^$important
+! 下载页面跳转
+@@||dashi.163.com^$important
+@@||u.163.com^$important
+! 下载接口跳转
+@@||res.126.net^$important
+! 进入网页版邮箱跳转
+@@||dl.reg.163.com^$important
+
+# 放行网易账号安全中心
+@@||reg.163.com^$important
+@@||id.163.com^$important
+@@||mob.163.com^$important
 
 
 #******************#
@@ -214,6 +262,7 @@
 # 小说相关放行规则 #
 #******************#
 # 放行起点中文网相关内容
+! 官网
 @@||www.qidian.com^$important
 @@||m.qidian.com^$important
 ! 网页排版
@@ -224,11 +273,21 @@
 @@||facepic.qidian.com^$important
 
 # 放行番茄小说网相关内容
+! 官网
 @@||fanqienovel.com^$important
 ! 网页排版
 @@||lf-cdn-tos.bytescm.com^$important
 @@||lf3-cdn-tos.bytescm.com^$important
 @@||lf3-short.bytegoofy.com^$important
+
+# 放行番茄小说APP相关内容
+! 小说封面
+@@||p3-novel.byteimg.com^$important
+@@||p6-novel.byteimg.com^$important
+! 听书加载
+@@||v3-fq-tts.fqnovelvod.com^$important
+@@||v6-fq-tts.fqnovelvod.com^$important
+@@||v26-fq-tts.fqnovelvod.com^$important
 
 
 #******************#
@@ -257,6 +316,10 @@
 ! 游戏条款加载
 @@||game.bilibili.com^$important
 @@||static.biligame.com^$important
+! 会员购商品页面加载
+@@||mall.bilibili.com^$important
+! 手机网页端浏览时，点击APP专属视频时跳转的哔哩哔哩apk下载接口
+@@||dl.hdslb.com^$important
 ! PC端哔哩UWP进入视频时调用的官方接口
 @@||grpc.biliapi.net^$important
 
@@ -286,6 +349,10 @@
 @@||thirdwx.qlogo.cn^$important
 ! 青春大学习开始学习按钮跳转
 @@||vm.gtimg.cn^$important
+! 天际通Go小程序客服入口
+@@||smartrobot-drcn.dbankcdn.com^$important
+! 天际通Go小程序客服界面进入logo，拦截则显示默认logo（在线客服）
+@@||contentcenter-vali-drcn.dbankcdn.com^$important
 
 # 放行QQ相关内容
 ! 卡片加载
@@ -443,6 +510,15 @@
 # 放行网易猫和老鼠下载服务器加载
 @@||h18.update.netease.com^$important
 
+# 放行天涯明月刀手游相关内容
+! QQ登陆接口 - 拦截会显示鉴权失败，请重试，错误码:9999.-1
+@@||hc.tdm.qq.com^$important
+! 邮件领取物品Token获取
+@@||itop.qq.com^$important
+! 特殊活动兑换加载
+!（红包雨奖励兑换中心 - 礼品获得记录查询）
+@@||apps.game.qq.com^$important
+
 
 #******************#
 # 外网应用放行规则 #
@@ -508,7 +584,11 @@
 @@||www.wnacg.org^$important
 
 # 放行E站
+! 表站
 @@||e-hentai.org^$important
+! 里站
+@@||exhentai.org^$important
+! 封面图
 @@||ehgt.org^$important
 ! 资源下载网站跳转
 @@||ehtracker.org^$important
@@ -573,10 +653,14 @@
 @@||static-l3.xnxx-cdn.com^$important
 @@||static-hw.xnxx-cdn.com^$important
 @@||static-cdn77.xnxx-cdn.com^$important
-! 网页图片
+! 图片加载
 @@||img-l3.xnxx-cdn.com^$important
 @@||img-hw.xnxx-cdn.com^$important
 @@||img-cf.xnxx-cdn.com^$important
+@@||cdn77-pic.xnxx-cdn.com^$important
+! 视频加载
+@@||cdn77-vid.xnxx-cdn.com^$important
+@@||hls*-cf.xnxx-cdn.com^$important
 
 # 放行工口实验室及其图片加载
 @@||www.54647.io^$important

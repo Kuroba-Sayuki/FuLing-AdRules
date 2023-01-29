@@ -18,6 +18,26 @@
 # 拦截哔哩哔哩直播启用p2p卡顿请求
 ||*live-p2p*.bilibili*^$important
 
+# 屏蔽穿山甲SDK，字节相关SDK、API，AD域名 - by妤月（酷安）
+/zijieapi.*/
+/byteorge.*/
+/bytegoofy.*/
+/bytedance.*/
+/snssdk.*/
+/pangolin-sdk.*/
+/lf.fqnovel.*/
+/ad-sign.*/
+/fqnovelvod.*/
+/mgsdk-sign.*/
+||dig.bdurl.net^$important
+||activity-ag.awemeughun.com^$important
+||msync-im1-vip6-std.easemob.com^$important
+||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
+||sf3-ttcdn-tos.pstatp.com^$important
+||sf3-fe-tos.pglstatp-toutiao.com^$important
+||skdisplay.jd.com^$important
+||settings.ttwebview.com^$important
+
 
 #********************#
 # 不正经内容拦截规则 #
@@ -76,5 +96,21 @@
 ||txx99.top^$important
 ||oqissyeygvnnhigj.ayh3.xyz^$important
 ||izicai.xyz^$important
-
+||g7h69h29cx.com^$important
+||m3hual.89doc.com^$important
+||gpanaiagcsnvtggh.cwt3.xyz^$important
+||06.jennylisnerphotography.com^$important
+||13.jennylisnerphotography.com^$important
+||180rgwee.com^$important
+||2034kp.vip^$important
+||www.kp12a.top^$important
+||tgd54.xyz^$important
+||qucvedv.cn^$important
+||705jte32.ch3hugifdos.com^$important
+||tn.uvrifrd.cn^$important
+||aod.cos.tx.xmcdn.com^$important
+||pic.rmb.bdstatic.com^$important
+||chulian.gfowedy.cn^$important
+||wrx.lesson99.com^$important
+||cfcffnhqqaibabwt.ber3.xyz^$important
 
