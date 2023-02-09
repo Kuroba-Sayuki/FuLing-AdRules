@@ -318,10 +318,18 @@
 @@||static.biligame.com^$important
 ! 会员购商品页面加载
 @@||mall.bilibili.com^$important
+! 立即下载页面
+@@||d.bilibili.com^$important
 ! 手机网页端浏览时，点击APP专属视频时跳转的哔哩哔哩apk下载接口
 @@||dl.hdslb.com^$important
 ! PC端哔哩UWP进入视频时调用的官方接口
 @@||grpc.biliapi.net^$important
+! BWIKI首页
+@@||wiki.biligame.com^$important
+! BWIKI网页排版
+@@||staticwiki.biligame.com^$important
+! BWIKI网页图片
+@@||patchwiki.biligame.com^$important
 
 # 放行猴山欢迎回家页面
 @@||ali.static.yximgs.com^$important
@@ -335,6 +343,8 @@
 # 腾讯相关放行规则 #
 #******************#
 # 放行微信相关内容
+! 官网 - 微信隐私保护指南页面
+@@||weixin.qq.com^$important
 ! 登录时出现的微信安全界面
 @@||shminorshort.weixin.qq.com^$important
 ! 注销账号界面
@@ -458,6 +468,8 @@
 @@||ff0.market.xiaomi.com^$important
 
 # 放行小米主题商店相关内容
+! 官网
+@@||zhuti.xiaomi.com^$important
 ! 页面加载
 @@||thm.market.xiaomi.com^$important
 ! 用户头像调用加载的api与各类图片加载
@@ -470,6 +482,8 @@
 @@||f*.market.xiaomi.com^$important
 @@||f*.market.mi-img.com^$important
 @@||ts.market.mi-img.com^$important
+! 商店查询一些记录所调用的api，比如收藏记录、购买记录等
+@@||api.zhuti.xiaomi.com^$important
 
 # 放行小米讯飞输入法斗图加载
 @@||imeclient.openspeech.cn^$important
@@ -477,6 +491,9 @@
 
 # 放行miuithemez图片加载 - MIUI主题国际版网站
 @@||blogger.googleusercontent.com^$important
+
+# 放行MIUI危险提示10S等待后的联网认证
+@@||srv.sec.miui.com^$important
 
 
 #**************#
@@ -518,6 +535,9 @@
 ! 特殊活动兑换加载
 !（红包雨奖励兑换中心 - 礼品获得记录查询）
 @@||apps.game.qq.com^$important
+
+# 放行梦幻MC工作室
+@@||www.mhzd.net^$important
 
 
 #******************#
