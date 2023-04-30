@@ -104,6 +104,10 @@
 @@||hub5btmain.sandai.net^$important
 @@||hub5pn.wap.sandai.net^$important
 
+# 磁力在线解析观看下载
+@@||webtor.io^$important
+@@||instant.io^$important
+
 # 放行steam APP图片加载
 @@||cdn.akamai.steamstatic.com^$important
 @@||community.akamai.steamstatic.com^$important
@@ -155,6 +159,27 @@
 
 # 放行破解应用收录网站
 @@||modyolo.com^$important
+
+# 放行菜鸟相关内容
+! 账号与安全页面加载
+@@||my.cainiao.com^$important
+! 组件加载
+@@||appdownload.alicdn.com^$important
+
+# 放行画册收集网站
+@@||kemono.party^$important
+
+# 放行微软账号登陆页面的布局加载
+@@||logincdn.msauth.net^$important
+
+# 小红书用户头像加载
+@@||sns-avatar-qc.xhscdn.com^$important
+
+# 放行speedtest测速网自身推广图片 - 拦截页面别扭，放行无伤大雅
+@@||file2.speedtest.cn^$important
+
+# 放行葫芦侠相关内容
+@@||huluxia.com^$important
 
 
 #******************#
@@ -214,8 +239,14 @@
 # 放行百度经验排版
 @@||exp-new.bdstatic.com^$important
 
-# 放行百度贴吧网页版表情加载
+# 放行百度贴吧相关内容
+! 网页版表情加载
 @@||gsp0.baidu.com^$important
+! APP相关
+! 个人信息用户头像第一次点击加载 - 拦截后第一次点击不显示头像再次点击才会显示
+@@||himg.bdimg.com^$important
+! 关于Ta页面头像第一次点击加载 - 拦截后与上面同理
+@@||tb.himg.baidu.com^$important
 
 # 放行百度知道加载
 @@||zhidao.baidu.com^$important
@@ -235,6 +266,9 @@
 
 # 放行阿里云盘登录验证页面
 @@||acs.m.taobao.com^$important
+
+# 放行Mega网盘
+@@||mega.nz^$important
 
 
 #******************#
@@ -304,6 +338,8 @@
 @@||i2.hdslb.com^$important
 ! 专栏加载页面
 @@||s1.hdslb.com^$important
+! CC字幕加载
+@@||aisubtitle.hdslb.com^$important
 ! 系统通知页面及其活动加载组件
 @@||message.bilibili.com^$important
 @@||activity.hdslb.com^$important
@@ -374,10 +410,18 @@
 ! 个人信息界面图片加载
 @@||qqadapt.qpic.cn^$important
 @@||a1.qpic.cn^$important
+! 幸运字符界面布局加载
+@@||cdn-go.cn^$important
+! 互动标识图标加载
+@@||*.dlied1.cdntips.net^$important
 ! 游戏充值加载
 @@||midas.gtimg.cn^$important
 ! 授权登录用户图标加载
 @@||thirdqq.qlogo.cn^$important
+! 频道帖子图片加载
+@@||world.qpic.cn^$important
+! 频道帖子点赞一系列表情按钮图标加载
+@@||framework.cdn-go.cn^$important
 ! 频道搜索主页大卡片图片加载
 @@||vfiles.gtimg.cn^$important
 ! 频道搜索主页缩略图加载
@@ -495,6 +539,9 @@
 # 放行MIUI危险提示10S等待后的联网认证
 @@||srv.sec.miui.com^$important
 
+# 放行MIUI小部件页面加载与搜索
+@@||store.assistant.miui.com^$important
+
 
 #**************#
 # 极客放行规则 #
@@ -539,6 +586,9 @@
 # 放行梦幻MC工作室
 @@||www.mhzd.net^$important
 
+# 发现QQ飞车准备更新的文件一系列对接地址
+@@||*.rdt.tfogc.com^$important
+
 
 #******************#
 # 外网应用放行规则 #
@@ -551,13 +601,20 @@
 @@||m.facebook.com^$important
 @@||static.xx.fbcdn.net^$important
 
-# 放行Twitter与Web版加载
-@@||twitter.com^$important
-@@||api.twitter.com^$important
-@@||abs.twimg.com^$important
-@@||pbs.twimg.com^$important
+# 放行Twitter相关内容
+! 首页
 @@||mobile.twitter.com^$important
-! 链接跳转
+! 推特logo — 拦截会报错
+@@||abs.twimg.com^$important
+! 内容加载
+@@||api.twitter.com^$important
+! 推文特殊表情图片
+@@||abs-0.twimg.com^$important
+! 推文图片＆用户图像
+@@||pbs.twimg.com^$important
+! 推文视频
+@@||video.twimg.com^$important
+! 推文链接跳转
 @@||t.co^$important
 
 # 放行TikTok - 抖音国际版
@@ -580,6 +637,20 @@
 
 # 放行电子图书馆 - 可下载
 @@||annas-archive.org^$important
+
+# 放行Plus茶馆
+! 北+
+@@||north-plus.net^$important
+! 南+
+@@||south-plus.net^$important
+! 白+
+@@||white-plus.net^$important
+! Lv+
+@@||level-plus.net^$important
+! 夏+
+@@||summer-plus.net^$important
+! 春+
+@@||spring-plus.net^$important
 
 
 #********************#
@@ -613,6 +684,12 @@
 ! 资源下载网站跳转
 @@||ehtracker.org^$important
 
+# 放行字母圈番号网站
+@@||bdsmtv.cc^$important
+
+# 放行字母圈属性测试网站
+@@||bdsmtest.org^$important
+
 # 放行黄漫加载
 @@||toonily.me^$important
 
@@ -622,10 +699,20 @@
 # 放行5f自拍色情视频
 @@||www.porn5f.com^$important
 
+# 放行恋物癖视频网站
+! 主页
+@@||clips4sale.com^$important
+@@||www.clips4sale.com^$important
+! 图片
+@@||imagecdn.clips4sale.com^$important
+@@||static2.clips4sale.com^$important
+
 # 放行老王论坛
 @@||laowang.vip^$important
 ! 图片加载
 @@||ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz^$important
+! APP版打开页面加载
+@@||laowang-3gd83b-ciw387gc-8372qg.fwekjh8732fiwe783giuf.xyz^$important
 
 # 放行xvideos某些必要场景
 @@||www.xvideos.com^$important

@@ -46,12 +46,17 @@
 ! 拦截后可能会导致某些浏览器无法正常加载视频
 ||evtubescms.phncdn.com^$important
 
+# 拦截Twitter广告
+||static.ads-twitter.com^$important
+||ads-api.twitter.com^$important
+
 # 拦截搜书网流氓地址与图片
 ||cbu01.alicdn.com^$important
 ||65564535.com^$important
 ||91.yelang8.cc^$important
 ||bob4892.com^$important
 ||9983x.com:8055^$important
+||552aaa.us^$important
 
 # 拦截盗版视频网站色情广告
 ||cp.758758.xyz^$important
