@@ -55,6 +55,8 @@
 @@||new.vip.weibo.cn^$important
 ! 文章布局加载
 @@||js.t.sinajs.cn^$important
+! APP扫码后登陆页面加载
+@@||passport.weibo.cn^$important
 
 # 放行学信网APP内刷新
 @@||push.chsi.com.cn^$important
@@ -181,6 +183,15 @@
 # 放行葫芦侠相关内容
 @@||huluxia.com^$important
 
+# 草料二维码页面跳转
+@@||targurl.clewm.net^$important
+
+# 奇妙应用 - 应用图标加载放行
+@@||dimg04.c-ctrip.com^$important
+
+# 放行1.1.1.1DNS的doh地址
+@@||cloudflare-dns.com^$important
+
 
 #******************#
 # 网易相关内容规则 #
@@ -267,6 +278,9 @@
 # 放行阿里云盘登录验证页面
 @@||acs.m.taobao.com^$important
 
+# 放行夸克网盘
+@@||pan.quark.cn^$important
+
 # 放行Mega网盘
 @@||mega.nz^$important
 
@@ -290,6 +304,36 @@
 @@||m.360buyimg.com^$important
 ! 网页版加载
 @@||wq.360buyimg.com^$important
+
+# 放行转转APP相关内容
+! 首页
+@@||app.zhuanzhuan.com^$important
+! 商品页
+@@||m.zhuanzhuan.com^$important
+! 卖闲置页面及其他页面
+@@||act.zhuanzhuan.com^$important
+
+
+#******************#
+# 地图相关内容规则 #
+#******************#
+# 放行百度地图相关内容
+! 地图定位调用
+@@||loc.map.baidu.com^$important
+! 调用地图时更改位置所需要的大地图加载
+@@||newclient.map.baidu.com^$important
+
+# 放行高德地图相关内容
+! 地图定位调用
+@@||restapi.amap.com^$important
+! 调用地图时更改位置所需要的大地图加载
+@@||mpsapi.amap.com^$important
+
+# 放行Google地图定位调用
+@@||clients4.google.com^$important
+
+# 放行调用腾讯地图时更改位置所需要的大地图加载
+@@||vectorsdk.map.qq.com^$important
 
 
 #******************#
@@ -366,6 +410,8 @@
 @@||staticwiki.biligame.com^$important
 ! BWIKI网页图片
 @@||patchwiki.biligame.com^$important
+! 游戏中心游戏下载链接
+@@||pkg.biligame.com^$important
 
 # 放行猴山欢迎回家页面
 @@||ali.static.yximgs.com^$important
@@ -510,6 +556,8 @@
 @@||pfga0.market.xiaomi.com^$important
 @@||fga0.market.xiaomi.com^$important
 @@||ff0.market.xiaomi.com^$important
+! 应用升级检测 - 拦截会一直显示全部应用均为最新版本
+@@||updateinfo.market.xiaomi.com^$important
 
 # 放行小米主题商店相关内容
 ! 官网
@@ -620,6 +668,9 @@
 # 放行TikTok - 抖音国际版
 @@||tiktokv.com^$important
 @@||tiktokcdn.com^$important
+
+# MDGram官方下载网站放行
+@@||mb-mods.net^$important
 
 
 #******************#
@@ -768,6 +819,14 @@
 ! 视频加载
 @@||cdn77-vid.xnxx-cdn.com^$important
 @@||hls*-cf.xnxx-cdn.com^$important
+
+# 放行pornlulu色情视频网站
+@@||www.pornlulu.com^$important
+! 图片
+@@||img.siwazywimg.com^$important
+! 视频
+@@||siwazywcdn2.com^$important
+@@||ddyunbo.com^$important
 
 # 放行工口实验室及其图片加载
 @@||www.54647.io^$important
