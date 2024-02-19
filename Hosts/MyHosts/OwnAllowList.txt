@@ -27,8 +27,11 @@
 # 放行edge浏览器翻译
 @@||edge.microsoft.com^$important
 
-# 放行华为智慧生活网络连接
+# 放行华为智慧生活相关内容
+! 网络连接
 @@||smarthome-drcn.dbankcdn.com^$important
+! 设备插件更新下载链接
+@@||appdl-1-drcn.dbankcdn.com^$important
 
 # 放行联通手机营业厅功能页面与图片显示
 @@||img.client.10010.com^$important
@@ -145,6 +148,10 @@
 @@||s3-us-east-1.ossfiles.com^$important
 ! 喜马拉雅音源加载
 @@||www.ximalaya.com^$important
+! 22听书网音频接口 - 含喜马拉雅域名
+@@||aod.cos.tx.xmcdn.com^$important
+@@||mobile.ximalaya.com^$important
+@@||fdfs.xmcdn.com^$important
 
 # 放行元气桌面壁纸加载
 ! 由于时间原因，还有很多规则未抓出未放行，比如我的界面用户头像、账号退出、账号注销等功能。
@@ -186,11 +193,57 @@
 # 草料二维码页面跳转
 @@||targurl.clewm.net^$important
 
-# 奇妙应用 - 应用图标加载放行
+# 奇妙应用 - 应用图标加载＆预览图加载放行
+@@||p0.meituan.net^$important
 @@||dimg04.c-ctrip.com^$important
 
 # 放行1.1.1.1DNS的doh地址
 @@||cloudflare-dns.com^$important
+
+# 百度手机助手普通下载
+@@||gdown.baidu.com^$important
+
+# 游民星空手机网页布局
+@@||j.gamersky.com^$important
+
+# 八神智能天下游戏下载链接
+@@||ugame.9game.cn^$important
+
+# 学习通应用内消息推送 - 拦截后学习通内收不到消息通知
+@@||msync-im1-vip6-std.easemob.com^$important
+
+# 漫画聚合软件
+@@||tachiyomi.org^$important
+
+# 轻听英语手机页面Android下载响应
+@@||c.umsns.com^$important
+
+# 中关村在线报价相关内容
+! PC页面
+@@||detail.zol.com.cn^$important
+! 手机页面
+@@||wap.zol.com.cn^$important
+
+# 懂车帝APP相关内容
+! 内容图片加载，包括但不限于功能性按钮图标、栏目封面、用户头像、车型图片、直播封面。
+@@||p3.dcarimg.com^$important
+@@||p1-dcd.byteimg.com^$important
+@@||p3-dcd.byteimg.com^$important
+@@||p6-dcd.byteimg.com^$important
+@@||p9-dcd.byteimg.com^$important
+@@||p5-auto.dcarimg.com^$important
+@@||p3-dcd-sign.byteimg.com^$important
+@@||p6-dcd-sign.byteimg.com^$important
+@@||p9-dcd-sign.byteimg.com^$important
+@@||p5-auto-sign.dcarimg.com^$important
+@@||p3-passport.byteacctimg.com^$important
+@@||p3-webcast-sign.douyinpic.com^$important
+@@||p6-webcast-sign.douyinpic.com^$important
+@@||p9-webcast-sign.douyinpic.com^$important
+! 二手车详情界面加载
+@@||lf6-cdn2-tos.bytegoofy.com^$important
+! 个别内容页面加载 - 今日头条的站点
+@@||dm.toutiao.com^$important
 
 
 #******************#
@@ -227,6 +280,14 @@
 @@||reg.163.com^$important
 @@||id.163.com^$important
 @@||mob.163.com^$important
+
+# 网易大神社区
+! PC首页
+@@||ds.163.com^$important
+! 移动端首页
+@@||m.ds.163.com^$important
+! API调用
+@@||api.ds.163.com^$important
 
 
 #******************#
@@ -284,6 +345,9 @@
 # 放行Mega网盘
 @@||mega.nz^$important
 
+# 123云盘手机网页布局
+@@||statics.123pan.com^$important
+
 
 #******************#
 # 购物相关内容规则 #
@@ -304,6 +368,8 @@
 @@||m.360buyimg.com^$important
 ! 网页版加载
 @@||wq.360buyimg.com^$important
+! 视频评测＆评论区视频
+@@||jvod.300hu.com^$important
 
 # 放行转转APP相关内容
 ! 首页
@@ -312,6 +378,9 @@
 @@||m.zhuanzhuan.com^$important
 ! 卖闲置页面及其他页面
 @@||act.zhuanzhuan.com^$important
+
+# 闲鱼支付宝授权身份验证 - 可能还是淘宝授权的接口
+@@||market.m.taobao.com^$important
 
 
 #******************#
@@ -484,6 +553,11 @@
 @@||pub.idqqimg.com^$important
 ! 用户等级与能力值等页面
 @@||qqvip-web.cdn-go.cn^$important
+! QQ空间图片＆视频
+@@||qzs.qq.com^$important
+@@||m.qpic.cn^$important
+! QQ链接跳转
+@@||qm.qq.com^$important
 
 # 放行QQ音乐相关内容
 ! 听歌时长记录
@@ -577,9 +651,27 @@
 ! 商店查询一些记录所调用的api，比如收藏记录、购买记录等
 @@||api.zhuti.xiaomi.com^$important
 
-# 放行小米讯飞输入法斗图加载
+# 放行讯飞输入法小米版相关内容
+! 斗图加载
 @@||imeclient.openspeech.cn^$important
 @@||dy-pic0.iqiyipic.com^$important
+! 设置内音效加载
+@@||download.voicecloud.cn^$important
+! 皮肤＆字体＆表情页面加载
+@@||cardservice.openspeech.cn^$important
+! 资源图片加载
+@@||s3.voicecloud.cn^$important
+@@||ime-res-download.xfinfr.com^$important
+! 资源购买支付系统加载
+@@||pay.openspeech.cn^$important
+! 今日输入统计加载 - 飞飞号外
+@@||s1.voicecloud.cn^$important
+! 已购资源界面加载
+@@||coop.voicecloud.cn^$important
+! 账号登陆接口
+@@||account.xfinfr.com^$important
+! 检查更新放行 - 拦截会显示获取版本信息失败，请稍后再试。
+@@||ossp.voicecloud.cn^$important
 
 # 放行miuithemez图片加载 - MIUI主题国际版网站
 @@||blogger.googleusercontent.com^$important
@@ -634,8 +726,18 @@
 # 放行梦幻MC工作室
 @@||www.mhzd.net^$important
 
-# 发现QQ飞车准备更新的文件一系列对接地址
+# 放行QQ飞车手游准备更新的文件一系列对接地址
 @@||*.rdt.tfogc.com^$important
+
+# 逆水寒手游相关
+! 官网
+@@||h.163.com^$important
+! 总服务器链接
+@@||service.mkey.163.com^$important
+! 服务器列表获取
+@@||l36.update.netease.com^$important
+! 捏脸界面下装扮站内容
+@@||hapi.hi.163.com^$important
 
 
 #******************#
@@ -669,8 +771,14 @@
 @@||tiktokv.com^$important
 @@||tiktokcdn.com^$important
 
-# MDGram官方下载网站放行
+# MDGram相关内容放行
+! 官方下载网站
 @@||mb-mods.net^$important
+! Dev下载链接
+@@||devuploads.com^$important
+
+# Telegram短链接
+@@||t.me^$important
 
 
 #******************#
@@ -719,8 +827,13 @@
 @@||vdownload-*.sb-cd.com^$important
 @@||cdn5-videos.motherlessmedia.com^$important
 
-# 放行哔咔图片加载
+# 放行哔咔相关内容
+! 主站
+@@||bidobido.xyz^$important
+! 图片加载
 @@||storage.wikawika.xyz^$important
+! Web版
+@@||manhuapica.com^$important
 
 # 放行绅士漫画
 @@||www.wnacg.org^$important
@@ -778,6 +891,7 @@
 @@||hls-hw.xvideos-cdn.com^$important
 
 # 放行javtrust.com视频加载及网页加载
+@@||javfinder.sb^$important
 @@||javfinder.li^$important
 @@||javtrust.com^$important
 @@||ssl.p.jwpcdn.com^$important
@@ -789,6 +903,7 @@
 @@||sbanh.com^$important
 @@||images1-focus-opensocial.googleusercontent.com^$important
 @@||via.placeholder.com^$important
+@@||embedwish.com^$important
 
 # 放行Pornhub.com某些必要场景
 @@||em.phncdn.com^$important
@@ -819,6 +934,9 @@
 ! 视频加载
 @@||cdn77-vid.xnxx-cdn.com^$important
 @@||hls*-cf.xnxx-cdn.com^$important
+
+# 放行MissAv色情视频网站
+@@||missav.com^$important
 
 # 放行pornlulu色情视频网站
 @@||www.pornlulu.com^$important
