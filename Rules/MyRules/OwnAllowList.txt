@@ -1,0 +1,1103 @@
+#***************************************************#
+# 本规则为自用允许名单，所有规则均为网络冲浪时抓取。#
+#***************************************************#
+
+
+#**************#
+# 常规放行规则 #
+#**************#
+#放行腾讯成长守护平台 - 腾讯健康系统
+@@||jiazhang.qq.com^$important
+
+# 放行青柠起始页
+@@||limestart.cn^$important
+
+# 放行嗅觉浏览器搜索结果接口
+@@||suggestion.baidu.com^$important
+
+# 放行Yep搜索引擎
+@@||yep.com^$important
+
+# 放行夸克浏览器相关内容
+! 夸克搜索引擎
+@@||quark.sm.cn^$important
+! 搜索结果列表
+@@||sugs.m.sm.cn^$important
+
+# 放行edge浏览器翻译
+@@||edge.microsoft.com^$important
+
+# 放行华为智慧生活相关内容
+! 网络连接
+@@||smarthome-drcn.dbankcdn.com^$important
+! 设备插件更新下载链接
+@@||appdl-1-drcn.dbankcdn.com^$important
+
+# 放行联通手机营业厅功能页面与图片显示
+@@||img.client.10010.com^$important
+@@||m1.img.10010.com^$important
+
+# 放行蓝奏云相关内容
+! 下载文件引擎
+@@||i72.lanzoug.com^$important
+@@||i82.lanzoug.com^$important
+! 下载界面详情图
+@@||static.woozooo.com^$important
+
+# 放行TapTap相关内容
+! AD推荐的游戏介绍加载
+@@||static-tapad.tapdb.net^$important
+! 游戏时间统计
+@@||report.taptapdada.com^$important
+
+# 放行小鸡词典官网加载
+@@||jikipedia.com^$important
+
+# 放行微博相关内容
+! 某些页面加载 - 更改头像＆更改封面
+@@||new.vip.weibo.cn^$important
+! 文章布局加载
+@@||js.t.sinajs.cn^$important
+! APP扫码后登陆页面加载
+@@||passport.weibo.cn^$important
+
+# 放行学信网APP内刷新
+@@||push.chsi.com.cn^$important
+
+# 放行酷安相关内容
+! 某些APP图标加载
+@@||pp.myapp.com^$important
+@@||image.9game.cn^$important
+! 应用游戏界面视频加载
+@@||f.video.weibocdn.com^$important
+! 酷安模块头条重要通知加载
+! 316签名墙
+@@||316.coolapk1s.com^$important
+@@||api.coolapk1s.com^$important
+
+# 放行搜图引擎
+@@||saucenao.com^$important
+
+# 放行BOSS直聘页面加载
+@@||zhipin.com^$important
+
+# 放行豌豆荚相关内容
+! 普通下载文件地址
+@@||alissl.ucdl.pp.uc.cn^$important
+@@||android-apps.pp.cn^$important
+! 应用图标
+@@||android-artworks.25pp.com^$important
+
+# 放行知乎加载跟专栏及其排版跟视频以及跳转
+@@||sugar.zhihu.com^$important
+@@||www.zhihu.com^$important
+@@||zhuanlan.zhihu.com^$important
+@@||static.zhihu.com^$important
+@@||vdn3.vzuu.com^$important
+@@||lens.zhihu.com^$important
+@@||video.zhihu.com^$important
+@@||link.zhihu.com^$important
+
+# 放行CSDN主页log及头像图片
+@@||img-home.csdnimg.cn^$important
+@@||img-bss.csdnimg.cn^$important
+@@||avatar.csdnimg.cn^$important
+@@||profile.csdnimg.cn^$important
+@@||profile-avatar.csdnimg.cn^$important
+
+# 放行弹弹play磁力播放
+@@||hub5btmain.sandai.net^$important
+@@||hub5pn.wap.sandai.net^$important
+
+# 放行磁力在线解析观看下载
+@@||webtor.io^$important
+@@||instant.io^$important
+
+# 放行steam APP图片加载
+@@||cdn.akamai.steamstatic.com^$important
+@@||community.akamai.steamstatic.com^$important
+
+# 放行IP地址查询 - 900查询
+@@||ip.900cha.com^$important
+
+# 放行ip查询网
+@@||ip.cn^$important
+
+# ip138相关内容
+! ip测试页 - PC
+@@||www.ip138.com^$important
+! ip测试页 - PE
+@@||m.ip138.com^$important
+! 页面排版
+@@||cache.ip138.com^$important
+
+# 放行网易云音乐相关内容
+! 页面端及资源加载
+@@||music.163.com^$important
+@@||*.music.126.net^$important
+! 客户端音乐加载
+@@||m701.music.126.net^$important
+@@||m801.music.126.net^$important
+@@||m8.music.126.net^$important
+@@||m7.music.126.net^$important
+! 客户端云村视频加载
+@@||vodkgeyttp9.vod.126.net^$important
+@@||vodkgeyttp8.vod.126.net^$important
+
+# 放行我的听书相关内容
+! 订阅地址
+! 由于2.3.0接入新地址，如果不放行此地址订阅源无法使用，无法接收公告，无法收到新版本更新，如果放行，因2.3.0以后版本部分广告（源管理）也接入了此地址，这部分广告将会被放行，需要搭配上帝模式去除此广告或使用软件自带关闭广告功能关闭此广告。
+! 2.2.8版本及其以往版本，由于没有接入新地址，广告地址也没变，只是订阅地址换成此网站，放行后不影响使用，不会产生广告，但无法接收公告，也无法收到新版本更新。
+@@||s3-us-east-1.ossfiles.com^$important
+! 喜马拉雅音源加载
+@@||www.ximalaya.com^$important
+! 22听书网音频接口 - 含喜马拉雅域名
+@@||aod.cos.tx.xmcdn.com^$important
+@@||mobile.ximalaya.com^$important
+@@||fdfs.xmcdn.com^$important
+
+# 放行元气桌面壁纸加载
+! 由于时间原因，还有很多规则未抓出未放行，比如我的界面用户头像、账号退出、账号注销等功能。
+@@||mobile-wallpaper-api.zhhainiao.com^$important
+@@||mobile-img-baofun.zhhainiao.com^$important
+@@||wallpaperm.cmcm.com^$important
+@@||wpvip.duba.net^$important
+
+# 放行网站收录 - 外网
+@@||theporndude.com^$important
+
+# 放行漫画网站 - 外网
+@@||toonily.com^$important
+
+# 放行破解应用收录网站
+@@||modyolo.com^$important
+
+# 放行菜鸟相关内容
+! 账号与安全页面加载
+@@||my.cainiao.com^$important
+! 组件加载
+@@||appdownload.alicdn.com^$important
+
+# 放行画册收集网站
+@@||kemono.party^$important
+
+# 放行微软账号登陆页面的布局加载
+@@||logincdn.msauth.net^$important
+
+# 放行小红书用户头像加载
+@@||sns-avatar-qc.xhscdn.com^$important
+
+# 放行speedtest测速网自身推广图片 - 拦截页面别扭，放行无伤大雅
+@@||file2.speedtest.cn^$important
+
+# 放行葫芦侠相关内容
+@@||huluxia.com^$important
+
+# 放行草料二维码页面跳转
+@@||targurl.clewm.net^$important
+
+# 放行奇妙应用应用图标加载＆预览图加载
+@@||p0.meituan.net^$important
+@@||dimg04.c-ctrip.com^$important
+
+# 放行1.1.1.1DNS的doh地址
+@@||cloudflare-dns.com^$important
+
+# 放行百度手机助手普通下载
+@@||gdown.baidu.com^$important
+
+# 放行游民星空手机网页布局
+@@||j.gamersky.com^$important
+
+# 放行八神智能天下游戏下载链接
+@@||ugame.9game.cn^$important
+
+# 放行学习通应用内消息推送 - 拦截后学习通内收不到消息通知
+@@||msync-im1-vip6-std.easemob.com^$important
+
+# 放行漫画聚合软件
+@@||tachiyomi.org^$important
+
+# 放行轻听英语手机页面Android下载响应
+@@||c.umsns.com^$important
+
+# 放行中关村在线报价相关内容
+! PC页面
+@@||detail.zol.com.cn^$important
+! 手机页面
+@@||wap.zol.com.cn^$important
+
+# 放行懂车帝APP相关内容
+! 内容图片加载，包括但不限于功能性按钮图标、栏目封面、用户头像、车型图片、直播封面。
+@@||p3.dcarimg.com^$important
+@@||p1-dcd.byteimg.com^$important
+@@||p3-dcd.byteimg.com^$important
+@@||p6-dcd.byteimg.com^$important
+@@||p9-dcd.byteimg.com^$important
+@@||p5-auto.dcarimg.com^$important
+@@||p3-dcd-sign.byteimg.com^$important
+@@||p6-dcd-sign.byteimg.com^$important
+@@||p9-dcd-sign.byteimg.com^$important
+@@||p5-auto-sign.dcarimg.com^$important
+@@||p3-passport.byteacctimg.com^$important
+@@||p3-webcast-sign.douyinpic.com^$important
+@@||p6-webcast-sign.douyinpic.com^$important
+@@||p9-webcast-sign.douyinpic.com^$important
+! 二手车详情界面加载
+@@||lf6-cdn2-tos.bytegoofy.com^$important
+! 个别内容页面加载 - 今日头条的站点
+@@||dm.toutiao.com^$important
+
+
+#******************#
+# 网易相关内容规则 #
+#******************#
+# 放行网易官网
+@@||www.163.com^$important
+@@||3g.163.com^$important
+! 页面排版
+@@||static.ws.126.net^$important
+! 文章图片
+@@||nimg.ws.126.net^$important
+
+# 放行网易游戏官网
+@@||game.163.com^$important
+
+# 放行网易游戏内容社区
+@@||play.163.com^$important
+! 网页图片
+@@||img3.cache.netease.com^$important
+@@||cms-bucket.ws.126.net^$important
+
+# 放行网易云游戏平台
+@@||cg.163.com^$important
+
+# 放行网易163邮箱官网
+@@||mail.163.com^$important
+! 下载页面跳转
+@@||dashi.163.com^$important
+@@||u.163.com^$important
+! 下载接口跳转
+@@||res.126.net^$important
+! 进入网页版邮箱跳转
+@@||dl.reg.163.com^$important
+
+# 放行网易账号安全中心
+@@||reg.163.com^$important
+@@||id.163.com^$important
+@@||mob.163.com^$important
+
+# 放行网易大神社区
+! PC首页
+@@||ds.163.com^$important
+! 移动端首页
+@@||m.ds.163.com^$important
+! API调用
+@@||api.ds.163.com^$important
+
+
+#******************#
+# 百度相关内容规则 #
+#******************#
+# 放行百度百科相关内容
+! 相关星图内容
+@@||baikebcs.bdimg.com^$important
+! 页面排版
+@@||bkssl.bdimg.com^$important
+
+# 放行百度搜索内容相关图片
+@@||t8.baidu.com^$important
+@@||t9.baidu.com^$important
+@@||t7.baidu.com^$important
+@@||t10.baidu.com^$important
+@@||t11.baidu.com^$important
+@@||t12.baidu.com^$important
+@@||mss0.bdstatic.com^$important
+
+# 放行百度经验排版
+@@||exp-new.bdstatic.com^$important
+
+# 放行百度贴吧相关内容
+! 网页版表情加载
+@@||gsp0.baidu.com^$important
+! APP相关
+! 个人信息用户头像第一次点击加载 - 拦截后第一次点击不显示头像再次点击才会显示
+@@||himg.bdimg.com^$important
+! 关于Ta页面头像第一次点击加载 - 拦截后与上面同理
+@@||tb.himg.baidu.com^$important
+
+# 放行百度知道加载
+@@||zhidao.baidu.com^$important
+
+# 放行百度百家号文章加载
+@@||baijiahao.baidu.com^$important
+
+
+#******************#
+# 网盘相关内容规则 #
+#******************#
+# 放行天翼网盘网页登录页面加载
+@@||static.e.189.cn^$important
+
+# 放行百度网盘相关内容
+! 扫描登录
+@@||wappass.baidu.com^$important
+! 页面端右上方云一朵AI动态图片
+@@||staticsns.cdn.bcebos.com^$important
+
+# 放行阿里云盘登录验证页面
+@@||acs.m.taobao.com^$important
+
+# 放行夸克网盘相关内容
+! 主站
+@@||pan.quark.cn^$important
+! 网页端扫描登陆接口＆手机登陆接口
+@@||uop.quark.cn^$important
+! 网页端资源列表加载 - 拦截显示网络异常，请稍后重试。
+@@||drive-pc.quark.cn^$important
+! 网页端用户头像与文件图标
+@@||image.quark.cn^$important
+
+# 放行Mega网盘
+@@||mega.nz^$important
+
+# 放行123云盘手机网页布局
+@@||statics.123pan.com^$important
+
+# 放行蓝奏云盘PC端登陆验证接口
+@@||cf.aliyun.com^$important
+
+
+#******************#
+# 购物相关内容规则 #
+#******************#
+# 放行淘宝网页加载
+@@||s.click.taobao.com^$important
+@@||s.click.tmall.com^$important
+@@||h5api.m.tmall.com^$important
+
+# 放行坑夕夕商品评价视频加载
+@@||video2.pddpic.com^$important
+
+# 放行京东相关内容
+! 商品图片及其各种图
+@@||img10.360buyimg.com^$important
+@@||img12.360buyimg.com^$important
+@@||img14.360buyimg.com^$important
+@@||m.360buyimg.com^$important
+! 网页版加载
+@@||wq.360buyimg.com^$important
+! 视频评测＆评论区视频
+@@||jvod.300hu.com^$important
+
+# 放行转转APP相关内容
+! 首页
+@@||app.zhuanzhuan.com^$important
+! 商品页
+@@||m.zhuanzhuan.com^$important
+! 卖闲置页面及其他页面
+@@||act.zhuanzhuan.com^$important
+
+# 放行闲鱼支付宝授权身份验证 - 可能还是淘宝授权的接口
+@@||market.m.taobao.com^$important
+
+# 放行闲管家新建商品上传图片接口 - 七牛开发者中心
+@@||api.qiniu.com^$important
+
+
+#******************#
+# 地图相关内容规则 #
+#******************#
+# 放行百度地图相关内容
+! 地图定位调用
+@@||loc.map.baidu.com^$important
+! 调用地图时更改位置所需要的大地图加载
+@@||newclient.map.baidu.com^$important
+
+# 放行高德地图相关内容
+! 地图定位调用
+@@||restapi.amap.com^$important
+! 调用地图时更改位置所需要的大地图加载
+@@||mpsapi.amap.com^$important
+
+# 放行Google地图定位调用
+@@||clients4.google.com^$important
+
+# 放行调用腾讯地图时更改位置所需要的大地图加载
+@@||vectorsdk.map.qq.com^$important
+
+
+#******************#
+# 小说相关放行规则 #
+#******************#
+# 放行阅文集团相关内容
+! 阅文集团官网
+@@||www.yuewen.com^$important
+! 起点小说网登陆注册接口
+@@||passport.qidian.com^$important
+! 起点小说网登陆注册二维码接口与微信登陆注册接口
+@@||ptlogin.yuewen.com^$important
+! 起点小说中文网
+@@||www.qidian.com^$important
+@@||m.qidian.com^$important
+! 起点小说女生网
+@@||www.qdmm.com^$important
+@@||m.qdmm.com^$important
+! 起点小说女生网顶部宣传图
+@@||img1.qidian.com^$important
+! 起点小说网页排版
+@@||qdfepccdn.qidian.com^$important
+! 起点小说封面图
+@@||bookcover.yuewen.com^$important
+! 起点小说详情界面作者头像接口
+@@||ccportrait.yuewen.com^$important
+! 起点小说作家说头像接口
+@@||facepic.qidian.com^$important
+! 起点小说公示文章接口
+@@||acts.qidian.com^$important
+! 起点小说公示文章页面布局
+@@||qidian.gtimg.com^$important
+! 阅文作家专区官网
+@@||write.qq.com^$important
+! 阅文作家专区页面布局
+@@||stawritecdn.yuewen.com^$important
+! 阅文作家专区登陆注册接口
+@@||passport.yuewen.com^$important
+! 起点游戏首页
+@@||game.qidian.com^$important
+! 起点游戏首页页面布局
+@@||img.qidian.com^$important
+! 起点游戏封面
+@@||gameimg.qidian.com^$important
+
+# 放行番茄小说网相关内容
+! 官网
+@@||fanqienovel.com^$important
+! 网页排版
+@@||lf-cdn-tos.bytescm.com^$important
+@@||lf3-cdn-tos.bytescm.com^$important
+@@||lf3-short.bytegoofy.com^$important
+
+# 放行番茄小说APP相关内容
+! 小说封面
+@@||p3-novel.byteimg.com^$important
+@@||p6-novel.byteimg.com^$important
+! 听书加载
+@@||v3-fq-tts.fqnovelvod.com^$important
+@@||v6-fq-tts.fqnovelvod.com^$important
+@@||v26-fq-tts.fqnovelvod.com^$important
+
+
+#******************#
+# 视频相关内容规则 #
+#******************#
+# 放行哔哩哔哩相关内容
+! 网页端评论区未登录时左侧小头像
+@@||static.hdslb.com^$important
+! 网页端动态加载
+@@||api.vc.bilibili.com^$important
+! 首页个别图片加载
+@@||i0.hdslb.com^$important
+@@||i1.hdslb.com^$important
+@@||i2.hdslb.com^$important
+! 专栏加载页面
+@@||s1.hdslb.com^$important
+! CC字幕加载
+@@||aisubtitle.hdslb.com^$important
+! 系统通知页面及其活动加载组件
+@@||message.bilibili.com^$important
+@@||activity.hdslb.com^$important
+! 任务中心
+@@||member.bilibili.com^$important
+! 贝壳账户页面
+@@||pay.bilibili.com^$important
+! 荣誉周报加载排版
+@@||s2.hdslb.com^$important
+! 游戏条款加载
+@@||game.bilibili.com^$important
+@@||static.biligame.com^$important
+! 会员购商品页面加载
+@@||mall.bilibili.com^$important
+! 立即下载页面
+@@||d.bilibili.com^$important
+! 手机网页端浏览时，点击APP专属视频时跳转的哔哩哔哩apk下载接口
+@@||dl.hdslb.com^$important
+! PC端哔哩UWP进入视频时调用的官方接口
+@@||grpc.biliapi.net^$important
+! BWIKI首页
+@@||wiki.biligame.com^$important
+! BWIKI网页排版
+@@||staticwiki.biligame.com^$important
+! BWIKI网页图片
+@@||patchwiki.biligame.com^$important
+! 游戏中心游戏下载链接
+@@||pkg.biligame.com^$important
+
+# 放行猴山欢迎回家页面
+@@||ali.static.yximgs.com^$important
+@@||static.yximgs.com^$important
+
+# 放行腾讯视频视频封面加载
+@@||puui.qpic.cn^$important
+
+
+#******************#
+# 腾讯相关放行规则 #
+#******************#
+# 放行微信相关内容
+! 官网 - 微信隐私保护指南页面
+@@||weixin.qq.com^$important
+! 登录时出现的微信安全界面
+@@||shminorshort.weixin.qq.com^$important
+! 注销账号界面
+@@||support.weixin.qq.com^$important
+! 红包封面加载
+@@||wxsnsdy.wxs.qq.com^$important
+! 公众号加载图片与头像
+@@||mmbiz.qpic.cn^$important
+@@||wx.qlogo.cn^$important
+! 小程序头像加载
+! 场景：云上山科-龙兴湖-小额缴费里的头像
+@@||thirdwx.qlogo.cn^$important
+! 青春大学习开始学习按钮跳转
+@@||vm.gtimg.cn^$important
+! 天际通Go小程序客服入口
+@@||smartrobot-drcn.dbankcdn.com^$important
+! 天际通Go小程序客服界面进入logo，拦截则显示默认logo（在线客服）
+@@||contentcenter-vali-drcn.dbankcdn.com^$important
+
+# 放行QQ相关内容
+! 卡片加载
+@@||cdn.ark.qq.com^$important
+@@||ali2.a.yximgs.com^$important
+@@||tx2.a.yximgs.com^$important
+! 头像加载
+@@||p.qlogo.cn^$important
+! 个人信息界面图片加载
+@@||qqadapt.qpic.cn^$important
+@@||a1.qpic.cn^$important
+! 幸运字符界面布局加载
+@@||cdn-go.cn^$important
+! 互动标识图标加载
+@@||*.dlied1.cdntips.net^$important
+! 游戏充值加载
+@@||midas.gtimg.cn^$important
+! 授权登录用户图标加载
+@@||thirdqq.qlogo.cn^$important
+! 频道帖子图片加载
+@@||world.qpic.cn^$important
+! 频道帖子点赞一系列表情按钮图标加载
+@@||framework.cdn-go.cn^$important
+! 频道搜索主页大卡片图片加载
+@@||vfiles.gtimg.cn^$important
+! 频道搜索主页缩略图加载
+@@||groupprohead.gtimg.cn^$important
+! 小程序组件下载
+@@||miniapp.gtimg.cn^$important
+! 快手小程序视频分享加载
+@@||wxmini-api.uyouqu.com^$important
+@@||txmov2.a.kwimgs.com^$important
+@@||*.a.yximgs.com^$important
+! 群公告加载
+@@||qq-web.cdn-go.cn^$important
+@@||npm.cdn-go.cn^$important
+@@||pub.idqqimg.com^$important
+! 用户等级与能力值等页面
+@@||qqvip-web.cdn-go.cn^$important
+! QQ空间图片加载＆视频加载
+@@||qzs.qq.com^$important
+@@||m.qpic.cn^$important
+! QQ空间说说图片上传接口
+@@||v6.pic.upqzfile.com^$important
+! QQ链接跳转
+@@||qm.qq.com^$important
+! QQ链接跳转安全拦截页面 - 已停止访问该页面
+@@||c.pc.qq.com^$important
+! QQ链接跳转安全拦截页面 - 红色叹号图片
+@@||3gimg.qq.com^$important
+
+# 放行QQ音乐相关内容
+! 听歌时长记录
+@@||stat6.y.qq.com^$important
+! QQ音乐首页
+@@||y.qq.com^$important
+! 推荐歌曲图片加载
+@@||y.gtimg.cn^$important
+! 活动界面商品加载
+@@||home.m.duiba.com.cn^$important
+@@||48609.activity-42.m.duiba.com.cn^$important
+! 活动界面商品图片加载
+@@||yun.duiba.com.cn^$important
+
+
+#******************#
+# 小米相关放行规则 #
+#******************#
+# 放行小米消息推送
+@@||cn.app.chat.xiaomi.net^$important
+
+# 放行MIUI浏览器相关内容
+! 搜索结果列表
+@@||exp.sug.browser.miui.com^$important
+@@||ssl-cdn.static.browser.mi-img.com^$important
+! 推送新闻加载图片及评论
+@@||cpu.baidu.com^$important
+@@||hot.browser.miui.com^$important
+@@||cpucdn.baidu.com^$important
+@@||publish-pic-cpu.baidu.com^$important
+! 短视频加载及用户头像加载
+@@||v9-mllqsv.onewsvod.com^$important
+@@||v1-mllqsv.onewsvod.com^$important
+@@||*-open.byteimg.com^$important
+@@||*-open-sign.byteimg.com^$important
+
+# 放行MIUI连接WiFi时的网络连接检测，反之则会显示网络连接受限
+@@||connect.rom.miui.com^$important
+
+# 放行MIUI我的设备页面显示信息卡片
+@@||port.sec.miui.com^$important
+
+# 放行MIUI神隐模式更新地址 - *#*#76937#*#*
+! China服务器
+@@||jupiter.sys.miui.com^$important
+! Staging服务器
+@@||preview-jupiter.sys.miui.com^$important
+! International服务器
+@@||jupiter.intl.sys.miui.com^$important
+! Russion服务器
+@@||jupiter.rus.sys.miui.com^$important
+
+# 放行小米社区相关内容
+! 首页头像api及内测中心api
+@@||api.vip.miui.com^$important
+! 社区图片
+@@||cdn.cnbj1.fds.api.mi-img.com^$important
+@@||cnbj1.fds.api.xiaomi.com^$important
+
+# 放行小米天气添加城市加载
+@@||weatherapi.market.xiaomi.com^$important
+
+# 放行小米应用商店相关内容
+! 我的登录加载
+@@||app.market.xiaomi.com^$important
+! 游戏图标与演示视频
+@@||sf0.market.xiaomi.com^$important
+@@||vd0.market.xiaomi.com^$important
+! 应用下载调用的网站
+@@||pfga0.market.xiaomi.com^$important
+@@||fga0.market.xiaomi.com^$important
+@@||ff0.market.xiaomi.com^$important
+! 应用升级检测 - 拦截会一直显示全部应用均为最新版本
+@@||updateinfo.market.xiaomi.com^$important
+
+# 放行小米主题商店相关内容
+! 官网
+@@||zhuti.xiaomi.com^$important
+! 页面加载
+@@||thm.market.xiaomi.com^$important
+! 用户头像调用加载的api与各类图片加载
+@@||api.account.xiaomi.com^$important
+@@||t1.market.xiaomi.com^$important
+@@||t2.market.xiaomi.com^$important
+@@||t3.market.xiaomi.com^$important
+@@||t4.market.xiaomi.com^$important
+@@||t5.market.xiaomi.com^$important
+@@||f*.market.xiaomi.com^$important
+@@||f*.market.mi-img.com^$important
+@@||ts.market.mi-img.com^$important
+! 商店查询一些记录所调用的api，比如收藏记录、购买记录等
+@@||api.zhuti.xiaomi.com^$important
+
+# 放行讯飞输入法小米版相关内容
+! 斗图加载
+@@||imeclient.openspeech.cn^$important
+@@||dy-pic0.iqiyipic.com^$important
+! 设置内音效加载
+@@||download.voicecloud.cn^$important
+! 皮肤＆字体＆表情页面加载
+@@||cardservice.openspeech.cn^$important
+! 资源图片加载
+@@||s3.voicecloud.cn^$important
+@@||ime-res-download.xfinfr.com^$important
+! 资源购买支付系统加载
+@@||pay.openspeech.cn^$important
+! 今日输入统计加载 - 飞飞号外
+@@||s1.voicecloud.cn^$important
+! 已购资源界面加载
+@@||coop.voicecloud.cn^$important
+! 账号登陆接口
+@@||account.xfinfr.com^$important
+! 检查更新放行 - 拦截会显示获取版本信息失败，请稍后再试。
+@@||ossp.voicecloud.cn^$important
+
+# 放行miuithemez图片加载 - MIUI主题国际版网站
+@@||blogger.googleusercontent.com^$important
+
+# 放行MIUI危险提示10S等待后的联网认证
+@@||srv.sec.miui.com^$important
+
+# 放行MIUI小部件页面加载与搜索
+@@||store.assistant.miui.com^$important
+
+
+#**************#
+# 极客放行规则 #
+#**************#
+# 放行兽耳助手相关内容 - 腾讯Bugly
+! 检测更新
+@@||android.bugly.qq.com^$important
+! 更新下载
+@@||outexp-beta.cdn.qq.com^$important
+
+# 放行GitHub官网
+@@||github.com^$important
+
+# 放行GitHub proxy代理加速
+@@||ghproxy.com^$important
+
+# 放行Heroku容器
+@@||heroku.com^$important
+
+# 放行Jetbrains系列软件下载页面版本详情及软件图标与页面公告含软件其他版本页面内容显示
+@@||data.services.jetbrains.com^$important
+
+
+#**************#
+# 游戏放行规则 #
+#**************#
+# 放行闪耀暖暖人工客服加载 - 网易七鱼
+@@||papegames.qiyukf.com^$important
+
+# 放行崩坏三新版本前瞻页面
+@@||uploadstatic.mihoyo.com^$important
+
+# 放行网易猫和老鼠下载服务器加载
+@@||h18.update.netease.com^$important
+
+# 放行天涯明月刀手游相关内容
+! QQ登陆接口 - 拦截会显示鉴权失败，请重试，错误码:9999.-1
+@@||hc.tdm.qq.com^$important
+! 邮件领取物品Token获取
+@@||itop.qq.com^$important
+! 特殊活动兑换加载
+!（红包雨奖励兑换中心 - 礼品获得记录查询）
+@@||apps.game.qq.com^$important
+
+# 放行梦幻MC工作室
+@@||www.mhzd.net^$important
+
+# 放行QQ飞车手游准备更新的文件一系列对接地址
+@@||*.rdt.tfogc.com^$important
+
+# 放行逆水寒手游相关
+! 官网
+@@||h.163.com^$important
+! 总服务器链接
+@@||service.mkey.163.com^$important
+! 服务器列表获取
+@@||l36.update.netease.com^$important
+! 捏脸界面下装扮站内容
+@@||hapi.hi.163.com^$important
+! PC端右侧活动资讯 - 应为网易游戏类型接口
+@@||a.game.163.com^$important
+
+# 放行我的世界网易版官网
+@@||mc.163.com^$important
+
+
+#******************#
+# 外网应用放行规则 #
+#******************#
+# 放行Pixiv网页加载及图片加载
+@@||s.pximg.net^$important
+@@||i.pximg.net^$important
+
+# 放行脸书与页面布局
+@@||m.facebook.com^$important
+@@||static.xx.fbcdn.net^$important
+
+# 放行Twitter相关内容
+! 首页
+@@||mobile.twitter.com^$important
+! 推特logo — 拦截会报错
+@@||abs.twimg.com^$important
+! 内容加载
+@@||api.twitter.com^$important
+! 推文特殊表情图片
+@@||abs-0.twimg.com^$important
+! 推文图片＆用户图像
+@@||pbs.twimg.com^$important
+! 推文视频
+@@||video.twimg.com^$important
+! 推文链接跳转
+@@||t.co^$important
+
+# 放行TikTok - 抖音国际版
+@@||tiktokv.com^$important
+@@||tiktokcdn.com^$important
+
+# 放行MDGram相关内容放行
+! 官方下载网站
+@@||mb-mods.net^$important
+! Dev下载链接
+@@||devuploads.com^$important
+
+# 放行Telegram短链接
+@@||t.me^$important
+
+
+#******************#
+# 正经网站放行规则 #
+#******************#
+# 放行轻之国度
+@@||lightnovel.us^$important
+
+# 放行OmoFun动漫线路加载
+! 稳定线路
+@@||v*-default.ixigua.com^$important
+! 主线路
+@@||lf6-cdn-tos.bytegoofy.com^$important
+@@||sf6-cdn-tos.douyinstatic.com^$important
+
+# 放行电子图书馆 - 可下载
+@@||annas-archive.org^$important
+
+# 放行Plus茶馆
+! 北+
+@@||north-plus.net^$important
+! 南+
+@@||south-plus.net^$important
+! 白+
+@@||white-plus.net^$important
+! Lv+
+@@||level-plus.net^$important
+! 夏+
+@@||summer-plus.net^$important
+! 春+
+@@||spring-plus.net^$important
+
+
+#********************#
+# 不正经网站放行规则 #
+#********************#
+# 放行Zod论坛
+@@||zodgame.xyz^$important
+
+# 放行里番在线观看网站
+! 主站
+@@||hanime1.me^$important
+! 特殊按钮加载
+@@||fonts.googleapis.com^$important
+! 视频加载引擎
+@@||vdownload-*.sb-cd.com^$important
+@@||cdn5-videos.motherlessmedia.com^$important
+
+# 放行哔咔相关内容
+! 主站
+@@||bidobido.xyz^$important
+! 图片加载
+@@||storage.wikawika.xyz^$important
+! Web版
+@@||manhuapica.com^$important
+
+# 放行绅士漫画
+@@||www.wnacg.org^$important
+
+# 放行E站
+! 表站
+@@||e-hentai.org^$important
+! 里站
+@@||exhentai.org^$important
+! 封面图
+@@||ehgt.org^$important
+! 资源下载网站跳转
+@@||ehtracker.org^$important
+
+# 放行字母圈番号网站
+@@||bdsmtv.cc^$important
+
+# 放行字母圈属性测试网站
+@@||bdsmtest.org^$important
+
+# 放行黄漫加载
+@@||toonily.me^$important
+
+# 放行老王论坛
+@@||laowang.vip^$important
+! 图片加载
+@@||ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz^$important
+! APP版打开页面加载
+@@||laowang-3gd83b-ciw387gc-8372qg.fwekjh8732fiwe783giuf.xyz^$important
+
+# 放行禁漫天堂主域名 - 广告与主页同域名
+@@||18comic.org^$important
+
+# 放行Noodlemagazine视频搜索网站相关内容
+@@||noodlemagazine.com^$important
+
+# 放行ExPornToons视频搜索网站相关内容
+@@||exporntoons.net^$important
+
+# 放行SpankBang视频网站相关内容
+! 主页
+@@||jp.spankbang.com^$important
+! 页面布局
+@@||assets.sb-cd.com^$important
+! 视频封面接口
+@@||tbi.sb-cd.com^$important
+! 小卡片接口
+@@||static.spankbang.com^$important
+! 视频拖动小窗口与视频悬停预览窗口
+@@||tbv.sb-cd.com^$important
+
+# 放行Porntop视频网站相关内容
+! 主页
+@@||porntop.com^$important
+! 视频封面接口
+@@||pttn.m3pd.com^$important
+
+# 放行TheFantazy视频网站相关内容
+@@||thefantazy.com^$important
+
+# 放行5F视频网站相关内容
+@@||www.porn5f.com^$important
+
+# 放行Porntrex视频网站相关内容
+! 主页
+@@||www.porntrex.com^$important
+! 视频封面接口
+@@||ptx.cdntrex.com^$important
+
+# 放行恋物癖视频网站相关内容
+! 主页
+@@||clips4sale.com^$important
+@@||www.clips4sale.com^$important
+! 图片
+@@||imagecdn.clips4sale.com^$important
+@@||static2.clips4sale.com^$important
+
+# 放行Pornzog视频网站相关内容
+@@||pornzog.com^$important
+
+# 放行Inporn视频网站相关内容
+! 主页
+@@||inporn.com^$important
+! 视频封面接口
+@@||iptn.m3pd.com^$important
+
+# 放行Vjav视频网站相关内容
+! 主页
+@@||vjav.com^$important
+! 视频播放接口
+@@||vjav0.ahcdn.com^$important
+
+# 放行xvideos视频网站相关内容
+@@||www.xvideos.com^$important
+@@||img-l3.xvideos-cdn.com^$important
+@@||img-hw.xvideos-cdn.com^$important
+@@||cdn77-pic.xvideos-cdn.com^$important
+@@||cdn77-vid-mp4.xvideos-cdn.com^$important
+@@||cdn77-vid.xvideos-cdn.com^$important
+@@||static-*.xvideos-cdn.com^$important
+@@||*-cf.xvideos-cdn.com^$important
+@@||hls3-l3.xvideos-cdn.com^$important
+@@||hls-hw.xvideos-cdn.com^$important
+
+# 放行HDZog视频网站相关内容
+! 主页
+@@||hdzog.com^$important
+! 视频播放接口
+@@||hdzog.ahcdn.com^$important
+
+# 放行javtrust视频网站相关内容
+@@||javfinder.sb^$important
+@@||javfinder.li^$important
+@@||javtrust.com^$important
+@@||ssl.p.jwpcdn.com^$important
+@@||cdnfinder.xyz^$important
+@@||*.akamai-cdn-content.com^$important
+@@||streamsb.net^$important
+@@||sbfast.com^$important
+@@||sbfull.com^$important
+@@||sbanh.com^$important
+@@||images1-focus-opensocial.googleusercontent.com^$important
+@@||via.placeholder.com^$important
+@@||embedwish.com^$important
+
+# 放行Hclips视频网站相关内容
+! 主页
+@@||hclips.com^$important
+@@||privatehomeclips.com^$important
+! 页面布局接口
+@@||hcjs.nv7s.com^$important
+! 视频封面接口
+@@||hctn.nv7s.com^$important
+! 视频播放接口
+@@||hclips.ahcdn.com^$important
+
+# 放行Pornhub视频网站相关内容
+@@||a.adtng.com^$important
+@@||em.phncdn.com^$important
+@@||ei.phncdn.com^$important
+@@||di.phncdn.com^$important
+@@||cn.pornhub.com^$important
+@@||www.pornhub.com^$important
+@@||www.pornhub.com^$important
+@@||e1m-h.phncdn.com^$important
+@@||cdn1d-static-shared.phncdn.com^$important
+
+# 放行JavBangers视频网站相关内容
+@@||www.javbangers.com^$important
+
+# 放行avgle视频网站相关内容
+! 主站
+@@||avgle.com^$important
+! 视频加载
+@@||*.qooqlevideo.com^$important
+
+# 放行Txxx视频网站相关内容
+! 主页
+@@||txxx.com^$important
+! 视频封面接口
+@@||tn.txxx.tube^$important
+! 视频播放接口
+@@||txxx.ahcdn.com^$important
+@@||ip*.ahcdn.com^$important
+@@||videotxxx.com^$important
+
+# 放行xnxx视频网站相关内容
+! 主站
+@@||www.xnxx.com^$important
+! 网页排版
+@@||static-l3.xnxx-cdn.com^$important
+@@||static-hw.xnxx-cdn.com^$important
+@@||static-cdn77.xnxx-cdn.com^$important
+! 图片加载
+@@||img-l3.xnxx-cdn.com^$important
+@@||img-hw.xnxx-cdn.com^$important
+@@||img-cf.xnxx-cdn.com^$important
+@@||cdn77-pic.xnxx-cdn.com^$important
+! 视频加载
+@@||cdn77-vid.xnxx-cdn.com^$important
+@@||hls*-cf.xnxx-cdn.com^$important
+
+# 放行Vxxx视频网站相关内容
+@@||vxxx.com^$important
+
+# 放行MissAv视频网站相关内容
+@@||missav.com^$important
+
+# 放行pornlulu视频网站相关内容
+! 主站
+@@||www.pornlulu.com^$important
+! 图片
+@@||img.siwazywimg.com^$important
+! 视频
+@@||siwazywcdn2.com^$important
+@@||ddyunbo.com^$important
+
+# 放行工口实验室及其图片加载
+@@||www.54647.io^$important
+@@||l.epvkjs.com^$important
+@@||res-r.lfjack.com^$important
+
