@@ -532,6 +532,8 @@
 @@||patchwiki.biligame.com^$important
 ! 游戏中心游戏下载链接
 @@||pkg.biligame.com^$important
+! 账号安全页面 - 新版本APP登录时验证账号安全
+@@||passport.bilibili.com^$important
 
 # 放行猴山欢迎回家页面
 @@||ali.static.yximgs.com^$important
@@ -539,6 +541,16 @@
 
 # 放行腾讯视频视频封面加载
 @@||puui.qpic.cn^$important
+
+# 放行爱奇艺相关内容
+! 主站
+@@||www.iqiyi.com^$important
+! 手机端
+@@||m.iqiyi.com^$important
+! 网页布局
+@@||static.iqiyi.com^$important
+! 视频封面
+@@||pic7.iqiyipic.com^$important
 
 
 #******************#
@@ -615,6 +627,8 @@
 @@||c.pc.qq.com^$important
 ! QQ链接跳转安全拦截页面 - 红色叹号图片
 @@||3gimg.qq.com^$important
+! QQ等级微视加速任务 - 去完成页面指南
+@@||isee.weishi.qq.com^$important
 
 # 放行QQ音乐相关内容
 ! 听歌时长记录
@@ -761,6 +775,9 @@
 # 放行Jetbrains系列软件下载页面版本详情及软件图标与页面公告含软件其他版本页面内容显示
 @@||data.services.jetbrains.com^$important
 
+# 放行Namesilo域名解析CNAME记录地址
+@@||parking.namesilo.com^$important
+
 
 #**************#
 # 游戏放行规则 #
@@ -852,12 +869,19 @@
 # 放行轻之国度
 @@||lightnovel.us^$important
 
-# 放行OmoFun动漫线路加载
-! 稳定线路
-@@||v*-default.ixigua.com^$important
-! 主线路
-@@||lf6-cdn-tos.bytegoofy.com^$important
-@@||sf6-cdn-tos.douyinstatic.com^$important
+# 放行OmoFun动漫相关内容
+! 客户端线路
+@@||p16.bytedance-cdn.com^$important
+@@||s19.bytedance-cdn.com^$important
+! 网页端
+@@||omofun.link^$important
+! 网页端视频封面
+@@||leshizyimg.com^$important
+@@||snzypic.com^$important
+@@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^$important
+! 网页端视频评分图标
+@@||static.yximgs.com^$important
+@@||lf1-cdn-tos.bytegoofy.com^$important
 
 # 放行电子图书馆 - 可下载
 @@||annas-archive.org^$important
@@ -883,14 +907,19 @@
 # 放行Zod论坛
 @@||zodgame.xyz^$important
 
-# 放行里番在线观看网站
+# 放行动漫在线观看网站
 ! 主站
 @@||hanime1.me^$important
+! 影片标签
+@@||img4.qy0.ru^$important
 ! 特殊按钮加载
 @@||fonts.googleapis.com^$important
-! 视频加载引擎
+! 视频加载前置
+@@||cdn.plyr.io^$important
+! 视频播放接口
 @@||vdownload-*.sb-cd.com^$important
 @@||cdn5-videos.motherlessmedia.com^$important
+@@||abre-videos.cdn1122.com^$important
 
 # 放行哔咔相关内容
 ! 主站
@@ -900,8 +929,8 @@
 ! Web版
 @@||manhuapica.com^$important
 
-# 放行绅士漫画
-@@||www.wnacg.org^$important
+# 放行绅士漫画 - 部分广告与主页同域名
+@@||www.wnacg.com^$important
 
 # 放行E站
 ! 表站
@@ -919,18 +948,21 @@
 # 放行字母圈属性测试网站
 @@||bdsmtest.org^$important
 
-# 放行黄漫加载
+# 放行Nhentai漫画网加载
+@@||nhentai.net^$important
+
+# 放行韩漫网加载
 @@||toonily.me^$important
 
 # 放行老王论坛
+! 主站
 @@||laowang.vip^$important
-! 图片加载
-@@||ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz^$important
-! APP版打开页面加载
-@@||laowang-3gd83b-ciw387gc-8372qg.fwekjh8732fiwe783giuf.xyz^$important
+! APP端主页跳转 - 会变更
+@@||laowangappb93ibiu.cihiu487giuew87lk.xyz^$important
 
 # 放行禁漫天堂主域名 - 广告与主页同域名
 @@||18comic.org^$important
+@@||18comic.vip^$important
 
 # 放行Noodlemagazine视频搜索网站相关内容
 @@||noodlemagazine.com^$important

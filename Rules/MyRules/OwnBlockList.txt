@@ -50,16 +50,25 @@
 ||static.ads-twitter.com^$important
 ||ads-api.twitter.com^$important
 
-# 拦截搜书网流氓地址与图片
+# 拦截搜书吧流氓地址与流氓图片
 ||cbu01.alicdn.com^$important
 ||65564535.com^$important
 ||91.yelang8.cc^$important
+||lq.jajcstf.xyz^$important
 ||bob4892.com^$important
 ||9983x.com:8055^$important
 ||552aaa.us^$important
 ||www.002st.top^$important
 ||t16-fghgdf.com^$important
 ||ds4x53xfg4f53gh453h.top^$important
+
+# 拦截OmoFun网页端色情跳转广告
+||*.oneliner.cn^$important
+||*.poeme.cn^$important
+||*.bjnxo.cn^$important
+||*.phire.cn^$important
+||1813dc.wifwroi.com^$important
+||180c606c059312e8cdcc.dmcduio.com^$important
 
 # 拦截盗版视频网站色情广告
 ||cp.758758.xyz^$important
@@ -86,7 +95,6 @@
 ||www.liwbei.cn^$important
 ||b5zzr.cc^$important
 ||2lc8.vip^$important
-||img4.qy0.ru^$important
 ||p.rzlp.xyz^$important
 ||cooabc.benniao666.com^$important
 ||image2.printstation8.com^$important
