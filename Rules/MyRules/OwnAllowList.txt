@@ -43,6 +43,10 @@
 @@||i82.lanzoug.com^$important
 ! 下载界面详情图
 @@||static.woozooo.com^$important
+! PC页面端登陆验证接口
+@@||cf.aliyun.com^$important
+! 蓝云APP检查更新接口 - 第三方蓝奏云APP
+@@||appcenter.ms^$important
 
 # 放行TapTap相关内容
 ! AD推荐的游戏介绍加载
@@ -363,9 +367,6 @@
 
 # 放行123云盘手机网页布局
 @@||statics.123pan.com^$important
-
-# 放行蓝奏云盘PC端登陆验证接口
-@@||cf.aliyun.com^$important
 
 
 #******************#
@@ -753,6 +754,9 @@
 # 放行MIUI小部件页面加载与搜索
 @@||store.assistant.miui.com^$important
 
+# 放行MIUI指纹支付设置内证书更新接口
+@@||find.api.micloud.xiaomi.net^$important
+
 
 #**************#
 # 极客放行规则 #
@@ -777,6 +781,9 @@
 
 # 放行Namesilo域名解析CNAME记录地址
 @@||parking.namesilo.com^$important
+
+# 放行LinuxDo论坛
+@@||Linux.do^$important
 
 
 #**************#
