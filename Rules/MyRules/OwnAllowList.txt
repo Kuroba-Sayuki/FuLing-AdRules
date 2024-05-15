@@ -410,6 +410,8 @@
 @@||dpurl.cn^$important
 ! 客服反馈信息上传平台
 @@||h5.dianping.com^$important
+! 设置页各选项内容布局加载
+@@||i.meituan.com^$important
 
 
 #******************#
@@ -636,6 +638,10 @@
 @@||3gimg.qq.com^$important
 ! QQ等级微视加速任务 - 去完成页面指南
 @@||isee.weishi.qq.com^$important
+! QQ底栏动态页面功能图标
+@@||static-res.qq.com^$important
+! QQ关于页面内反馈页面布局
+@@||qzonestyle.gtimg.cn^$important
 
 # 放行QQ音乐相关内容
 ! 听歌时长记录
@@ -1129,8 +1135,14 @@
 # 放行Vxxx视频网站相关内容
 @@||vxxx.com^$important
 
-# 放行MissAv视频网站相关内容
+# 放行Miss＆Nj视频网站相关内容
+!主站
 @@||missav.com^$important
+@@||njavtv.com^$important
+! 视频封面
+@@||fivetiu.com^$important
+! 视频播放接口
+@@||surrit.com^$important
 
 # 放行pornlulu视频网站相关内容
 ! 主站
