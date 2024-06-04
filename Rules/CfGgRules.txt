@@ -1,4 +1,4 @@
-﻿[Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
 ! Version: 202105121
 ! Expires: 2 days

@@ -48,6 +48,14 @@
 ! 蓝云APP检查更新接口 - 第三方蓝奏云APP
 @@||appcenter.ms^$important
 
+# 放行同程旅行相关内容
+! 登录时人机验证信息加载
+@@||file.40017.cn^$important
+! 窗口布局
+@@||js.40017.cn^$important
+! 图片加载
+@@||pic*.40017.cn^$important
+
 # 放行TapTap相关内容
 ! AD推荐的游戏介绍加载
 @@||static-tapad.tapdb.net^$important
@@ -188,7 +196,12 @@
 # 放行微软账号登陆页面的布局加载
 @@||logincdn.msauth.net^$important
 
-# 放行小红书用户头像加载
+# 放行小红书相关内容
+! 官网
+@@||www.xiaohongshu.com^$important
+! 网页布局
+@@||fe-static.xhscdn.com^$important
+! 用户头像加载
 @@||sns-avatar-qc.xhscdn.com^$important
 
 # 放行speedtest测速网自身推广图片 - 拦截页面别扭，放行无伤大雅
