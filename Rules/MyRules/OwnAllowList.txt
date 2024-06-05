@@ -440,6 +440,8 @@
 @@||h5.dianping.com^$important
 ! 设置页各选项内容布局加载
 @@||i.meituan.com^$important
+# 消息列表加载 - 含商家骑手聊天
+@@||api.neixin.cn^$important
 
 
 #******************#
@@ -526,15 +528,7 @@
 
 
 #******************#
-# 
-
-# 放行海信Tv相关内容
-! 由于涉及域名较多，因时间原因抓取搁置。
-! 临时放行总域名来代替正常使用。
-! 包含智能升级接口、视频封面接口、视频播放接口。
-! 视频详情加载接口、相关推荐接口。
-! 总域名
-@@||*.hismarttv.com^$important内容规则 #
+# 视频相关内容规则 #
 #******************#
 # 放行哔哩哔哩相关内容
 ! 网页端评论区未登录时左侧小头像
@@ -579,6 +573,8 @@
 @@||pkg.biligame.com^$important
 ! 账号安全页面 - 新版本APP登录时验证账号安全
 @@||passport.bilibili.com^$important
+! 客户端下载中心
+@@||app.bilibili.com^$important
 
 # 放行猴山欢迎回家页面
 @@||ali.static.yximgs.com^$important
@@ -598,12 +594,10 @@
 @@||pic7.iqiyipic.com^$important
 
 # 放行海信Tv相关内容
-! 由于涉及域名较多，因时间原因抓取搁置。
-! 临时放行总域名来代替正常使用。
-! 包含智能升级接口、视频封面接口、视频播放接口。
-! 视频详情加载接口、相关推荐接口。
-! 总域名
-@@||*.hismarttv.com^$important
+! 聚好看视频封面接口
+@@||jhk-cdn-mampic.hismarttv.com^$important
+! 聚好看视频播放初始化 - 奇异果Tv
+@@||sdk.ptqy.gitv.tv^$important
 
 
 #******************#
