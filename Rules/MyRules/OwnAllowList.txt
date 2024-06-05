@@ -132,8 +132,11 @@
 # 放行IP地址查询 - 900查询
 @@||ip.900cha.com^$important
 
-# 放行ip查询网
+# 放行IP查询网
 @@||ip.cn^$important
+
+# 放行IP查询＆DNS查询
+@@||ipw.cn^$important
 
 # ip138相关内容
 ! ip测试页 - PC
@@ -322,7 +325,8 @@
 ! 页面排版
 @@||bkssl.bdimg.com^$important
 
-# 放行百度搜索内容相关图片
+# 放行百度搜索相关内容
+! 相关图片
 @@||t8.baidu.com^$important
 @@||t9.baidu.com^$important
 @@||t7.baidu.com^$important
@@ -330,6 +334,14 @@
 @@||t11.baidu.com^$important
 @@||t12.baidu.com^$important
 @@||mss0.bdstatic.com^$important
+! 热点内容相关封面
+@@||gips2.baidu.com^$important
+! 移动网页端网页布局 - 拦截会导致搜出来的内容无法点击跳转
+@@||ms.bdstatic.com^$important
+! PC网页端搜索首页LOGO
+@@||pss.bdstatic.com^$important
+! PC网页端右上角天气图片
+@@||dss2.bdstatic.com^$important
 
 # 放行百度经验排版
 @@||exp-new.bdstatic.com^$important
@@ -346,8 +358,11 @@
 # 放行百度知道加载
 @@||zhidao.baidu.com^$important
 
-# 放行百度百家号文章加载
+# 放行百家号相关内容
+! 文章加载
 @@||baijiahao.baidu.com^$important
+! 文章头图
+@@||pic.rmb.bdstatic.com^$important
 
 
 #******************#
@@ -511,7 +526,15 @@
 
 
 #******************#
-# 视频相关内容规则 #
+# 
+
+# 放行海信Tv相关内容
+! 由于涉及域名较多，因时间原因抓取搁置。
+! 临时放行总域名来代替正常使用。
+! 包含智能升级接口、视频封面接口、视频播放接口。
+! 视频详情加载接口、相关推荐接口。
+! 总域名
+@@||*.hismarttv.com^$important内容规则 #
 #******************#
 # 放行哔哩哔哩相关内容
 ! 网页端评论区未登录时左侧小头像
@@ -573,6 +596,14 @@
 @@||static.iqiyi.com^$important
 ! 视频封面
 @@||pic7.iqiyipic.com^$important
+
+# 放行海信Tv相关内容
+! 由于涉及域名较多，因时间原因抓取搁置。
+! 临时放行总域名来代替正常使用。
+! 包含智能升级接口、视频封面接口、视频播放接口。
+! 视频详情加载接口、相关推荐接口。
+! 总域名
+@@||*.hismarttv.com^$important
 
 
 #******************#
@@ -668,6 +699,14 @@
 @@||48609.activity-42.m.duiba.com.cn^$important
 ! 活动界面商品图片加载
 @@||yun.duiba.com.cn^$important
+
+# 放行腾讯云社区相关内容
+! 网页布局
+@@||cloudcache.tencent-cloud.cn^$important
+! 文章图片加载
+@@||inews.gtimg.com^$important
+! PC端右上角扫码关注二维码
+@@||qcloudimg.tencent-cloud.cn^$important
 
 
 #******************#
@@ -781,6 +820,12 @@
 
 # 放行MIUI指纹支付设置内证书更新接口
 @@||find.api.micloud.xiaomi.net^$important
+
+# 放行小米视频相关内容
+! 旧版底栏内容页加载 - 拦截显示数据为空
+@@||m.video.xiaomi.com^$important
+! 新版底栏内容页加载 - 拦截显示数据为空
+@@||m.v.wali.com^$important
 
 
 #**************#
@@ -982,9 +1027,30 @@
 
 # 放行Nhentai漫画网加载
 @@||nhentai.net^$important
+@@||nhentai.com^$important
+
+# 放行Hentaihand漫画
+@@||hentaihand.com^$important
+
+# 放行HenTai漫画相关内容
+! 主站
+@@||www.hentai.name^$important
+! 漫画图片
+@@||pics.hentai.name^$important
 
 # 放行韩漫网加载
 @@||toonily.me^$important
+
+# 放行漫蛙漫画相关内容
+! PC端首页
+@@||manwac.xyz^$important
+! 移动端首页
+@@||manwa.fun^$important
+! 页面布局＆图片加载
+! 移动端含底栏广告、广域同名
+@@||mwappimgs.cc^$important
+@@||mwfimsvfast2.cc^$important
+@@||mwfimsvfast3.cc^$important
 
 # 放行老王论坛
 ! 主站
