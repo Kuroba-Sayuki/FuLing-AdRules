@@ -65,6 +65,16 @@
 # 放行小鸡词典官网加载
 @@||jikipedia.com^$important
 
+# 放行新浪网相关内容
+! 首页
+@@||sina.com.cn^$important
+! 文章图片
+@@||k.sinaimg.cn^$important
+! 新浪通行证注册页面
+@@||login.sina.com.cn^$important
+! 新浪通行证登录页面
+@@||passport.weibo.com^$important
+
 # 放行微博相关内容
 ! 某些页面加载 - 更改头像＆更改封面
 @@||new.vip.weibo.cn^$important
@@ -72,6 +82,18 @@
 @@||js.t.sinajs.cn^$important
 ! APP扫码后登陆页面加载
 @@||passport.weibo.cn^$important
+
+# 放行黑猫投诉相关内容
+! 官网
+@@||tousu.sina.com.cn^$important
+! 网页布局
+@@||n.sinaimg.cn^$important
+! 网页内容加载
+@@||news.sina.com.cn^$important
+! 右上角登录布局
+@@||i.sso.sina.com.cn^$important
+! 投诉内容详情域名
+@@||tousu.sina.cn^$important
 
 # 放行学信网APP内刷新
 @@||push.chsi.com.cn^$important
