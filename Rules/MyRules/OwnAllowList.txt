@@ -74,6 +74,8 @@
 @@||login.sina.com.cn^$important
 ! 新浪通行证登录页面
 @@||passport.weibo.com^$important
+! 新浪博客网页布局
+@@||simg.sinajs.cn^$important
 
 # 放行微博相关内容
 ! 某些页面加载 - 更改头像＆更改封面
@@ -124,15 +126,22 @@
 ! 应用图标
 @@||android-artworks.25pp.com^$important
 
-# 放行知乎加载跟专栏及其排版跟视频以及跳转
-@@||sugar.zhihu.com^$important
+# 放行知乎相关内容
+! 主站
 @@||www.zhihu.com^$important
-@@||zhuanlan.zhihu.com^$important
+! 网页排版
 @@||static.zhihu.com^$important
+! 视频加载
+@@||video.zhihu.com^$important
+文章图片
+@@||pic*.zhimg.com^$important
+! 跳转链接
+@@||link.zhihu.com^$important
+! 专栏加载
+@@||zhuanlan.zhihu.com^$important
+@@||sugar.zhihu.com^$important
 @@||vdn3.vzuu.com^$important
 @@||lens.zhihu.com^$important
-@@||video.zhihu.com^$important
-@@||link.zhihu.com^$important
 
 # 放行CSDN主页log及头像图片
 @@||img-home.csdnimg.cn^$important
@@ -291,6 +300,9 @@
 @@||lf6-cdn2-tos.bytegoofy.com^$important
 ! 个别内容页面加载 - 今日头条的站点
 @@||dm.toutiao.com^$important
+
+# 放行有来医生网页布局
+@@||static.youlai.cn^$important
 
 
 #******************#
@@ -845,6 +857,20 @@
 ! 新版底栏内容页加载 - 拦截显示数据为空
 @@||m.v.wali.com^$important
 
+# 放行小米商城相关内容
+! 网页布局
+@@||s01.mifile.cn^$important
+! 首页商品封面
+@@||cnbj1-new.fds.api.xiaomi.com^$important
+
+# MIUI日历卡片信息 - 利大于弊
+! 如芒种、端午节一类的节日卡片。
+! 法定节假日数据更新也是此API。
+! 但也会放行小米商店的卡片广告。
+! 小米商店卡片广告可以通过下方路径进行关闭。
+! 日历 -> 设置 -> 用户体验计划 -> 内容推广
+@@||api.comm.miui.com^$important
+
 
 #**************#
 # 极客放行规则 #
@@ -912,6 +938,8 @@
 @@||hapi.hi.163.com^$important
 ! PC端右侧活动资讯 - 应为网易游戏类型接口
 @@||a.game.163.com^$important
+! PC端检查更新接口
+@@||l36.gdl.netease.com^$important
 
 # 放行我的世界网易版官网
 @@||mc.163.com^$important
