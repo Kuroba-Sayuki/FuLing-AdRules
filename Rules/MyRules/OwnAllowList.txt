@@ -99,6 +99,8 @@
 @@||push.chsi.com.cn^$important
 
 # 放行酷安相关内容
+! 用户头像＆用户背景图
+@@||avatar.coolapk.com^$important
 ! 某些APP图标加载
 @@||pp.myapp.com^$important
 @@||image.9game.cn^$important
