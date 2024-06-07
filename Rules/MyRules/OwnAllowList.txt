@@ -133,7 +133,8 @@
 @@||static.zhihu.com^$important
 ! 视频加载
 @@||video.zhihu.com^$important
-文章图片
+! 文章图片
+! 移动端有些广告图也是此域名。
 @@||pic*.zhimg.com^$important
 ! 跳转链接
 @@||link.zhihu.com^$important
@@ -1186,9 +1187,11 @@
 @@||hdzog.ahcdn.com^$important
 
 # 放行javtrust视频网站相关内容
-@@||javfinder.sb^$important
-@@||javfinder.li^$important
-@@||javtrust.com^$important
+! 主站
+@@||javfinder.ai^$important
+! 视频加载
+@@||streamwish.to^$important
+! 网页布局、图片、视频（old）
 @@||ssl.p.jwpcdn.com^$important
 @@||cdnfinder.xyz^$important
 @@||*.akamai-cdn-content.com^$important
@@ -1212,13 +1215,14 @@
 @@||hclips.ahcdn.com^$important
 
 # 放行Pornhub视频网站相关内容
+! 主站
+@@||www.pornhub.com^$important
+@@||cn.pornhub.com^$important
+! 网页布局、图片、视频（old）
 @@||a.adtng.com^$important
 @@||em.phncdn.com^$important
 @@||ei.phncdn.com^$important
 @@||di.phncdn.com^$important
-@@||cn.pornhub.com^$important
-@@||www.pornhub.com^$important
-@@||www.pornhub.com^$important
 @@||e1m-h.phncdn.com^$important
 @@||cdn1d-static-shared.phncdn.com^$important
 
