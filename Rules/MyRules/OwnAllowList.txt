@@ -24,8 +24,11 @@
 ! 搜索结果列表
 @@||sugs.m.sm.cn^$important
 
-# 放行edge浏览器翻译
+# 放行Edge浏览器相关内容
+! 浏览器默认翻译
 @@||edge.microsoft.com^$important
+! 扩展安装
+@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^$important
 
 # 放行华为智慧生活相关内容
 ! 网络连接
@@ -155,6 +158,16 @@
 @@||hub5btmain.sandai.net^$important
 @@||hub5pn.wap.sandai.net^$important
 
+# 太平洋科技相关内容
+! 官网
+@@||www.pconline.com.cn^$important
+! 网页布局
+@@||js.3conline.com^$important
+! 移动端页面图片
+@@||www1.pconline.com.cn^$important
+! 移动端页面特殊按钮图标
+@@||www1.pcauto.com.cn^$important
+
 # 放行磁力在线解析观看下载
 @@||webtor.io^$important
 @@||instant.io^$important
@@ -256,9 +269,6 @@
 
 # 放行1.1.1.1DNS的doh地址
 @@||cloudflare-dns.com^$important
-
-# 放行百度手机助手普通下载
-@@||gdown.baidu.com^$important
 
 # 放行游民星空手机网页布局
 @@||j.gamersky.com^$important
@@ -364,9 +374,9 @@
 
 # 放行百度搜索相关内容
 ! 相关图片
+@@||t7.baidu.com^$important
 @@||t8.baidu.com^$important
 @@||t9.baidu.com^$important
-@@||t7.baidu.com^$important
 @@||t10.baidu.com^$important
 @@||t11.baidu.com^$important
 @@||t12.baidu.com^$important
@@ -392,14 +402,27 @@
 ! 关于Ta页面头像第一次点击加载 - 拦截后与上面同理
 @@||tb.himg.baidu.com^$important
 
-# 放行百度知道加载
+# 放行百度知道相关内容
+! 官网
 @@||zhidao.baidu.com^$important
+! 用户回答图片
+@@||iknow-pic.cdn.bcebos.com^$important
 
 # 放行百家号相关内容
 ! 文章加载
 @@||baijiahao.baidu.com^$important
 ! 文章头图
 @@||pic.rmb.bdstatic.com^$important
+! 移动端页面图片
+@@||f10.baidu.com^$important
+@@||f11.baidu.com^$important
+@@||f12.baidu.com^$important
+
+# 放行百度手机助手普通下载
+@@||gdown.baidu.com^$important
+
+# 百度相关网页提示App内阅读左侧Logo
+@@||b.bdstatic.com^$important
 
 
 #******************#
@@ -447,9 +470,12 @@
 
 # 放行京东相关内容
 ! 商品图片及其各种图
+! 参考：https://h5.jd.com/article/247.html
 @@||img10.360buyimg.com^$important
 @@||img12.360buyimg.com^$important
+@@||img13.360buyimg.com^$important
 @@||img14.360buyimg.com^$important
+@@||img30.360buyimg.com^$important
 @@||m.360buyimg.com^$important
 ! 网页版加载
 @@||wq.360buyimg.com^$important
