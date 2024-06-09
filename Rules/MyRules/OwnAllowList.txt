@@ -6,9 +6,6 @@
 #**************#
 # 常规放行规则 #
 #**************#
-#放行腾讯成长守护平台 - 腾讯健康系统
-@@||jiazhang.qq.com^$important
-
 # 放行青柠起始页
 @@||limestart.cn^$important
 
@@ -666,6 +663,9 @@
 #******************#
 # 腾讯相关放行规则 #
 #******************#
+#放行腾讯成长守护平台 - 腾讯健康系统
+@@||jiazhang.qq.com^$important
+
 # 放行微信相关内容
 ! 官网 - 微信隐私保护指南页面
 @@||weixin.qq.com^$important
@@ -756,6 +756,14 @@
 @@||48609.activity-42.m.duiba.com.cn^$important
 ! 活动界面商品图片加载
 @@||yun.duiba.com.cn^$important
+
+# 放行腾讯云相关内容
+! 控制台
+@@||console.cloud.tencent.com^$important
+! 控制台服务器总数 - 拦截显示接口异常
+@@||iaas.cloud.tencent.com^$important
+! 云市场
+@@||market.cloud.tencent.com^$important
 
 # 放行腾讯云社区相关内容
 ! 网页布局
@@ -926,6 +934,10 @@
 # 放行LinuxDo论坛
 @@||Linux.do^$important
 
+# 放行Dcloud官网
+! 含子域名、子域名含HBuilderX官网页面布局、图片等。
+@@||dcloud.net.cn^$important
+
 
 #**************#
 # 游戏放行规则 #
@@ -970,6 +982,9 @@
 
 # 放行我的世界网易版官网
 @@||mc.163.com^$important
+
+# 放行Steam官网
+@@||store.steampowered.com^$important
 
 
 #******************#
