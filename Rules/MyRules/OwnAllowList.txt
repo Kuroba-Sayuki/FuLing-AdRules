@@ -33,6 +33,9 @@
 ! 设备插件更新下载链接
 @@||appdl-1-drcn.dbankcdn.com^$important
 
+# 放行迅雷下载加速 - 拦截后下载速度骤降 
+@@||hub5btmain.v6.shub.sandai.net^$important
+
 # 放行联通手机营业厅功能页面与图片显示
 @@||img.client.10010.com^$important
 @@||m1.img.10010.com^$important
@@ -240,9 +243,6 @@
 # 放行画册收集网站
 @@||kemono.party^$important
 
-# 放行微软账号登陆页面的布局加载
-@@||logincdn.msauth.net^$important
-
 # 放行小红书相关内容
 ! 官网
 @@||www.xiaohongshu.com^$important
@@ -250,6 +250,8 @@
 @@||fe-static.xhscdn.com^$important
 ! 用户头像加载
 @@||sns-avatar-qc.xhscdn.com^$important
+! 网页端表情加载
+@@||picasso-static.xiaohongshu.com^$important
 
 # 放行speedtest测速网自身推广图片 - 拦截页面别扭，放行无伤大雅
 @@||file2.speedtest.cn^$important
@@ -414,6 +416,11 @@
 @@||f10.baidu.com^$important
 @@||f11.baidu.com^$important
 @@||f12.baidu.com^$important
+! 特殊网页布局加载
+! 网页右上角登录按钮＆左侧点赞评论数据
+! 作者底部最新文章＆相关推荐
+! 也是百度某些网页的跳转
+@@||mbd.baidu.com^$important
 
 # 放行百度手机助手普通下载
 @@||gdown.baidu.com^$important
@@ -452,6 +459,9 @@
 
 # 放行123云盘手机网页布局
 @@||statics.123pan.com^$important
+
+# 放行Uploadrar文件分享＆下载文件网站
+@@||uploadrar.com^$important
 
 
 #******************#
@@ -635,6 +645,12 @@
 @@||passport.bilibili.com^$important
 ! 客户端下载中心
 @@||app.bilibili.com^$important
+! UP主主页商品页面加载
+@@||cm.bilibili.com^$important
+! 直播API
+! 拦截后，移动端直播页面会白屏，PC端直播页面会加载不全。
+! 含PC端直播间道具列表加载、聊天加载、榜单加载。
+@@||api.live.bilibili.com^$important
 
 # 放行猴山欢迎回家页面
 @@||ali.static.yximgs.com^$important
@@ -772,6 +788,9 @@
 @@||inews.gtimg.com^$important
 ! PC端右上角扫码关注二维码
 @@||qcloudimg.tencent-cloud.cn^$important
+
+# 放行腾讯文档文件Logo
+@@||docs.idqqimg.com^$important
 
 
 #******************#
@@ -937,6 +956,22 @@
 # 放行Dcloud官网
 ! 含子域名、子域名含HBuilderX官网页面布局、图片等。
 @@||dcloud.net.cn^$important
+
+# 放行博客园页面布局与个别图片接口
+@@||assets.cnblogs.com^$important
+
+# 放行微软账号登陆页面的布局加载
+@@||logincdn.msauth.net^$important
+
+# 放行Windows更新下载接口＆微软商店应用更新接口
+! 参考：https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+@@||*.dl.delivery.mp.microsoft.com^$important
+
+# 放行Ubuntu官网版本介绍图标
+@@||res.cloudinary.com^$important
+
+# 放行MSDN - 我告诉你 - 旧版官网 - 页面布局
+@@||cdn.staticfile.org^$important
 
 
 #**************#
