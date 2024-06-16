@@ -15,17 +15,14 @@
 # 放行Yep搜索引擎
 @@||yep.com^$important
 
+# 放行Google搜索移动端网页提示登录时的Logo
+@@||fonts.gstatic.com^$important
+
 # 放行夸克浏览器相关内容
 ! 夸克搜索引擎
 @@||quark.sm.cn^$important
 ! 搜索结果列表
 @@||sugs.m.sm.cn^$important
-
-# 放行Edge浏览器相关内容
-! 浏览器默认翻译
-@@||edge.microsoft.com^$important
-! 扩展安装
-@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^$important
 
 # 放行华为智慧生活相关内容
 ! 网络连接
@@ -927,6 +924,32 @@
 
 
 #**************#
+# 微软放行规则 #
+#**************#
+# 放行Edge浏览器相关内容
+! 浏览器默认翻译
+@@||edge.microsoft.com^$important
+! 扩展安装
+@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^$important
+
+# 放行微软账号登陆页面的布局加载
+@@||logincdn.msauth.net^$important
+
+# 放行Windows相关内容
+! 参考：https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+! 参考：https://learn.microsoft.com/en-us/windows/deployment/do/delivery-optimization-endpoints
+! 参考：https://learn.microsoft.com/en-us/windows/privacy/windows-endpoints-1909-non-enterprise-editions
+! Windows更新检查接口
+! 拦截显示无法连接更新服务
+@@||ctldl.windowsupdate.com^$important
+! Windows更新下载接口＆微软商店应用更新接口
+! 拦截显示安装更新时出现一些问题（0x8024402f）
+@@||*.dl.delivery.mp.microsoft.com^$important
+@@||fe3cr.delivery.mp.microsoft.com^$important
+@@||*.download.windowsupdate.com^$important
+
+
+#**************#
 # 极客放行规则 #
 #**************#
 # 放行兽耳助手相关内容 - 腾讯Bugly
@@ -959,13 +982,6 @@
 
 # 放行博客园页面布局与个别图片接口
 @@||assets.cnblogs.com^$important
-
-# 放行微软账号登陆页面的布局加载
-@@||logincdn.msauth.net^$important
-
-# 放行Windows更新下载接口＆微软商店应用更新接口
-! 参考：https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
-@@||*.dl.delivery.mp.microsoft.com^$important
 
 # 放行Ubuntu官网版本介绍图标
 @@||res.cloudinary.com^$important
