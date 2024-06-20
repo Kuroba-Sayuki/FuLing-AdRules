@@ -84,6 +84,8 @@
 @@||js.t.sinajs.cn^$important
 ! APP扫码后登陆页面加载
 @@||passport.weibo.cn^$important
+! 用户动态＆评论区表情加载
+@@||face.t.sinajs.cn^$important
 
 # 放行黑猫投诉相关内容
 ! 官网
@@ -164,6 +166,12 @@
 @@||www1.pconline.com.cn^$important
 ! 移动端页面特殊按钮图标
 @@||www1.pcauto.com.cn^$important
+
+# 放行凤凰网科技相关内容
+! 作者头像＆二维码
+@@||x0.ifengimg.com^$important
+! 文章封面＆文章图片＆视频封面
+@@||d.ifengimg.com^$important
 
 # 放行磁力在线解析观看下载
 @@||webtor.io^$important
@@ -425,6 +433,9 @@
 # 百度相关网页提示App内阅读左侧Logo
 @@||b.bdstatic.com^$important
 
+# 放行百度图片首页顶部功能区图片
+@@||emoji.bj.bcebos.com^$important
+
 
 #******************#
 # 网盘相关内容规则 #
@@ -464,15 +475,37 @@
 #******************#
 # 购物相关内容规则 #
 #******************#
-# 放行淘宝网页加载
+# 放行淘宝相关内容
+! 登录接口
+@@||login.taobao.com^$important
+! 页面布局
+@@||o.alicdn.com^$important
+! 网页加载
 @@||s.click.taobao.com^$important
 @@||s.click.tmall.com^$important
 @@||h5api.m.tmall.com^$important
+! 商品页面
+@@||item.taobao.com^$important
+! 天猫商品介绍视频
+@@||cloud.video.taobao.com^$important
+! 移动网页端首页
+@@||main.m.taobao.com^$important
+! 移动网页端商品加载
+@@||h5api.m.taobao.com^$important
 
-# 放行坑夕夕商品评价视频加载
+# 放行拼多多商品评价视频加载
 @@||video2.pddpic.com^$important
 
 # 放行京东相关内容
+! 首页内容加载
+@@||wl.jd.com^$important
+! 网页版加载
+@@||wq.360buyimg.com^$important
+! 网页布局
+@@||storage.360buyimg.com^$important
+! 商品页面前的跳转
+@@||wk.idey.cn^$important
+@@||union-click.jd.com^$important
 ! 商品图片及其各种图
 ! 参考：https://h5.jd.com/article/247.html
 @@||img10.360buyimg.com^$important
@@ -481,10 +514,18 @@
 @@||img14.360buyimg.com^$important
 @@||img30.360buyimg.com^$important
 @@||m.360buyimg.com^$important
-! 网页版加载
-@@||wq.360buyimg.com^$important
+! 京东联盟官网
+@@||union.jd.com^$important
+! 移动网页端顶部快捷入口图标
+@@||m15.360buyimg.com^$important
+! 移动网页端商品页面布局
+@@||jstatic.3.cn^$important
+! 移动网页端登录后的自动跳转
+@@||h5.360buyimg.com^$important
 ! 视频评测＆评论区视频
 @@||jvod.300hu.com^$important
+! 京喜
+@@||st.jingxi.com^$important
 
 # 放行转转APP相关内容
 ! 首页
@@ -648,6 +689,8 @@
 ! 拦截后，移动端直播页面会白屏，PC端直播页面会加载不全。
 ! 含PC端直播间道具列表加载、聊天加载、榜单加载。
 @@||api.live.bilibili.com^$important
+! 合集封面
+@@||archive.biliimg.com^$important
 
 # 放行猴山欢迎回家页面
 @@||ali.static.yximgs.com^$important
@@ -671,6 +714,28 @@
 @@||jhk-cdn-mampic.hismarttv.com^$important
 ! 聚好看视频播放初始化 - 奇异果Tv
 @@||sdk.ptqy.gitv.tv^$important
+
+# 放行抖音相关内容
+! 手机网页端网页布局 - 拦截页面变空白
+@@||lf3-cdn-tos.bytegoofy.com^$important
+! 手机网页端立即下载页面
+@@||d.toutiao.com^$important
+! 网页端验证API加载 - 拦截显示网络故障
+@@||verify.zijieapi.com^$important
+! 网页端验证图片加载 - 拦截验证图片无法加载
+@@||p3-catpcha.byteimg.com^$important
+@@||p6-catpcha.byteimg.com^$important
+@@||p9-catpcha.byteimg.com^$important
+! 短链接加载
+@@||v.douyin.com^$important
+! 内容双击点赞图标加载
+@@||p3-pc-weboff.byteimg.com^$important
+! 网页端用户主页显示＆用户作品加载
+! 拦截后个人主页显示服务异常，他人主页提示用户不存在。
+! 也是PC登录接口，拦截登录时提示请使用抖音手机APP登录。
+@@||lf-c-flwb.bytetos.com^$important
+! 登录响应接口 - 拦截登录没反应
+@@||auth.zijieapi.com^$important
 
 
 #******************#
@@ -922,6 +987,9 @@
 ! 日历 -> 设置 -> 用户体验计划 -> 内容推广
 @@||api.comm.miui.com^$important
 
+# 放行MIUI短信服务商信息及头像加载
+@@||api.huangye.miui.com^$important
+
 
 #**************#
 # 微软放行规则 #
@@ -947,6 +1015,9 @@
 @@||*.dl.delivery.mp.microsoft.com^$important
 @@||fe3cr.delivery.mp.microsoft.com^$important
 @@||*.download.windowsupdate.com^$important
+
+# 放行Xbox页面布局
+@@||assets-www.xbox.com^$important
 
 
 #**************#
@@ -988,6 +1059,16 @@
 
 # 放行MSDN - 我告诉你 - 旧版官网 - 页面布局
 @@||cdn.staticfile.org^$important
+
+# 放行息流官网及相关子域名
+! 拦截后一些程序会报错无法加载在线功能。
+@@||flowus.cn^$important
+
+# 放行极狐GitLab相关内容
+! 文档页面布局
+@@||unpkg.zhimg.com^$important
+! 档代码块复制功能
+@@||npm.elemecdn.com^$important
 
 
 #**************#
@@ -1069,14 +1150,24 @@
 @@||tiktokv.com^$important
 @@||tiktokcdn.com^$important
 
-# 放行MDGram相关内容放行
-! 官方下载网站
-@@||mb-mods.net^$important
-! Dev下载链接
-@@||devuploads.com^$important
+# 放行MDGram官网
+@@||mdgram.app^$important
 
 # 放行Telegram短链接
 @@||t.me^$important
+
+# 放行MBMods下载网站
+@@||mb-mods.net^$important
+
+# 放行Devuploads下载网站相关内容
+! 官网
+@@||devuploads.com^$important
+! 网页布局
+@@||cdnjs.cloudflare.com^$important
+! 文件详情跳转链接
+@@||thecubexguide.com^$important
+@@||jytechs.in^$important
+@@||dev.miuiflash.com^$important
 
 
 #******************#
