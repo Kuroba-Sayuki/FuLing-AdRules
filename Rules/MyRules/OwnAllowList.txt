@@ -343,20 +343,36 @@
 # 放行网易云游戏平台
 @@||cg.163.com^$important
 
-# 放行网易163邮箱官网
+# 放行网易邮箱相关内容
+! 163邮箱
 @@||mail.163.com^$important
+! 126邮箱
+@@||www.126.com^$important
+! yeah邮箱
+@@||yeah.163.com^$important
+! 企业邮箱
+@@||qiye.163.com^$important
+! 进入网页版邮箱跳转
+@@||dl.reg.163.com^$important
 ! 下载页面跳转
 @@||dashi.163.com^$important
 @@||u.163.com^$important
 ! 下载接口跳转
 @@||res.126.net^$important
-! 进入网页版邮箱跳转
-@@||dl.reg.163.com^$important
 
-# 放行网易账号安全中心
-@@||reg.163.com^$important
+# 放行网易账号安全中心相关内容
+! 官网
 @@||id.163.com^$important
+! 跳转
+@@||reg.163.com^$important
 @@||mob.163.com^$important
+! 登录接口＆安全验证接口 - 拦截显示加载失败
+@@||cstaticdun.126.net^$important
+! 账号注册接口 - 拦截显示网络异常
+@@||cstaticdun-v6.126.net^$important
+
+# 放行网易靓号官网
+@@||haoma.163.com^$important
 
 # 放行网易大神社区
 ! PC首页
@@ -365,6 +381,15 @@
 @@||m.ds.163.com^$important
 ! API调用
 @@||api.ds.163.com^$important
+
+# 放行网易DNS检测工具
+@@||nstool.netease.com^$important
+
+# 放行网易易盾
+@@||dun.163.com^$important
+
+# 放行网易新闻官网＆邮箱看世界窗口
+@@||news.163.com^$important
 
 
 #******************#
