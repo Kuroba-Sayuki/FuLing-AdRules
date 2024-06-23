@@ -15,8 +15,11 @@
 # 放行Yep搜索引擎
 @@||yep.com^$important
 
-# 放行Google搜索移动端网页提示登录时的Logo
+# 放行Google搜索移动端相关内容
+! 网页提示登录时的Logo
 @@||fonts.gstatic.com^$important
+! 搜索结果内容预览图片接口
+@@||encrypted-tbn0.gstatic.com^$important
 
 # 放行夸克浏览器相关内容
 ! 夸克搜索引擎
@@ -55,6 +58,12 @@
 @@||js.40017.cn^$important
 ! 图片加载
 @@||pic*.40017.cn^$important
+
+# 放行海信官网
+@@||www.hisense.com^$important
+
+# 放行海尔官网
+@@||www.haier.com^$important
 
 # 放行TapTap相关内容
 ! AD推荐的游戏介绍加载
@@ -198,19 +207,6 @@
 ! 页面排版
 @@||cache.ip138.com^$important
 
-# 放行网易云音乐相关内容
-! 页面端及资源加载
-@@||music.163.com^$important
-@@||*.music.126.net^$important
-! 客户端音乐加载
-@@||m701.music.126.net^$important
-@@||m801.music.126.net^$important
-@@||m8.music.126.net^$important
-@@||m7.music.126.net^$important
-! 客户端云村视频加载
-@@||vodkgeyttp9.vod.126.net^$important
-@@||vodkgeyttp8.vod.126.net^$important
-
 # 放行我的听书相关内容
 ! 订阅地址
 ! 由于2.3.0接入新地址，如果不放行此地址订阅源无法使用，无法接收公告，无法收到新版本更新，如果放行，因2.3.0以后版本部分广告（源管理）也接入了此地址，这部分广告将会被放行，需要搭配上帝模式去除此广告或使用软件自带关闭广告功能关闭此广告。
@@ -323,6 +319,19 @@
 #******************#
 # 网易相关内容规则 #
 #******************#
+# 放行网易云音乐相关内容
+! 页面端及资源加载
+@@||music.163.com^$important
+@@||*.music.126.net^$important
+! 客户端音乐加载
+@@||m701.music.126.net^$important
+@@||m801.music.126.net^$important
+@@||m8.music.126.net^$important
+@@||m7.music.126.net^$important
+! 客户端云村视频加载
+@@||vodkgeyttp9.vod.126.net^$important
+@@||vodkgeyttp8.vod.126.net^$important
+
 # 放行网易官网
 @@||www.163.com^$important
 @@||3g.163.com^$important
@@ -388,8 +397,58 @@
 # 放行网易易盾
 @@||dun.163.com^$important
 
+# 放行手机网易网
+@@||m.163.com^$important
+
+# 放行网易号官网
+@@||mp.163.com^$important
+
 # 放行网易新闻官网＆邮箱看世界窗口
 @@||news.163.com^$important
+
+# 放行网易云商相关内容
+! 七鱼官网
+@@||qi.163.com^$important
+! 云商官网
+@@||b.163.com^$important
+! 网页布局
+@@||res.qiyukf.net^$important
+! 官网Logo
+@@||ysf.qiyukf.net^$important
+
+# 放行网易云课堂相关内容
+! 官网
+@@||study.163.com^$important
+! 网页布局
+@@||swap.stu.126.net^$important
+
+# 放行网易数帆官网
+@@||sf.163.com^$important
+
+# 放行网易有数BI官网
+@@||youdata.163.com^$important
+
+# 放行网易伏羲官网
+@@||fuxi.163.com^$important
+
+# 放行网易雷火事业群官网
+@@||leihuo.163.com^$important
+
+# 放行网易家长关爱平台
+@@||jiazhang.gm.163.com^$important
+
+# 放行网易充值中心
+@@||ecard.163.com^$important
+
+# 放行网易游戏隐私政策接口
+! 《网易游戏隐私政策及儿童个人信息保护规则》
+@@||unisdk.update.netease.com^$important
+
+# 放行网易游戏客服中心相关内容
+! 官网
+@@||gm.163.com^$important
+! 网页布局
+@@||urswebzj.nosdn.127.net^$important
 
 
 #******************#
@@ -1123,18 +1182,20 @@
 # 放行QQ飞车手游准备更新的文件一系列对接地址
 @@||*.rdt.tfogc.com^$important
 
-# 放行逆水寒手游相关
-! 官网
+# 放行逆水寒相关内容
+! 端游官网
+@@||n.163.com^$important
+! 手游官网
 @@||h.163.com^$important
-! 总服务器链接
+! 手游总服务器链接
 @@||service.mkey.163.com^$important
-! 服务器列表获取
+! 手游服务器列表获取
 @@||l36.update.netease.com^$important
-! 捏脸界面下装扮站内容
+! 手游捏脸界面下装扮站内容
 @@||hapi.hi.163.com^$important
-! PC端右侧活动资讯 - 应为网易游戏类型接口
+! 手游PC端右侧活动资讯 - 应为网易游戏类型接口
 @@||a.game.163.com^$important
-! PC端检查更新接口
+! 手游PC端检查更新接口
 @@||l36.gdl.netease.com^$important
 
 # 放行我的世界网易版官网
@@ -1142,6 +1203,32 @@
 
 # 放行Steam官网
 @@||store.steampowered.com^$important
+
+# 放行一梦江湖官网
+@@||jianghu.163.com^$important
+
+# 放行蛋仔派对官网
+@@||party.163.com^$important
+
+# 放行腾讯游戏官网页面布局
+@@||game.gtimg.cn^$important
+
+# 放行永劫无间相关内容
+! 端游官网
+@@||www.yjwujian.cn^$important
+! 手游官网
+@@||m.yjwujian.cn^$important
+
+# 放行射雕官网
+@@||wuxia.163.com^$important
+
+# 放行梦幻西游相关内容
+! 端游官网
+@@||xyq.163.com^$important
+! 手游官网
+@@||my.163.com^$important
+! 网页特殊布局
+@@||acstatic-dun.126.net^$important
 
 
 #******************#
@@ -1193,6 +1280,12 @@
 @@||thecubexguide.com^$important
 @@||jytechs.in^$important
 @@||dev.miuiflash.com^$important
+
+# 放行Apple相关内容
+! 官网
+@@||www.apple.com^$important
+! 大陆官网
+@@||www.apple.com.cn^$important
 
 
 #******************#
