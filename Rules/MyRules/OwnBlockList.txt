@@ -9,7 +9,7 @@
 # 拼多多拦截规则
 ! 助力短链接
 ||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^$important
-! 助力扫码
+! 助力扫码跳转 - 同时也商品分享链接
 ||mobile.yangkeduo.com^$important
 
 # 拦截小米主题3.3.3.0广告界面加载

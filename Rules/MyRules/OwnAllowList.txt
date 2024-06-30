@@ -383,6 +383,16 @@
 # 放行网易靓号官网
 @@||haoma.163.com^$important
 
+# 放行网易CC直播相关内容
+! 官网
+@@||cc.163.com^$important
+! 移动端官网
+@@||h5.cc.163.com^$important
+! 移动网页端布局
+@@||h5static.cc.163.com^$important
+! 移动网页端内容加载 - 拦截显示加载失败
+@@||api.cc.163.com^$important
+
 # 放行网易大神社区
 ! PC首页
 @@||ds.163.com^$important
@@ -390,6 +400,8 @@
 @@||m.ds.163.com^$important
 ! API调用
 @@||api.ds.163.com^$important
+! App内视频加载 - CC直播域名
+@@||vod.cc.163.com^$important
 
 # 放行网易DNS检测工具
 @@||nstool.netease.com^$important
@@ -449,6 +461,12 @@
 @@||gm.163.com^$important
 ! 网页布局
 @@||urswebzj.nosdn.127.net^$important
+
+# 放行网易藏宝阁相关内容
+! 官网
+@@||cbg.163.com^$important
+! 链接跳转
+@@||url.163.com^$important
 
 
 #******************#
@@ -577,7 +595,26 @@
 ! 移动网页端商品加载
 @@||h5api.m.taobao.com^$important
 
-# 放行拼多多商品评价视频加载
+# 放行拼多多相关内容
+! 官网
+@@||www.pinduoduo.com^$important
+! 移动端官网
+@@||m.pinduoduo.com^$important
+! 移动端官网顶部宣传图
+@@||cdn.pinduoduo.com^$important
+! 移动端官网顶部宣传图跳转
+@@||lp.pinduoduo.com^$important
+! APP下载页面
+@@||download.pinduoduo.com^$important
+! APP下载页面布局
+@@||lpcdn.pinduoduo.com^$important
+! 商品分享链接加载 - 同时也是助力扫码跳转链接
+@@||mobile.yangkeduo.com^$important
+! 页面端商品跳转网页布局
+@@||static.pddpic.com^$important
+! 页面端商品跳转网页图片
+@@||funimg.pddpic.com^$important
+! App内商品评价视频加载
 @@||video2.pddpic.com^$important
 
 # 放行京东相关内容
@@ -634,6 +671,32 @@
 @@||i.meituan.com^$important
 # 消息列表加载 - 含商家骑手聊天
 @@||api.neixin.cn^$important
+
+# 放行交易猫相关内容
+! 官网
+@@||www.jiaoyimao.com^$important
+! 移动端官网
+@@||m.jiaoyimao.com^$important
+! 网页布局
+@@||cdn.aligames.com^$important
+! 移动网页端登录界面 - 用户中心
+@@||member.jiaoyimao.com^$important
+
+# 放行盼之代售相关内容
+! 官网
+@@||www.pzds.com^$important
+! 移动端官网
+@@||m7.pzds.com^$important
+! 全部游戏分区接口
+@@||api.pzds.com^$important
+
+# 放行螃蟹代售相关内容
+! 官网
+@@||www.pxb7.com^$important
+! 移动端官网
+@@||m1.pxb7.com^$important
+! 全部游戏分区接口
+@@||api.pxb7.com^$important
 
 
 #******************#
@@ -938,6 +1001,9 @@
 # 放行腾讯文档文件Logo
 @@||docs.idqqimg.com^$important
 
+# 放行腾讯应用宝应用下载接口 - 拦截下载时显示网络异常
+@@||dd.myapp.com^$important
+
 
 #******************#
 # 小米相关放行规则 #
@@ -1154,6 +1220,9 @@
 ! 档代码块复制功能
 @@||npm.elemecdn.com^$important
 
+# 放行GitCode官网
+@@||gitcode.com^$important
+
 
 #**************#
 # 游戏放行规则 #
@@ -1229,6 +1298,18 @@
 @@||my.163.com^$important
 ! 网页特殊布局
 @@||acstatic-dun.126.net^$important
+
+# 放行新倩女幽魂官网
+@@||xqn.163.com^$important
+
+# 放行倩女幽魂手游官网
+@@||qnm.163.com^$important
+
+# 放行阴阳师手游官网
+@@||yys.163.com^$important
+
+# 放行决战平安京官网
+@@||moba.163.com^$important
 
 
 #******************#
