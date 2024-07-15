@@ -468,6 +468,12 @@
 ! 链接跳转
 @@||url.163.com^$important
 
+# 放行网易招聘相关内容
+! 校园招聘官网
+@@||campus.163.com^$important
+! 社会招聘官网
+@@||hr.163.com^$important
+
 
 #******************#
 # 百度相关内容规则 #
@@ -1162,9 +1168,9 @@
 @@||ctldl.windowsupdate.com^$important
 ! Windows更新下载接口＆微软商店应用更新接口
 ! 拦截显示安装更新时出现一些问题（0x8024402f）
-@@||*.dl.delivery.mp.microsoft.com^$important
+@@||dl.delivery.mp.microsoft.com^$important
 @@||fe3cr.delivery.mp.microsoft.com^$important
-@@||*.download.windowsupdate.com^$important
+@@||download.windowsupdate.com^$important
 
 # 放行Xbox页面布局
 @@||assets-www.xbox.com^$important
@@ -1222,6 +1228,13 @@
 
 # 放行GitCode官网
 @@||gitcode.com^$important
+
+# 放行KeePassXC官网
+@@||keepassxc.org^$important
+
+# 放行Miraheze官网Logo＆网页图片
+! Degrees of Lewdity的官方中文维基图片加载
+@@||static.miraheze.org^$important
 
 
 #**************#
@@ -1311,6 +1324,15 @@
 # 放行决战平安京官网
 @@||moba.163.com^$important
 
+# 放行天谕官网
+@@||ty.163.com^$important
+
+# 放行天下3官网
+@@||tx3.163.com^$important
+
+# 放行天下手游官网
+@@||tx.163.com^$important
+
 
 #******************#
 # 外网应用放行规则 #
@@ -1368,6 +1390,18 @@
 ! 大陆官网
 @@||www.apple.com.cn^$important
 
+# 放行PayPal相关内容
+! 官网
+@@||www.paypal.com^$important
+! 网页布局
+@@||www.paypalobjects.com^$important
+
+# 放行英伟达驱动管理软件相关内容
+! 软件进入 - 拦截后软件打开报错0x0003
+@@||gx-target-experiments-frontend-api.gx.nvidia.com^$important
+# 用户头像加载
+@@||images.nvidiagrid.net^$important
+
 
 #******************#
 # 正经网站放行规则 #
@@ -1388,6 +1422,9 @@
 ! 网页端视频评分图标
 @@||static.yximgs.com^$important
 @@||lf1-cdn-tos.bytegoofy.com^$important
+
+# 放行囧次元更新APK下载接口
+@@||sf6-fe-tos.pglstatp-toutiao.com^$important
 
 # 放行电子图书馆 - 可下载
 @@||annas-archive.org^$important
