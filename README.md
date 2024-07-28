@@ -9,7 +9,7 @@
 
 
 ## 拦截规则
-### GitHub直连（截止2024-02-24）：
+### GitHub直连（截止2024-07-28）：
 
 ###### 浏览器规则：
 
@@ -73,13 +73,16 @@
 |[AdRules Hosts List hosts](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/AdRulesListHosts.txt)|
 |--|
 
+|[网友自制规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/NetizensRules.txt)|
+|--|
+
 ###### 特殊说明：
 1. 冷漠广告规则由于本体文件过大，所以拆分成①、②两个规则文件。
 2. 冷漠广告规则与冷漠(旧)广告规则建议选择其中一个使用。
 
 
 ## 自用规则
-### GitHub直连（截止2024-02-24）：
+### GitHub直连（截止2024-07-28）：
 
 ###### 拦截规则：
 

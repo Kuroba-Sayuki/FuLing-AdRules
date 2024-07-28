@@ -402,6 +402,8 @@
 @@||api.ds.163.com^$important
 ! App内视频加载 - CC直播域名
 @@||vod.cc.163.com^$important
+! App内网易心小易界面游戏图标跳转链接
+@@||s.163.com^$important
 
 # 放行网易DNS检测工具
 @@||nstool.netease.com^$important
@@ -909,6 +911,8 @@
 ! 公众号加载图片与头像
 @@||mmbiz.qpic.cn^$important
 @@||wx.qlogo.cn^$important
+! 小程序短链接跳转
+@@||wxaurl.cn^$important
 ! 小程序头像加载
 ! 场景：云上山科-龙兴湖-小额缴费里的头像
 @@||thirdwx.qlogo.cn^$important
@@ -1345,12 +1349,20 @@
 @@||m.facebook.com^$important
 @@||static.xx.fbcdn.net^$important
 
-# 放行Twitter相关内容
+# 放行X＆Twitter相关内容
 ! 首页
+@@||mobile.x.com^$important
 @@||mobile.twitter.com^$important
+! 个人资料更新接口 - 如头像图片＆横幅图片
+@@||upload.x.com^$important
+@@||upload.twitter.com^$important
+! 帮助中心加载
+@@||help.x.com^$important
+@@||help.twitter.com^$important
 ! 推特logo — 拦截会报错
 @@||abs.twimg.com^$important
 ! 内容加载
+@@||api.x.com^$important
 @@||api.twitter.com^$important
 ! 推文特殊表情图片
 @@||abs-0.twimg.com^$important
@@ -1360,6 +1372,10 @@
 @@||video.twimg.com^$important
 ! 推文链接跳转
 @@||t.co^$important
+! 账号登录被检测异常账号时的Arkose人机验证网址加载
+@@||iframe.arkoselabs.com^$important
+! 账号登录被检测异常账号时的Arkose人机验证内容加载
+@@||client-api.arkoselabs.com^$important
 
 # 放行TikTok - 抖音国际版
 @@||tiktokv.com^$important
