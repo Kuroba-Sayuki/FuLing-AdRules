@@ -64,7 +64,7 @@
 |[酷安广告规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/CoolapkRules.txt)|
 |--|
 
-|[广告屏蔽大师](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/AdbybyRules.txt)|
+|[广告屏蔽大师 • AdByBy](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/AdbybyRules.txt)|
 |--|
 
 |[番茄免费小说规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/TomatoNovelRules.txt)|
@@ -74,6 +74,9 @@
 |--|
 
 |[网友自制规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/NetizensRules.txt)|
+|--|
+
+|[神机规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/DivineMachineRules.txt)|
 |--|
 
 ###### 特殊说明：
