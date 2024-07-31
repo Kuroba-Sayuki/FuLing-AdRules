@@ -5,7 +5,7 @@
 
 
 ## 开胃图
-![Image](https://raw.githubusercontent.com/MkingSakura/MoMoimg/main/MoMo/202211201015854.jpg)
+![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/MoMoimg/main/MoMo/202211201015854.jpg)
 
 
 ## 拦截规则
@@ -13,70 +13,70 @@
 
 ###### 浏览器规则：
 
-|[夸克浏览器规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/QuarkRules.txt)|
+|[夸克浏览器规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/QuarkRules.txt)|
 |--|
 
-|[360浏览器规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/360Rules.txt)|
+|[360浏览器规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/360Rules.txt)|
 |--|
 
-|[360极速浏览器规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/360SpeedBrowserRules.txt)|
+|[360极速浏览器规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/360SpeedBrowserRules.txt)|
 |--|
 
 ###### 乘风规则：																											
 
-|[乘风广告规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/CfGgRules.txt)|
+|[乘风广告规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/CfGgRules.txt)|
 |--|
 
-|[乘风视频规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/CfSpRules.txt)|
+|[乘风视频规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/CfSpRules.txt)|
 |--|
 
 ###### 冷漠规则：
 
-|[冷漠广告规则①](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/IndifferentRulesPort01.txt)|	
+|[冷漠广告规则①](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/IndifferentRulesPort01.txt)|	
 |--|
 
-|[冷漠广告规则②](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/IndifferentRulesPort02.txt)|
+|[冷漠广告规则②](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/IndifferentRulesPort02.txt)|
 |--|
 
-|[冷漠(旧)广告规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/TrLiRules.txt)|
+|[冷漠(旧)广告规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/TrLiRules.txt)|
 |--|
 
-|[冷漠油管规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/IndifferentYouTubeRules.txt)|
+|[冷漠油管规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/IndifferentYouTubeRules.txt)|
 |--|
 
 ###### 其他规则：
 
-|[ADSLJF](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/ADSLJFRules.txt)|
+|[ADSLJF](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/ADSLJFRules.txt)|
 |--|
 
-|[XXKiller](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/XXKillerMerge.txt)|
+|[XXKiller](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/XXKillerMerge.txt)|
 |--|
 
-|[AdFilters](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/AdFiltersRules.txt)|
+|[AdFilters](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/AdFiltersRules.txt)|
 |--|
 
-|[海哥规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/OceanMerge.txt)|
+|[海哥规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/OceanMerge.txt)|
 |--|
 
-|[未知规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/WzRules.txt)|
+|[未知规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/WzRules.txt)|
 |--|
 
-|[酷安广告规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/CoolapkRules.txt)|
+|[酷安广告规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/CoolapkRules.txt)|
 |--|
 
-|[广告屏蔽大师 • AdByBy](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/AdbybyRules.txt)|
+|[广告屏蔽大师 • AdByBy](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/AdbybyRules.txt)|
 |--|
 
-|[番茄免费小说规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/TomatoNovelRules.txt)|
+|[番茄免费小说规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/TomatoNovelRules.txt)|
 |--|
 
-|[AdRules Hosts List hosts](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/AdRulesListHosts.txt)|
+|[AdRules Hosts List hosts](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/AdRulesListHosts.txt)|
 |--|
 
-|[网友自制规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/NetizensRules.txt)|
+|[网友自制规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/NetizensRules.txt)|
 |--|
 
-|[神机规则](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/DivineMachineRules.txt)|
+|[神机规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/DivineMachineRules.txt)|
 |--|
 
 ###### 特殊说明：
@@ -89,11 +89,11 @@
 
 ###### 拦截规则：
 
-|[OwnBlockList](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/MyRules/OwnBlockList.txt)|
+|[OwnBlockList](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/MyRules/OwnBlockList.txt)|
 |--|
 
 ###### 放行规则：
 
-|[OwnAllowList](https://raw.githubusercontent.com/MkingSakura/AdBlock/main/Rules/MyRules/OwnAllowList.txt)|
+|[OwnAllowList](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/MyRules/OwnAllowList.txt)|
 |--|
 
