@@ -8,17 +8,19 @@
 #******************#
 # 拼多多拦截规则
 ! 助力短链接
-||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^$important
-! 助力扫码跳转 - 同时也商品分享链接
-||mobile.yangkeduo.com^$important
+||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^
+! 助力扫码跳转
+! 同时也商品分享链接
+||mobile.yangkeduo.com^
 
 # 拦截小米主题3.3.3.0广告界面加载
-||lite.a.market.xiaomi.com^$important
+||lite.a.market.xiaomi.com^
 
 # 拦截哔哩哔哩直播启用p2p卡顿请求
-||*live-p2p*.bilibili*^$important
+||*live-p2p*.bilibili*^
 
-# 屏蔽穿山甲SDK，字节相关SDK、API，AD域名 - by妤月（酷安）
+# 屏蔽穿山甲SDK，字节相关SDK、API，AD域名
+! by妤月（酷安）
 /zijieapi.*/
 /byteorge.*/
 /bytegoofy.*/
@@ -29,14 +31,14 @@
 /ad-sign.*/
 /fqnovelvod.*/
 /mgsdk-sign.*/
-||dig.bdurl.net^$important
-||activity-ag.awemeughun.com^$important
-||msync-im1-vip6-std.easemob.com^$important
-||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
-||sf3-ttcdn-tos.pstatp.com^$important
-||sf3-fe-tos.pglstatp-toutiao.com^$important
-||skdisplay.jd.com^$important
-||settings.ttwebview.com^$important
+||dig.bdurl.net^
+||activity-ag.awemeughun.com^
+||msync-im1-vip6-std.easemob.com^
+||apd-pcdnwxlogin.teg.tencent-cloud.net^
+||sf3-ttcdn-tos.pstatp.com^
+||sf3-fe-tos.pglstatp-toutiao.com^
+||skdisplay.jd.com^
+||settings.ttwebview.com^
 
 
 #********************#
@@ -44,122 +46,122 @@
 #********************#
 # 拦截Pornhub视频片头广告
 ! 拦截后可能会导致某些浏览器无法正常加载视频
-||evtubescms.phncdn.com^$important
+||evtubescms.phncdn.com^
 
 # 拦截Twitter广告
-||static.ads-twitter.com^$important
-||ads-api.twitter.com^$important
+||static.ads-twitter.com^
+||ads-api.twitter.com^
 
 # 拦截搜书吧流氓地址与流氓图片
-||cbu01.alicdn.com^$important
-||65564535.com^$important
-||91.yelang8.cc^$important
-||lq.jajcstf.xyz^$important
-||bob4892.com^$important
-||9983x.com:8055^$important
-||552aaa.us^$important
-||www.002st.top^$important
-||t16-fghgdf.com^$important
-||ds4x53xfg4f53gh453h.top^$important
+||cbu01.alicdn.com^
+||65564535.com^
+||91.yelang8.cc^
+||lq.jajcstf.xyz^
+||bob4892.com^
+||9983x.com:8055^
+||552aaa.us^
+||www.002st.top^
+||t16-fghgdf.com^
+||ds4x53xfg4f53gh453h.top^
 
 # 拦截OmoFun网页端色情跳转广告
-||*.oneliner.cn^$important
-||*.poeme.cn^$important
-||*.bjnxo.cn^$important
-||*.phire.cn^$important
-||1813dc.wifwroi.com^$important
-||180c606c059312e8cdcc.dmcduio.com^$important
+||*.oneliner.cn^
+||*.poeme.cn^
+||*.bjnxo.cn^
+||*.phire.cn^
+||1813dc.wifwroi.com^
+||180c606c059312e8cdcc.dmcduio.com^
 
 # 拦截盗版视频网站色情广告
-||cp.758758.xyz^$important
-||i670.cimumusic.com^$important
-||hchh.capmvb.net^$important
-||i4dx.dy03bw0.pro^$important
-||xd0411.xdt.usqiryn.cn^$important
-||m7.bnpkxgfp.xyz^$important
-||5h3s.live^$important
-||v6awsnf8ejjjsefh.sjucaie2.top^$important
-||xbax.dt64g8m.pro^$important
-||r82tmbfb7qgeawsf.oz8xhen.top^$important
-||jishu.zxmx.net^$important
-||js.spfccc.com^$important
-||701110.xyz^$important
-||a727a2.htpwoc488m.xyz^$important
-||9dg6a.xyz^$important
-||k5567.vip^$important
-||www.ky6895.com^$important
+||cp.758758.xyz^
+||i670.cimumusic.com^
+||hchh.capmvb.net^
+||i4dx.dy03bw0.pro^
+||xd0411.xdt.usqiryn.cn^
+||m7.bnpkxgfp.xyz^
+||5h3s.live^
+||v6awsnf8ejjjsefh.sjucaie2.top^
+||xbax.dt64g8m.pro^
+||r82tmbfb7qgeawsf.oz8xhen.top^
+||jishu.zxmx.net^
+||js.spfccc.com^
+||701110.xyz^
+||a727a2.htpwoc488m.xyz^
+||9dg6a.xyz^
+||k5567.vip^
+||www.ky6895.com^
 
 # 拦截盗版小说网站色情广告
-||qq17.toytoy.xyz^$important
-||www.a50xf.com^$important
-||www.vexd8.com^$important
-||xiaorongyan.com^$important
-||syzbd57.com^$important
-||as69d5.ailianna.cn^$important
-||st1744302312.jdjdfwc.cn^$important
-||wed1.fxqzaoa.cn^$important
-||24511.nianlia.com^$important
-||xlmwp.zxhychina.com^$important
-||3z5m.live^$important
-||kcybtc.ezzgnn.info^$important
-||jsz6666.dhgycl.cn^$important
-||e5m2gp.sujev.cn^$important
-||tp4sul.jwzd.com.cn^$important
-||henanpenqitu.com^$important
-||200kp.vip^$important
-||jwhk.hfbqet.cn^$important
-||www.liwbei.cn^$important
-||b5zzr.cc^$important
-||2lc8.vip^$important
-||p.rzlp.xyz^$important
-||cooabc.benniao666.com^$important
-||image2.printstation8.com^$important
-||st131657.syxiangguang.com^$important
-||xypcr-1-8-new01.grejskx.com^$important
-||xtu224.com^$important
-||8b7txop.scbt.asia^$important
-||xgnsvx.stwqhfi.cn^$important
-||m.bqg16.cc^$important
-||jdb8391c8da5deet.ch4jmut9c.com^$important
-||aqaas.dsimpkr.cn^$important
-||mt131840.aishanglight.com^$important
-||tlmlt.yuwenxuexizazhi.com^$important
-||20.qcsxjvc.cn^$important
-||ylmlt.nyaifusheng.com^$important
-||ze516.xyz^$important
-||txx99.top^$important
-||oqissyeygvnnhigj.ayh3.xyz^$important
-||izicai.xyz^$important
-||g7h69h29cx.com^$important
-||m3hual.89doc.com^$important
-||gpanaiagcsnvtggh.cwt3.xyz^$important
-||06.jennylisnerphotography.com^$important
-||13.jennylisnerphotography.com^$important
-||180rgwee.com^$important
-||2034kp.vip^$important
-||www.kp12a.top^$important
-||tgd54.xyz^$important
-||qucvedv.cn^$important
-||705jte32.ch3hugifdos.com^$important
-||tn.uvrifrd.cn^$important
-||kk1747432032.sadott.cn^$important
-||bfdvfdvfgregexsa.dgswpfxttpjvz6h9s013.com^$important
-||j3.jtezxmpb.xyz^$important
-||chulian.gfowedy.cn^$important
-||wrx.lesson99.com^$important
-||cfcffnhqqaibabwt.ber3.xyz^$important
-||d3.sz7yo.com^$important
-||ts1706351603.inlbsid.cn^$important
-||2.110556.xyz^$important
-||f3.1cecn.icu^$important
-||bx6.tnqoqnh.icu^$important
-||777.ngogkut.cn^$important
-||pic.baike.soso.com^$important
-||bd666.ahtdqlz.cn^$important
-||1212.ehgssdg.cn^$important
-||kk1744234844.bpmzabw.cn^$important
-||ss1744406792.jdjdjdc.cn^$important
-||3939.mvktvm.cn^$important
-||wed12.fxqzaoa.cn^$important
-||moka113.jdjdodd.cn^$important
+||qq17.toytoy.xyz^
+||www.a50xf.com^
+||www.vexd8.com^
+||xiaorongyan.com^
+||syzbd57.com^
+||as69d5.ailianna.cn^
+||st1744302312.jdjdfwc.cn^
+||wed1.fxqzaoa.cn^
+||24511.nianlia.com^
+||xlmwp.zxhychina.com^
+||3z5m.live^
+||kcybtc.ezzgnn.info^
+||jsz6666.dhgycl.cn^
+||e5m2gp.sujev.cn^
+||tp4sul.jwzd.com.cn^
+||henanpenqitu.com^
+||200kp.vip^
+||jwhk.hfbqet.cn^
+||www.liwbei.cn^
+||b5zzr.cc^
+||2lc8.vip^
+||p.rzlp.xyz^
+||cooabc.benniao666.com^
+||image2.printstation8.com^
+||st131657.syxiangguang.com^
+||xypcr-1-8-new01.grejskx.com^
+||xtu224.com^
+||8b7txop.scbt.asia^
+||xgnsvx.stwqhfi.cn^
+||m.bqg16.cc^
+||jdb8391c8da5deet.ch4jmut9c.com^
+||aqaas.dsimpkr.cn^
+||mt131840.aishanglight.com^
+||tlmlt.yuwenxuexizazhi.com^
+||20.qcsxjvc.cn^
+||ylmlt.nyaifusheng.com^
+||ze516.xyz^
+||txx99.top^
+||oqissyeygvnnhigj.ayh3.xyz^
+||izicai.xyz^
+||g7h69h29cx.com^
+||m3hual.89doc.com^
+||gpanaiagcsnvtggh.cwt3.xyz^
+||06.jennylisnerphotography.com^
+||13.jennylisnerphotography.com^
+||180rgwee.com^
+||2034kp.vip^
+||www.kp12a.top^
+||tgd54.xyz^
+||qucvedv.cn^
+||705jte32.ch3hugifdos.com^
+||tn.uvrifrd.cn^
+||kk1747432032.sadott.cn^
+||bfdvfdvfgregexsa.dgswpfxttpjvz6h9s013.com^
+||j3.jtezxmpb.xyz^
+||chulian.gfowedy.cn^
+||wrx.lesson99.com^
+||cfcffnhqqaibabwt.ber3.xyz^
+||d3.sz7yo.com^
+||ts1706351603.inlbsid.cn^
+||2.110556.xyz^
+||f3.1cecn.icu^
+||bx6.tnqoqnh.icu^
+||777.ngogkut.cn^
+||pic.baike.soso.com^
+||bd666.ahtdqlz.cn^
+||1212.ehgssdg.cn^
+||kk1744234844.bpmzabw.cn^
+||ss1744406792.jdjdjdc.cn^
+||3939.mvktvm.cn^
+||wed12.fxqzaoa.cn^
+||moka113.jdjdodd.cn^
 
