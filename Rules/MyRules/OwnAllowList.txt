@@ -348,6 +348,62 @@
 @@||p6-faceu-img-sign.byteimg.com^
 @@||p9-faceu-img-sign.byteimg.com^
 
+# 放行金山毒霸相关内容
+! 原版官网
+@@||www.ijinshan.com^
+! 青春版官网
+@@||young.duba.net^
+! 原版＆青春版下载接口
+@@||cd001.www.duba.net^
+! 毒霸姬官网
+@@||dubaji.com^
+! 移动端访问青春版官网会自动跳转毒霸姬下载链接
+@@||dubaji-m.zhhainiao.com^
+! 毒霸姬下载接口
+@@||ai-cdn.duba.net^
+! 毒霸姬App Api接口
+! 我的界面电池接口
+! 创作界面内容接口
+! 拦截后遇见界面＆对话界面显示内容加载失败
+@@||dubaji-api.zhhainiao.com^
+! 毒霸姬App 会员界面＆电池购买界面
+@@||dubaji-vip.zhhainiao.com^
+! 毒霸姬App Ai封面加载＆Ai语言加载
+@@||cdn-chateva.zhhainiao.com^
+! 毒霸姬App 创作界面功能图标加载
+@@||newvip-cdn.zhhainiao.com^
+
+# 放行360相关内容
+! 官网
+@@||www.360.cn^
+! 网页总体布局
+@@||s*.ssl.qhimg.com^
+@@||s*.ssl.qhmsg.com^
+@@||s*.ssl.qhres2.com^
+! 网页图片
+@@||p*.qhimg.com^
+@@||se*.360simg.com^
+! 移动端官网
+@@||m.360.cn^
+! 360安全卫士官网
+@@||weishi.360.cn^
+! 360安全卫士下载接口
+@@||wsdl.360safe.com^
+! 360杀毒官网
+@@||sd.360.cn^
+! 360杀毒下载接口
+@@||sfdl.360safe.com^
+! 360安全浏览器官网
+@@||browser.360.cn^
+! 360安全浏览器下载接口
+@@||down.360safe.com^
+! 360手机浏览器官网
+@@||mse.360.cn^
+! 360手机浏览器下载接口
+@@||msedown.360safe.com^
+! 奇元图片资源官网
+@@||www.360simg.com^
+
 
 #******************#
 # 网易相关内容规则 #
@@ -721,13 +777,31 @@
 @@||jvod.300hu.com^
 ! 京喜
 @@||st.jingxi.com^
+! 新品界面（京东小魔方）内容加载
+! 拦截提示网络异常（-6）
+@@||pro.m.jd.com^
 
-# 放行转转APP相关内容
-! 首页
+# 放行转转相关内容
+! 官网
+@@||www.zhuanzhuan.com^
+! 网页布局
+@@||s1.zhuanstatic.com^
+! 官网介绍图
+! App商品图片＆功能图标
+@@||pic1.zhuanstatic.com^
+@@||pic2.zhuanstatic.com^
+@@||pic3.zhuanstatic.com^
+@@||pic4.zhuanstatic.com^
+@@||pic5.zhuanstatic.com^
+@@||pic6.zhuanstatic.com^
+! 登录人机验证接口
+! 拦截验证提示网络不给力
+@@||feentry.zhuanzhuan.com^
+! App首页
 @@||app.zhuanzhuan.com^
-! 商品页
+! App商品页
 @@||m.zhuanzhuan.com^
-! 卖闲置页面及其他页面
+! App卖闲置页面及其他页面
 @@||act.zhuanzhuan.com^
 
 # 放行闲鱼支付宝授权身份验证
@@ -748,6 +822,24 @@
 # 消息列表加载
 ! 含商家骑手聊天
 @@||api.neixin.cn^
+
+# 放行大众点评相关内容
+! 官网
+@@||www.dianping.com^
+! 登录页面跳转
+@@||account.dianping.com^
+! 登录二维码加载接口
+@@||accountapi.dianping.com^
+! 客户端下载页布局＆图片
+@@||www.dpfile.com^
+! 移动端页面
+@@||m.dianping.com^
+! 移动端页面内容接口
+! 同时也是美团App内消息页面布局
+@@||s0.meituan.net^
+! 美团订单状态设置界面加载＆美团钱包设置图片加载
+! 拦截后点击设置部分界面内容显示不全或一直转圈加载中
+@@||pubmsg.meituan.com^
 
 # 放行交易猫相关内容
 ! 官网
@@ -949,7 +1041,7 @@
 @@||line3-h5-mobile-api.biligame.com^
 @@||line3-statics-h5-mobile-api.biligame.net^
 
-# 放行猴山欢迎回家页面
+# 放行Acfun（猴山）欢迎回家页面
 @@||ali.static.yximgs.com^
 @@||static.yximgs.com^
 
@@ -1373,6 +1465,9 @@
 ! 拦截提示发生异常进不去App
 @@||api-n0vadp-static.hoyoverse.com^
 
+# 放行鲨鲨酱App图片资源加载
+@@||ssj-1256119282.cos.ap-guangzhou.myqcloud.com^
+
 # 放行GitHub官网
 @@||github.com^
 
@@ -1423,6 +1518,9 @@
 # 放行Miraheze官网Logo＆网页图片
 ! Degrees of Lewdity的官方中文维基图片加载
 @@||static.miraheze.org^
+
+# 放行养猪场官网
+@@||xn--l6qx3l9s1a.com^
 
 
 #**************#
@@ -1546,6 +1644,9 @@
 ! 部分产品详情页图片
 @@||act-webstatic.hoyoverse.com^
 
+# 放行迷你世界官网
+@@||www.mini1.cn^
+
 
 #******************#
 # 外网应用放行规则 #
@@ -1648,7 +1749,6 @@
 @@||snzypic.com^
 @@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^
 ! 网页端视频评分图标
-@@||static.yximgs.com^
 @@||lf1-cdn-tos.bytegoofy.com^
 
 # 放行囧次元更新APK下载接口
