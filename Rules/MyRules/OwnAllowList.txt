@@ -720,6 +720,9 @@
 @@||main.m.taobao.com^
 ! 移动网页端商品加载
 @@||h5api.m.taobao.com^
+! 客服小蜜连接接口
+! 拦截会导致无法发送消息，并提示欢迎回来，请重新连接。
+@@||im.alimebot.taobao.com^
 
 # 放行拼多多相关内容
 ! 官网
@@ -1127,6 +1130,8 @@
 @@||smartrobot-drcn.dbankcdn.com^
 ! 天际通Go小程序客服界面进入logo，拦截则显示默认logo（在线客服）
 @@||contentcenter-vali-drcn.dbankcdn.com^
+! 王卡助手公众号底部活动接口
+@@||txwk.10010.com^
 
 # 放行QQ相关内容
 ! 卡片加载
@@ -1368,6 +1373,20 @@
 # 放行MIUI短信服务商信息及头像加载
 @@||api.huangye.miui.com^
 
+# 放行小米游戏中心相关内容
+! 官网
+@@||game.xiaomi.com^
+! 分类图标＆社区内容加载
+! 游戏图标＆游戏介绍图
+! 开屏广告同域名，自行取舍。
+@@||t1.g.mi.com^
+! 游戏顶部介绍视频
+! 社区视频下划后的部分视频加载
+@@||mivideo.g.mi.com^
+! 社区部分视频加载
+! 攻略视频＆精彩锦集等
+@@||video.kts.g.mi.com^
+
 
 #******************#
 # 华为相关放行规则 #
@@ -1377,6 +1396,7 @@
 @@||smarthome-drcn.dbankcdn.com^
 ! 设备插件更新下载链接
 @@||appdl-1-drcn.dbankcdn.com^
+@@||appdl-2-drcn.dbankcdn.com^
 
 # 放行华为应用市场相关内容
 ! 网页端和App内应用图标＆应用介绍图＆导航栏图标接口
@@ -1572,6 +1592,9 @@
 # 放行我的世界网易版官网
 @@||mc.163.com^
 
+# 放行猫和老鼠游戏官网
+@@||tom.163.com^
+
 # 放行Steam官网
 @@||store.steampowered.com^
 
@@ -1583,6 +1606,10 @@
 
 # 放行腾讯游戏官网页面布局
 @@||game.gtimg.cn^
+
+# 放行掌上英雄联盟账户数据查询接口
+! 拦截显示内容加载失败
+@@||mlol-file.qpic.cn^
 
 # 放行永劫无间相关内容
 ! 端游官网
