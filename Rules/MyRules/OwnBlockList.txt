@@ -52,7 +52,14 @@
 ||static.ads-twitter.com^
 ||ads-api.twitter.com^
 
-# 拦截搜书吧流氓地址与流氓图片
+# 拦截钓鱼网站＆色情广告＆赌博广告
+! 均为视频网站、小说网站、漫画网站抓取
+||*.oneliner.cn^
+||*.poeme.cn^
+||*.bjnxo.cn^
+||*.phire.cn^
+||1813dc.wifwroi.com^
+||180c606c059312e8cdcc.dmcduio.com^
 ||cbu01.alicdn.com^
 ||65564535.com^
 ||91.yelang8.cc^
@@ -62,17 +69,13 @@
 ||552aaa.us^
 ||www.002st.top^
 ||t16-fghgdf.com^
+||www.ivjkkq.xyz^
+||3.hlg102a.cc^
+||www.mt22ml.vip^
+||www.mt391cc.vip^
+||www.ht52op.vip^
+||xrhf.taimei-t336.vip^
 ||ds4x53xfg4f53gh453h.top^
-
-# 拦截OmoFun网页端色情跳转广告
-||*.oneliner.cn^
-||*.poeme.cn^
-||*.bjnxo.cn^
-||*.phire.cn^
-||1813dc.wifwroi.com^
-||180c606c059312e8cdcc.dmcduio.com^
-
-# 拦截盗版视频网站色情广告
 ||cp.758758.xyz^
 ||i670.cimumusic.com^
 ||hchh.capmvb.net^
@@ -82,6 +85,12 @@
 ||5h3s.live^
 ||v6awsnf8ejjjsefh.sjucaie2.top^
 ||xbax.dt64g8m.pro^
+||eff14.914-991.icu^
+||am.bwaa301.icu^
+||3ruy83-kafk0atam05o-020.qgivvd.cn^
+||fc5lvs-offaoqqirk8y-020.qgivvd.cn^
+||tz2wh2-0yxxravpwgy1-020.qgivvd.cn^
+||8f1s.mm51-tneb1555.cc^
 ||r82tmbfb7qgeawsf.oz8xhen.top^
 ||jishu.zxmx.net^
 ||js.spfccc.com^
@@ -90,8 +99,6 @@
 ||9dg6a.xyz^
 ||k5567.vip^
 ||www.ky6895.com^
-
-# 拦截盗版小说网站色情广告
 ||qq17.toytoy.xyz^
 ||www.a50xf.com^
 ||www.vexd8.com^
@@ -116,6 +123,11 @@
 ||p.rzlp.xyz^
 ||cooabc.benniao666.com^
 ||image2.printstation8.com^
+||495qp188.com^
+||ah.bwaa301.icu^
+||jihq.mm51-tbsg1542.cc^
+||sadsaxd.nlkmp.com^
+||2.52gao393.cc^
 ||st131657.syxiangguang.com^
 ||xypcr-1-8-new01.grejskx.com^
 ||xtu224.com^

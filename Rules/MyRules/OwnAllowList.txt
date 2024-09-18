@@ -248,6 +248,11 @@
 @@||sns-avatar-qc.xhscdn.com^
 ! 网页端表情加载
 @@||picasso-static.xiaohongshu.com^
+! 手机网页端左上角Logo加载
+@@||ci.xiaohongshu.com^
+! 英文介绍页宣传视频加载
+! PC网页端登录界面二维码加载＆评论显示接口
+@@||fe-video-qc.xhscdn.com^
 
 # 放行speedtest测速网自身推广图片
 ! 拦截页面别扭
@@ -404,9 +409,17 @@
 ! 奇元图片资源官网
 @@||www.360simg.com^
 
+# 放行字节跳动相关内容
+! 官网
+@@||www.bytedance.com^
+! 页面布局＆图片加载
+@@||lf1-cdn-tos.bytescm.com^
+! 招聘官网
+@@||jobs.bytedance.com^
+
 
 #******************#
-# 网易相关内容规则 #
+# 网易相关放行规则 #
 #******************#
 # 放行网易云音乐相关内容
 ! 页面端及资源加载
@@ -569,6 +582,9 @@
 ! 社会招聘官网
 @@||hr.163.com^
 
+# 放行网易开源镜像站
+@@||mirrors.163.com^
+
 
 #****************#
 # Google放行规则 #
@@ -682,11 +698,14 @@
 # 放行夸克网盘相关内容
 ! 主站
 @@||pan.quark.cn^
-! 网页端扫描登陆接口＆手机登陆接口
+! 手机号码登陆接口＆网页端扫描登陆接口
 @@||uop.quark.cn^
+! 手机号码登录窗口布局(PC端＆手机端)
+@@||image.uc.cn^
 ! 网页端资源列表加载
 ! 拦截显示网络异常，请稍后重试。
 @@||drive-pc.quark.cn^
+@@||drive-h.quark.cn^
 ! 网页端用户头像与文件图标
 @@||image.quark.cn^
 
@@ -932,9 +951,14 @@
 @@||img1.qidian.com^
 ! 起点小说网页排版
 @@||qdfepccdn.qidian.com^
-! 起点小说封面图
+! 起点小说PC网页端＆手机网页端首页轮播图接口
+@@||bossaudioandcomic-1252317822.image.myqcloud.com^
+! 起点小说书籍封面图
 @@||bookcover.yuewen.com^
-! 起点小说详情界面作者头像接口
+! 起点小说PC网页端书籍详情页
+! 手机网页端书籍详情页跳转链接
+@@||book.qidian.com^
+! 起点小说书籍详情页作者头像接口
 @@||ccportrait.yuewen.com^
 ! 起点小说作家说头像接口
 @@||facepic.qidian.com^
@@ -942,6 +966,9 @@
 @@||acts.qidian.com^
 ! 起点小说公示文章页面布局
 @@||qidian.gtimg.com^
+! 起点小说男生网手机网页端特殊功能按钮图片接口
+! 起点小说女生网手机页面端书籍分区加载＆书籍封面接口
+@@||imgservices-1252317822.image.myqcloud.com^
 ! 阅文作家专区官网
 @@||write.qq.com^
 ! 阅文作家专区页面布局
@@ -962,12 +989,16 @@
 @@||lf-cdn-tos.bytescm.com^
 @@||lf3-cdn-tos.bytescm.com^
 @@||lf3-short.bytegoofy.com^
+! 手机网页端顶部Logo加载＆作家福利轮播图加载
+@@||p1-tt.byteimg.com^
+! 手机网页端下载宣传轮播图加载
+@@||lf3-static.bytednsdoc.com^
 
 # 放行番茄小说APP相关内容
 ! 小说封面
 @@||p3-novel.byteimg.com^
 @@||p6-novel.byteimg.com^
-! 听书加载
+! 听书AI朗读接口
 @@||v3-fq-tts.fqnovelvod.com^
 @@||v6-fq-tts.fqnovelvod.com^
 @@||v26-fq-tts.fqnovelvod.com^
@@ -1191,6 +1222,8 @@
 @@||static-res.qq.com^
 ! QQ关于页面内反馈页面布局
 @@||qzonestyle.gtimg.cn^
+! QQ日签卡图片加载
+@@||tianshu.gtimg.cn^
 
 # 放行QQ音乐相关内容
 ! 听歌时长记录
@@ -1420,6 +1453,8 @@
 # 放行Edge浏览器相关内容
 ! 浏览器默认翻译
 @@||edge.microsoft.com^
+! 微软翻译API接口
+@@||api-edge.cognitive.microsofttranslator.com^
 ! 扩展安装
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
 ! Microsoft尊重您的隐私接口
@@ -1497,8 +1532,37 @@
 # 放行Heroku容器
 @@||heroku.com^
 
-# 放行Jetbrains系列软件下载页面版本详情及软件图标与页面公告含软件其他版本页面内容显示
+# 放行Jetbrains相关内容
+! Jetbrains系列软件下载页面版本详情
+! 软件图标＆页面公告＆其他版本页面内容显示
 @@||data.services.jetbrains.com^
+! Jetbrains系列软件下载接口
+! 下载总接口
+@@||download.jetbrains.com^
+! 全球CDN加速
+@@||download-cdn.jetbrains.com^
+! 中国大陆CDN加速
+@@||download-cdn.jetbrains.com.cn^
+! Jetbrains系列软件插件商店接口
+! 插件图标接口＆插件下载接口＆插件概述接口
+! 插件变化接口＆插件评价接口＆插件信息接口
+@@||downloads.marketplace.jetbrains.com^
+
+# 放行Android Studio相关内容
+! 全球接口＆中国大陆接口均为JetBrains Toolbox下载Android Studio的接口
+! 下载跳转接口
+@@||redirector.gvt1.com^
+! 全球下载接口
+@@||r1---sn-npoldn76.gvt1.com^
+@@||r3---sn-npoe7nsl.gvt1.com^
+@@||r4---sn-npoldn7s.gvt1.com^
+! 中国大陆下载接口
+@@||r2---sn-2x3elnel.gvt1-cn.com^
+@@||r3---sn-2x3elnel.gvt1-cn.com^
+@@||r3---sn-2x3elnes.gvt1-cn.com^
+
+# 放行Visual Studio Code（VSCode）官方下载接口
+@@||vscode.download.prss.microsoft.com^
 
 # 放行Namesilo域名解析CNAME记录地址
 @@||parking.namesilo.com^
@@ -1776,6 +1840,7 @@
 @@||snzypic.com^
 @@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^
 ! 网页端视频评分图标
+! 抖音图标接口
 @@||lf1-cdn-tos.bytegoofy.com^
 
 # 放行囧次元更新APK下载接口
