@@ -316,6 +316,27 @@
 ! 今日头条的站点
 @@||dm.toutiao.com^
 
+# 放行今日头条相关内容
+! 官网
+@@||www.toutiao.com^
+! 手机页面端官网
+! 同时也是懂车帝手机页面端文章顶部内容推荐＆热门推荐＆精彩推荐接口
+@@||m.toutiao.com^
+! 文章作者头像加载
+@@||sf1-cdn-tos.toutiaostatic.com^
+@@||sf3-cdn-tos.toutiaostatic.com^
+@@||sf6-cdn-tos.toutiaostatic.com^
+! 文章封面接口＆文章内图片接口＆视频封面接口
+@@||p3-sign.toutiaoimg.com^
+! 手机网页端作者主页加载
+! 拦截显示网络不给力
+@@||sf6-cdn-tos.douyinstatic.com^
+! 作者主页头像加载
+@@||sf3-cdn-tos.bdxiguastatic.com^
+! 下载App页面
+! 作者主页内点击文章跳转
+@@||article.zlink.toutiao.com^
+
 # 放行有来医生网页布局
 @@||static.youlai.cn^
 
@@ -1128,6 +1149,32 @@
 ! App登录接口
 ! 拦截登录提示系统繁忙
 @@||log.snssdk.com^
+! 用户头像加载
+@@||p1.douyinpic.com^
+@@||p3.douyinpic.com^
+@@||p5.douyinpic.com^
+@@||p6.douyinpic.com^
+@@||p9.douyinpic.com^
+@@||p11.douyinpic.com^
+@@||p26.douyinpic.com^
+@@||p29.douyinpic.com^
+! 作品封面加载
+@@||p1-sign.douyinpic.com^
+@@||p3-sign.douyinpic.com^
+@@||p5-sign.douyinpic.com^
+@@||p6-sign.douyinpic.com^
+@@||p9-sign.douyinpic.com^
+@@||p11-sign.douyinpic.com^
+@@||p26-sign.douyinpic.com^
+
+# 放行西瓜视频相关内容
+! 视频封面
+@@||p3-sign.bdxiguaimg.com^
+@@||p26-sign.bdxiguaimg.com^
+! 作者头像
+@@||sf6-cdn-tos.bdxiguastatic.com^
+! 下载App时的跳转接口
+@@||ugurl.cn^
 
 
 #******************#
@@ -1617,9 +1664,6 @@
 # 放行崩坏三新版本前瞻页面
 @@||uploadstatic.mihoyo.com^
 
-# 放行网易猫和老鼠下载服务器加载
-@@||h18.update.netease.com^
-
 # 放行天涯明月刀手游相关内容
 ! QQ登陆接口
 ! 拦截会显示鉴权失败，请重试，错误码:9999.-1
@@ -1653,17 +1697,29 @@
 ! 手游PC端检查更新接口
 @@||l36.gdl.netease.com^
 
-# 放行我的世界网易版官网
+# 放行我的世界中国版（网易版）相关内容
+! 官网
 @@||mc.163.com^
+! 官网「立即下载端游」接口
+@@||loadingbaycn.webapp.163.com^
+! 更新检测接口
+! 拦截显示连接服务器失败
+@@||g79.update.netease.com^
 
-# 放行猫和老鼠游戏官网
+# 放行猫和老鼠游戏相关内容
+! 官网
 @@||tom.163.com^
+! 更新下载接口
+@@||h18.update.netease.com^
 
 # 放行Steam官网
 @@||store.steampowered.com^
 
-# 放行一梦江湖官网
+# 放行一梦江湖相关内容
+! 官网
 @@||jianghu.163.com^
+! 服务器连接接口
+@@||h42.update.netease.com^
 
 # 放行蛋仔派对官网
 @@||party.163.com^
@@ -1680,6 +1736,15 @@
 @@||www.yjwujian.cn^
 ! 手游官网
 @@||m.yjwujian.cn^
+
+# 放行永远的7日之都相关内容
+! 官网
+@@||f7.163.com^
+! 更新检测接口
+@@||g58.update.netease.com^
+! 更新下载接口
+! 拦截后更新时游戏会闪退
+@@||mbdl.update.netease.com^
 
 # 放行射雕官网
 @@||wuxia.163.com^
