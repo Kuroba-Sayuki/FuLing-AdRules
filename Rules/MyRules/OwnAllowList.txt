@@ -438,6 +438,11 @@
 ! 招聘官网
 @@||jobs.bytedance.com^
 
+# 放行今日诗词首页诗词加载
+! 拦截后首页诗词位置一直显示「正在努力加载中.....」
+! 拦截后诗词位置下方标签一直显示「加载中」
+@@||sdk.jinrishici.com^
+
 
 #******************#
 # 网易相关放行规则 #
@@ -606,6 +611,16 @@
 # 放行网易开源镜像站
 @@||mirrors.163.com^
 
+# 放行网易发烧游戏平台相关内容
+! 官网
+@@||fever.163.com^
+! 页面布局
+! 拦截后打开官网会黑屏
+@@||mpay-web.g.mkey.163.com^
+! 客户端连接接口
+! 拦截后打开客户端显示「网络连接失败」
+@@||fcount-api.webapp.163.com^
+
 
 #****************#
 # Google放行规则 #
@@ -614,7 +629,7 @@
 @@||*.xn--ngstr-lra8j.com^
 
 # 放行Google登录界面布局
-! 拦截点击按钮无反应
+! 拦截后点击按钮无反应
 @@||ssl.gstatic.com^
 
 # 放行Google部分网页布局
@@ -724,7 +739,7 @@
 ! 手机号码登录窗口布局(PC端＆手机端)
 @@||image.uc.cn^
 ! 网页端资源列表加载
-! 拦截显示网络异常，请稍后重试。
+! 拦截后显示「网络异常，请稍后重试。」
 @@||drive-pc.quark.cn^
 @@||drive-h.quark.cn^
 ! 网页端用户头像与文件图标
@@ -821,7 +836,7 @@
 ! 京喜
 @@||st.jingxi.com^
 ! 新品界面（京东小魔方）内容加载
-! 拦截提示网络异常（-6）
+! 拦截后提示「网络异常（-6）」
 @@||pro.m.jd.com^
 
 # 放行转转相关内容
@@ -838,7 +853,7 @@
 @@||pic5.zhuanstatic.com^
 @@||pic6.zhuanstatic.com^
 ! 登录人机验证接口
-! 拦截验证提示网络不给力
+! 拦截后验证提示「网络不给力」
 @@||feentry.zhuanzhuan.com^
 ! App首页
 @@||app.zhuanzhuan.com^
@@ -851,9 +866,14 @@
 ! 可能还是淘宝授权的接口
 @@||market.m.taobao.com^
 
-# 放行闲管家新建商品上传图片接口
+# 放行闲管家相关内容
+! 闲管家
+! 新建商品上传图片接口
 ! 七牛开发者中心
 @@||api.qiniu.com^
+! 闲鱼客服-IM聊天
+! 聊天列表＆聊天记录中用户默认头像加载
+@@||gtms03.alicdn.com^
 
 # 放行美团相关内容
 ! 客服反馈信息短链接平台
@@ -1019,7 +1039,7 @@
 ! 小说封面
 @@||p3-novel.byteimg.com^
 @@||p6-novel.byteimg.com^
-! 听书AI朗读接口
+! 听书智能朗读接口
 @@||v3-fq-tts.fqnovelvod.com^
 @@||v6-fq-tts.fqnovelvod.com^
 @@||v26-fq-tts.fqnovelvod.com^
@@ -1122,16 +1142,16 @@
 
 # 放行抖音相关内容
 ! 手机网页端网页布局＆电脑网页端布局
-! 拦截页面变空白
+! 拦截后页面变空白
 @@||lf3-cdn-tos.bytegoofy.com^
 @@||lf6-cdn-tos.bytegoofy.com^
 ! 手机网页端立即下载页面
 @@||d.toutiao.com^
 ! 网页端验证API加载
-! 拦截显示网络故障
+! 拦截后显示「网络故障」
 @@||verify.zijieapi.com^
 ! 网页端验证图片加载
-! 拦截验证图片无法加载
+! 拦截后验证图片无法加载
 @@||p3-catpcha.byteimg.com^
 @@||p6-catpcha.byteimg.com^
 @@||p9-catpcha.byteimg.com^
@@ -1141,13 +1161,13 @@
 @@||p3-pc-weboff.byteimg.com^
 ! 网页端用户主页显示＆用户作品加载
 ! 拦截后个人主页显示服务异常，他人主页提示用户不存在。
-! 也是PC登录接口，拦截登录时提示请使用抖音手机APP登录。
+! 也是PC登录接口，拦截后登录时提示「请使用抖音手机APP登录。」
 @@||lf-c-flwb.bytetos.com^
 ! 登录响应接口
-! 拦截登录没反应
+! 拦截后登录没反应
 @@||auth.zijieapi.com^
 ! App登录接口
-! 拦截登录提示系统繁忙
+! 拦截后登录提示「系统繁忙」
 @@||log.snssdk.com^
 ! 用户头像加载
 @@||p1.douyinpic.com^
@@ -1696,15 +1716,20 @@
 @@||a.game.163.com^
 ! 手游PC端检查更新接口
 @@||l36.gdl.netease.com^
+# 手游创意工坊近期精选接口＆上周热门接口
+@@||l36-danmu.hi.163.com^
 
 # 放行我的世界中国版（网易版）相关内容
 ! 官网
 @@||mc.163.com^
 ! 官网「立即下载端游」接口
 @@||loadingbaycn.webapp.163.com^
-! 更新检测接口
-! 拦截显示连接服务器失败
+! 手机端更新检测接口
+! 拦截后显示「连接服务器失败」
 @@||g79.update.netease.com^
+! PC端更新检测接口
+! 拦截后启动PC端时显示「网络信号不佳」
+@@||x19.update.netease.com^
 
 # 放行猫和老鼠游戏相关内容
 ! 官网
