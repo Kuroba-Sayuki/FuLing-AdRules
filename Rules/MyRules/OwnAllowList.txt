@@ -438,10 +438,48 @@
 ! 招聘官网
 @@||jobs.bytedance.com^
 
+# 放行支付宝码上放心查询接口
+! 扫描药品盒子上的「药品追溯码」时的接口
+! 拦截后扫描显示「网络异常」
+@@||guide-acs.m.taobao.com^
+
 # 放行今日诗词首页诗词加载
 ! 拦截后首页诗词位置一直显示「正在努力加载中.....」
 ! 拦截后诗词位置下方标签一直显示「加载中」
 @@||sdk.jinrishici.com^
+
+# 放行古文岛图片加载
+! 横幅图片、古诗作者头像、特殊功能按钮图片
+! 古文岛＆古诗文网，同内容同布局同功能。
+@@||ziyuan.guwendao.net^
+
+# 放行17173相关内容
+! 官网
+@@||www.17173.com^
+! 移动端官网
+@@||m.17173.com^
+! 新网游频道
+@@||newgame.17173.com^
+! 游戏新闻中心
+@@||news.17173.com^
+! 游戏排行榜
+@@||top.17173.com^
+
+# 放行九游门户相关内容
+! 官网
+@@||www.9game.cn^
+! 移动端官网
+@@||a.9game.cn^
+! 游戏图标＆文章图片
+@@||media.9game.cn^
+
+# 放行游侠网相关内容
+! 官网
+@@||www.ali213.net^
+! 移动端官网
+@@||3g.ali213.net^
+! 官网图片接口＆文章图片接口
+@@||static.ali213.net^
 
 
 #**************#
@@ -887,9 +925,11 @@
 @@||h5.dianping.com^
 ! 设置页各选项内容布局加载
 @@||i.meituan.com^
-# 消息列表加载
+! 消息列表加载
 ! 含商家骑手聊天
 @@||api.neixin.cn^
+! 聊天窗口内图片加载
+@@||file.neixin.cn^
 
 # 放行大众点评相关内容
 ! 官网
@@ -1345,6 +1385,13 @@
 ! 拦截下载时显示网络异常
 @@||dd.myapp.com^
 
+# 放行腾讯网相关内容
+! 新闻官网
+@@||news.qq.com^
+! 网页布局
+! 拦截后「页面空白」
+@@||mat1.gtimg.com^
+
 
 #**************#
 # 小米放行规则 #
@@ -1749,8 +1796,12 @@
 ! 网易七鱼
 @@||papegames.qiyukf.com^
 
-# 放行崩坏三新版本前瞻页面
+# 放行崩坏3相关内容
+! 新版本前瞻页面
 @@||uploadstatic.mihoyo.com^
+! PC端游戏内公告加载接口
+! 拦截后显示「公告加载失败」
+@@||sdk.mihoyo.com^
 
 # 放行天涯明月刀手游相关内容
 ! QQ登陆接口
@@ -1987,11 +2038,13 @@
 # 放行轻之国度
 @@||lightnovel.us^
 
+# 放行动漫共和国相关内容
+! 前身OmoFun动漫「客户端版本为正版」
+! 官网
+@@||animerep.com^
+
 # 放行OmoFun动漫相关内容
-! 客户端线路
-@@||p16.bytedance-cdn.com^
-@@||s19.bytedance-cdn.com^
-! 网页端
+! 网页端「非客户端官方运营」
 @@||omofun.link^
 ! 网页端视频封面
 @@||leshizyimg.com^
@@ -2216,16 +2269,32 @@
 @@||hclips.ahcdn.com^
 
 # 放行Pornhub视频网站相关内容
-! 主站
+! 英文总站
 @@||www.pornhub.com^
+! 日文分站
+@@||jp.pornhub.com^
+! 中文分站
 @@||cn.pornhub.com^
-! 网页布局、图片、视频（old）
-@@||a.adtng.com^
-@@||em.phncdn.com^
+! 网页布局＆视频封面
 @@||ei.phncdn.com^
-@@||di.phncdn.com^
-@@||e1m-h.phncdn.com^
+! PC网页端特殊布局
+! 拦截后「PC网页端右上角的头像无法打开＆左上角侧边栏无法打开」
+@@||ss.phncdn.com^
+! 网页底部RTA评级图标
+@@||cdn1-smallimg.phncdn.com^
+! 视频封面预览视频加载
+@@||ew.phncdn.com^
+! 视频播放器控件加载
 @@||cdn1d-static-shared.phncdn.com^
+! 手机网页端视频播放接口
+@@||em.phncdn.com^
+@@||cm-h.phncdn.com^
+@@||em-h.phncdn.com^
+@@||hm-h.phncdn.com^
+! PC网页端视频播放接口
+@@||cv-h.phncdn.com^
+@@||ev-h.phncdn.com^
+@@||iv-h.phncdn.com^
 
 # 放行JavBangers视频网站相关内容
 @@||www.javbangers.com^

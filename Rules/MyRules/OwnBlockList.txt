@@ -49,9 +49,19 @@
 #******************#
 # NSFW内容拦截规则 #
 #******************#
-# 拦截Pornhub视频片头广告
-! 拦截后可能会导致某些浏览器无法正常加载视频
+# 拦截Pornhub广告
+! 网页广告位布局
+! 是否放行，根据自身情况取舍。
+! 放行后「手机网页端＆PC网页端均会出现较多的广告位」
+! 拦截后「手机网页端视频详情页无法左右等比例加载」
+||static.trafficjunky.com^
+! 视频播放前的片头广告接口
+! 此片头广告接口有主动跳过按钮，是否放行，根据自身情况取舍。
+! 放行后「PC网页端，暂时不受影响」目前大部分视频无片头广告播放，小部分视频会一直加载中，遇到视频一直加载中的刷新网页即可。
+! 拦截后「手机网页端有概率视频右上角直接显示分辨率切换，即无片头广告加载视频」
+! 拦截后「手机网页端大部分视频右上角不显示分辨率切换，即视频无法播放，一直加载中」
 ||evtubescms.phncdn.com^
+||video.mnaspm.com^
 
 # 拦截Twitter广告
 ||static.ads-twitter.com^
@@ -70,6 +80,11 @@
 ||91.yelang8.cc^
 ||qps.000aaap2023.com^
 ||tm25.dreamkeep.vip^
+||www.ht262op.vip^
+||nv2qlk-40w30k1lf6vs-067.giqnyl.cn^
+||ouc4iy-0a59od2g3jb8-067.giqnyl.cn^
+||www.wcnwvz.xyz^
+||xrhf.taimei-t546.vip^
 ||lq.jajcstf.xyz^
 ||bob4892.com^
 ||9983x.com:8055^
@@ -81,6 +96,12 @@
 ||www.mt22ml.vip^
 ||www.mt391cc.vip^
 ||www.ht52op.vip^
+||2g2s2m-343elpr5ypvr-021.ifllqc.cn^
+||bm6ffz-k7st1vkciwvo-021.ifllqc.cn^
+||l77o5i-2nc16ub02h87-021.ifllqc.cn^
+||zx8lwz-2umb00vpdk8f-022.ifllqc.cn^
+||g0655j-iszqt5o52zee-022.ifllqc.cn^
+||orji25-4kjfm2lj3q8b-022.ifllqc.cn^
 ||xrhf.taimei-t336.vip^
 ||ds4x53xfg4f53gh453h.top^
 ||cp.758758.xyz^
@@ -89,6 +110,8 @@
 ||mm.91204.icu^
 ||hchh.capmvb.net^
 ||i4dx.dy03bw0.pro^
+||2235c106d6484fb30gcc.fokm37.cn^
+||2219.5z6h6b.cn^
 ||xd0411.xdt.usqiryn.cn^
 ||m7.bnpkxgfp.xyz^
 ||5h3s.live^
@@ -104,6 +127,9 @@
 ||jishu.zxmx.net^
 ||js.spfccc.com^
 ||701110.xyz^
+||df101.drbdlx.cn^
+||xfacai103.wuuorz.cn^
+||2218.5z6h6b.cn^
 ||a727a2.htpwoc488m.xyz^
 ||9dg6a.xyz^
 ||k5567.vip^
@@ -128,6 +154,10 @@
 ||bw102.gtrztm.cn^
 ||lt.shuinn7.top^
 ||3z5m.live^
+||18ca46250d4a2505agcc.fokm37.cn^
+||18ca46250d4a2505agg.ul2tos.cn^
+||bl100.tcahto.cn^
+||1818.5z6h6b.cn^
 ||df101.vxfedm.cn^
 ||xa1jgfbdlwf2ncxq.436598.com^
 ||kcybtc.ezzgnn.info^
@@ -154,6 +184,9 @@
 ||8b7txop.scbt.asia^
 ||xgnsvx.stwqhfi.cn^
 ||m.bqg16.cc^
+||3.bdvwityy.cc^
+||49lq.mm51-tvhn1767.vip^
+||df101.mpsysd.cn^
 ||jdb8391c8da5deet.ch4jmut9c.com^
 ||aqaas.dsimpkr.cn^
 ||mt131840.aishanglight.com^
@@ -214,4 +247,6 @@
 ||putao.a000p.icu^
 ||1yze.taimei-t373.vip^
 ||www.mt399cc.vip^
+||g105ryj105.cfd^
+||lni8ivfm.dzxxtdub.com^
 
