@@ -22,7 +22,7 @@
 @@||sugs.m.sm.cn^
 
 # 放行迅雷下载加速
-! 拦截后下载速度骤降 
+! 拦截后「下载速度骤降 」
 @@||hub5btmain.v6.shub.sandai.net^
 
 # 放行联通手机营业厅功能页面与图片显示
@@ -279,7 +279,7 @@
 @@||ugame.9game.cn^
 
 # 放行学习通应用内消息推送
-! 拦截后学习通内收不到消息通知
+! 拦截后「学习通内收不到消息通知」
 @@||msync-im1-vip6-std.easemob.com^
 
 # 放行漫画聚合软件
@@ -390,7 +390,7 @@
 ! 毒霸姬App Api接口
 ! 我的界面电池接口
 ! 创作界面内容接口
-! 拦截后遇见界面＆对话界面显示内容加载失败
+! 拦截后「遇见界面＆对话界面显示内容加载失败」
 @@||dubaji-api.zhhainiao.com^
 ! 毒霸姬App 会员界面＆电池购买界面
 @@||dubaji-vip.zhhainiao.com^
@@ -1460,8 +1460,9 @@
 @@||zhuti.xiaomi.com^
 ! 页面加载
 @@||thm.market.xiaomi.com^
-! 用户头像调用加载的api与各类图片加载
+! 用户头像调用加载的API
 @@||api.account.xiaomi.com^
+! 各类图片加载
 @@||t1.market.xiaomi.com^
 @@||t2.market.xiaomi.com^
 @@||t3.market.xiaomi.com^
