@@ -21,6 +21,11 @@
 ! 巨量API
 ||api.juliangcili.com^
 
+# 拦截哔哩漫游黑名单域名＆哔哩漫游X黑名单域名
+! 因不可抗因素，模块于2024-10-31日，将所有用户拉入黑名单。
+! 可通过拦截黑名单域名，达到解除黑名单目的，从而模块恢复可用。
+||black.qimo.ink^
+
 # 拦截哔哩哔哩直播启用p2p卡顿请求
 ||*live-p2p*.bilibili*^
 
@@ -146,6 +151,8 @@
 ||wed1.fxqzaoa.cn^
 ||24511.nianlia.com^
 ||xlmwp.zxhychina.com^
+||ktx769.cc^
+||yqs66.82098999.com^
 ||www.nleljf.xyz^
 ||361.trafficmanager.net^
 ||www.mt30ml.vip^
@@ -183,6 +190,8 @@
 ||xtu224.com^
 ||8b7txop.scbt.asia^
 ||xgnsvx.stwqhfi.cn^
+||qpdce1040.com^
+||www.hxkyuwr1040.vip^
 ||m.bqg16.cc^
 ||3.bdvwityy.cc^
 ||49lq.mm51-tvhn1767.vip^
@@ -197,6 +206,8 @@
 ||nf2y.yt-twbg1523.vip^
 ||facai102.sezkkb.cn^
 ||a.91037.icu^
+||muzy99.top^
+||rpdi192.icu^
 ||df101.qckkz.cn^
 ||ml102.whpnd.cn^
 ||tlmlt.yuwenxuexizazhi.com^
@@ -230,11 +241,12 @@
 ||f3.1cecn.icu^
 ||bx6.tnqoqnh.icu^
 ||777.ngogkut.cn^
-||pic.baike.soso.com^
 ||www.iwttbz.xyz^
 ||jcen.avdog-t0065.vip^
 ||1.bmkjku09.cc^
 ||ebb22.922-992.icu^
+||xa1jgfbdlwf2ncxq.410021.com^
+||xa1jgfbdlwf2ncxq.730567.com^
 ||ysh103.qgphj.cn^
 ||bd666.ahtdqlz.cn^
 ||1212.ehgssdg.cn^
