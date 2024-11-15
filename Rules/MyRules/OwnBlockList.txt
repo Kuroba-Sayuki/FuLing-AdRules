@@ -72,13 +72,16 @@
 ||static.ads-twitter.com^
 ||ads-api.twitter.com^
 
-# 拦截钓鱼网站＆色情广告＆赌博广告
+# 拦截钓鱼网站＆色情广告＆赌博广告＆广告布局接口
 ! 均为视频网站、小说网站、漫画网站抓取
 ||*.oneliner.cn^
 ||*.poeme.cn^
 ||*.bjnxo.cn^
 ||*.phire.cn^
 ||1813dc.wifwroi.com^
+||1515.5z6h6b.cn^
+||15e87c0802f91cf8cgg.80ritc.com^
+||15e87c0802f91cf8cgcc.v4v6v4.com^
 ||180c606c059312e8cdcc.dmcduio.com^
 ||cbu01.alicdn.com^
 ||65564535.com^
@@ -86,6 +89,8 @@
 ||qps.000aaap2023.com^
 ||tm25.dreamkeep.vip^
 ||www.ht262op.vip^
+||mcov.yinghua-t0384.cc^
+||tiandiren0031.xyz^
 ||nv2qlk-40w30k1lf6vs-067.giqnyl.cn^
 ||ouc4iy-0a59od2g3jb8-067.giqnyl.cn^
 ||www.wcnwvz.xyz^
@@ -108,6 +113,8 @@
 ||g0655j-iszqt5o52zee-022.ifllqc.cn^
 ||orji25-4kjfm2lj3q8b-022.ifllqc.cn^
 ||xrhf.taimei-t336.vip^
+||htcqlpsfhl4.xyz^
+||jyno057.top^
 ||ds4x53xfg4f53gh453h.top^
 ||cp.758758.xyz^
 ||i670.cimumusic.com^
@@ -127,6 +134,8 @@
 ||3ruy83-kafk0atam05o-020.qgivvd.cn^
 ||fc5lvs-offaoqqirk8y-020.qgivvd.cn^
 ||tz2wh2-0yxxravpwgy1-020.qgivvd.cn^
+||ij35.yinghua-t0384.cc^
+||www.mt542ml.vip^
 ||8f1s.mm51-tneb1555.cc^
 ||r82tmbfb7qgeawsf.oz8xhen.top^
 ||jishu.zxmx.net^
@@ -155,6 +164,9 @@
 ||yqs66.82098999.com^
 ||www.nleljf.xyz^
 ||361.trafficmanager.net^
+||bali351.leeuvl.cn^
+||wyd628.pevdwb.cn^
+||hzdh1114.izeokt.cn^
 ||www.mt30ml.vip^
 ||tj4.czpnpjrg.xyz^
 ||nwgfzjdjhm2.xyz^
@@ -175,6 +187,8 @@
 ||200kp.vip^
 ||jwhk.hfbqet.cn^
 ||www.liwbei.cn^
+||yt1115.gbjluf.cn^
+||dcivlv.kweisid.top^
 ||b5zzr.cc^
 ||2lc8.vip^
 ||p.rzlp.xyz^
@@ -209,6 +223,9 @@
 ||muzy99.top^
 ||rpdi192.icu^
 ||df101.qckkz.cn^
+||dciclc.kweisid.top^
+||99.o2in8un5qlkj533twx.com^
+||cdn.004999.xyz^
 ||ml102.whpnd.cn^
 ||tlmlt.yuwenxuexizazhi.com^
 ||20.qcsxjvc.cn^

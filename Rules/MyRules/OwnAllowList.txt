@@ -262,8 +262,11 @@
 # 放行葫芦侠相关内容
 @@||huluxia.com^
 
-# 放行草料二维码页面跳转
-@@||targurl.clewm.net^
+# 放行草料二维码相关内容
+! 官网
+@@||cli.im^
+! 网页布局
+@@||static.clewm.net^
 
 # 放行奇妙应用应用图标加载＆预览图加载
 @@||p0.meituan.net^
@@ -511,6 +514,12 @@
 @@||img02.sogoucdn.com^
 @@||img03.sogoucdn.com^
 @@||img04.sogoucdn.com^
+
+# 放行戴尔相关内容
+! 官网
+@@||www.dell.com^
+! 网页图片
+@@||i.dell.com^
 
 
 #**************#
@@ -1866,6 +1875,9 @@
 # 放行Miraheze官网Logo＆网页图片
 ! Degrees of Lewdity的官方中文维基图片加载
 @@||static.miraheze.org^
+
+# 放行Porkbun「猪肉包」域名官网
+@@||porkbun.com^
 
 # 放行养猪场官网
 @@||xn--l6qx3l9s1a.com^
