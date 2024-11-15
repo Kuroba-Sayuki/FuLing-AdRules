@@ -717,8 +717,11 @@
 # 放行Google搜索移动端相关内容
 ! 网页提示登录时的Logo
 @@||fonts.gstatic.com^
-! 搜索结果内容预览图片接口
+! 搜索结果内容预览图片接口＆平台Logo加载
 @@||encrypted-tbn0.gstatic.com^
+@@||encrypted-tbn1.gstatic.com^
+@@||encrypted-tbn2.gstatic.com^
+@@||encrypted-tbn3.gstatic.com^
 
 # 放行Google reCAPTCHA验证接口（人机身份验证）
 ! 同时也是Pixiv登录时的验证接口
@@ -2176,19 +2179,16 @@
 # 放行Zod论坛
 @@||zodgame.xyz^
 
-# 放行动漫在线观看网站
+# 放行H动漫相关内容
 ! 主站
 @@||hanime1.me^
-! 影片标签
-@@||img4.qy0.ru^
 ! 特殊按钮加载
 @@||fonts.googleapis.com^
-! 视频加载前置
-@@||cdn.plyr.io^
-! 视频播放接口
-@@||vdownload-*.sb-cd.com^
-@@||cdn5-videos.motherlessmedia.com^
-@@||abre-videos.cdn1122.com^
+! 作者头像加载
+@@||c.fantia.jp^
+@@||img.kemono.su^
+@@||thumbs2.imgbox.com^
+@@||images2.imgbox.com^
 
 # 放行哔咔相关内容
 ! 主站
@@ -2202,6 +2202,9 @@
 ! 部分广告与主页同域名
 @@||www.wnacg.com^
 
+# 放行Browse「BT磁力下载站」官网
+@@||sukebei.nyaa.si^
+
 # 放行E站
 ! 表站
 @@||e-hentai.org^
@@ -2212,11 +2215,20 @@
 ! 资源下载网站跳转
 @@||ehtracker.org^
 
+# 放行妄想族相关内容
+! 官网
+@@||www.mousouzoku-av.com^
+! 视频预览
+@@||cc3001.dmm.co.jp^
+
 # 放行字母圈番号网站
 @@||bdsmtv.cc^
 
 # 放行字母圈属性测试网站
 @@||bdsmtest.org^
+
+# 放行XANIME官网
+@@||www.xanimeporn.com^
 
 # 放行Nhentai漫画网加载
 @@||nhentai.net^
