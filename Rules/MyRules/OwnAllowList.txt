@@ -1165,7 +1165,14 @@
 ! 听书智能朗读接口
 @@||v3-fq-tts.fqnovelvod.com^
 @@||v6-fq-tts.fqnovelvod.com^
+@@||v11-fq-tts.fqnovelvod.com^
 @@||v26-fq-tts.fqnovelvod.com^
+! 听书真人讲书接口
+! 倘若下方放行链接后，有个别音频无法播放，可使用通配符进行放行。
+! @@||v*-novelapp.fqnovelvod.com^
+@@||v3-novelapp.fqnovelvod.com^
+@@||v5-novelapp.fqnovelvod.com^
+@@||v26-novelapp.fqnovelvod.com^
 
 # 放行番茄畅听相关内容
 ! 官网
@@ -1174,6 +1181,10 @@
 @@||www.novelfm.com^
 ! Android Apk下载页面
 @@||novelfm.zlink.toutiao.com^
+! 书籍封面接口＆用户头像接口
+@@||p3-novelfm-sign.novelfmpic.com^
+@@||p6-novelfm-sign.novelfmpic.com^
+@@||p9-novelfm-sign.novelfmpic.com^
 
 
 #******************#
@@ -1330,6 +1341,17 @@
 ! 下载App时的跳转接口
 @@||ugurl.cn^
 
+# 放行优酷视频相关内容
+! 官网
+@@||www.youku.com^
+! 网页端影视封面加载
+! 静态封面＆动态封面
+@@||m.ykimg.com^
+@@||liangcang-material.alicdn.com^
+! 手机网页端视频接口
+! 拦截后显示「视频播放失败」
+@@||vali01.cp31.ott.cibntv.net^
+
 
 #**************#
 # 腾讯放行规则 #
@@ -1425,6 +1447,8 @@
 @@||qzonestyle.gtimg.cn^
 ! QQ日签卡图片加载
 @@||tianshu.gtimg.cn^
+! QQ表情包加载
+@@||i.gtimg.cn^
 
 # 放行QQ音乐相关内容
 ! 听歌时长记录

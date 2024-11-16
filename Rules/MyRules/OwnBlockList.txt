@@ -16,6 +16,9 @@
 # 拦截小米主题3.3.3.0广告界面加载
 ||lite.a.market.xiaomi.com^
 
+# 拦截大象驾到APP广告接口
+||*ad.adbkwai.com^
+
 # 拦截飞鸟听书相关广告
 ! 弹窗广告＆看视频广告
 ! 巨量API
