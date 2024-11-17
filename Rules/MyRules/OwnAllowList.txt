@@ -1168,7 +1168,7 @@
 @@||v11-fq-tts.fqnovelvod.com^
 @@||v26-fq-tts.fqnovelvod.com^
 ! 听书真人讲书接口
-! 倘若下方放行链接后，有个别音频无法播放，可使用通配符进行放行。
+! 倘若下方链接放行后，有个别音频无法播放，可使用通配符进行放行。
 ! @@||v*-novelapp.fqnovelvod.com^
 @@||v3-novelapp.fqnovelvod.com^
 @@||v5-novelapp.fqnovelvod.com^
@@ -2208,7 +2208,15 @@
 @@||hanime1.me^
 ! 特殊按钮加载
 @@||fonts.googleapis.com^
-! 作者头像加载
+! 影片标签封面
+@@||img4.qy0.ru^
+! 按钮图标＆视频封面
+@@||vdownload.hembed.com^
+! 视频播放接口
+@@||vdownload-*.sb-cd.com^
+! 用户头像加载
+@@||i.imgur.com^
+! 新加入作者头像加载
 @@||c.fantia.jp^
 @@||img.kemono.su^
 @@||thumbs2.imgbox.com^
