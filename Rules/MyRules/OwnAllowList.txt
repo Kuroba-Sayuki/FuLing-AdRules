@@ -1906,6 +1906,17 @@
 # 放行Porkbun「猪肉包」域名官网
 @@||porkbun.com^
 
+# 放行BitLy短链接平台相关内内容
+! 官网
+@@||bitly.com^
+! 网页布局
+@@||docrdsfx76ssb.cloudfront.net^
+! 特殊网页布局
+! 拦截后「登录界面白屏」
+@@||d1ayxb9ooonjts.cloudfront.net^
+! 短链接接口
+@@||bit.ly^
+
 # 放行养猪场官网
 @@||xn--l6qx3l9s1a.com^
 
@@ -2067,6 +2078,9 @@
 
 # 放行迷你世界官网
 @@||www.mini1.cn^
+
+# 放行星欲少女官网
+@@||starlusts.com^
 
 
 #**************#
@@ -2490,8 +2504,17 @@
 @@||siwazywcdn2.com^
 @@||ddyunbo.com^
 
-# 放行工口实验室及其图片加载
+# 放行工口.R18相关内容
+! 官网
 @@||www.54647.io^
-@@||l.epvkjs.com^
-@@||res-r.lfjack.com^
+! 页面图片＆游戏封面＆下载接口
+@@||resfile.lixincsb.com^
+! 游戏详情页面介绍视频接口
+@@||resmedi.lixincsb.com^
+
+# 放行工口实验室相关内容
+! 官网
+@@||www.ero-labs.com^
+! 页面图片＆游戏封面＆下载接口＆介绍视频接口
+@@||res-r.qingjiaota.com^
 
