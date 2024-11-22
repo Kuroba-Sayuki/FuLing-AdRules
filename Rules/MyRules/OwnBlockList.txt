@@ -92,9 +92,9 @@
 ||*.ppfu3m.com^
 ||*.v4v6v4.com^
 ||*.mise*.buzz^
-||bbcbbi.*.com^
 ||*.p3q0tt.com^
-||*.ppfu3m.com^
+||*.x586di.com^
+||bbcbbi.*.com^
 ||*.oneliner.cn^
 ||*.oweisik.top^
 ||*.uweisit.top^
@@ -109,7 +109,6 @@
 ||xa1jgfbdlwf2ncxq.*.com^
 ||*.jennylisnerphotography.com^
 
-
 # 拦截钓鱼网站＆色情广告＆赌博广告
 ! 均为视频网站、小说网站、漫画网站抓取
 ||www.mt552ml.vip^
@@ -117,6 +116,7 @@
 ||1813dc.wifwroi.com^
 ||cbu01.alicdn.com^
 ||65564535.com^
+||3.31xx4325a.cc^
 ||91.yelang8.cc^
 ||qbb.087www2.cc^
 ||qps.000aaap2023.com^
@@ -371,8 +371,6 @@
 ||1212.ehgssdg.cn^
 ||kk1744234844.bpmzabw.cn^
 ||zbgptdfwpt7.xyz^
-||226910mc.wfojsm.com^
-||2217.x586di.com^
 ||ss1744406792.jdjdjdc.cn^
 ||22cdocker402.com^
 ||2217ccs.cdocker402.com^
