@@ -87,6 +87,8 @@
 ||*.fokm37.cn^
 ||*.ul2tos.cn^
 ||*.anhuyj.cn^
+||www.mt*.vip^
+||www.ht*.vip^
 ||*.wfojsm.com^
 ||*.80ritc.com^
 ||*.ppfu3m.com^
@@ -111,8 +113,8 @@
 
 # 拦截钓鱼网站＆色情广告＆赌博广告
 ! 均为视频网站、小说网站、漫画网站抓取
-||www.mt552ml.vip^
-||www.mt338ti.vip^
+||www.002st.top^
+||www.a50xf.com^
 ||1813dc.wifwroi.com^
 ||cbu01.alicdn.com^
 ||65564535.com^
@@ -121,33 +123,21 @@
 ||qbb.087www2.cc^
 ||qps.000aaap2023.com^
 ||668in.vip^
-||www.mt545ml.vip^
 ||tm25.dreamkeep.vip^
-||www.ht262op.vip^
 ||tiandiren0031.xyz^
-||www.wcnwvz.xyz^
 ||xrhf.taimei-t546.vip^
 ||lq.jajcstf.xyz^
 ||bob4892.com^
 ||9983x.com:8055^
-||www.mt329ti.vip^
 ||552aaa.us^
-||www.002st.top^
 ||t16-fghgdf.com^
-||www.mt283ti.vip^
-||www.qygvip410.com^
-||www.ivjkkq.xyz^
 ||3.hlg102a.cc^
 ||yt1119.yytphq.cn^
 ||aaa.za1.maetg.cn^
-||www.mt22ml.vip^
-||www.mt391cc.vip^
-||www.ht52op.vip^
 ||xrhf.taimei-t336.vip^
 ||htcqlpsfhl4.xyz^
 ||jyno057.top^
 ||118.pkvgbk.com^
-||www.xhsrt588.vip^
 ||cpwpmql.icu^
 ||4.ahiae.com^
 ||ds4x53xfg4f53gh453h.top^
@@ -157,7 +147,6 @@
 ||gd102.rdcyr.cn^
 ||mm.91204.icu^
 ||hchh.capmvb.net^
-||www.leslfm.top^
 ||ent.lpvbupak.shop^
 ||i4dx.dy03bw0.pro^
 ||2235c106d6484fb30gcc.fokm37.cn^
@@ -168,7 +157,6 @@
 ||xbax.dt64g8m.pro^
 ||eff14.914-991.icu^
 ||am.bwaa301.icu^
-||www.mt542ml.vip^
 ||8f1s.mm51-tneb1555.cc^
 ||r82tmbfb7qgeawsf.oz8xhen.top^
 ||jishu.zxmx.net^
@@ -178,6 +166,8 @@
 ||s2rkge.vmgikpw.com^
 ||hvdswb.tnhjwrs.com^
 ||df101.drbdlx.cn^
+||www.vexd8.com^
+||www.wcnwvz.xyz^
 ||gxck8pbkcv.ricci-liu.com^
 ||jrl0w.hljxmt.com^
 ||cdn.uaa010.com^
@@ -188,13 +178,9 @@
 ||xjlwz.eplwgq.cn^
 ||9dg6a.xyz^
 ||k5567.vip^
-||www.ky6895.com^
-||www.btebgl.xyz^
 ||jx102.bldmx.cn^
 ||facai103.ytzjbf.cn^
 ||qq17.toytoy.xyz^
-||www.a50xf.com^
-||www.vexd8.com^
 ||xiaorongyan.com^
 ||syzbd57.com^
 ||kwc.kbuu217.cc^
@@ -207,15 +193,12 @@
 ||wed1.fxqzaoa.cn^
 ||24511.nianlia.com^
 ||xlmwp.zxhychina.com^
-||www.xhsrt47.vip^
 ||ktx769.cc^
 ||yqs66.82098999.com^
-||www.nleljf.xyz^
 ||361.trafficmanager.net^
 ||bali351.leeuvl.cn^
 ||wyd628.pevdwb.cn^
 ||hzdh1114.izeokt.cn^
-||www.mt30ml.vip^
 ||tj4.czpnpjrg.xyz^
 ||n3fy6kdi.goukaize.top^
 ||oj5296.xxin97.com^
@@ -223,6 +206,7 @@
 ||ssasa.dvclw.cn^
 ||fttiw.bvcmsw.cn^
 ||bw102.gtrztm.cn^
+||ky308989.vip^
 ||lt.shuinn7.top^
 ||3z5m.live^
 ||bl100.tcahto.cn^
@@ -232,6 +216,8 @@
 ||kcybtc.ezzgnn.info^
 ||jsz6666.dhgycl.cn^
 ||e5m2gp.sujev.cn^
+||auwcgbl.com^
+||ufengjnskl.com^
 ||tp4sul.jwzd.com.cn^
 ||henanpenqitu.com^
 ||200kp.vip^
@@ -248,6 +234,8 @@
 ||image2.printstation8.com^
 ||495qp188.com^
 ||ah.bwaa301.icu^
+||www.ivjkkq.xyz^
+||www.leslfm.top^
 ||gaszfc.moo39829.net^
 ||serty.ktllbb.com^
 ||t4uz.td28ese.pro^
@@ -259,6 +247,7 @@
 ||st131657.syxiangguang.com^
 ||mv71.top^
 ||f5eecd2.vfyrehthw.top^
+||www.199221.top^
 ||xypcr-1-8-new01.grejskx.com^
 ||xtu224.com^
 ||8b7txop.scbt.asia^
@@ -275,6 +264,7 @@
 ||ouj.vtqccm.com^
 ||jdb8391c8da5deet.ch4jmut9c.com^
 ||aqaas.dsimpkr.cn^
+||www.xhsrt47.vip^
 ||mt131840.aishanglight.com^
 ||yj101.nkfkm.cn^
 ||yt102.nlfmf.cn^
@@ -291,6 +281,7 @@
 ||xshp.tiaoeng9djh.com^
 ||ww-7o1-0h.os.23v7m9.cc^
 ||muzy99.top^
+||www.nleljf.xyz^
 ||rpdi192.icu^
 ||df101.qckkz.cn^
 ||dciclc.kweisid.top^
@@ -306,7 +297,6 @@
 ||ccs.cdocker401.com^
 ||jsuxnaoa.srlrjvz.com^
 ||bbggg1119.zdqa3.com^
-||www.htqe96.vip^
 ||ylmlt.nyaifusheng.com^
 ||ze516.xyz^
 ||txx99.top^
@@ -325,6 +315,7 @@
 ||2034kp.vip^
 ||www.kp12a.top^
 ||85795.today^
+||3377539.app^
 ||app.bobobo65.icu^
 ||tgd54.xyz^
 ||bela23.pgznt.cn^
@@ -339,6 +330,8 @@
 ||chulian.gfowedy.cn^
 ||wrx.lesson99.com^
 ||cfcffnhqqaibabwt.ber3.xyz^
+||hfisngksng.com^
+||ttok09.com^
 ||d3.sz7yo.com^
 ||1.olybvun.cc^
 ||api.aoao11221iis.top^
@@ -364,6 +357,8 @@
 ||www.iwttbz.xyz^
 ||jcen.avdog-t0065.vip^
 ||1.bmkjku09.cc^
+||www.ky6895.com^
+||www.btebgl.xyz^
 ||ebb22.922-992.icu^
 ||ysh103.qgphj.cn^
 ||upload.xchina.biz^
@@ -388,7 +383,6 @@
 ||99.gn5m0bnwzvkndnoygn.com^
 ||ggeu.ditiehunlian.com^
 ||1yze.taimei-t373.vip^
-||www.mt399cc.vip^
 ||g105ryj105.cfd^
 ||mc.bwaa011.top^
 ||ung73.top^
@@ -401,6 +395,8 @@
 ||22wap.jiezibook.cn^
 ||eff.005www11w.top^
 ||yt1117.yotnqh.cn^
+||www.xhsrt588.vip^
+||www.qygvip410.com^
 ||jnc7d034.top^
 ||20128ohjyzlcc.38ljkoi.xyz^
 ||da5.adfsda005.xyz^
