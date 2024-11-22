@@ -1829,6 +1829,12 @@
 ! 分站
 @@||ghp.ci^
 
+# 放行Jsdelivr相关内容
+! 官网
+@@||www.jsdelivr.com^
+! CDN接口＆网页特殊布局
+@@||cdn.jsdelivr.net^
+
 # 放行Heroku容器
 @@||heroku.com^
 
