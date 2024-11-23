@@ -19,6 +19,9 @@
 # 拦截大象驾到APP广告接口
 ||*ad.adbkwai.com^
 
+# 拦截蓝狐视频APP广告API
+||api.admange.com^
+
 # 拦截飞鸟听书相关广告
 ! 弹窗广告＆看视频广告
 ! 巨量API
@@ -105,11 +108,13 @@
 ||*.dmcduio.com^
 ||*.evqvxuq.com^
 ||*.bgbjjtd.com^
+||*.bidjora.com^
 ||*.yinghua-*.cc^
 ||*.aliyuncsslb.com^
 ||*.aliyuncsslbintl.com^
 ||xa1jgfbdlwf2ncxq.*.com^
 ||*.jennylisnerphotography.com^
+||*-*.ap-east-1.elb.amazonaws.com^
 
 # 拦截钓鱼网站＆色情广告＆赌博广告
 ! 均为视频网站、小说网站、漫画网站抓取
@@ -135,6 +140,8 @@
 ||yt1119.yytphq.cn^
 ||aaa.za1.maetg.cn^
 ||xrhf.taimei-t336.vip^
+||1206q3-giqvvwa1jie9-017.cbhdmir.cn^
+||jx5l78-wqt3wjfhuvpn-017.jmolpv.cn^
 ||htcqlpsfhl4.xyz^
 ||jyno057.top^
 ||118.pkvgbk.com^
@@ -241,6 +248,7 @@
 ||t4uz.td28ese.pro^
 ||hkgryazmc.pubend81372.vip^
 ||jihq.mm51-tbsg1542.cc^
+||gu627mo8.33slthiy.vip^
 ||226910mg.obj23q.com^
 ||sadsaxd.nlkmp.com^
 ||2.52gao393.cc^
@@ -309,7 +317,6 @@
 ||g7h69h29cx.com^
 ||m3hual.89doc.com^
 ||gpanaiagcsnvtggh.cwt3.xyz^
-||189d03d7feb2df42bdc.bidjora.com^
 ||1814.dkhwyzv.com^
 ||180rgwee.com^
 ||2034kp.vip^
@@ -331,6 +338,8 @@
 ||wrx.lesson99.com^
 ||cfcffnhqqaibabwt.ber3.xyz^
 ||hfisngksng.com^
+||jf0qw.cc^
+||n669p.top^
 ||ttok09.com^
 ||d3.sz7yo.com^
 ||1.olybvun.cc^
@@ -359,6 +368,8 @@
 ||1.bmkjku09.cc^
 ||www.ky6895.com^
 ||www.btebgl.xyz^
+||abgr2x.aprewf.cn^
+||vj9cq8.mpyisx.cn^
 ||ebb22.922-992.icu^
 ||ysh103.qgphj.cn^
 ||upload.xchina.biz^
@@ -395,9 +406,12 @@
 ||22wap.jiezibook.cn^
 ||eff.005www11w.top^
 ||yt1117.yotnqh.cn^
+||kmf87.top^
+||08241fb.hpa163.nl^
 ||www.xhsrt588.vip^
 ||www.qygvip410.com^
 ||jnc7d034.top^
 ||20128ohjyzlcc.38ljkoi.xyz^
 ||da5.adfsda005.xyz^
+||www.qqssvyk368.vip^
 

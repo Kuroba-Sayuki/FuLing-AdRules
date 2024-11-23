@@ -2496,7 +2496,9 @@
 !主站
 @@||missav.com^
 @@||njavtv.com^
-! 视频封面
+! 网页布局
+@@||client-rapi-missav.recombee.com^
+! 视频封面＆视频动态预览
 @@||fivetiu.com^
 ! 视频播放接口
 @@||surrit.com^
