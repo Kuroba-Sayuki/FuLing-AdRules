@@ -99,12 +99,15 @@
 ||*.mise*.buzz^
 ||*.p3q0tt.com^
 ||*.x586di.com^
+||*.hrdhej.xyz^
 ||bbcbbi.*.com^
 ||*.oneliner.cn^
 ||*.oweisik.top^
 ||*.uweisit.top^
 ||*.3r5ia7l.xyz^
 ||*.8vx3zks.xyz^
+||*.3dqvcli.xyz^
+||*.f1k4eil.xyz^
 ||*.dmcduio.com^
 ||*.evqvxuq.com^
 ||*.bgbjjtd.com^
@@ -148,6 +151,8 @@
 ||cpwpmql.icu^
 ||4.ahiae.com^
 ||ds4x53xfg4f53gh453h.top^
+||24441mcsjcc.wcald72.xyz^
+||facai103.vqoorz.cn^
 ||cp.758758.xyz^
 ||i670.cimumusic.com^
 ||2.jxx2502a.cc^
@@ -179,6 +184,8 @@
 ||jrl0w.hljxmt.com^
 ||cdn.uaa010.com^
 ||asgsd.s5f4aq29.top^
+||lulu.sqznt.cn^
+||yj103.llroax.cn^
 ||xfacai103.wuuorz.cn^
 ||a727a2.htpwoc488m.xyz^
 ||i3fei057.top^
@@ -210,6 +217,8 @@
 ||n3fy6kdi.goukaize.top^
 ||oj5296.xxin97.com^
 ||nwgfzjdjhm2.xyz^
+||ok.8358211.cc^
+||yes.8356654.cc^
 ||ssasa.dvclw.cn^
 ||fttiw.bvcmsw.cn^
 ||bw102.gtrztm.cn^
@@ -246,6 +255,8 @@
 ||gaszfc.moo39829.net^
 ||serty.ktllbb.com^
 ||t4uz.td28ese.pro^
+||2018.a48699053.top^
+||83082308.com^
 ||hkgryazmc.pubend81372.vip^
 ||jihq.mm51-tbsg1542.cc^
 ||gu627mo8.33slthiy.vip^
@@ -278,6 +289,8 @@
 ||yt102.nlfmf.cn^
 ||cqmf.mm51-tknm1582.vip^
 ||dme.lchzwz.com^
+||ugfe111.top^
+||vds82e.sejqb.com^
 ||nf2y.yt-twbg1523.vip^
 ||axcs.ashcnq.cn^
 ||www.hovcu4.top^
@@ -314,6 +327,8 @@
 ||pcmlll.nyriidul.com^
 ||oqissyeygvnnhigj.ayh3.xyz^
 ||izicai.xyz^
+||n528m1.tyromn.com^
+||www.ocfgaa.xyz^
 ||g7h69h29cx.com^
 ||m3hual.89doc.com^
 ||gpanaiagcsnvtggh.cwt3.xyz^
@@ -403,6 +418,8 @@
 ||lni8ivfm.dzxxtdub.com^
 ||xh990214c.llpstudy.top^
 ||2024111518.xiaoyaoge25.top^
+||gahhs029.top^
+||i3oof030.top^
 ||22wap.jiezibook.cn^
 ||eff.005www11w.top^
 ||yt1117.yotnqh.cn^
@@ -414,4 +431,7 @@
 ||20128ohjyzlcc.38ljkoi.xyz^
 ||da5.adfsda005.xyz^
 ||www.qqssvyk368.vip^
+||25.y25718211.vip^
+||24cdocker402.com^
+||kk2417456.pgszp.cn^
 

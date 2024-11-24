@@ -1923,6 +1923,9 @@
 ! 短链接接口
 @@||bit.ly^
 
+# 放行NodeSeek论坛
+@@||www.nodeseek.com^
+
 # 放行养猪场官网
 @@||xn--l6qx3l9s1a.com^
 
