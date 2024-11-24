@@ -111,6 +111,8 @@
 ||*.dmcduio.com^
 ||*.evqvxuq.com^
 ||*.bgbjjtd.com^
+||*.dtsmndu.com^
+||*.javadvi.com^
 ||*.bidjora.com^
 ||*.yinghua-*.cc^
 ||*.aliyuncsslb.com^
@@ -127,6 +129,8 @@
 ||cbu01.alicdn.com^
 ||65564535.com^
 ||3.31xx4325a.cc^
+||loje863.cc^
+||k2.ofodai.com^
 ||91.yelang8.cc^
 ||qbb.087www2.cc^
 ||qps.000aaap2023.com^
@@ -147,6 +151,8 @@
 ||jx5l78-wqt3wjfhuvpn-017.jmolpv.cn^
 ||htcqlpsfhl4.xyz^
 ||jyno057.top^
+||ss72269.com^
+||gmtrf6.vip^
 ||118.pkvgbk.com^
 ||cpwpmql.icu^
 ||4.ahiae.com^
@@ -176,6 +182,8 @@
 ||701110.xyz^
 ||9xpi49.tnhkwrs.com^
 ||s2rkge.vmgikpw.com^
+||pvam2e.zxtld.com^
+||ztstn.020kqy.com^
 ||hvdswb.tnhjwrs.com^
 ||df101.drbdlx.cn^
 ||www.vexd8.com^
@@ -196,6 +204,8 @@
 ||facai103.ytzjbf.cn^
 ||qq17.toytoy.xyz^
 ||xiaorongyan.com^
+||erwdesf.com^
+||kfkg280.pro^
 ||syzbd57.com^
 ||kwc.kbuu217.cc^
 ||xhw13.top^
@@ -218,6 +228,7 @@
 ||oj5296.xxin97.com^
 ||nwgfzjdjhm2.xyz^
 ||ok.8358211.cc^
+||ok.8358137.cc^
 ||yes.8356654.cc^
 ||ssasa.dvclw.cn^
 ||fttiw.bvcmsw.cn^
@@ -233,6 +244,8 @@
 ||jsz6666.dhgycl.cn^
 ||e5m2gp.sujev.cn^
 ||auwcgbl.com^
+||df101.gqtbt.cn^
+||ksss3482.ppdzl.cn^
 ||ufengjnskl.com^
 ||tp4sul.jwzd.com.cn^
 ||henanpenqitu.com^
@@ -256,6 +269,8 @@
 ||serty.ktllbb.com^
 ||t4uz.td28ese.pro^
 ||2018.a48699053.top^
+||zz101.ufueng.cn^
+||1hkv85.gdxlks.cn^
 ||83082308.com^
 ||hkgryazmc.pubend81372.vip^
 ||jihq.mm51-tbsg1542.cc^
@@ -276,6 +291,8 @@
 ||m.bqg16.cc^
 ||3.bdvwityy.cc^
 ||49lq.mm51-tvhn1767.vip^
+||skej236.icu^
+||www.v6hfl4.top^
 ||df101.mpsysd.cn^
 ||aaa.za1.cfykd.cn^
 ||nfgnxkd.top^
@@ -298,6 +315,8 @@
 ||177638.com^
 ||yyds.vip-01.top^
 ||a.91037.icu^
+||5845.b58456413.com^
+||www.gg86639.vip^
 ||api.aoao11190iis.top^
 ||xshp.tiaoeng9djh.com^
 ||ww-7o1-0h.os.23v7m9.cc^
@@ -360,7 +379,6 @@
 ||1.olybvun.cc^
 ||api.aoao11221iis.top^
 ||www.mnogri.xyz^
-||1916.javadvi.com^
 ||ts1706351603.inlbsid.cn^
 ||pcmlll.srlrjvz.com^
 ||apk2.jingpengpeixun.xyz^
