@@ -559,14 +559,18 @@
 @@||cg.163.com^
 
 # 放行网易邮箱相关内容
-! 163邮箱
+! 163邮箱官网
 @@||mail.163.com^
-! 126邮箱
+! 126邮箱官网
 @@||www.126.com^
-! yeah邮箱
+! yeah邮箱官网
 @@||yeah.163.com^
-! 企业邮箱
+! 免费企业邮箱官网
+@@||ym.163.com^
+! 企业邮箱官网
 @@||qiye.163.com^
+! 企业邮箱登录入口
+@@||qy.163.com^
 ! 进入网页版邮箱跳转
 @@||dl.reg.163.com^
 ! 下载页面跳转
@@ -698,6 +702,9 @@
 ! 客户端连接接口
 ! 拦截后打开客户端显示「网络连接失败」
 @@||fcount-api.webapp.163.com^
+
+# 放行网易体育网
+@@||sports.163.com^
 
 
 #****************#
@@ -848,8 +855,14 @@
 # 购物平台放行规则 #
 #******************#
 # 放行淘宝相关内容
+! 官网
+@@||www.taobao.com^
+! 移动端官网
+@@||main.m.taobao.com^
 ! 登录接口
 @@||login.taobao.com^
+! 移动端登录接口
+@@||login.m.taobao.com^
 ! 页面布局
 @@||o.alicdn.com^
 ! 网页加载
@@ -862,8 +875,12 @@
 @@||cloud.video.taobao.com^
 ! 移动网页端首页
 @@||main.m.taobao.com^
+! 移动网页端商品详情页跳转接口
+@@||h5.m.taobao.com^
 ! 移动网页端商品加载
 @@||h5api.m.taobao.com^
+! 移动端商品详情页用户头像加载
+@@||sns.m.taobao.com^
 ! 客服小蜜连接接口
 ! 拦截会导致无法发送消息，并提示欢迎回来，请重新连接。
 @@||im.alimebot.taobao.com^
@@ -873,7 +890,10 @@
 @@||www.pinduoduo.com^
 ! 移动端官网
 @@||m.pinduoduo.com^
-! 移动端官网顶部宣传图
+! 移动端网页布局
+! 拦截后「打开网页白屏」
+@@||mcdn.pinduoduo.com^
+! 移动端官网顶部宣传图＆官网页面布局
 @@||cdn.pinduoduo.com^
 ! 移动端官网顶部宣传图跳转
 @@||lp.pinduoduo.com^
@@ -892,6 +912,13 @@
 @@||video2.pddpic.com^
 
 # 放行京东相关内容
+! 官网
+@@||www.jd.com^
+! 移动端官网
+! 同时也是官网的商品加载接口
+@@||m.jd.com^
+! 官网登录界面网页布局
+@@||storage.jd.com^
 ! 首页内容加载
 @@||wl.jd.com^
 ! 网页版加载
@@ -901,6 +928,9 @@
 ! 商品页面前的跳转
 @@||wk.idey.cn^
 @@||union-click.jd.com^
+! 商品介绍接口
+! 拦截后「一直商品介绍加载中」
+@@||static.360buyimg.com^
 ! 商品图片及其各种图
 ! 参考：https://h5.jd.com/article/247.html
 @@||img10.360buyimg.com^
@@ -946,12 +976,17 @@
 @@||feentry.zhuanzhuan.com^
 ! App首页
 @@||app.zhuanzhuan.com^
-! App商品页
+! App商品页＆移动端官网
 @@||m.zhuanzhuan.com^
 ! App卖闲置页面及其他页面
 @@||act.zhuanzhuan.com^
 
-# 放行闲鱼支付宝授权身份验证
+# 放行闲鱼相关内容
+! 官网
+@@||www.goofish.com^
+! 登录接口
+@@||passport.goofish.com^
+! APP支付宝授权身份验证接口
 ! 可能还是淘宝授权的接口
 @@||market.m.taobao.com^
 
@@ -1191,6 +1226,10 @@
 # 视频平台放行规则 #
 #******************#
 # 放行哔哩哔哩相关内容
+! 官网
+@@||www.bilibili.com^
+! 移动端官网
+@@||m.bilibili.com^
 ! 网页端评论区未登录时左侧小头像
 @@||static.hdslb.com^
 ! 网页端动态加载
@@ -1356,7 +1395,7 @@
 #**************#
 # 腾讯放行规则 #
 #**************#
-#放行腾讯成长守护平台
+# 放行腾讯成长守护平台
 ! 腾讯健康系统
 @@||jiazhang.qq.com^
 
@@ -1479,6 +1518,9 @@
 @@||inews.gtimg.com^
 ! PC端右上角扫码关注二维码
 @@||qcloudimg.tencent-cloud.cn^
+
+# 放行腾讯域名信息「WHOIS」查询官网
+@@||whois.cloud.tencent.com^
 
 # 放行腾讯文档文件Logo
 @@||docs.idqqimg.com^
