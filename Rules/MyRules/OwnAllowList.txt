@@ -875,10 +875,10 @@
 @@||cloud.video.taobao.com^
 ! 移动网页端首页
 @@||main.m.taobao.com^
+! 移动网页端商品加载接口
+@@||h5api.m.taobao.com^
 ! 移动网页端商品详情页跳转接口
 @@||h5.m.taobao.com^
-! 移动网页端商品加载
-@@||h5api.m.taobao.com^
 ! 移动端商品详情页用户头像加载
 @@||sns.m.taobao.com^
 ! 客服小蜜连接接口
@@ -893,10 +893,14 @@
 ! 移动端网页布局
 ! 拦截后「打开网页白屏」
 @@||mcdn.pinduoduo.com^
-! 移动端官网顶部宣传图＆官网页面布局
+! 移动端顶部宣传图＆官网页面布局
 @@||cdn.pinduoduo.com^
-! 移动端官网顶部宣传图跳转
+! 移动端顶部宣传图跳转接口
 @@||lp.pinduoduo.com^
+! 移动端精品分类图标
+@@||img.pddpic.com^
+@@||commimg.pddpic.com^
+@@||t*img.yangkeduo.com^
 ! APP下载页面
 @@||download.pinduoduo.com^
 ! APP下载页面布局
@@ -908,6 +912,17 @@
 @@||static.pddpic.com^
 ! 页面端商品跳转网页图片
 @@||funimg.pddpic.com^
+! 批发官网
+@@||pifa.pinduoduo.com^
+! 批发移动端官网
+@@||mms.pinduoduo.com^
+! 批发网页布局
+! 拦截后「打开网页空白」
+@@||mms-static.pddpic.com^
+! 商家版官网
+@@||mai.pinduoduo.com^
+! 商家版网页布局
+@@||mms-static.pinduoduo.com^
 ! App内商品评价视频加载
 @@||video2.pddpic.com^
 
@@ -984,6 +999,11 @@
 # 放行闲鱼相关内容
 ! 官网
 @@||www.goofish.com^
+! 商品加载接口
+! 拦截后首页显示「小闲鱼暂时没有推荐~」
+! 拦截后商品页显示「网络不见了 >ω<」
+! 拦截后商品页显示「快停止散发魅力，我的网都被卡掉了」
+@@||h5api.m.goofish.com^
 ! 登录接口
 @@||passport.goofish.com^
 ! APP支付宝授权身份验证接口
