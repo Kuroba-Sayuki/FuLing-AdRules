@@ -1882,6 +1882,30 @@
 # 放行鲨鲨酱App图片资源加载
 @@||ssj-1256119282.cos.ap-guangzhou.myqcloud.com^
 
+# 放行Docker相关内容
+! 官网
+@@||www.docker.com^
+! Hub官网
+@@||hub.docker.com^
+
+# 放行Podman官网
+@@||podman.io^
+
+# 放行Kubernetes官网
+@@||kubernetes.io^
+
+# 放行Git官网
+@@||git-scm.com^
+
+# 放行GitLab官网
+@@||gitlab.com^
+
+# 放行极狐GitLab相关内容
+! 文档页面布局
+@@||unpkg.zhimg.com^
+! 档代码块复制功能
+@@||npm.elemecdn.com^
+
 # 放行GitHub官网
 @@||github.com^
 
@@ -1890,6 +1914,12 @@
 @@||www.ghproxy.cn^
 ! 分站
 @@||ghp.ci^
+
+# 放行GitCode官网
+@@||gitcode.com^
+
+# 放行Gitee官网
+@@||gitee.com^
 
 # 放行Jsdelivr相关内容
 ! 官网
@@ -1954,15 +1984,6 @@
 # 放行息流官网及相关子域名
 ! 拦截后一些程序会报错无法加载在线功能。
 @@||flowus.cn^
-
-# 放行极狐GitLab相关内容
-! 文档页面布局
-@@||unpkg.zhimg.com^
-! 档代码块复制功能
-@@||npm.elemecdn.com^
-
-# 放行GitCode官网
-@@||gitcode.com^
 
 # 放行KeePassXC官网
 @@||keepassxc.org^
