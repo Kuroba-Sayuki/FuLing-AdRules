@@ -27,6 +27,12 @@
 ! 巨量API
 ||api.juliangcili.com^
 
+# 拦截瞄趣漫画广告接口
+! 广告包含但不限于开屏广告、阅读看广告弹窗、信息收集接口
+! 拦截后「我的页面，丢失任务广场窗口＆丢失支持我们窗口」
+! 上方提到的两个窗口均与看广告有关，故而拦截。
+||gromore.pangolin-sdk-toutiao.com^
+
 # 拦截哔哩漫游黑名单域名＆哔哩漫游X黑名单域名
 ! 因不可抗因素，模块于2024-10-31日，将所有用户拉入黑名单。
 ! 可通过拦截黑名单域名，达到解除黑名单目的，从而模块恢复可用。
@@ -365,6 +371,7 @@
 ||bzuh3qw6t7aq.top^
 ||190cf04368dc7ae46gg.ul2tos.cn^
 ||qucvedv.cn^
+||v27rdv-oswguv4f0j2t-007.pmwgmg.cn^
 ||705jte32.ch3hugifdos.com^
 ||tn.uvrifrd.cn^
 ||kk1747432032.sadott.cn^

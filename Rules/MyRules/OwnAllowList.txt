@@ -340,8 +340,24 @@
 ! 作者主页内点击文章跳转
 @@||article.zlink.toutiao.com^
 
-# 放行有来医生网页布局
+# 放行有来医生相关内容
+! 官网
+@@||www.youlai.cn^
+! 移动端官网
+@@||m.youlai.cn^
+! 网页布局
 @@||static.youlai.cn^
+! 移动端文章特殊布局＆急速问诊接口
+! 拦截后「急速问诊一直加载中」
+@@||assets.youlai.cn^
+
+# 放行丁香医生相关内容
+! 官网
+@@||dxy.com^
+! 移动端官网
+@@||m.dxy.com^
+! 回答语音加载
+@@||video1p.dxycdn.com^
 
 # 放行便民查询网相关内容
 ! 官网
@@ -773,6 +789,8 @@
 # 放行百度贴吧相关内容
 ! 网页版表情加载
 @@||gsp0.baidu.com^
+! 网页版「吧」头像加载
+||imgsrc.baidu.com^
 ! APP相关
 ! 个人信息用户头像第一次点击加载
 ! 拦截后第一次点击不显示头像再次点击才会显示
@@ -1423,6 +1441,8 @@
 ! 官网
 ! 微信隐私保护指南页面
 @@||weixin.qq.com^
+! 微信支付接口
+@@||payapp.weixin.qq.com^
 ! 登录时出现的微信安全界面
 @@||shminorshort.weixin.qq.com^
 ! 注销账号界面
@@ -1903,7 +1923,7 @@
 # 放行极狐GitLab相关内容
 ! 文档页面布局
 @@||unpkg.zhimg.com^
-! 档代码块复制功能
+! 代码块复制功能
 @@||npm.elemecdn.com^
 
 # 放行GitHub官网
@@ -2008,6 +2028,16 @@
 
 # 放行NodeSeek论坛
 @@||www.nodeseek.com^
+
+# 放行Uptodown「Android应用商店」相关内容
+! 英文官网
+@@||en.uptodown.com^
+! 中文官网
+@@||cn.uptodown.com^
+! 日文官网
+@@||jp.uptodown.com^
+! 下载接口
+@@||dw.uptodown.com^
 
 # 放行养猪场官网
 @@||xn--l6qx3l9s1a.com^
