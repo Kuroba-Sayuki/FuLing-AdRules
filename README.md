@@ -1,99 +1,57 @@
-# 关于项目
-1. 这是一个广告规则收集区，包含网络规则，以及自行抓取的规则。
-2. 这里会收集一些目前已经找不到出处的规则，或者保存一些规则的老版本。
-3. 这里的规则大部分来源于网络收集，小部分规则来源于网络冲浪时自行抓取。
+<h1 align="center">🌸茯苓广告规则收集区🌸</h1>
 
+![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/MoMoimg/Master/MoMo/202402131836729.jpg)
 
-## 开胃图
-![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/MoMoimg/main/MoMo/202211201015854.jpg)
+## 茯苓规则
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| 茯苓拦截规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt) |
+| 茯苓允许规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt) |
+- **茯苓规则**为自己网络冲浪时抓取。
 
+## 网络规则
+- 存放已经找不到出处的规则并保存一些规则的老版本。
+- 下方规则均为**拦截规则**。
+### 浏览器规则
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| 360浏览器规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/360Rules.txt) |
+| 360极速浏览器 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/360SpeedBrowserRules.txt) |
+| 夸克浏览器规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/QuarkRules.txt) |
 
-## 拦截规则
-### GitHub直连（截止2024-07-28）：
+### 乘风规则
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| 乘风广告规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/CfGgRules.txt) |
+| 乘风视频规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/CfSpRules.txt) |
 
-###### 浏览器规则：
+### 冷漠规则
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| 冷漠油管规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/IndifferentYouTubeRules.txt) |
+| 冷漠广告规则A | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/IndifferentRulesPort01.txt) |
+| 冷漠广告规则B | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/IndifferentRulesPort02.txt) |
+| 冷漠广告规则「旧」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/TrLiRules.txt) |
+- `冷漠广告规则`与`冷漠广告规则「旧」`建议选择其中一个使用。
+- 冷漠广告规则由于本体文件过大，所以拆分成A、B两个规则文件。
 
-|[夸克浏览器规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/QuarkRules.txt)|
-|--|
+### 平台规则
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| 酷安广告规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/CoolapkRules.txt) |
+| 番茄小说规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/TomatoNovelRules.txt) |
 
-|[360浏览器规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/360Rules.txt)|
-|--|
+### 其它规则
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| ADSLJF | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/ADSLJFRules.txt) |
+| XXKiller | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/XXKillerMerge.txt) |
+| AdFilters | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdFiltersRules.txt) |
+| AdRules Hosts List hosts | [ 订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdRulesListHosts.txt) |
+| 神机规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/DivineMachineRules.txt) |
+| 海哥规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/OceanMerge.txt) |
+| 未知规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/WzRules.txt) |
+| 网友自制规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/NetizensRules.txt) |
+| 广告屏蔽大师「AdByBy」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdbybyRules.txt) |
 
-|[360极速浏览器规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/360SpeedBrowserRules.txt)|
-|--|
-
-###### 乘风规则：																											
-
-|[乘风广告规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/CfGgRules.txt)|
-|--|
-
-|[乘风视频规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/CfSpRules.txt)|
-|--|
-
-###### 冷漠规则：
-
-|[冷漠广告规则①](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/IndifferentRulesPort01.txt)|	
-|--|
-
-|[冷漠广告规则②](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/IndifferentRulesPort02.txt)|
-|--|
-
-|[冷漠(旧)广告规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/TrLiRules.txt)|
-|--|
-
-|[冷漠油管规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/IndifferentYouTubeRules.txt)|
-|--|
-
-###### 其他规则：
-
-|[ADSLJF](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/ADSLJFRules.txt)|
-|--|
-
-|[XXKiller](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/XXKillerMerge.txt)|
-|--|
-
-|[AdFilters](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/AdFiltersRules.txt)|
-|--|
-
-|[海哥规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/OceanMerge.txt)|
-|--|
-
-|[未知规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/WzRules.txt)|
-|--|
-
-|[酷安广告规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/CoolapkRules.txt)|
-|--|
-
-|[广告屏蔽大师 • AdByBy](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/AdbybyRules.txt)|
-|--|
-
-|[番茄免费小说规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/TomatoNovelRules.txt)|
-|--|
-
-|[AdRules Hosts List hosts](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/AdRulesListHosts.txt)|
-|--|
-
-|[网友自制规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/NetizensRules.txt)|
-|--|
-
-|[神机规则](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/DivineMachineRules.txt)|
-|--|
-
-###### 特殊说明：
-1. 冷漠广告规则由于本体文件过大，所以拆分成①、②两个规则文件。
-2. 冷漠广告规则与冷漠(旧)广告规则建议选择其中一个使用。
-
-
-## 自用规则
-### GitHub直连（截止2024-07-28）：
-
-###### 拦截规则：
-
-|[OwnBlockList](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/MyRules/OwnBlockList.txt)|
-|--|
-
-###### 放行规则：
-
-|[OwnAllowList](https://raw.githubusercontent.com/Kuroba-Sayuki/AdBlock/main/Rules/MyRules/OwnAllowList.txt)|
-|--|
-
+![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/MoMoimg/Master/MoMo/202211201015854.jpg)
