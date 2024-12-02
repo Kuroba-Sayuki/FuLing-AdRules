@@ -16,6 +16,12 @@
 # 拦截小米主题3.3.3.0广告界面加载
 ||lite.a.market.xiaomi.com^
 
+# 拦截小米应用包管理组件API
+! 此API会检测安装包有没有上架应用商店以及备案。
+! 导致安装应用时需账号验证，安装过于麻烦，故而拦截。
+! 拦截后「显示网络异常，无法进行安全检测」
+||api.installer.xiaomi.com^
+
 # 拦截大象驾到APP广告接口
 ||*ad.adbkwai.com^
 
@@ -374,6 +380,8 @@
 ||v27rdv-oswguv4f0j2t-007.pmwgmg.cn^
 ||705jte32.ch3hugifdos.com^
 ||tn.uvrifrd.cn^
+||www.deifei.com^
+||www.qd3bcdn1130.top^
 ||kk1747432032.sadott.cn^
 ||bfdvfdvfgregexsa.dgswpfxttpjvz6h9s013.com^
 ||j3.jtezxmpb.xyz^
@@ -398,6 +406,8 @@
 ||m5asa4.xianxin.cc^
 ||www.xhsrt594.vip^
 ||bw102.rongll.cn^
+||25.y25287524.vip^
+||64.f64410077.com^
 ||ww-7o1-0h.os.23v7m9.cc^
 ||dfstt5031.ayhnb.cn^
 ||f3.1cecn.icu^
@@ -452,6 +462,8 @@
 ||yt1117.yotnqh.cn^
 ||kmf87.top^
 ||08241fb.hpa163.nl^
+||ciwztm.memto18908.cc^
+||mofjgesm.memti79268.cc^
 ||www.xhsrt588.vip^
 ||www.qygvip410.com^
 ||jnc7d034.top^
@@ -462,4 +474,7 @@
 ||24cdocker402.com^
 ||kk2417456.pgszp.cn^
 ||www.fi11aa198.com^
+||web.g6ra.live^
+||www.lqsx.net^
+||p3.web3cdn.cn^
 

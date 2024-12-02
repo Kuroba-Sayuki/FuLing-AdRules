@@ -146,13 +146,6 @@
 @@||vdn3.vzuu.com^
 @@||lens.zhihu.com^
 
-# 放行CSDN主页log及头像图片
-@@||img-home.csdnimg.cn^
-@@||img-bss.csdnimg.cn^
-@@||avatar.csdnimg.cn^
-@@||profile.csdnimg.cn^
-@@||profile-avatar.csdnimg.cn^
-
 # 放行弹弹play磁力播放
 @@||hub5btmain.sandai.net^
 @@||hub5pn.wap.sandai.net^
@@ -537,6 +530,43 @@
 ! 网页图片
 @@||i.dell.com^
 
+# 放行链家相关内容
+! 官网
+@@||www.lianjia.com^
+! 地区官网
+@@||*.lianjia.com^
+! 移动端官网
+@@||m.lianjia.com^
+
+# 放行贝壳找房相关内容
+! 官网
+@@||www.ke.com^
+! 地区官网
+@@||*.ke.com^
+! 移动端官网
+@@||m.ke.com^
+
+# 放行安居客相关内容
+! 官网
+@@||www.anjuke.com^
+! 地区官网
+@@||*.anjuke.com$important
+! 移动端官网
+@@||m.anjuke.com^
+! 分类图片接口
+@@||pic6.ajkimg.com^
+
+# 放行58同城相关内容
+! 网页布局
+@@||c.58cdn.com.cn^
+! 用户头像＆部分封面
+@@||pic2.58cdn.com.cn^
+@@||pic4.58cdn.com.cn^
+@@||pic5.58cdn.com.cn^
+@@||pic8.58cdn.com.cn^
+! 移动端访问频繁验证页面
+@@||callback.58.com^
+
 
 #**************#
 # 网易放行规则 #
@@ -721,6 +751,9 @@
 
 # 放行网易体育网
 @@||sports.163.com^
+
+# 放行网易MuMu模拟器官网
+@@||mumu.163.com^
 
 
 #****************#
@@ -2038,6 +2071,18 @@
 @@||jp.uptodown.com^
 ! 下载接口
 @@||dw.uptodown.com^
+
+# 放行CSDN相关内容
+! 特殊页面布局
+! 拦截后「顶部菜单不显示＆登录窗口不弹出」
+! 拦截后「移动端顶点击展开阅读全文无反应」
+@@||g.csdnimg.cn^
+! 主页Log＆头像图片接口
+@@||img-home.csdnimg.cn^
+@@||img-bss.csdnimg.cn^
+@@||avatar.csdnimg.cn^
+@@||profile.csdnimg.cn^
+@@||profile-avatar.csdnimg.cn^
 
 # 放行养猪场官网
 @@||xn--l6qx3l9s1a.com^
