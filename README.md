@@ -1,6 +1,6 @@
 <h1 align="center">🌸茯苓广告规则收集区🌸</h1>
 
-![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/MoMoimg/Master/MoMo/202402131836729.jpg)
+![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-Resource/Master/StaticWallpapers/Horizontal/1707820632.jpg)
 
 ## 茯苓规则
 | 名称 | GitHub直链 |
@@ -54,4 +54,3 @@
 | 网友自制规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/NetizensRules.txt) |
 | 广告屏蔽大师「AdByBy」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdbybyRules.txt) |
 
-![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/MoMoimg/Master/MoMo/202211201015854.jpg)
