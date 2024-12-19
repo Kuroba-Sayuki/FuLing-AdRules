@@ -1966,7 +1966,9 @@
 ! 主站
 @@||www.ghproxy.cn^
 ! 分站
-@@||ghp.ci^
+! 镜像域名
+@@||github.site^
+@@||github.store^
 
 # 放行GitCode官网
 @@||gitcode.com^
