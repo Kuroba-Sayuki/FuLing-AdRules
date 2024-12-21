@@ -92,6 +92,8 @@
 
 # 拦截广告布局接口
 ! 均为视频网站、小说网站、漫画网站抓取
+||*.laebu.cn^
+||*.gdolr.cn^
 ||*.poeme.cn^
 ||*.bjnxo.cn^
 ||*.phire.cn^
@@ -121,6 +123,10 @@
 ||*.8vx3zks.xyz^
 ||*.3dqvcli.xyz^
 ||*.f1k4eil.xyz^
+||*.fohbgjv.com^
+||*.amwexgj.com^
+||*.eavztdi.com^
+||*.cyfupnq.com^
 ||*.dmcduio.com^
 ||*.evqvxuq.com^
 ||*.bgbjjtd.com^
