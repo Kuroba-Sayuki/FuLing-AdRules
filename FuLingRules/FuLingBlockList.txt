@@ -6,9 +6,11 @@
 #******************#
 # 常规广告拦截规则 #
 #******************#
-# 拼多多拦截规则
-! 助力短链接
+# 拦截拼多多相关内容
+! 助力链接
 ||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^
+! 助力短链接
+||www.ikesepsckslp.cn^
 ! 助力扫码跳转
 ! 同时也商品分享链接
 ||mobile.yangkeduo.com^
