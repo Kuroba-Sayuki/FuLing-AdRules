@@ -117,6 +117,8 @@
 ||*.p3q0tt.com^
 ||*.x586di.com^
 ||*.hrdhej.xyz^
+||*.siigck.xyz^
+||*.sjpxfz.xyz^
 ||bbcbbi.*.com^
 ||*.oneliner.cn^
 ||*.oweisik.top^
@@ -515,4 +517,6 @@
 ||p3.web3cdn.cn^
 ||bdd.058www11w.top^
 ||m3.mmsp062.top^
+||gsvxs062.top^
+||hxg6.t906377.vip^
 
