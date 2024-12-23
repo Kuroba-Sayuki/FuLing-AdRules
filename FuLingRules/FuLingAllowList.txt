@@ -2413,12 +2413,18 @@
 ! Web版
 @@||manhuapica.com^
 
+# 放行Hitomi本子官网
+@@||hitomi.la^
+
 # 放行绅士漫画
 ! 部分广告与主页同域名
 @@||www.wnacg.com^
 
 # 放行Browse「BT磁力下载站」官网
 @@||sukebei.nyaa.si^
+
+# 放行次元计划「同人志资源搜索」官网
+@@||acg02.cc^
 
 # 放行E站
 ! 表站
@@ -2429,6 +2435,18 @@
 @@||ehgt.org^
 ! 资源下载网站跳转
 @@||ehtracker.org^
+
+# 放行Yande画廊官网
+@@||yande.re^
+
+# 放行Konachan画廊官网
+@@||konachan.com^
+
+# 放行Gelbooru画廊官网
+@@||gelbooru.com^
+
+# 放行Danbooru画廊官网
+@@||danbooru.donmai.us^
 
 # 放行妄想族相关内容
 ! 官网
