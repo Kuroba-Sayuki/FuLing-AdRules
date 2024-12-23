@@ -115,11 +115,16 @@
 ||*.mise*.buzz^
 ||*.obj23q.com^
 ||*.p3q0tt.com^
+||*.3adtjg.com^
+||*.4egscv.com^
+||*.9tjoj6.com^
 ||*.x586di.com^
 ||*.hrdhej.xyz^
 ||*.siigck.xyz^
 ||*.sjpxfz.xyz^
 ||bbcbbi.*.com^
+||dciclc.*.top^
+||dcivlv.*.top^
 ||*.oneliner.cn^
 ||*.oweisik.top^
 ||*.uweisit.top^
@@ -137,6 +142,8 @@
 ||*.dtsmndu.com^
 ||*.javadvi.com^
 ||*.bidjora.com^
+||*.kweisid.top^
+||*.kwilmid.top^
 ||*.yinghua-*.cc^
 ||*.aliyuncsslb.com^
 ||*.aliyuncsslbintl.com^
@@ -277,7 +284,6 @@
 ||jwhk.hfbqet.cn^
 ||www.liwbei.cn^
 ||yt1115.gbjluf.cn^
-||dcivlv.kweisid.top^
 ||gfwhs006.top^
 ||hp6v2.iep53.vip^
 ||b5zzr.cc^
@@ -348,8 +354,8 @@
 ||www.nleljf.xyz^
 ||rpdi192.icu^
 ||df101.qckkz.cn^
-||dciclc.kweisid.top^
 ||ent.djlacgc.top^
+||df101.yblar.cn^
 ||www.35609731.xyz^
 ||ffderir64.yk11eakg20pm01.com^
 ||02539717.com^
