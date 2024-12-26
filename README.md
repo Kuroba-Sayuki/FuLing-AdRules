@@ -51,6 +51,8 @@
 | 神机规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/DivineMachineRules.txt) |
 | 海哥规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/OceanMerge.txt) |
 | 未知规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/WzRules.txt) |
+| 晴雅规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/QingYaRules.txt) |
 | 网友自制规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/NetizensRules.txt) |
+| 下个ID見规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/NextIDSeeRules.txt) |
 | 广告屏蔽大师「AdByBy」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdbybyRules.txt) |
 
