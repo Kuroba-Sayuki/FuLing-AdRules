@@ -1982,6 +1982,12 @@
 ! CDN接口＆网页特殊布局
 @@||cdn.jsdelivr.net^
 
+# 放行BootCDN官网
+@@||www.bootcdn.cn^
+
+# 放行Bootstrap官网
+@@||www.bootcss.com^
+
 # 放行Heroku容器
 @@||heroku.com^
 
@@ -2042,6 +2048,13 @@
 
 # 放行KeePassXC官网
 @@||keepassxc.org^
+
+# 放行Plyr相关内容
+! 官网
+@@||plyr.io^
+! 网页布局＆网页图片＆网页视频
+! 同时也是「Hanime1动漫」个别视频播放器组件接口
+@@||cdn.plyr.io^
 
 # 放行Miraheze官网Logo＆网页图片
 ! Degrees of Lewdity的官方中文维基图片加载
@@ -2397,6 +2410,7 @@
 @@||vdownload.hembed.com^
 ! 视频播放接口
 @@||vdownload-*.sb-cd.com^
+@@||abre-videos.cdn1122.com^
 ! 用户头像加载
 @@||i.imgur.com^
 ! 新加入作者头像加载
