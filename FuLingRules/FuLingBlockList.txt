@@ -152,6 +152,7 @@
 ||xa1jgfbdlwf2ncxq.*.com^
 ||*.jennylisnerphotography.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
+||*-*.ap-southeast-1.elb.amazonaws.com^
 
 # 拦截钓鱼网站＆色情广告＆赌博广告
 ! 均为视频网站、小说网站、漫画网站抓取
