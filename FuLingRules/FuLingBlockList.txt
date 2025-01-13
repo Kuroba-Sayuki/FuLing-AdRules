@@ -122,6 +122,8 @@
 ||*.hrdhej.xyz^
 ||*.siigck.xyz^
 ||*.sjpxfz.xyz^
+||*.iburtq.xyz^
+||*.xqojux.xyz^
 ||bbcbbi.*.com^
 ||dciclc.*.top^
 ||dcivlv.*.top^
