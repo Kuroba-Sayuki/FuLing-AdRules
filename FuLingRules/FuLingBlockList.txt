@@ -111,11 +111,15 @@
 ||*.ydxdg.xyz^
 ||*.tbyfz.xyz^
 ||*.ztgha.xyz^
+||*.jvere.xyz^
 ||www.mt*.vip^
 ||www.ht*.vip^
 ||*.wfojsm.com^
 ||*.80ritc.com^
 ||*.ppfu3m.com^
+||*.6nxa6g.com^
+||*.59p643.com^
+||*.tkmihh.xyz^
 ||*.v4v6v4.com^
 ||*.mise*.buzz^
 ||*.obj23q.com^
@@ -152,6 +156,7 @@
 ||*.kweisid.top^
 ||*.kwilmid.top^
 ||*.yinghua-*.cc^
+||*.jjzemoc3ca.top^
 ||*.aliyuncsslb.com^
 ||*.aliyuncsslbintl.com^
 ||xa1jgfbdlwf2ncxq.*.com^
