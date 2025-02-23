@@ -10,7 +10,10 @@
 - **茯苓规则**为自己网络冲浪时抓取。
 
 ## 网络规则
-- 存放已经找不到出处的规则并保存一些规则的老版本。
+- 存放网络收集的规则。
+    - 某些规则的旧版本。
+    - 某些规则的合并版本。
+    - 已经找不到出处的规则。
 - 下方规则均为**拦截规则**。
 ### 浏览器规则
 | 名称 | GitHub直链 |
@@ -41,17 +44,21 @@
 | 酷安广告规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/CoolapkRules.txt) |
 | 番茄小说规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/TomatoNovelRules.txt) |
 
+### 合并规则
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| 晴雅规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/QingYaMerge.txt) |
+| 海哥规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/OceanMerge.txt) |
+| XXKiller | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/XXKillerMerge.txt) |
+
 ### 其它规则
 | 名称 | GitHub直链 |
 | :-: | :-: |
 | ADSLJF | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/ADSLJFRules.txt) |
-| XXKiller | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/XXKillerMerge.txt) |
 | AdFilters | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdFiltersRules.txt) |
 | AdRules Hosts List hosts | [ 订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdRulesListHosts.txt) |
 | 神机规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/DivineMachineRules.txt) |
-| 海哥规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/OceanMerge.txt) |
 | 未知规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/WzRules.txt) |
-| 晴雅规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/QingYaRules.txt) |
 | 网友自制规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/NetizensRules.txt) |
 | 下个ID見规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/NextIDSeeRules.txt) |
 | 广告屏蔽大师「AdByBy」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/GatherRules/AdbybyRules.txt) |
