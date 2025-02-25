@@ -35,6 +35,10 @@
 ! 巨量API
 ||api.juliangcili.com^
 
+# 拦截青龙面板实时错误追踪请求
+! 基于「Sentry」开源的实时错误追踪系统
+||o1098464.ingest.sentry.io^
+
 # 拦截瞄趣漫画广告接口
 ! 广告包含但不限于开屏广告、阅读看广告弹窗、信息收集接口
 ! 拦截后「我的页面，丢失任务广场窗口＆丢失支持我们窗口」
@@ -111,16 +115,21 @@
 ||*.ydxdg.xyz^
 ||*.tbyfz.xyz^
 ||*.ztgha.xyz^
+||*.ombuw.xyz^
 ||*.jvere.xyz^
 ||www.mt*.vip^
 ||www.ht*.vip^
 ||*.wfojsm.com^
 ||*.80ritc.com^
+||*.z9ehxz.com^
+||*.vkomjd.com^
 ||*.ppfu3m.com^
 ||*.6nxa6g.com^
 ||*.59p643.com^
 ||*.tkmihh.xyz^
 ||*.v4v6v4.com^
+||*.s8etj5.com^
+||*.emsxev.xyz^
 ||*.mise*.buzz^
 ||*.obj23q.com^
 ||*.p3q0tt.com^
@@ -129,6 +138,8 @@
 ||*.9tjoj6.com^
 ||*.x586di.com^
 ||*.hrdhej.xyz^
+||*.60qso7.com^
+||*.njp878.com^
 ||*.siigck.xyz^
 ||*.sjpxfz.xyz^
 ||*.iburtq.xyz^
@@ -140,6 +151,7 @@
 ||*.oweisik.top^
 ||*.uweisit.top^
 ||*.3r5ia7l.xyz^
+||*.lzwrhiw.xyz^
 ||*.8vx3zks.xyz^
 ||*.3dqvcli.xyz^
 ||*.f1k4eil.xyz^
@@ -315,6 +327,8 @@
 ||zz101.ufueng.cn^
 ||1hkv85.gdxlks.cn^
 ||83082308.com^
+||of1j087.top^
+||bidotz.icu^
 ||hkgryazmc.pubend81372.vip^
 ||jihq.mm51-tbsg1542.cc^
 ||gu627mo8.33slthiy.vip^
@@ -439,6 +453,7 @@
 ||6w3tqs.lppfkj.com^
 ||ts1706351603.inlbsid.cn^
 ||bchbf.qlwmt.cn^
+||vm0c.tbl1444klf.cc^
 ||fk.kksp004.top^
 ||pcmlll.srlrjvz.com^
 ||apk2.jingpengpeixun.xyz^

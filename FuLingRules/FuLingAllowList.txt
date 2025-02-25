@@ -265,9 +265,6 @@
 @@||p0.meituan.net^
 @@||dimg04.c-ctrip.com^
 
-# 放行1.1.1.1DNS的doh地址
-@@||cloudflare-dns.com^
-
 # 放行游民星空手机网页布局
 @@||j.gamersky.com^
 
@@ -1178,6 +1175,10 @@
 # 放行91卡券
 @@||mai.91kami.com^
 
+# 放行爱发电官网
+@@||afdian.com^
+@@||ifdian.net^
+
 
 #******************#
 # 地图平台放行规则 #
@@ -1976,6 +1977,21 @@
 # 放行Gitee官网
 @@||gitee.com^
 
+# 放行Cloudflare相关内容
+! 全球官网
+@@||www.cloudflare.com^
+! 中国官网
+@@||www.cloudflare-cn.com^
+
+# 放行1.1.1.1 DNS相关内容
+! 官网
+@@||one.one.one.one^
+! DoH地址
+@@||cloudflare-dns.com^
+
+# 放行ClouDNS官网
+@@||www.cloudns.net^
+
 # 放行Jsdelivr相关内容
 ! 官网
 @@||www.jsdelivr.com^
@@ -2062,6 +2078,9 @@
 
 # 放行Porkbun「猪肉包」域名官网
 @@||porkbun.com^
+
+# 放行DeepSeek官网
+@@||www.deepseek.com^
 
 # 放行BitLy短链接平台相关内内容
 ! 官网
