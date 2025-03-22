@@ -6,7 +6,7 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! 此为合并规则，合并自以下时间段的「原规则」，并去除@@格式的白名单、去除重复规则。
-! 2024-07「旧晴雅」、2025-02「新晴雅」
+! 2024-07「旧晴雅」、2025-02「新晴雅」、2025-03「新晴雅」
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 # [qq.com]
@@ -890,3 +890,43 @@ ltssjy.qq.com^
 ||diagnosis.ad.xiaomi.com^
 ||*.ads.heytapmobi.com^
 ||ad.qq.com^
+||adstats.tencentmusic.com^
+||*.jomoxc.com^
+||*.juicyads.me^
+||*.voiceads.cn^
+||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com^
+||ads-*.xhscdn.com^
+||ads-acc.qqbrowser.qq.com^
+||ads-img-bak.xhscdn.com^
+||ads-sdk-api.ranfenghd.com^
+||ads.cup.com.cn^
+||ads.exoclick.com^
+||ads.yieldmo.com^
+||adsdkapi.dxys.pro^
+||adsfile.bssdlbig.kugou.com^
+||adsfilebssdlbig.tx.kugou.com^
+||adshows.21cn.com^
+||adstatis.99jiasu.com^
+||c.etoolads.cn^
+||default.cn.sz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
+||default.cn.sz.wagbridge.ad.alibabacorp.com^
+||default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
+||default.cn.wagbridge.ad.alibabacorp.com^
+||leads.baidu.com^
+||mads.meituan.com^
+||mesu.apple.com^
+||nadvideo2.baidu.com^
+||optimus-ads.amap.com^
+||pic7.iqiyipic.com^
+||qttunion.com^
+||sdkconfig.ad.xiaomi.com^
+||securepubads.g.doubleclick.net^
+||ssp-sdk-config.uc.cn^
+||tnc3-alisc1.zijieapi.com^
+||wtradv.market.xiaomi.com^
+||adse.wsa.ximalaya.com^
+||tnc3-aliec2.zijieapi.com^
+||ttc.gdt.qq.com^
+||test.y.qq.com^
+||landing.gdtimg.com^
+||signaltower.gdt.qq.com^
