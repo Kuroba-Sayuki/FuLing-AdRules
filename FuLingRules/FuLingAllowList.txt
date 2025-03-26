@@ -1,53 +1,26 @@
-#***************************************************#
-# 本规则为茯苓允许名单，所有规则均为网络冲浪时抓取。#
-#***************************************************#
+#************************************************************************#
+# 文件名称：茯苓允许列表
+# 项目主页：https://github.com/Kuroba-Sayuki/FuLing-AdRules
+#************************************************************************#
+# 作者名称：Kuroba-Sayuki
+# 作者主页：https://github.com/Kuroba-Sayuki
+#************************************************************************#
+# 规则说明：列表规则均为网络冲浪时抓取，并已通过实机测试。
+# 项目说明：本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。
+#************************************************************************#
+# 更新时间：2025-03-26
+#************************************************************************#
 
 
-#**************#
-# 常规放行规则 #
-#**************#
-# 放行青柠起始页
+#**********************#
+!「规则分区」
+! 常规网站放行规则
+#**********************#
+# 放行青柠起始页相关内容
+! 首页
+@@||intro.limestart.cn^
+! 主页
 @@||limestart.cn^
-
-# 放行嗅觉浏览器搜索结果接口
-@@||suggestion.baidu.com^
-
-# 放行Yep搜索引擎
-@@||yep.com^
-
-# 放行夸克浏览器相关内容
-! 夸克搜索引擎
-@@||quark.sm.cn^
-! 搜索结果列表
-@@||sugs.m.sm.cn^
-
-# 放行迅雷下载加速
-! 拦截后「下载速度骤降 」
-@@||hub5btmain.v6.shub.sandai.net^
-
-# 放行联通手机营业厅功能页面与图片显示
-@@||img.client.10010.com^
-@@||m1.img.10010.com^
-
-# 放行蓝奏云相关内容
-! 下载文件引擎
-@@||i72.lanzoug.com^
-@@||i82.lanzoug.com^
-! 下载界面详情图
-@@||static.woozooo.com^
-! PC页面端登陆验证接口
-@@||cf.aliyun.com^
-! 蓝云APP检查更新接口
-! 第三方蓝奏云APP
-@@||appcenter.ms^
-
-# 放行同程旅行相关内容
-! 登录时人机验证信息加载
-@@||file.40017.cn^
-! 窗口布局
-@@||js.40017.cn^
-! 图片加载
-@@||pic*.40017.cn^
 
 # 放行海信官网
 @@||www.hisense.com^
@@ -55,14 +28,91 @@
 # 放行海尔官网
 @@||www.haier.com^
 
-# 放行TapTap相关内容
-! AD推荐的游戏介绍加载
-@@||static-tapad.tapdb.net^
-! 游戏时间统计
-@@||report.taptapdada.com^
+# 放行戴尔相关内容
+! 官网
+@@||www.dell.com^
+! 网页图片
+@@||i.dell.com^
 
-# 放行小鸡词典官网加载
-@@||jikipedia.com^
+# 放行魅族相关内容
+! 官网
+@@||www.meizu.com^
+! 移动端官网
+@@||m.meizu.com^
+! 魅族商城
+@@||detail.meizu.com^
+! 服务支持
+@@||care.meizu.com^
+
+# 放行学信网APP内刷新
+@@||push.chsi.com.cn^
+
+# 放行小红书相关内容
+! 官网
+@@||www.xiaohongshu.com^
+! 网页布局
+@@||fe-static.xhscdn.com^
+! 用户头像加载
+@@||sns-avatar-qc.xhscdn.com^
+! 网页端表情加载
+@@||picasso-static.xiaohongshu.com^
+! 手机网页端左上角Logo加载
+@@||ci.xiaohongshu.com^
+! 英文介绍页宣传视频加载
+! PC网页端登录界面二维码加载＆评论显示接口
+@@||fe-video-qc.xhscdn.com^
+
+# 放行有来医生相关内容
+! 官网
+@@||www.youlai.cn^
+! 移动端官网
+@@||m.youlai.cn^
+! 网页布局
+@@||static.youlai.cn^
+! 移动端文章特殊布局＆急速问诊接口
+! 拦截后「急速问诊一直加载中」
+@@||assets.youlai.cn^
+
+# 放行丁香医生相关内容
+! 官网
+@@||dxy.com^
+! 移动端官网
+@@||m.dxy.com^
+! 回答语音加载
+@@||video1p.dxycdn.com^
+
+# 放行支付宝码上放心查询接口
+! 扫描药品盒子上的「药品追溯码」时的接口
+! 拦截后扫描显示「网络异常」
+@@||guide-acs.m.taobao.com^
+
+# 放行今日诗词首页诗词加载
+! 拦截后首页诗词位置一直显示「正在努力加载中.....」
+! 拦截后诗词位置下方标签一直显示「加载中」
+@@||sdk.jinrishici.com^
+
+# 放行古文岛图片加载
+! 横幅图片、古诗作者头像、特殊功能按钮图片
+! 古文岛＆古诗文网，同内容同布局同功能。
+@@||ziyuan.guwendao.net^
+
+# 放行Plus茶馆
+! 北+
+@@||north-plus.net^
+! 南+
+@@||south-plus.net^
+! 白+
+@@||white-plus.net^
+! Lv+
+@@||level-plus.net^
+! 夏+
+@@||summer-plus.net^
+! 春+
+@@||spring-plus.net^
+
+# 放行联通手机营业厅功能页面与图片显示
+@@||img.client.10010.com^
+@@||m1.img.10010.com^
 
 # 放行新浪网相关内容
 ! 首页
@@ -99,8 +149,32 @@
 ! 投诉内容详情域名
 @@||tousu.sina.cn^
 
-# 放行学信网APP内刷新
-@@||push.chsi.com.cn^
+# 放行迅雷下载加速
+! 拦截后「下载速度骤降」
+@@||hub5btmain.v6.shub.sandai.net^
+
+# 放行蓝奏云相关内容
+! 下载文件引擎
+@@||i72.lanzoug.com^
+@@||i82.lanzoug.com^
+! 下载界面详情图
+@@||static.woozooo.com^
+! PC页面端登陆验证接口
+@@||cf.aliyun.com^
+! 蓝云APP检查更新接口
+! 第三方蓝奏云APP
+@@||appcenter.ms^
+
+# 放行同程旅行相关内容
+! 登录时人机验证信息加载
+@@||file.40017.cn^
+! 窗口布局
+@@||js.40017.cn^
+! 图片加载
+@@||pic*.40017.cn^
+
+# 放行小鸡词典官网加载
+@@||jikipedia.com^
 
 # 放行酷安相关内容
 ! 用户头像＆用户背景图
@@ -114,9 +188,6 @@
 ! 316签名墙
 @@||316.coolapk1s.com^
 @@||api.coolapk1s.com^
-
-# 放行搜图引擎
-@@||saucenao.com^
 
 # 放行BOSS直聘页面加载
 @@||zhipin.com^
@@ -170,10 +241,6 @@
 @@||webtor.io^
 @@||instant.io^
 
-# 放行steam APP图片加载
-@@||cdn.akamai.steamstatic.com^
-@@||community.akamai.steamstatic.com^
-
 # 放行IP地址查询
 ! 900查询
 @@||ip.900cha.com^
@@ -192,33 +259,12 @@
 ! 页面排版
 @@||cache.ip138.com^
 
-# 放行我的听书相关内容
-! 订阅地址
-! 由于2.3.0接入新地址，如果不放行此地址订阅源无法使用，无法接收公告，无法收到新版本更新，如果放行，因2.3.0以后版本部分广告（源管理）也接入了此地址，这部分广告将会被放行，需要搭配上帝模式去除此广告或使用软件自带关闭广告功能关闭此广告。
-! 2.2.8版本及其以往版本，由于没有接入新地址，广告地址也没变，只是订阅地址换成此网站，放行后不影响使用，不会产生广告，但无法接收公告，也无法收到新版本更新。
-@@||s3-us-east-1.ossfiles.com^
-! 喜马拉雅音源加载
-@@||www.ximalaya.com^
-! 22听书网音频接口
-! 含喜马拉雅域名
-@@||aod.cos.tx.xmcdn.com^
-@@||mobile.ximalaya.com^
-@@||fdfs.xmcdn.com^
-
 # 放行元气桌面壁纸加载
 ! 由于时间原因，还有很多规则未抓出未放行，比如我的界面用户头像、账号退出、账号注销等功能。
 @@||mobile-wallpaper-api.zhhainiao.com^
 @@||mobile-img-baofun.zhhainiao.com^
 @@||wallpaperm.cmcm.com^
 @@||wpvip.duba.net^
-
-# 放行网站收录
-! 需外网
-@@||theporndude.com^
-
-# 放行漫画网站
-! 需外网
-@@||toonily.com^
 
 # 放行破解应用收录网站
 @@||modyolo.com^
@@ -229,25 +275,7 @@
 ! 组件加载
 @@||appdownload.alicdn.com^
 
-# 放行画册收集网站
-@@||kemono.party^
-
-# 放行小红书相关内容
-! 官网
-@@||www.xiaohongshu.com^
-! 网页布局
-@@||fe-static.xhscdn.com^
-! 用户头像加载
-@@||sns-avatar-qc.xhscdn.com^
-! 网页端表情加载
-@@||picasso-static.xiaohongshu.com^
-! 手机网页端左上角Logo加载
-@@||ci.xiaohongshu.com^
-! 英文介绍页宣传视频加载
-! PC网页端登录界面二维码加载＆评论显示接口
-@@||fe-video-qc.xhscdn.com^
-
-# 放行speedtest测速网自身推广图片
+# 放行Speedtest测速网自身推广图片
 ! 拦截页面别扭
 ! 放行无伤大雅
 @@||file2.speedtest.cn^
@@ -274,9 +302,6 @@
 # 放行学习通应用内消息推送
 ! 拦截后「学习通内收不到消息通知」
 @@||msync-im1-vip6-std.easemob.com^
-
-# 放行漫画聚合软件
-@@||tachiyomi.org^
 
 # 放行轻听英语手机页面Android下载响应
 @@||c.umsns.com^
@@ -329,25 +354,6 @@
 ! 下载App页面
 ! 作者主页内点击文章跳转
 @@||article.zlink.toutiao.com^
-
-# 放行有来医生相关内容
-! 官网
-@@||www.youlai.cn^
-! 移动端官网
-@@||m.youlai.cn^
-! 网页布局
-@@||static.youlai.cn^
-! 移动端文章特殊布局＆急速问诊接口
-! 拦截后「急速问诊一直加载中」
-@@||assets.youlai.cn^
-
-# 放行丁香医生相关内容
-! 官网
-@@||dxy.com^
-! 移动端官网
-@@||m.dxy.com^
-! 回答语音加载
-@@||video1p.dxycdn.com^
 
 # 放行便民查询网相关内容
 ! 官网
@@ -439,16 +445,6 @@
 ! 奇元图片资源官网
 @@||www.360simg.com^
 
-# 放行360搜索相关内容
-! 官网
-@@||www.so.com^
-! 移动端官网
-@@||m.so.com^
-! 验证码验证页面＆搜索参数错误页面
-@@||qcaptcha.so.com^
-! 搜索内容视频页面
-@@||m.360video.so.com^
-
 # 放行字节跳动相关内容
 ! 官网
 @@||www.bytedance.com^
@@ -456,21 +452,6 @@
 @@||lf1-cdn-tos.bytescm.com^
 ! 招聘官网
 @@||jobs.bytedance.com^
-
-# 放行支付宝码上放心查询接口
-! 扫描药品盒子上的「药品追溯码」时的接口
-! 拦截后扫描显示「网络异常」
-@@||guide-acs.m.taobao.com^
-
-# 放行今日诗词首页诗词加载
-! 拦截后首页诗词位置一直显示「正在努力加载中.....」
-! 拦截后诗词位置下方标签一直显示「加载中」
-@@||sdk.jinrishici.com^
-
-# 放行古文岛图片加载
-! 横幅图片、古诗作者头像、特殊功能按钮图片
-! 古文岛＆古诗文网，同内容同布局同功能。
-@@||ziyuan.guwendao.net^
 
 # 放行17173相关内容
 ! 官网
@@ -500,15 +481,23 @@
 ! 官网图片接口＆文章图片接口
 @@||static.ali213.net^
 
-# 放行魅族相关内容
-! 官网
-@@||www.meizu.com^
-! 移动端官网
-@@||m.meizu.com^
-! 魅族商城
-@@||detail.meizu.com^
-! 服务支持
-@@||care.meizu.com^
+
+#**********************#
+!「规则分区」
+! 信息检索放行规则
+#**********************#
+# 放行嗅觉浏览器搜索结果接口
+! 百度域名
+@@||suggestion.baidu.com^
+
+# 放行夸克浏览器相关内容
+! 夸克搜索引擎
+@@||quark.sm.cn^
+! 搜索结果列表
+@@||sugs.m.sm.cn^
+
+# 放行Yep「搜索引擎」官网
+@@||yep.com^
 
 # 放行搜狗相关内容
 ! 搜索引擎网页布局
@@ -521,53 +510,307 @@
 @@||img03.sogoucdn.com^
 @@||img04.sogoucdn.com^
 
-# 放行戴尔相关内容
+# 放行360搜索相关内容
 ! 官网
-@@||www.dell.com^
-! 网页图片
-@@||i.dell.com^
-
-# 放行链家相关内容
-! 官网
-@@||www.lianjia.com^
-! 地区官网
-@@||*.lianjia.com^
+@@||www.so.com^
 ! 移动端官网
-@@||m.lianjia.com^
+@@||m.so.com^
+! 验证码验证页面＆搜索参数错误页面
+@@||qcaptcha.so.com^
+! 搜索内容视频页面
+@@||m.360video.so.com^
 
-# 放行贝壳找房相关内容
+
+#**********************#
+!「规则分区」
+! Google系列放行规则
+#**********************#
+# 放行Google play商店应用下载接口
+@@||*.xn--ngstr-lra8j.com^
+
+# 放行Google登录界面布局
+! 拦截后点击按钮无反应
+@@||ssl.gstatic.com^
+
+# 放行Google部分网页布局
+! Google搜索右上角头像菜单显示
+@@||www.gstatic.com^
+
+# 放行Google搜索移动端相关内容
+! 网页提示登录时的Logo
+@@||fonts.gstatic.com^
+! 搜索结果内容预览图片接口＆平台Logo加载
+@@||encrypted-tbn0.gstatic.com^
+@@||encrypted-tbn1.gstatic.com^
+@@||encrypted-tbn2.gstatic.com^
+@@||encrypted-tbn3.gstatic.com^
+
+# 放行Google reCAPTCHA验证接口（人机身份验证）
+! 同时也是Pixiv登录时的验证接口
+! 拦截后Pixiv登录时无法加载reCAPTCHA验证窗口，只能看到文字提示「请进行reCAPTCHA验证。」
+@@||www.recaptcha.net^
+
+
+#**********************#
+!「规则分区」
+! 微软系列放行规则
+#**********************#
+# 放行Edge浏览器相关内容
+! 浏览器默认翻译
+@@||edge.microsoft.com^
+! 微软翻译API接口
+@@||api-edge.cognitive.microsofttranslator.com^
+! 扩展安装
+@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
+! Microsoft尊重您的隐私接口
+! Cookie授权国际＆中国大陆接口
+! 新建标签页搜索框候选词小图标
+! 右上角登录默认用户头像＆登录窗口的图标
+! 右上角登天气接口＆天气图标
+! 新闻中间的播放按钮
+@@||assets.msn.com^
+@@||assets.msn.cn^
+
+# 放行微软账号登录相关内容
+! 登录界面
+@@||login.live.com^
+@@||login.microsoftonline.com^
+! 登陆界面网页布局
+@@||logincdn.msauth.net^
+
+# 放行Windows相关内容
+! 参考：https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+! 参考：https://learn.microsoft.com/en-us/windows/deployment/do/delivery-optimization-endpoints
+! 参考：https://learn.microsoft.com/en-us/windows/privacy/windows-endpoints-1909-non-enterprise-editions
+! Windows更新检查接口
+! 拦截显示无法连接更新服务
+@@||ctldl.windowsupdate.com^
+! Windows更新下载接口＆微软商店应用更新接口
+! 拦截显示安装更新时出现一些问题（0x8024402f）
+@@||dl.delivery.mp.microsoft.com^
+@@||fe3cr.delivery.mp.microsoft.com^
+@@||download.windowsupdate.com^
+
+# 放行Xbox页面布局
+@@||assets-www.xbox.com^
+
+# 放行MSN官网
+@@||www.msn.com^
+
+# 放行一点资讯相关内容
 ! 官网
-@@||www.ke.com^
-! 地区官网
-@@||*.ke.com^
-! 移动端官网
-@@||m.ke.com^
-
-# 放行安居客相关内容
-! 官网
-@@||www.anjuke.com^
-! 地区官网
-@@||*.anjuke.com$important
-! 移动端官网
-@@||m.anjuke.com^
-! 分类图片接口
-@@||pic6.ajkimg.com^
-
-# 放行58同城相关内容
+@@||www.yidianzixun.com^
 ! 网页布局
-@@||c.58cdn.com.cn^
-! 用户头像＆部分封面
-@@||pic2.58cdn.com.cn^
-@@||pic4.58cdn.com.cn^
-@@||pic5.58cdn.com.cn^
-@@||pic8.58cdn.com.cn^
-! 移动端访问频繁验证页面
-@@||callback.58.com^
+@@||static.yidianzixun.com^
+! 网页图片
+@@||staticimg.yidianzixun.com^
+! 一点号
+@@||mp.yidianzixun.com^
+! MSN一点视频内容链接跳转
+@@||msn.yidianzixun.com^
+! 一点视频内容加载接口
+@@||doris.yidianzixun.com^
 
 
-#**************#
-# 网易放行规则 #
-#**************#
+#**********************#
+!「规则分区」
+! 小米系列放行规则
+#**********************#
+# 放行小米消息推送
+@@||cn.app.chat.xiaomi.net^
+
+# 放行MIUI浏览器相关内容
+! 搜索结果列表
+@@||exp.sug.browser.miui.com^
+@@||ssl-cdn.static.browser.mi-img.com^
+! 推送新闻加载图片及评论
+@@||cpu.baidu.com^
+@@||hot.browser.miui.com^
+@@||cpucdn.baidu.com^
+@@||publish-pic-cpu.baidu.com^
+! 短视频加载及用户头像加载
+@@||v9-mllqsv.onewsvod.com^
+@@||v1-mllqsv.onewsvod.com^
+@@||*-open.byteimg.com^
+@@||*-open-sign.byteimg.com^
+
+# 放行MIUI连接WiFi时的网络连接检测，反之则会显示网络连接受限
+@@||connect.rom.miui.com^
+
+# 放行MIUI我的设备页面显示信息卡片
+@@||port.sec.miui.com^
+
+# 放行MIUI神隐模式更新地址
+! 神秘代码：*#*#76937#*#*
+! China服务器
+@@||jupiter.sys.miui.com^
+! Staging服务器
+@@||preview-jupiter.sys.miui.com^
+! International服务器
+@@||jupiter.intl.sys.miui.com^
+! Russion服务器
+@@||jupiter.rus.sys.miui.com^
+
+# 放行小米社区相关内容
+! 首页头像api及内测中心api
+@@||api.vip.miui.com^
+! 社区图片
+@@||cdn.cnbj1.fds.api.mi-img.com^
+@@||cnbj1.fds.api.xiaomi.com^
+
+# 放行小米天气添加城市加载
+@@||weatherapi.market.xiaomi.com^
+
+# 放行小米应用商店相关内容
+! 我的登录加载
+@@||app.market.xiaomi.com^
+! 游戏图标与演示视频
+@@||sf0.market.xiaomi.com^
+@@||vd0.market.xiaomi.com^
+! 应用下载调用的网站
+@@||pfga0.market.xiaomi.com^
+@@||fga0.market.xiaomi.com^
+@@||ff0.market.xiaomi.com^
+! 应用升级检测
+! 拦截会一直显示全部应用均为最新版本
+@@||updateinfo.market.xiaomi.com^
+
+# 放行小米主题商店相关内容
+! 官网
+@@||zhuti.xiaomi.com^
+! 页面加载
+@@||thm.market.xiaomi.com^
+! 用户头像调用加载的API
+@@||api.account.xiaomi.com^
+! 各类图片加载
+@@||t1.market.xiaomi.com^
+@@||t2.market.xiaomi.com^
+@@||t3.market.xiaomi.com^
+@@||t4.market.xiaomi.com^
+@@||t5.market.xiaomi.com^
+@@||f*.market.xiaomi.com^
+@@||f*.market.mi-img.com^
+@@||ts.market.mi-img.com^
+! 商店查询一些记录所调用的api，比如收藏记录、购买记录等
+@@||api.zhuti.xiaomi.com^
+
+# 放行讯飞输入法小米版相关内容
+! 斗图加载
+@@||imeclient.openspeech.cn^
+@@||dy-pic0.iqiyipic.com^
+! 设置内音效加载
+@@||download.voicecloud.cn^
+! 皮肤＆字体＆表情页面加载
+@@||cardservice.openspeech.cn^
+! 资源图片加载
+@@||s3.voicecloud.cn^
+@@||ime-res-download.xfinfr.com^
+! 资源购买支付系统加载
+@@||pay.openspeech.cn^
+! 今日输入统计加载
+! 飞飞号外
+@@||s1.voicecloud.cn^
+! 已购资源界面加载
+@@||coop.voicecloud.cn^
+! 账号登陆接口
+@@||account.xfinfr.com^
+! 检查更新放行
+! 拦截会显示获取版本信息失败，请稍后再试。
+@@||ossp.voicecloud.cn^
+
+# 放行miuithemez图片加载
+! MIUI主题国际版网站
+@@||blogger.googleusercontent.com^
+
+# 放行MIUI危险提示10S等待后的联网认证
+@@||srv.sec.miui.com^
+
+# 放行MIUI小部件页面加载与搜索
+@@||store.assistant.miui.com^
+
+# 放行MIUI指纹支付设置内证书更新接口
+@@||find.api.micloud.xiaomi.net^
+
+# 放行小米视频相关内容
+! 旧版底栏内容页加载
+! 拦截显示数据为空
+@@||m.video.xiaomi.com^
+! 新版底栏内容页加载
+! 拦截显示数据为空
+@@||m.v.wali.com^
+
+# 放行小米商城相关内容
+! 网页布局
+@@||s01.mifile.cn^
+! 首页商品封面
+@@||cnbj1-new.fds.api.xiaomi.com^
+
+# MIUI日历卡片信息
+! 利大于弊
+! 如芒种、端午节一类的节日卡片。
+! 法定节假日数据更新也是此API。
+! 但也会放行小米商店的卡片广告。
+! 小米商店卡片广告可以通过下方路径进行关闭。
+! 日历 -> 设置 -> 用户体验计划 -> 内容推广
+@@||api.comm.miui.com^
+
+# 放行MIUI短信服务商信息及头像加载
+@@||api.huangye.miui.com^
+
+# 放行小米游戏中心相关内容
+! 官网
+@@||game.xiaomi.com^
+! 分类图标＆社区内容加载
+! 游戏图标＆游戏介绍图
+! 开屏广告同域名，自行取舍。
+@@||t1.g.mi.com^
+! 游戏顶部介绍视频
+! 社区视频下划后的部分视频加载
+@@||mivideo.g.mi.com^
+! 社区部分视频加载
+! 攻略视频＆精彩锦集等
+@@||video.kts.g.mi.com^
+
+# 放行小米云服务相关内容
+! 小米账号内云服务卡片数值加载
+! 拦截后卡片显示「加载失败」
+@@||statusapi.micloud.xiaomi.net^
+! 云相册同步接口＆相册下载云端原文件时的接口
+! 拦截后图片将「无法与云端同步」＆相册内下载原图显示「原图下载失败」
+@@||galleryapi.micloud.xiaomi.net^
+
+
+#**********************#
+!「规则分区」
+! 华为系列放行规则
+#**********************#
+# 放行华为智慧生活相关内容
+! 网络连接
+@@||smarthome-drcn.dbankcdn.com^
+! 设备插件更新下载链接
+@@||appdl-1-drcn.dbankcdn.com^
+@@||appdl-2-drcn.dbankcdn.com^
+
+# 放行华为应用市场相关内容
+! 网页端和App内应用图标＆应用介绍图＆导航栏图标接口
+@@||appimg.dbankcdn.com^
+@@||appimg-drcn.dbankcdn.com^
+
+# 放行华为商城相关内容
+! 官网
+@@||www.vmall.com^
+! 移动端官网
+@@||m.vmall.com^
+! 内容加载
+@@||res.vmallres.com^
+! 手机App商城内容加载
+@@||openapi.vmall.com^
+
+
+#**********************#
+!「规则分区」
+! 网易系列放行规则
+#**********************#
 # 放行网易云音乐相关内容
 ! 页面端及资源加载
 @@||music.163.com^
@@ -753,38 +996,158 @@
 @@||mumu.163.com^
 
 
-#****************#
-# Google放行规则 #
-#****************#
-# 放行Google play商店应用下载接口
-@@||*.xn--ngstr-lra8j.com^
+#**********************#
+!「规则分区」
+! 腾讯系列放行规则
+#**********************#
+# 放行腾讯成长守护平台
+! 腾讯健康系统
+@@||jiazhang.qq.com^
 
-# 放行Google登录界面布局
-! 拦截后点击按钮无反应
-@@||ssl.gstatic.com^
+# 放行微信相关内容
+! 官网
+! 微信隐私保护指南页面
+@@||weixin.qq.com^
+! 微信支付接口
+@@||payapp.weixin.qq.com^
+! 登录时出现的微信安全界面
+@@||shminorshort.weixin.qq.com^
+! 注销账号界面
+@@||support.weixin.qq.com^
+! 红包封面加载
+@@||wxsnsdy.wxs.qq.com^
+! 公众号加载图片与头像
+@@||mmbiz.qpic.cn^
+@@||wx.qlogo.cn^
+! 小程序短链接跳转
+@@||wxaurl.cn^
+! 小程序头像加载
+! 场景：云上山科-龙兴湖-小额缴费里的头像
+@@||thirdwx.qlogo.cn^
+! 青春大学习开始学习按钮跳转
+@@||vm.gtimg.cn^
+! 天际通Go小程序客服入口
+@@||smartrobot-drcn.dbankcdn.com^
+! 天际通Go小程序客服界面进入logo，拦截则显示默认logo（在线客服）
+@@||contentcenter-vali-drcn.dbankcdn.com^
+! 王卡助手公众号底部活动接口
+@@||txwk.10010.com^
 
-# 放行Google部分网页布局
-! Google搜索右上角头像菜单显示
-@@||www.gstatic.com^
+# 放行QQ相关内容
+! 卡片加载
+@@||cdn.ark.qq.com^
+@@||ali2.a.yximgs.com^
+@@||tx2.a.yximgs.com^
+! 头像加载
+@@||p.qlogo.cn^
+! 个人信息界面图片加载
+@@||qqadapt.qpic.cn^
+@@||a1.qpic.cn^
+! 幸运字符界面布局加载
+@@||cdn-go.cn^
+! 互动标识图标加载
+@@||*.dlied1.cdntips.net^
+! 游戏充值加载
+@@||midas.gtimg.cn^
+! 授权登录用户图标加载
+@@||thirdqq.qlogo.cn^
+! 频道帖子图片加载
+@@||world.qpic.cn^
+! 频道帖子点赞一系列表情按钮图标加载
+@@||framework.cdn-go.cn^
+! 频道搜索主页大卡片图片加载
+@@||vfiles.gtimg.cn^
+! 频道搜索主页缩略图加载
+@@||groupprohead.gtimg.cn^
+! 小程序组件下载
+@@||miniapp.gtimg.cn^
+! 快手小程序视频分享加载
+@@||wxmini-api.uyouqu.com^
+@@||txmov2.a.kwimgs.com^
+@@||*.a.yximgs.com^
+! 群公告加载
+@@||qq-web.cdn-go.cn^
+@@||npm.cdn-go.cn^
+@@||pub.idqqimg.com^
+! 用户等级与能力值等页面
+@@||qqvip-web.cdn-go.cn^
+! QQ空间图片加载＆视频加载
+@@||qzs.qq.com^
+@@||m.qpic.cn^
+! QQ空间说说图片上传接口
+@@||v6.pic.upqzfile.com^
+! QQ链接跳转
+@@||qm.qq.com^
+! QQ链接跳转安全拦截页面
+! 已停止访问该页面
+@@||c.pc.qq.com^
+! QQ链接跳转安全拦截页面
+! 红色叹号图片
+@@||3gimg.qq.com^
+! QQ等级微视加速任务
+! 去完成页面指南
+@@||isee.weishi.qq.com^
+! QQ底栏动态页面功能图标
+@@||static-res.qq.com^
+! QQ关于页面内反馈页面布局
+@@||qzonestyle.gtimg.cn^
+! QQ日签卡图片加载
+@@||tianshu.gtimg.cn^
+! QQ表情包加载
+@@||i.gtimg.cn^
 
-# 放行Google搜索移动端相关内容
-! 网页提示登录时的Logo
-@@||fonts.gstatic.com^
-! 搜索结果内容预览图片接口＆平台Logo加载
-@@||encrypted-tbn0.gstatic.com^
-@@||encrypted-tbn1.gstatic.com^
-@@||encrypted-tbn2.gstatic.com^
-@@||encrypted-tbn3.gstatic.com^
+# 放行QQ音乐相关内容
+! 听歌时长记录
+@@||stat6.y.qq.com^
+! QQ音乐首页
+@@||y.qq.com^
+! 推荐歌曲图片加载
+@@||y.gtimg.cn^
+! 活动界面商品加载
+@@||home.m.duiba.com.cn^
+@@||48609.activity-42.m.duiba.com.cn^
+! 活动界面商品图片加载
+@@||yun.duiba.com.cn^
 
-# 放行Google reCAPTCHA验证接口（人机身份验证）
-! 同时也是Pixiv登录时的验证接口
-! 拦截后Pixiv登录时无法加载reCAPTCHA验证窗口，只能看到文字提示「请进行reCAPTCHA验证。」
-@@||www.recaptcha.net^
+# 放行腾讯云相关内容
+! 控制台
+@@||console.cloud.tencent.com^
+! 控制台服务器总数
+! 拦截显示接口异常
+@@||iaas.cloud.tencent.com^
+! 云市场
+@@||market.cloud.tencent.com^
+
+# 放行腾讯云社区相关内容
+! 网页布局
+@@||cloudcache.tencent-cloud.cn^
+! 文章图片加载
+@@||inews.gtimg.com^
+! PC端右上角扫码关注二维码
+@@||qcloudimg.tencent-cloud.cn^
+
+# 放行腾讯域名信息「WHOIS」查询官网
+@@||whois.cloud.tencent.com^
+
+# 放行腾讯文档文件Logo
+@@||docs.idqqimg.com^
+
+# 放行腾讯应用宝应用下载接口
+! 拦截下载时显示网络异常
+@@||dd.myapp.com^
+
+# 放行腾讯网相关内容
+! 新闻官网
+@@||news.qq.com^
+! 网页布局
+! 拦截后「页面空白」
+@@||mat1.gtimg.com^
 
 
-#**************#
-# 百度放行规则 #
-#**************#
+#**********************#
+!「规则分区」
+! 百度系列放行规则
+#**********************#
 # 放行百度百科相关内容
 ! 相关星图内容
 @@||baikebcs.bdimg.com^
@@ -820,7 +1183,7 @@
 ! 网页版表情加载
 @@||gsp0.baidu.com^
 ! 网页版「吧」头像加载
-||imgsrc.baidu.com^
+@@||imgsrc.baidu.com^
 ! APP相关
 ! 个人信息用户头像第一次点击加载
 ! 拦截后第一次点击不显示头像再次点击才会显示
@@ -860,48 +1223,10 @@
 @@||emoji.bj.bcebos.com^
 
 
-#**************#
-# 网盘放行规则 #
-#**************#
-# 放行天翼网盘网页登录页面加载
-@@||static.e.189.cn^
-
-# 放行百度网盘相关内容
-! 扫描登录
-@@||wappass.baidu.com^
-! 页面端右上方云一朵AI动态图片
-@@||staticsns.cdn.bcebos.com^
-
-# 放行阿里云盘登录验证页面
-@@||acs.m.taobao.com^
-
-# 放行夸克网盘相关内容
-! 主站
-@@||pan.quark.cn^
-! 手机号码登陆接口＆网页端扫描登陆接口
-@@||uop.quark.cn^
-! 手机号码登录窗口布局(PC端＆手机端)
-@@||image.uc.cn^
-! 网页端资源列表加载
-! 拦截后显示「网络异常，请稍后重试。」
-@@||drive-pc.quark.cn^
-@@||drive-h.quark.cn^
-! 网页端用户头像与文件图标
-@@||image.quark.cn^
-
-# 放行Mega网盘
-@@||mega.nz^
-
-# 放行123云盘手机网页布局
-@@||statics.123pan.com^
-
-# 放行Uploadrar文件分享＆下载文件网站
-@@||uploadrar.com^
-
-
-#******************#
-# 购物平台放行规则 #
-#******************#
+#**********************#
+!「规则分区」
+! 购物平台放行规则
+#**********************#
 # 放行淘宝相关内容
 ! 官网
 @@||www.taobao.com^
@@ -1180,9 +1505,50 @@
 @@||ifdian.net^
 
 
-#******************#
-# 地图平台放行规则 #
-#******************#
+#**********************#
+!「规则分区」
+! 网盘放行规则
+#**********************#
+# 放行天翼网盘网页登录页面加载
+@@||static.e.189.cn^
+
+# 放行百度网盘相关内容
+! 扫描登录
+@@||wappass.baidu.com^
+! 页面端右上方云一朵AI动态图片
+@@||staticsns.cdn.bcebos.com^
+
+# 放行阿里云盘登录验证页面
+@@||acs.m.taobao.com^
+
+# 放行夸克网盘相关内容
+! 主站
+@@||pan.quark.cn^
+! 手机号码登陆接口＆网页端扫描登陆接口
+@@||uop.quark.cn^
+! 手机号码登录窗口布局(PC端＆手机端)
+@@||image.uc.cn^
+! 网页端资源列表加载
+! 拦截后显示「网络异常，请稍后重试。」
+@@||drive-pc.quark.cn^
+@@||drive-h.quark.cn^
+! 网页端用户头像与文件图标
+@@||image.quark.cn^
+
+# 放行Mega网盘
+@@||mega.nz^
+
+# 放行123云盘手机网页布局
+@@||statics.123pan.com^
+
+# 放行Uploadrar文件分享＆下载文件网站
+@@||uploadrar.com^
+
+
+#**********************#
+!「规则分区」
+! 地图平台放行规则
+#**********************#
 # 放行百度地图相关内容
 ! 地图定位调用
 @@||loc.map.baidu.com^
@@ -1202,9 +1568,68 @@
 @@||vectorsdk.map.qq.com^
 
 
-#******************#
-# 小说平台放行规则 #
-#******************#
+#**********************#
+!「规则分区」
+! 房源平台放行规则
+#**********************#
+# 放行链家相关内容
+! 官网
+@@||www.lianjia.com^
+! 地区官网
+@@||*.lianjia.com^
+! 移动端官网
+@@||m.lianjia.com^
+
+# 放行贝壳找房相关内容
+! 官网
+@@||www.ke.com^
+! 地区官网
+@@||*.ke.com^
+! 移动端官网
+@@||m.ke.com^
+
+# 放行安居客相关内容
+! 官网
+@@||www.anjuke.com^
+! 地区官网
+@@||*.anjuke.com$important
+! 移动端官网
+@@||m.anjuke.com^
+! 分类图片接口
+@@||pic6.ajkimg.com^
+
+# 放行58同城相关内容
+! 网页布局
+@@||c.58cdn.com.cn^
+! 用户头像＆部分封面
+@@||pic2.58cdn.com.cn^
+@@||pic4.58cdn.com.cn^
+@@||pic5.58cdn.com.cn^
+@@||pic8.58cdn.com.cn^
+! 移动端访问频繁验证页面
+@@||callback.58.com^
+
+
+#**********************#
+!「规则分区」
+! 电子阅读放行规则
+#**********************#
+# 放行轻之国度官网
+@@||lightnovel.us^
+
+# 放行我的听书相关内容
+! 订阅地址
+! 由于2.3.0接入新地址，如果不放行此地址订阅源无法使用，无法接收公告，无法收到新版本更新，如果放行，因2.3.0以后版本部分广告（源管理）也接入了此地址，这部分广告将会被放行，需要搭配上帝模式去除此广告或使用软件自带关闭广告功能关闭此广告。
+! 2.2.8版本及其以往版本，由于没有接入新地址，广告地址也没变，只是订阅地址换成此网站，放行后不影响使用，不会产生广告，但无法接收公告，也无法收到新版本更新。
+@@||s3-us-east-1.ossfiles.com^
+! 喜马拉雅音源加载
+@@||www.ximalaya.com^
+! 22听书网音频接口
+! 含喜马拉雅域名
+@@||aod.cos.tx.xmcdn.com^
+@@||mobile.ximalaya.com^
+@@||fdfs.xmcdn.com^
+
 # 放行阅文集团相关内容
 ! 阅文集团官网
 @@||www.yuewen.com^
@@ -1293,10 +1718,21 @@
 @@||p6-novelfm-sign.novelfmpic.com^
 @@||p9-novelfm-sign.novelfmpic.com^
 
+# 放行电子图书馆
+! 可下载书籍
+@@||annas-archive.org^
 
-#******************#
-# 视频平台放行规则 #
-#******************#
+# 放行Toonily「漫画」网站
+@@||toonily.com^
+
+# 放行漫画聚合软件
+@@||tachiyomi.org^
+
+
+#**********************#
+!「规则分区」
+! 视频平台放行规则
+#**********************#
 # 放行哔哩哔哩相关内容
 ! 官网
 @@||www.bilibili.com^
@@ -1463,410 +1899,30 @@
 ! 拦截后显示「视频播放失败」
 @@||vali01.cp31.ott.cibntv.net^
 
-
-#**************#
-# 腾讯放行规则 #
-#**************#
-# 放行腾讯成长守护平台
-! 腾讯健康系统
-@@||jiazhang.qq.com^
-
-# 放行微信相关内容
+# 放行动漫共和国相关内容
+! 前身OmoFun动漫「客户端版本为正版」
 ! 官网
-! 微信隐私保护指南页面
-@@||weixin.qq.com^
-! 微信支付接口
-@@||payapp.weixin.qq.com^
-! 登录时出现的微信安全界面
-@@||shminorshort.weixin.qq.com^
-! 注销账号界面
-@@||support.weixin.qq.com^
-! 红包封面加载
-@@||wxsnsdy.wxs.qq.com^
-! 公众号加载图片与头像
-@@||mmbiz.qpic.cn^
-@@||wx.qlogo.cn^
-! 小程序短链接跳转
-@@||wxaurl.cn^
-! 小程序头像加载
-! 场景：云上山科-龙兴湖-小额缴费里的头像
-@@||thirdwx.qlogo.cn^
-! 青春大学习开始学习按钮跳转
-@@||vm.gtimg.cn^
-! 天际通Go小程序客服入口
-@@||smartrobot-drcn.dbankcdn.com^
-! 天际通Go小程序客服界面进入logo，拦截则显示默认logo（在线客服）
-@@||contentcenter-vali-drcn.dbankcdn.com^
-! 王卡助手公众号底部活动接口
-@@||txwk.10010.com^
+@@||animerep.com^
 
-# 放行QQ相关内容
-! 卡片加载
-@@||cdn.ark.qq.com^
-@@||ali2.a.yximgs.com^
-@@||tx2.a.yximgs.com^
-! 头像加载
-@@||p.qlogo.cn^
-! 个人信息界面图片加载
-@@||qqadapt.qpic.cn^
-@@||a1.qpic.cn^
-! 幸运字符界面布局加载
-@@||cdn-go.cn^
-! 互动标识图标加载
-@@||*.dlied1.cdntips.net^
-! 游戏充值加载
-@@||midas.gtimg.cn^
-! 授权登录用户图标加载
-@@||thirdqq.qlogo.cn^
-! 频道帖子图片加载
-@@||world.qpic.cn^
-! 频道帖子点赞一系列表情按钮图标加载
-@@||framework.cdn-go.cn^
-! 频道搜索主页大卡片图片加载
-@@||vfiles.gtimg.cn^
-! 频道搜索主页缩略图加载
-@@||groupprohead.gtimg.cn^
-! 小程序组件下载
-@@||miniapp.gtimg.cn^
-! 快手小程序视频分享加载
-@@||wxmini-api.uyouqu.com^
-@@||txmov2.a.kwimgs.com^
-@@||*.a.yximgs.com^
-! 群公告加载
-@@||qq-web.cdn-go.cn^
-@@||npm.cdn-go.cn^
-@@||pub.idqqimg.com^
-! 用户等级与能力值等页面
-@@||qqvip-web.cdn-go.cn^
-! QQ空间图片加载＆视频加载
-@@||qzs.qq.com^
-@@||m.qpic.cn^
-! QQ空间说说图片上传接口
-@@||v6.pic.upqzfile.com^
-! QQ链接跳转
-@@||qm.qq.com^
-! QQ链接跳转安全拦截页面
-! 已停止访问该页面
-@@||c.pc.qq.com^
-! QQ链接跳转安全拦截页面
-! 红色叹号图片
-@@||3gimg.qq.com^
-! QQ等级微视加速任务
-! 去完成页面指南
-@@||isee.weishi.qq.com^
-! QQ底栏动态页面功能图标
-@@||static-res.qq.com^
-! QQ关于页面内反馈页面布局
-@@||qzonestyle.gtimg.cn^
-! QQ日签卡图片加载
-@@||tianshu.gtimg.cn^
-! QQ表情包加载
-@@||i.gtimg.cn^
+# 放行OmoFun动漫相关内容
+! 网页端「非客户端官方运营」
+@@||omofun.link^
+! 网页端视频封面
+@@||leshizyimg.com^
+@@||snzypic.com^
+@@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^
+! 网页端视频评分图标
+! 抖音图标接口
+@@||lf1-cdn-tos.bytegoofy.com^
 
-# 放行QQ音乐相关内容
-! 听歌时长记录
-@@||stat6.y.qq.com^
-! QQ音乐首页
-@@||y.qq.com^
-! 推荐歌曲图片加载
-@@||y.gtimg.cn^
-! 活动界面商品加载
-@@||home.m.duiba.com.cn^
-@@||48609.activity-42.m.duiba.com.cn^
-! 活动界面商品图片加载
-@@||yun.duiba.com.cn^
-
-# 放行腾讯云相关内容
-! 控制台
-@@||console.cloud.tencent.com^
-! 控制台服务器总数
-! 拦截显示接口异常
-@@||iaas.cloud.tencent.com^
-! 云市场
-@@||market.cloud.tencent.com^
-
-# 放行腾讯云社区相关内容
-! 网页布局
-@@||cloudcache.tencent-cloud.cn^
-! 文章图片加载
-@@||inews.gtimg.com^
-! PC端右上角扫码关注二维码
-@@||qcloudimg.tencent-cloud.cn^
-
-# 放行腾讯域名信息「WHOIS」查询官网
-@@||whois.cloud.tencent.com^
-
-# 放行腾讯文档文件Logo
-@@||docs.idqqimg.com^
-
-# 放行腾讯应用宝应用下载接口
-! 拦截下载时显示网络异常
-@@||dd.myapp.com^
-
-# 放行腾讯网相关内容
-! 新闻官网
-@@||news.qq.com^
-! 网页布局
-! 拦截后「页面空白」
-@@||mat1.gtimg.com^
+# 放行囧次元更新APK下载接口
+@@||sf6-fe-tos.pglstatp-toutiao.com^
 
 
-#**************#
-# 小米放行规则 #
-#**************#
-# 放行小米消息推送
-@@||cn.app.chat.xiaomi.net^
-
-# 放行MIUI浏览器相关内容
-! 搜索结果列表
-@@||exp.sug.browser.miui.com^
-@@||ssl-cdn.static.browser.mi-img.com^
-! 推送新闻加载图片及评论
-@@||cpu.baidu.com^
-@@||hot.browser.miui.com^
-@@||cpucdn.baidu.com^
-@@||publish-pic-cpu.baidu.com^
-! 短视频加载及用户头像加载
-@@||v9-mllqsv.onewsvod.com^
-@@||v1-mllqsv.onewsvod.com^
-@@||*-open.byteimg.com^
-@@||*-open-sign.byteimg.com^
-
-# 放行MIUI连接WiFi时的网络连接检测，反之则会显示网络连接受限
-@@||connect.rom.miui.com^
-
-# 放行MIUI我的设备页面显示信息卡片
-@@||port.sec.miui.com^
-
-# 放行MIUI神隐模式更新地址
-! 神秘代码：*#*#76937#*#*
-! China服务器
-@@||jupiter.sys.miui.com^
-! Staging服务器
-@@||preview-jupiter.sys.miui.com^
-! International服务器
-@@||jupiter.intl.sys.miui.com^
-! Russion服务器
-@@||jupiter.rus.sys.miui.com^
-
-# 放行小米社区相关内容
-! 首页头像api及内测中心api
-@@||api.vip.miui.com^
-! 社区图片
-@@||cdn.cnbj1.fds.api.mi-img.com^
-@@||cnbj1.fds.api.xiaomi.com^
-
-# 放行小米天气添加城市加载
-@@||weatherapi.market.xiaomi.com^
-
-# 放行小米应用商店相关内容
-! 我的登录加载
-@@||app.market.xiaomi.com^
-! 游戏图标与演示视频
-@@||sf0.market.xiaomi.com^
-@@||vd0.market.xiaomi.com^
-! 应用下载调用的网站
-@@||pfga0.market.xiaomi.com^
-@@||fga0.market.xiaomi.com^
-@@||ff0.market.xiaomi.com^
-! 应用升级检测
-! 拦截会一直显示全部应用均为最新版本
-@@||updateinfo.market.xiaomi.com^
-
-# 放行小米主题商店相关内容
-! 官网
-@@||zhuti.xiaomi.com^
-! 页面加载
-@@||thm.market.xiaomi.com^
-! 用户头像调用加载的API
-@@||api.account.xiaomi.com^
-! 各类图片加载
-@@||t1.market.xiaomi.com^
-@@||t2.market.xiaomi.com^
-@@||t3.market.xiaomi.com^
-@@||t4.market.xiaomi.com^
-@@||t5.market.xiaomi.com^
-@@||f*.market.xiaomi.com^
-@@||f*.market.mi-img.com^
-@@||ts.market.mi-img.com^
-! 商店查询一些记录所调用的api，比如收藏记录、购买记录等
-@@||api.zhuti.xiaomi.com^
-
-# 放行讯飞输入法小米版相关内容
-! 斗图加载
-@@||imeclient.openspeech.cn^
-@@||dy-pic0.iqiyipic.com^
-! 设置内音效加载
-@@||download.voicecloud.cn^
-! 皮肤＆字体＆表情页面加载
-@@||cardservice.openspeech.cn^
-! 资源图片加载
-@@||s3.voicecloud.cn^
-@@||ime-res-download.xfinfr.com^
-! 资源购买支付系统加载
-@@||pay.openspeech.cn^
-! 今日输入统计加载
-! 飞飞号外
-@@||s1.voicecloud.cn^
-! 已购资源界面加载
-@@||coop.voicecloud.cn^
-! 账号登陆接口
-@@||account.xfinfr.com^
-! 检查更新放行
-! 拦截会显示获取版本信息失败，请稍后再试。
-@@||ossp.voicecloud.cn^
-
-# 放行miuithemez图片加载
-! MIUI主题国际版网站
-@@||blogger.googleusercontent.com^
-
-# 放行MIUI危险提示10S等待后的联网认证
-@@||srv.sec.miui.com^
-
-# 放行MIUI小部件页面加载与搜索
-@@||store.assistant.miui.com^
-
-# 放行MIUI指纹支付设置内证书更新接口
-@@||find.api.micloud.xiaomi.net^
-
-# 放行小米视频相关内容
-! 旧版底栏内容页加载
-! 拦截显示数据为空
-@@||m.video.xiaomi.com^
-! 新版底栏内容页加载
-! 拦截显示数据为空
-@@||m.v.wali.com^
-
-# 放行小米商城相关内容
-! 网页布局
-@@||s01.mifile.cn^
-! 首页商品封面
-@@||cnbj1-new.fds.api.xiaomi.com^
-
-# MIUI日历卡片信息
-! 利大于弊
-! 如芒种、端午节一类的节日卡片。
-! 法定节假日数据更新也是此API。
-! 但也会放行小米商店的卡片广告。
-! 小米商店卡片广告可以通过下方路径进行关闭。
-! 日历 -> 设置 -> 用户体验计划 -> 内容推广
-@@||api.comm.miui.com^
-
-# 放行MIUI短信服务商信息及头像加载
-@@||api.huangye.miui.com^
-
-# 放行小米游戏中心相关内容
-! 官网
-@@||game.xiaomi.com^
-! 分类图标＆社区内容加载
-! 游戏图标＆游戏介绍图
-! 开屏广告同域名，自行取舍。
-@@||t1.g.mi.com^
-! 游戏顶部介绍视频
-! 社区视频下划后的部分视频加载
-@@||mivideo.g.mi.com^
-! 社区部分视频加载
-! 攻略视频＆精彩锦集等
-@@||video.kts.g.mi.com^
-
-# 放行小米云服务相关内容
-! 小米账号内云服务卡片数值加载
-! 拦截后卡片显示「加载失败」
-@@||statusapi.micloud.xiaomi.net^
-! 云相册同步接口＆相册下载云端原文件时的接口
-! 拦截后图片将「无法与云端同步」＆相册内下载原图显示「原图下载失败」
-@@||galleryapi.micloud.xiaomi.net^
-
-
-#**************#
-# 华为放行规则 #
-#**************#
-# 放行华为智慧生活相关内容
-! 网络连接
-@@||smarthome-drcn.dbankcdn.com^
-! 设备插件更新下载链接
-@@||appdl-1-drcn.dbankcdn.com^
-@@||appdl-2-drcn.dbankcdn.com^
-
-# 放行华为应用市场相关内容
-! 网页端和App内应用图标＆应用介绍图＆导航栏图标接口
-@@||appimg.dbankcdn.com^
-@@||appimg-drcn.dbankcdn.com^
-
-# 放行华为商城相关内容
-! 官网
-@@||www.vmall.com^
-! 移动端官网
-@@||m.vmall.com^
-! 内容加载
-@@||res.vmallres.com^
-! 手机App商城内容加载
-@@||openapi.vmall.com^
-
-
-#**************#
-# 微软放行规则 #
-#**************#
-# 放行Edge浏览器相关内容
-! 浏览器默认翻译
-@@||edge.microsoft.com^
-! 微软翻译API接口
-@@||api-edge.cognitive.microsofttranslator.com^
-! 扩展安装
-@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
-! Microsoft尊重您的隐私接口
-! Cookie授权国际＆中国大陆接口
-! 新建标签页搜索框候选词小图标
-! 右上角登录默认用户头像＆登录窗口的图标
-! 右上角登天气接口＆天气图标
-! 新闻中间的播放按钮
-@@||assets.msn.com^
-@@||assets.msn.cn^
-
-# 放行微软账号登录相关内容
-! 登录界面
-@@||login.live.com^
-@@||login.microsoftonline.com^
-! 登陆界面网页布局
-@@||logincdn.msauth.net^
-
-# 放行Windows相关内容
-! 参考：https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
-! 参考：https://learn.microsoft.com/en-us/windows/deployment/do/delivery-optimization-endpoints
-! 参考：https://learn.microsoft.com/en-us/windows/privacy/windows-endpoints-1909-non-enterprise-editions
-! Windows更新检查接口
-! 拦截显示无法连接更新服务
-@@||ctldl.windowsupdate.com^
-! Windows更新下载接口＆微软商店应用更新接口
-! 拦截显示安装更新时出现一些问题（0x8024402f）
-@@||dl.delivery.mp.microsoft.com^
-@@||fe3cr.delivery.mp.microsoft.com^
-@@||download.windowsupdate.com^
-
-# 放行Xbox页面布局
-@@||assets-www.xbox.com^
-
-# 放行MSN官网
-@@||www.msn.com^
-
-# 放行一点资讯相关内容
-! 官网
-@@||www.yidianzixun.com^
-! 网页布局
-@@||static.yidianzixun.com^
-! 网页图片
-@@||staticimg.yidianzixun.com^
-! 一点号
-@@||mp.yidianzixun.com^
-! MSN一点视频内容链接跳转
-@@||msn.yidianzixun.com^
-! 一点视频内容加载接口
-@@||doris.yidianzixun.com^
-
-
-#**************#
-# 车企放行规则 #
-#**************#
+#**********************#
+!「规则分区」
+! 车企放行规则
+#**********************#
 # 放行兰博基尼官网
 @@||www.lamborghini.com^
 
@@ -1916,9 +1972,10 @@
 @@||www.bmw.com.cn^
 
 
-#**************#
-# 极客放行规则 #
-#**************#
+#**********************#
+!「规则分区」
+! 极客放行规则
+#**********************#
 # 放行兽耳助手相关内容
 ! 腾讯Bugly
 ! 检测更新
@@ -2082,6 +2139,9 @@
 # 放行DeepSeek官网
 @@||www.deepseek.com^
 
+# 放行SauceNAO「搜图引擎」官网
+@@||saucenao.com^
+
 # 放行BitLy短链接平台相关内内容
 ! 官网
 @@||bitly.com^
@@ -2095,6 +2155,10 @@
 
 # 放行NodeSeek论坛
 @@||www.nodeseek.com^
+
+# 放行Steam APP图片加载
+@@||cdn.akamai.steamstatic.com^
+@@||community.akamai.steamstatic.com^
 
 # 放行Uptodown「Android应用商店」相关内容
 ! 英文官网
@@ -2122,9 +2186,10 @@
 @@||xn--l6qx3l9s1a.com^
 
 
-#**************#
-# 游戏放行规则 #
-#**************#
+#**********************#
+!「规则分区」
+! 游戏放行规则
+#**********************#
 # 放行闪耀暖暖人工客服加载
 ! 网易七鱼
 @@||papegames.qiyukf.com^
@@ -2283,10 +2348,17 @@
 # 放行星欲少女官网
 @@||starlusts.com^
 
+# 放行TapTap相关内容
+! AD推荐的游戏介绍加载
+@@||static-tapad.tapdb.net^
+! 游戏时间统计
+@@||report.taptapdada.com^
 
-#**************#
-# 外网放行规则 #
-#**************#
+
+#**********************#
+!「规则分区」
+! 外网放行规则
+#**********************#
 # 放行Pixiv网页加载及图片加载
 @@||s.pximg.net^
 @@||i.pximg.net^
@@ -2370,54 +2442,14 @@
 # 放行身高比较「身長比較したったー」官网
 @@||hikaku-sitatter.com^
 
-
-#******************#
-# 正经站点放行规则 #
-#******************#
-# 放行轻之国度
-@@||lightnovel.us^
-
-# 放行动漫共和国相关内容
-! 前身OmoFun动漫「客户端版本为正版」
-! 官网
-@@||animerep.com^
-
-# 放行OmoFun动漫相关内容
-! 网页端「非客户端官方运营」
-@@||omofun.link^
-! 网页端视频封面
-@@||leshizyimg.com^
-@@||snzypic.com^
-@@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^
-! 网页端视频评分图标
-! 抖音图标接口
-@@||lf1-cdn-tos.bytegoofy.com^
-
-# 放行囧次元更新APK下载接口
-@@||sf6-fe-tos.pglstatp-toutiao.com^
-
-# 放行电子图书馆
-! 可下载书籍
-@@||annas-archive.org^
-
-# 放行Plus茶馆
-! 北+
-@@||north-plus.net^
-! 南+
-@@||south-plus.net^
-! 白+
-@@||white-plus.net^
-! Lv+
-@@||level-plus.net^
-! 夏+
-@@||summer-plus.net^
-! 春+
-@@||spring-plus.net^
+# 放行网站收录平台
+@@||theporndude.com^
 
 
-#******************#
-# NSFW站点放行规则 #
-#******************#
+#**********************#
+!「规则分区」
+! NSFW站点放行规则
+#**********************#
 # 放行Zod论坛
 @@||zodgame.xyz^
 
@@ -2451,6 +2483,9 @@
 
 # 放行Hitomi本子官网
 @@||hitomi.la^
+
+# 放行Kemono「画册收集」网站
+@@||kemono.party^
 
 # 放行绅士漫画
 ! 部分广告与主页同域名
