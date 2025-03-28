@@ -115,6 +115,7 @@
 ||*.qgivvd.cn^
 ||*.5z6h6b.cn^
 ||*.fokm37.cn^
+||*.lxclli.cn^
 ||*.ul2tos.cn^
 ||*.anhuyj.cn^
 ||*.awkwla.cn^
@@ -145,6 +146,7 @@
 ||*.9tjoj6.com^
 ||*.x586di.com^
 ||*.hrdhej.xyz^
+||*.qiuxl11.cn^
 ||*.60qso7.com^
 ||*.njp878.com^
 ||*.siigck.xyz^
@@ -223,6 +225,8 @@
 ||bob4892.com^
 ||9983x.com:8055^
 ||552aaa.us^
+||juuoe.lrmzx.com^
+||op53t.nbganghui.com^
 ||t16-fghgdf.com^
 ||3.hlg102a.cc^
 ||yt1119.yytphq.cn^
@@ -245,6 +249,8 @@
 ||2.jxx2502a.cc^
 ||gd102.rdcyr.cn^
 ||mm.91204.icu^
+||ok.6078158.cc^
+||ok.5378397.cc^
 ||hchh.capmvb.net^
 ||ent.lpvbupak.shop^
 ||i4dx.dy03bw0.pro^
@@ -297,6 +303,9 @@
 ||st1744302312.jdjdfwc.cn^
 ||wed1.fxqzaoa.cn^
 ||24511.nianlia.com^
+||ctyfmc.icu^
+||xttiu105.pjpxke.cn^
+||jock.cdn.bcebos.com^
 ||xlmwp.zxhychina.com^
 ||ktx769.cc^
 ||yqs66.82098999.com^
@@ -592,4 +601,6 @@
 ||m3.mmsp062.top^
 ||gsvxs062.top^
 ||hxg6.t906377.vip^
+||web3.0.page.live18.club^
+||fri28.so03281koaq.com^
 
