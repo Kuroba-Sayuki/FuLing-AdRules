@@ -179,6 +179,7 @@
 ||*.yinghua-*.cc^
 ||*.jjzemoc3ca.top^
 ||*.aliyuncsslb.com^
+||sat29.so*koaq.com^
 ||*.aliyuncsslbintl.com^
 ||xa1jgfbdlwf2ncxq.*.com^
 ||*.jennylisnerphotography.com^
@@ -587,6 +588,7 @@
 ||www.qqssvyk368.vip^
 ||25.y25718211.vip^
 ||24cdocker402.com^
+||iwuaym.icu^
 ||kk2417456.pgszp.cn^
 ||www.fi11aa198.com^
 ||web.g6ra.live^
