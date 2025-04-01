@@ -8,7 +8,7 @@
 # 规则说明：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 项目说明：本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。
 #************************************************************************#
-# 更新时间：2025-03-25
+# 更新时间：2025-04-01
 #************************************************************************#
 
 
@@ -130,6 +130,8 @@
 ||*.wfojsm.com^
 ||*.80ritc.com^
 ||*.z9ehxz.com^
+||*.n8pnux.com^
+||*.2b4dlx.com^
 ||*.vkomjd.com^
 ||*.ppfu3m.com^
 ||*.6nxa6g.com^
@@ -137,12 +139,16 @@
 ||*.tkmihh.xyz^
 ||*.v4v6v4.com^
 ||*.s8etj5.com^
+||*.ud9ipy.com^
+||*.2wa9vg.com^
 ||*.emsxev.xyz^
 ||*.mise*.buzz^
 ||*.obj23q.com^
 ||*.p3q0tt.com^
 ||*.3adtjg.com^
 ||*.4egscv.com^
+||*.o96jic.com^
+||*.nxue75.com^
 ||*.9tjoj6.com^
 ||*.x586di.com^
 ||*.hrdhej.xyz^
@@ -178,6 +184,9 @@
 ||*.kwilmid.top^
 ||*.yinghua-*.cc^
 ||*.jjzemoc3ca.top^
+||*.tap0102mzq.top^
+||*.bg3partner.fun^
+||*.so04011koaq.com^
 ||*.aliyuncsslb.com^
 ||sat29.so*koaq.com^
 ||*.aliyuncsslbintl.com^
@@ -386,6 +395,8 @@
 ||49lq.mm51-tvhn1767.vip^
 ||skej236.icu^
 ||www.v6hfl4.top^
+||lsjarh.top^
+||geuvus.icu^
 ||df101.mpsysd.cn^
 ||aaa.za1.cfykd.cn^
 ||nfgnxkd.top^
@@ -417,6 +428,8 @@
 ||www.nleljf.xyz^
 ||lait.a21l.top^
 ||91.91c379.top^
+||uiruyhgdlq9.com^
+||wuk.91c0218.top^
 ||rpdi192.icu^
 ||df101.qckkz.cn^
 ||ent.djlacgc.top^
@@ -446,6 +459,8 @@
 ||g7h69h29cx.com^
 ||m3hual.89doc.com^
 ||jz.hgke8.cn^
+||49lq.mm51-t0403.cc^
+||xnp92aeh02.knlwy.cn^
 ||www.jtlopk.xyz^
 ||gpanaiagcsnvtggh.cwt3.xyz^
 ||1814.dkhwyzv.com^
