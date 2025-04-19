@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-04-18
+# 更新时间：2025-04-19
 #************************************************************************#
 
 
@@ -336,9 +336,11 @@
 @@||p9-dcd-sign.byteimg.com^
 @@||p5-auto-sign.dcarimg.com^
 @@||p3-passport.byteacctimg.com^
+! 下方接口抖音也会调用，属于上方图片类型接口。
 @@||p3-webcast-sign.douyinpic.com^
 @@||p6-webcast-sign.douyinpic.com^
 @@||p9-webcast-sign.douyinpic.com^
+@@||p11-webcast-sign.douyinpic.com^
 ! 二手车详情界面加载
 @@||lf6-cdn2-tos.bytegoofy.com^
 ! 个别内容页面加载
@@ -1397,6 +1399,22 @@
 ! APP支付宝授权身份验证接口
 ! 可能还是淘宝授权的接口
 @@||market.m.taobao.com^
+! APP首页布局加载＆搜索接口
+! 拦截后「首页显示无可用网络，请检查你的网络设置~」
+! 参考：https://www.faithlv.top/archives/1698470682334
+@@||g-acs.m.goofish.com^
+! APP首页分类页面加载
+! 二次元＆闲鱼副业＆手机数码＆二手房＆二手车
+! 拦截后「涉及到首页分类入口将无法打开，显示页面加载失败啦，点击重新加载试试吧」
+@@||ssr.m.goofish.com^
+! 商品视频封面＆商品页视频接口
+@@||video.goofish.com^
+! 安全中心界面＆简历认证界面＆闲鱼公约界面＆闲鱼会员界面＆闲鱼币界面＆精挑细选界面下方推荐
+! 拦截后「涉及到部分界面无法打开，显示页面加载失败啦，点击重新加载试试吧」
+! 拦截后「精挑细选下方推荐一直加载中，并且当前商品也无法打开页面」
+@@||h5.m.goofish.com^
+! 简历认证界面介绍图加载
+@@||gjusp.alicdn.com^
 
 # 放行闲管家相关内容
 ! 闲管家
@@ -1706,9 +1724,17 @@
 @@||lf3-static.bytednsdoc.com^
 
 # 放行番茄免费小说APP相关内容
-! 「基础API」拦截后显示「网络出错，请点击重试」
+! 书城分类内容加载
+! 拦截后「书城显示网络出错，请点击重试」
+! 拦截后「书城分类无法显示完全」
+@@||api5-normal-sinfonlineb.fqnovel.com^
+! 推荐好书内容加载＆部分功能界面加载
+! 客服＆用户协议＆相关许可证＆共享清单
+! 拦截后「显示网络出错，请点击重试」
+@@||reading.snssdk.com^
 ! 听书总接口、智能朗读字幕接口、真人讲书AI文稿接口
 ! 我的页面底部推荐、个人信息页，章节段落评论、书籍详情页
+! 拦截后「显示网络出错，请点击重试」
 @@||api3-normal-sinfonlineb.fqnovel.com^
 ! 小说封面
 @@||p3-novel.byteimg.com^
@@ -1724,6 +1750,15 @@
 @@||v3-novelapp.fqnovelvod.com^
 @@||v5-novelapp.fqnovelvod.com^
 @@||v26-novelapp.fqnovelvod.com^
+! 开屏互动操作设置界面
+! 拦截后「显示网络出错，请点击重试」
+@@||ad-experience.bytedance.com^
+! 管理广告推送界面
+! 拦截后「显示网络出错，请点击重试」
+@@||efe.snssdk.com^
+! 管理广告推送面内容加载＆开开屏互动操作设置内容加载
+! 拦截后「相关功能页面空白」
+@@||lf-ad-convert-feedback.oceanengine.com^
 
 # 放行番茄畅听相关内容
 ! 官网
@@ -1852,8 +1887,12 @@
 @@||sdk.ptqy.gitv.tv^
 
 # 放行抖音相关内容
+! 官网
+@@||www.douyin.com^
+! 网页布局＆资源接口
+@@||lf-douyin-pc-web.douyinstatic.com^
 ! 手机网页端网页布局＆电脑网页端布局
-! 拦截后页面变空白
+! 拦截后「页面变空白」
 @@||lf3-cdn-tos.bytegoofy.com^
 @@||lf6-cdn-tos.bytegoofy.com^
 ! 手机网页端立即下载页面
@@ -1897,6 +1936,22 @@
 @@||p9-sign.douyinpic.com^
 @@||p11-sign.douyinpic.com^
 @@||p26-sign.douyinpic.com^
+! 抖音直播官网
+@@||live.douyin.com^
+! 抖音直播网页布局
+@@||lf-webcast-platform.bytetos.com^
+! 抖音直播间封面 
+@@||p3-webcast.douyinpic.com^
+@@||p11-webcast.douyinpic.com^
+! 抖音搜引擎索官网
+@@||so.douyin.com^
+! 抖音搜索引擎主页布局
+! 拦击后「搜索引擎主页空白」
+@@||lf-douyin-search-fe.bytetos.com^
+! 抖音搜索引擎网页布局
+@@||lf3-card-system.searchpstatp.com^
+! 抖音主站搜索PC网页布局
+@@||lf-douyin-pc-search.douyinstatic.com^
 
 # 放行西瓜视频相关内容
 ! 视频封面
@@ -2800,6 +2855,9 @@
 @@||fivetiu.com^
 ! 视频播放接口
 @@||surrit.com^
+
+# 放行BadNews网站
+@@||bad.news^
 
 # 放行pornlulu视频网站相关内容
 ! 主站
