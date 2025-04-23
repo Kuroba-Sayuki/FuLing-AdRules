@@ -1,2 +1,4 @@
-*.txt linguist-language=Txt linguist-detectable
 *.md linguist-language=Markdown linguist-detectable
+/MergeRules/*.txt linguist-language=Hosts linguist-detectable
+/OtherRules/*.txt linguist-language=AdBlock linguist-detectable
+/FuLingRules/*.txt linguist-language=AdBlock linguist-detectable
