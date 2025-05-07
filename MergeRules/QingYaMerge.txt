@@ -6,10 +6,10 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! 此为合并规则，合并自以下时间段的「原规则」，并去除@@格式的白名单、去除重复规则。
-! 2024-07「旧晴雅」、2025-02「新晴雅」、2025-03「新晴雅」
+! 旧晴雅：2024-07
+! 新晴雅：2025-02、2025-03、2025-05
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-# [qq.com]
 ||cfg.imtt.qq.com^
 ||yun-hl.3g.qq.com^
 ||disp-qryapi.3g.qq.com^
@@ -55,7 +55,6 @@
 ||tmead.y.qq.com^
 ||news.ssp.qq.com^
 ||qqdata.ab.qq.com^
-# [百度]
 ||aden.baidu.com^
 ||bes-mtj.baidu.com^
 ||cpro.baidustatic.com^
@@ -89,7 +88,6 @@
 ||tdid.m.qq.com^
 ||union.eff.qq.com^
 ||win.gdt.qq.com^
-# [快手]
 ||uploads*.gifshow.com^
 ||upload.ksapisrv.com^
 ||uploads*.ksapisrv.com^
@@ -104,23 +102,17 @@
 ||w2.gskwai.com^
 ||zt.gifshow.com^
 ||api.kwaizt.com^
-# [微信]
 ||consumerapp*.image.myqcloud.com^
 ||*snscosdownload*^
 ||*getappmsgad*^
 ||badjs.weixinbridge.com^
 ||wxa.wxs.qq.com^
 ||midas.gtimg.cn^
-# [友盟]
 ||*umeng.com^
-# [360]
 ||c.sayhi.360.cn^
-# [字节跳动]
-# [vivo]
 ||adsdk.vivo.com.cn^
 ||adxlog-adnet.vivo.com.cn^
 ||ads-marketing-vivofs.vivo.com.cn^
-# [未分类]
 ||umengacs.m.taobao.com^
 ||*.sigmob.cn^
 ||*8le8le.com^
@@ -150,8 +142,6 @@
 ||v9-be-pack.pglstatp-toutiao.com^
 ||pig.pupuapi.com^
 ||log-api.pangolin-sdk-toutiao.com^
-# [番茄小说]
-# [视频客户端过滤器]
 ||yk-ssp.ad.youku.com^
 ||vali-g1.cp31.ott.cibntv.net^
 ||xpgw-xcdn.youku.com^
@@ -160,7 +150,6 @@
 ||ykad-data.youku.com^
 ||sjarvis.taobao.com^
 ||activity.youku.com^
-# [正则百度]
 ||*adsdk_splash*^
 ||*adsdk_roll*^
 ||*MobadsSdk*^
@@ -174,15 +163,12 @@
 ||*baidu_logo_str*^
 ||*ad_logo_str*^
 ||*mobads*^
-# [抖音]
 ||*isAds*^
 ||ad.oceanengine.com^
 ||ads.tiktok.com^
 ||leads.oceanengine.com^
-# [酷狗音乐]
 ||ads*kugou.com^
 ||fxservice1.kugou.com^
-# [知乎]
 ||api.zhihu.com/ab/*^
 ||m-cloud.zhihu.com/api/cloud/zhihu/config/all*^
 ||otheve.beacon.qq.com^
@@ -200,7 +186,6 @@
 ||*load_new_ad=*^
 ||*commercial_api/real_time*^
 ||www.zhihu.com/api/v4/answers/*/recommendations?omni=*&amp;amp;load_new_ad=*&amp;amp;page_index=*^
-# [七猫]
 ||*ad-pattern*^
 ||*ad_unit_id*^
 ||p2-lm.adukwai.com^
@@ -237,7 +222,6 @@
 ||promotion-partner.kuaishou.com^
 ||sns-paopao.iqiyi.com^
 ||dm.toutiao.com^
-# [我是晴雅你记住^-^]
 ||store.log.ksyun.com^
 ||p9-pack.byteimg.com^
 ||*.ksyungslb.com^
@@ -339,7 +323,6 @@ ltssjy.qq.com^
 ||cm-10-28.getui.com^
 ||hugelog.fcbox.com^
 ||lhp.map.qq.com^
-# [小说]
 ||*.beizi.biz^
 ||v.adx.hubcloud.com.cn^
 ||*.hpplay.cn^
@@ -930,3 +913,30 @@ ltssjy.qq.com^
 ||test.y.qq.com^
 ||landing.gdtimg.com^
 ||signaltower.gdt.qq.com^
+||aiclk.com^
+||adtrack.quark.cn^
+||api5-normal-sinfonlineb.dcarapi.com^
+||ctrmi.cn^
+||ib.snssdk.com^
+||ib-hl.snssdk.com^
+||vcs.zijieapi.com^
+||a6-remad.qm989.com^
+||ad-drs.52qumao.com^
+||peplle.cn^
+||maplehaze.cn^
+||pro.bugly.qq.com^
+||audid.umeng.com^
+||msg.umengcloud.com^
+||*ad.wtzw.com^
+||789.kakamobi.cn^
+||swallow.kakamobi.cn^
+||chat-platform-open.kakamobi.cn^
+||jiaxiao-awd.kakamobi.cn^
+||pangolin.snssdk.com^
+||extlog.snssdk.com^
+||*pglstatp-toutiao.com^
+||*pangolin*toutiao*.com^
+||adashbc.m.taobao.com^
+||tnc3-bjlgy.snssdk.com^
+||mssdk-bu.snssdk.com^
+||amap-aos-info-nogw.amap.com^
