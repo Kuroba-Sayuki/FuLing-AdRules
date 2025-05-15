@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-04-28
+# 更新时间：2025-05-15
 #************************************************************************#
 
 ||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^
@@ -44,11 +44,13 @@
 ||sf3-fe-tos.pglstatp-toutiao.com^
 ||skdisplay.jd.com^
 ||settings.ttwebview.com^
+||*.bllst.cn^
 ||*.laebu.cn^
 ||*.gdolr.cn^
 ||*.poeme.cn^
 ||*.bjnxo.cn^
 ||*.phire.cn^
+||*.md410.cc^
 ||*.ifllqc.cn^
 ||*.giqnyl.cn^
 ||*.qgivvd.cn^
@@ -66,6 +68,8 @@
 ||*.jvere.xyz^
 ||www.mt*.vip^
 ||www.ht*.vip^
+||*.wy2qq.top^
+||thu15.*.com^
 ||*.wfojsm.com^
 ||*.80ritc.com^
 ||*.z9ehxz.com^
@@ -101,7 +105,9 @@
 ||bbcbbi.*.com^
 ||dciclc.*.top^
 ||dcivlv.*.top^
+||0c4d3f6.*.com^
 ||*.oneliner.cn^
+||*.31xx958d.cc^
 ||*.oweisik.top^
 ||*.uweisit.top^
 ||*.3r5ia7l.xyz^
@@ -122,7 +128,10 @@
 ||*.kweisid.top^
 ||*.jwcnmta.top^
 ||*.kwilmid.top^
+||*.hychwg.cyou^
+||*.y80iwf.cyou^
 ||*.yinghua-*.cc^
+||*.wacaoldy1.com^
 ||*.jjzemoc3ca.top^
 ||*.tap0102mzq.top^
 ||*.bg3partner.fun^
@@ -134,6 +143,7 @@
 ||*.jennylisnerphotography.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
+||*-*.ap-northeast-2.elb.amazonaws.com^
 ||static.trafficjunky.com^
 ||evtubescms.phncdn.com^
 ||video.mnaspm.com^
@@ -143,6 +153,8 @@
 ||cbu01.alicdn.com^
 ||65564535.com^
 ||3.31xx4325a.cc^
+||kklq05151p0i.com^
+||ommbqw.icu^
 ||loje863.cc^
 ||k2.ofodai.com^
 ||91.yelang8.cc^
@@ -161,6 +173,8 @@
 ||t16-fghgdf.com^
 ||3.hlg102a.cc^
 ||yt1119.yytphq.cn^
+||8516.fun^
+||hkw27.icu^
 ||aaa.za1.maetg.cn^
 ||xrhf.taimei-t336.vip^
 ||1206q3-giqvvwa1jie9-017.cbhdmir.cn^
@@ -466,6 +480,8 @@
 ||bd666.ahtdqlz.cn^
 ||tw.juyu.app^
 ||www.xybnim.xyz^
+||m69e.cyou^
+||sfh35.icu^
 ||yes.8356792.cc^
 ||ss0913.utbcd.cn^
 ||1212.ehgssdg.cn^
@@ -497,6 +513,8 @@
 ||www.xhszd68.vip^
 ||bhgzwqy.top^
 ||g105ryj105.cfd^
+||ww.wcav495.vip^
+||www.kdu4127.cc^
 ||mc.bwaa011.top^
 ||ung73.top^
 ||1fr1.t325omy.vip^
@@ -545,3 +563,6 @@
 ||hxg6.t906377.vip^
 ||web3.0.page.live18.club^
 ||fri28.so03281koaq.com^
+||698444.lol^
+||www.kca8531.cc^
+||pbdhsolmxw1.com^
