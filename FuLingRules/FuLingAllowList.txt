@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-15
+# 更新时间：2025-05-17
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -226,14 +226,20 @@
 @@||m.so.com^
 @@||qcaptcha.so.com^
 @@||m.360video.so.com^
-@@||*.xn--ngstr-lra8j.com^
-@@||ssl.gstatic.com^
+@@||www.google.com^
+@@||www.google.com.hk^
+@@||www.google.cn^
 @@||www.gstatic.com^
-@@||fonts.gstatic.com^
 @@||encrypted-tbn0.gstatic.com^
 @@||encrypted-tbn1.gstatic.com^
 @@||encrypted-tbn2.gstatic.com^
 @@||encrypted-tbn3.gstatic.com^
+@@||fonts.gstatic.com^
+@@||images.google.com^
+@@||images.google.com.hk^
+@@||images.google.cn^
+@@||*.xn--ngstr-lra8j.com^
+@@||ssl.gstatic.com^
 @@||www.recaptcha.net^
 @@||edge.microsoft.com^
 @@||api-edge.cognitive.microsofttranslator.com^
@@ -418,6 +424,7 @@
 @@||smartrobot-drcn.dbankcdn.com^
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||txwk.10010.com^
+@@||pull-m1.wxlivecdn.com^
 @@||dldir1.qq.com^
 @@||downv6.qq.com^
 @@||cdn.ark.qq.com^
@@ -839,6 +846,7 @@
 @@||ssj-1256119282.cos.ap-guangzhou.myqcloud.com^
 @@||www.docker.com^
 @@||hub.docker.com^
+@@||dockerstatic.com^
 @@||podman.io^
 @@||kubernetes.io^
 @@||git-scm.com^
@@ -885,6 +893,10 @@
 @@||plyr.io^
 @@||cdn.plyr.io^
 @@||static.miraheze.org^
+@@||www.spaceship.com^
+@@||spaceship-cdn.com^
+@@||api.revved.com^
+@@||domains-ws.revved.com^
 @@||porkbun.com^
 @@||www.deepseek.com^
 @@||manus.im^
@@ -895,8 +907,16 @@
 @@||d1ayxb9ooonjts.cloudfront.net^
 @@||bit.ly^
 @@||www.nodeseek.com^
+@@||store.steampowered.com^
+@@||store.steamchina.com^
+@@||store.fastly.steamstatic.com^
+@@||store.cdn.queniuqe.com^
+@@||store.steamchina.queniuam.com^
 @@||cdn.akamai.steamstatic.com^
 @@||community.akamai.steamstatic.com^
+@@||www.epicgames.com^
+@@||components.unrealengine.com^
+@@||cms-assets.unrealengine.com^
 @@||en.uptodown.com^
 @@||cn.uptodown.com^
 @@||jp.uptodown.com^
@@ -937,7 +957,6 @@
 @@||x19.update.netease.com^
 @@||tom.163.com^
 @@||h18.update.netease.com^
-@@||store.steampowered.com^
 @@||jianghu.163.com^
 @@||h42.update.netease.com^
 @@||party.163.com^
