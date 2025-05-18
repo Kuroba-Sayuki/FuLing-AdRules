@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-15
+# 更新时间：2025-05-18
 #************************************************************************#
 
 ||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^
@@ -44,6 +44,7 @@
 ||sf3-fe-tos.pglstatp-toutiao.com^
 ||skdisplay.jd.com^
 ||settings.ttwebview.com^
+||fbia.*.cn^
 ||*.bllst.cn^
 ||*.laebu.cn^
 ||*.gdolr.cn^
@@ -51,6 +52,9 @@
 ||*.bjnxo.cn^
 ||*.phire.cn^
 ||*.md410.cc^
+||*.pnwix.cn^
+||*.rfvjl.cn^
+||*.r1gu.com^
 ||*.ifllqc.cn^
 ||*.giqnyl.cn^
 ||*.qgivvd.cn^
@@ -70,7 +74,14 @@
 ||www.ht*.vip^
 ||*.wy2qq.top^
 ||thu15.*.com^
+||*.8359300.cc^
+||*.bmdzu8m.cc^
+||*.zzz725.top^
 ||*.wfojsm.com^
+||*.yzbpjz.com^
+||*.1l036o.com^
+||*.01fwzb.com^
+||*.dox3xs.com^
 ||*.80ritc.com^
 ||*.z9ehxz.com^
 ||*.n8pnux.com^
@@ -78,7 +89,14 @@
 ||*.vkomjd.com^
 ||*.ppfu3m.com^
 ||*.6nxa6g.com^
+||*.pl1n06.com^
+||*.f5o640.com^
+||*.g0d679.com^
+||*.ewstu2.com^
+||*.arbyyu.com^
+||*.u101vb.com^
 ||*.59p643.com^
+||*.xwcphd.xyz^
 ||*.tkmihh.xyz^
 ||*.v4v6v4.com^
 ||*.s8etj5.com^
@@ -108,9 +126,14 @@
 ||0c4d3f6.*.com^
 ||*.oneliner.cn^
 ||*.31xx958d.cc^
+||*.*-t0613.vip^
+||*.ft33t3w.pro^
 ||*.oweisik.top^
 ||*.uweisit.top^
 ||*.3r5ia7l.xyz^
+||*.jqnljze.xyz^
+||*.xzdabyw.xyz^
+||*.ilylbap.xyz^
 ||*.lzwrhiw.xyz^
 ||*.8vx3zks.xyz^
 ||*.3dqvcli.xyz^
@@ -130,11 +153,15 @@
 ||*.kwilmid.top^
 ||*.hychwg.cyou^
 ||*.y80iwf.cyou^
+||*.bmddsofta.cc^
 ||*.yinghua-*.cc^
+||*.xxsp002.cyou^
 ||*.wacaoldy1.com^
+||*.a48962121.top^
 ||*.jjzemoc3ca.top^
 ||*.tap0102mzq.top^
 ||*.bg3partner.fun^
+||*-*-*-lrycfv.vip^
 ||*.so04011koaq.com^
 ||*.aliyuncsslb.com^
 ||sat29.so*koaq.com^
@@ -383,6 +410,8 @@
 ||ylmlt.nyaifusheng.com^
 ||ze516.xyz^
 ||txx99.top^
+||561.5613828.cc^
+||596.5963135.cc^
 ||mgscj.efw884.vip^
 ||2.52gao4208.cc^
 ||2217.zox3ue.com^
@@ -442,6 +471,8 @@
 ||vm0c.tbl1444klf.cc^
 ||fk.kksp004.top^
 ||pcmlll.srlrjvz.com^
+||www.150ixesut.top^
+||www.150amqtkk.top^
 ||apk2.jingpengpeixun.xyz^
 ||2.110556.xyz^
 ||xtd36.top^
@@ -506,6 +537,8 @@
 ||api.aoao11191iis.top^
 ||facai103.asefc.cn^
 ||99.gn5m0bnwzvkndnoygn.com^
+||www.qhmxwux.com^
+||assd.hkewhqoao.cn^
 ||szebf270.com^
 ||www.djijrsh270.vip^
 ||ggeu.ditiehunlian.com^
@@ -553,6 +586,8 @@
 ||www.lqsx.net^
 ||10mi.t5130pp.vip^
 ||api.aoao12060iis.top^
+||21uywiew.com^
+||213fjdd.com^
 ||www.realpr.xyz^
 ||bal113.rhdej.cn^
 ||kb1ve043.top^
