@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-17
+# 更新时间：2025-05-18
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -211,6 +211,9 @@
 @@||www.ali213.net^
 @@||3g.ali213.net^
 @@||static.ali213.net^
+@@||www.tiantiantiaosheng.com^
+@@||api.tiantiantiaosheng.com^
+@@||cdn.tiantiantiaosheng.com^
 @@||suggestion.baidu.com^
 @@||quark.sm.cn^
 @@||sugs.m.sm.cn^
@@ -990,6 +993,13 @@
 @@||act-webstatic.hoyoverse.com^
 @@||www.mini1.cn^
 @@||starlusts.com^
+@@||www.taptap.cn^
+@@||www.taptap.io^
+@@||avc.tapimg.com^
+@@||pl.taptap.cn^
+@@||img.tapimg.com^
+@@||img2.tapimg.com^
+@@||img3.tapimg.com^
 @@||static-tapad.tapdb.net^
 @@||report.taptapdada.com^
 @@||s.pximg.net^
