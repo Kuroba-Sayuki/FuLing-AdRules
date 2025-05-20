@@ -77,6 +77,8 @@
 
 <h1 align="center">🕮其它规则「网络」🕮</h1>
 
+>下个ID見规则原项目：[点击跳转](https://github.com/2Gardon/SM-Ad-FuckU-hosts)「GitHub」
+
 | 名称 | GitHub直链 |
 | :-: | :-: |
 | ADSLJF | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/ADSLJFRules.txt) |
