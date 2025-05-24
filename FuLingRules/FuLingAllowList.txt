@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-18
+# 更新时间：2025-05-24
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -705,6 +705,7 @@
 @@||lf3-static.bytednsdoc.com^
 @@||api5-normal-sinfonlineb.fqnovel.com^
 @@||reading.snssdk.com^
+@@||lf-sourcecdn-tos.bytegecko.com^
 @@||api3-normal-sinfonlineb.fqnovel.com^
 @@||p3-novel.byteimg.com^
 @@||p6-novel.byteimg.com^
@@ -811,6 +812,13 @@
 @@||lf-douyin-search-fe.bytetos.com^
 @@||lf3-card-system.searchpstatp.com^
 @@||lf-douyin-pc-search.douyinstatic.com^
+@@||www.kuaishou.com^
+@@||m.kuaishou.com^
+@@||captcha.zt.kuaishou.com^
+@@||js.a.kspkg.com^
+@@||live.kuaishou.com^
+@@||p2-game.kskwai.com^
+@@||captcha-gray.zt.kuaishou.com^
 @@||p3-sign.bdxiguaimg.com^
 @@||p26-sign.bdxiguaimg.com^
 @@||sf6-cdn-tos.bdxiguastatic.com^
@@ -819,6 +827,14 @@
 @@||m.ykimg.com^
 @@||liangcang-material.alicdn.com^
 @@||vali01.cp31.ott.cibntv.net^
+@@||tv.sohu.com^
+@@||m.tv.sohu.com^
+@@||js.tv.itc.cn^
+@@||css.tv.itc.cn^
+@@||39d0825d09f05.cdn.sohucs.com^
+@@||e3f49eaa46b57.cdn.sohucs.com^
+@@||photocdn.tv.sohu.com^
+@@||data.vod.itc.cn^
 @@||animerep.com^
 @@||omofun.link^
 @@||leshizyimg.com^
@@ -995,13 +1011,15 @@
 @@||starlusts.com^
 @@||www.taptap.cn^
 @@||www.taptap.io^
+@@||apk-packaging.tapimg.com^
 @@||avc.tapimg.com^
 @@||pl.taptap.cn^
 @@||img.tapimg.com^
 @@||img2.tapimg.com^
 @@||img3.tapimg.com^
-@@||static-tapad.tapdb.net^
+@@||qn-static-tap.tapimg.com^
 @@||report.taptapdada.com^
+@@||rls.tapimg.com^
 @@||s.pximg.net^
 @@||i.pximg.net^
 @@||m.facebook.com^
@@ -1040,6 +1058,8 @@
 @@||hikaku-sitatter.com^
 @@||theporndude.com^
 @@||zodgame.xyz^
+@@||lockororder.netlify.app^
+@@||taskofdeity.netlify.app^
 @@||hanime1.me^
 @@||fonts.googleapis.com^
 @@||img4.qy0.ru^
