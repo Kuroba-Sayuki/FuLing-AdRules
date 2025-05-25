@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-24
+# 更新时间：2025-05-25
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -45,8 +45,16 @@
 @@||level-plus.net^
 @@||summer-plus.net^
 @@||spring-plus.net^
+@@||www.chinaunicom.com^
+@@||www.chinaunicom.com.cn^
+@@||www.10010.com^
+@@||iservice.10010.com^
 @@||img.client.10010.com^
 @@||m1.img.10010.com^
+@@||m.client.10010.com^
+@@||js.img.10010.com^
+@@||m2.img.10010.com^
+@@||res.mall.10010.cn^
 @@||sina.com.cn^
 @@||k.sinaimg.cn^
 @@||login.sina.com.cn^
