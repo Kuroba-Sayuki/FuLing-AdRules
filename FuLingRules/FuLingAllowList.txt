@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-25
+# 更新时间：2025-05-27
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -337,6 +337,8 @@
 @@||t1.g.mi.com^
 @@||mivideo.g.mi.com^
 @@||video.kts.g.mi.com^
+@@||i.mi.com^
+@@||cdn.web-global.fds.api.mi-img.com^
 @@||statusapi.micloud.xiaomi.net^
 @@||galleryapi.micloud.xiaomi.net^
 @@||smarthome-drcn.dbankcdn.com^
@@ -893,6 +895,8 @@
 @@||www.cloudns.net^
 @@||www.jsdelivr.com^
 @@||cdn.jsdelivr.net^
+@@||cdnjs.com^
+@@||cdnjs.cloudflare.com^
 @@||www.bootcdn.cn^
 @@||www.bootcss.com^
 @@||heroku.com^
@@ -925,6 +929,10 @@
 @@||api.revved.com^
 @@||domains-ws.revved.com^
 @@||porkbun.com^
+@@||www.enigmaprotector.com^
+@@||www.enigmaprotector.cn^
+@@||www.oreans.com^
+@@||www.internetdownloadmanager.com^
 @@||www.deepseek.com^
 @@||manus.im^
 @@||manus.monica.cn^
@@ -1200,10 +1208,11 @@
 @@||cdn77-vid.xnxx-cdn.com^
 @@||hls*-cf.xnxx-cdn.com^
 @@||vxxx.com^
-@@||missav.com^
 @@||njavtv.com^
-@@||client-rapi-missav.recombee.com^
-@@||fivetiu.com^
+@@||missav.live^
+@@||missav.ai^
+@@||missav.ws^
+@@||fourhoi.com^
 @@||surrit.com^
 @@||bad.news^
 @@||www.pornlulu.com^
