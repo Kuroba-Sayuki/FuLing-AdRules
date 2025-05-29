@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-27
+# 更新时间：2025-05-29
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -264,6 +264,13 @@
 @@||dl.delivery.mp.microsoft.com^
 @@||fe3cr.delivery.mp.microsoft.com^
 @@||download.windowsupdate.com^
+@@||www.bing.com^
+@@||cn.bing.com^
+@@||th.bing.com^
+@@||ts1.tc.mm.bing.net^
+@@||ts2.tc.mm.bing.net^
+@@||ts3.tc.mm.bing.net^
+@@||ts4.tc.mm.bing.net^
 @@||assets-www.xbox.com^
 @@||www.msn.com^
 @@||www.yidianzixun.com^
@@ -947,6 +954,8 @@
 @@||store.fastly.steamstatic.com^
 @@||store.cdn.queniuqe.com^
 @@||store.steamchina.queniuam.com^
+@@||steamcommunity.com^
+@@||community.fastly.steamstatic.com^
 @@||cdn.akamai.steamstatic.com^
 @@||community.akamai.steamstatic.com^
 @@||www.epicgames.com^
