@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-29
+# 更新时间：2025-06-03
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -69,6 +69,17 @@
 @@||news.sina.com.cn^
 @@||i.sso.sina.com.cn^
 @@||tousu.sina.cn^
+@@||www.xunlei.com^
+@@||m.xunlei.com^
+@@||pc.xunlei.com^
+@@||mac.xunlei.com^
+@@||tv.xunlei.com^
+@@||nas.xunlei.com^
+@@||mobile.xunlei.com^
+@@||down.sandai.net^
+@@||m.down.sandai.net^
+@@||hub5idx.v6.shub.sandai.net^
+@@||pool.v6.bt.n0808.com^
 @@||hub5btmain.v6.shub.sandai.net^
 @@||i72.lanzoug.com^
 @@||i82.lanzoug.com^
@@ -279,6 +290,7 @@
 @@||mp.yidianzixun.com^
 @@||msn.yidianzixun.com^
 @@||doris.yidianzixun.com^
+@@||xiaomiev.com^
 @@||cn.app.chat.xiaomi.net^
 @@||exp.sug.browser.miui.com^
 @@||ssl-cdn.static.browser.mi-img.com^
@@ -296,8 +308,12 @@
 @@||preview-jupiter.sys.miui.com^
 @@||jupiter.intl.sys.miui.com^
 @@||jupiter.rus.sys.miui.com^
-@@||api.vip.miui.com^
+@@||www.mi.com^
 @@||cdn.cnbj1.fds.api.mi-img.com^
+@@||s01.mifile.cn^
+@@||www.xiaomiyoupin.com^
+@@||img.youpin.mi-img.com^
+@@||api.vip.miui.com^
 @@||cnbj1.fds.api.xiaomi.com^
 @@||weatherapi.market.xiaomi.com^
 @@||app.market.xiaomi.com^
@@ -336,8 +352,6 @@
 @@||find.api.micloud.xiaomi.net^
 @@||m.video.xiaomi.com^
 @@||m.v.wali.com^
-@@||s01.mifile.cn^
-@@||cnbj1-new.fds.api.xiaomi.com^
 @@||api.comm.miui.com^
 @@||api.huangye.miui.com^
 @@||game.xiaomi.com^
@@ -429,6 +443,8 @@
 @@||fcount-api.webapp.163.com^
 @@||sports.163.com^
 @@||mumu.163.com^
+@@||www.tencent.com^
+@@||www.tencent.net.cn^
 @@||jiazhang.qq.com^
 @@||weixin.qq.com^
 @@||dldir1v6.qq.com^
@@ -890,6 +906,7 @@
 @@||unpkg.zhimg.com^
 @@||npm.elemecdn.com^
 @@||github.com^
+@@||gist.github.com^
 @@||www.ghproxy.cn^
 @@||github.site^
 @@||github.store^
@@ -925,7 +942,10 @@
 @@||dcloud.net.cn^
 @@||assets.cnblogs.com^
 @@||res.cloudinary.com^
-@@||cdn.staticfile.org^
+@@||msdn.itellyou.cn^
+@@||lib.sinaapp.com^
+@@||next.itellyou.cn^
+@@||static.itellyou.cn^
 @@||flowus.cn^
 @@||keepassxc.org^
 @@||plyr.io^
@@ -978,6 +998,8 @@
 @@||xn--cp3a08l.com^
 @@||xn--l6qx3l9s1a.com^
 @@||papegames.qiyukf.com^
+@@||mystyle.archosaur.com^
+@@||lifemakeovermysg.archosaur.com^
 @@||uploadstatic.mihoyo.com^
 @@||sdk.mihoyo.com^
 @@||hc.tdm.qq.com^
