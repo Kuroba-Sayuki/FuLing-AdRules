@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-06-03
+# 更新时间：2025-06-06
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -233,6 +233,11 @@
 @@||www.tiantiantiaosheng.com^
 @@||api.tiantiantiaosheng.com^
 @@||cdn.tiantiantiaosheng.com^
+@@||site.tiantiantiaosheng.com^
+@@||www.jianshu.com^
+@@||cdn2.jianshu.io^
+@@||upload.jianshu.io^
+@@||upload-images.jianshu.io^
 @@||suggestion.baidu.com^
 @@||quark.sm.cn^
 @@||sugs.m.sm.cn^
@@ -248,6 +253,8 @@
 @@||m.so.com^
 @@||qcaptcha.so.com^
 @@||m.360video.so.com^
+@@||ajax.googleapis.com^
+@@||fonts.googleapis.com^
 @@||www.google.com^
 @@||www.google.com.hk^
 @@||www.google.cn^
@@ -614,6 +621,7 @@
 @@||act.zhuanzhuan.com^
 @@||www.goofish.com^
 @@||h5api.m.goofish.com^
+@@||img.alicdn.com^$important
 @@||passport.goofish.com^
 @@||market.m.taobao.com^
 @@||g-acs.m.goofish.com^
@@ -950,6 +958,8 @@
 @@||keepassxc.org^
 @@||plyr.io^
 @@||cdn.plyr.io^
+@@||www.npmjs.com^
+@@||registry.npmmirror.com^
 @@||static.miraheze.org^
 @@||www.spaceship.com^
 @@||spaceship-cdn.com^
@@ -960,6 +970,7 @@
 @@||www.enigmaprotector.cn^
 @@||www.oreans.com^
 @@||www.internetdownloadmanager.com^
+@@||www.patreon.com^
 @@||www.deepseek.com^
 @@||manus.im^
 @@||manus.monica.cn^
@@ -997,6 +1008,8 @@
 @@||xn--mes358aby2apfg.com^
 @@||xn--cp3a08l.com^
 @@||xn--l6qx3l9s1a.com^
+@@||gamebanana.com^
+@@||webfiles.gamebanana.com^
 @@||papegames.qiyukf.com^
 @@||mystyle.archosaur.com^
 @@||lifemakeovermysg.archosaur.com^
@@ -1108,7 +1121,6 @@
 @@||lockororder.netlify.app^
 @@||taskofdeity.netlify.app^
 @@||hanime1.me^
-@@||fonts.googleapis.com^
 @@||img4.qy0.ru^
 @@||vdownload.hembed.com^
 @@||vdownload-*.sb-cd.com^
