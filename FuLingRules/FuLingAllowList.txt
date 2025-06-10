@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-06-06
+# 更新时间：2025-06-10
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -621,7 +621,7 @@
 @@||act.zhuanzhuan.com^
 @@||www.goofish.com^
 @@||h5api.m.goofish.com^
-@@||img.alicdn.com^$important
+@@||img.alicdn.com^
 @@||passport.goofish.com^
 @@||market.m.taobao.com^
 @@||g-acs.m.goofish.com^
@@ -629,8 +629,12 @@
 @@||video.goofish.com^
 @@||h5.m.goofish.com^
 @@||gjusp.alicdn.com^
+@@||www.goofish.pro^
 @@||api.qiniu.com^
 @@||gtms03.alicdn.com^
+@@||www.agiso.com^
+@@||account.agiso.com^
+@@||mai.91kami.com^
 @@||www.meituan.com^
 @@||s3plus.meituan.net^
 @@||img.meituan.net^
@@ -671,7 +675,6 @@
 @@||91haoka.cn^
 @@||storep.91haoka.cn^
 @@||static.91haoka.cn^
-@@||mai.91kami.com^
 @@||afdian.com^
 @@||ifdian.net^
 @@||static.e.189.cn^
