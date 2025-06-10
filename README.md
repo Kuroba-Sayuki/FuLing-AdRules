@@ -1,9 +1,17 @@
 <h1 align="center">🌸FuLing-AdRules🌸</h1>
 
 ![Image](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-Resource/Master/StaticWallpapers/Horizontal/1707820632.jpg)
->⚠️本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。
+
+> [!WARNING]
+> 
+> **本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。**
+
+> [!NOTE]
+> 
+> 因个人精力有限，以及多方面因素，本仓库的`茯苓规则「无条目注释版」`将放缓更新速度。
+
 - **茯苓规则**为`项目创建者`网络冲浪时抓取。
-    - 因各种原因，不再提供带有条目注释的规则列表。
+    - 自`2025年04月28日`起，本仓库不再提供带有条目注释的规则列表。
     - 拦截列表内容：开屏广告、广告弹窗、广告SDK、网站内嵌广告。
     - 允许列表内容：应用接口、游戏接口、中国大陆网站、国际网站。
 - **网络规则**为`下列情况其它作者规则`的收集。
@@ -23,11 +31,11 @@
 
 <h1 align="center">🕮合并规则「网络」🕮</h1>
 
->晴雅规则原项目：[点击跳转](http://rssv.cn)「官网」
+> 晴雅规则原项目：[点击跳转](http://rssv.cn)「官网」
 
->海哥规则原项目：[点击跳转](https://github.com/2771936993/HG)「GitHub」
+> 海哥规则原项目：[点击跳转](https://github.com/2771936993/HG)「GitHub」
 
->XXKiller规则原项目：[点击跳转](https://github.com/DoingDog/XXKiller)「GitHub」
+> XXKiller规则原项目：[点击跳转](https://github.com/DoingDog/XXKiller)「GitHub」
 
 | 名称 | GitHub直链 |
 | :-: | :-: |
@@ -55,7 +63,7 @@
 
 <h1 align="center">🕮冷漠规则「网络」🕮</h1>
 
->冷漠原项目：[点击跳转](https://github.com/Potterli20/Hosts)「GitHub」
+> 冷漠原项目：[点击跳转](https://github.com/Potterli20/Hosts)「GitHub」
 - `冷漠广告规则`与`冷漠广告规则「旧」`建议选择其中一个使用。
 - 冷漠广告规则由于本体文件过大，所以拆分成A、B两个规则文件。
 
@@ -77,7 +85,7 @@
 
 <h1 align="center">🕮其它规则「网络」🕮</h1>
 
->下个ID見规则原项目：[点击跳转](https://github.com/2Gardon/SM-Ad-FuckU-hosts)「GitHub」
+> 下个ID見规则原项目：[点击跳转](https://github.com/2Gardon/SM-Ad-FuckU-hosts)「GitHub」
 
 | 名称 | GitHub直链 |
 | :-: | :-: |
