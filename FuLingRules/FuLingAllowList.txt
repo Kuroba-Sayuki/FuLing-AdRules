@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-06-10
+# 更新时间：2025-06-17
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -60,10 +60,26 @@
 @@||login.sina.com.cn^
 @@||passport.weibo.com^
 @@||simg.sinajs.cn^
-@@||new.vip.weibo.cn^
+@@||weibo.com^
+@@||m.weibo.cn^
+@@||h5.sinaimg.cn^
+@@||tva1.sinaimg.cn^
+@@||tvax1.sinaimg.cn^
+@@||tvax2.sinaimg.cn^
+@@||tvax3.sinaimg.cn^
+@@||tvax4.sinaimg.cn^
 @@||js.t.sinajs.cn^
-@@||passport.weibo.cn^
+@@||wx1.sinaimg.cn^
+@@||wx2.sinaimg.cn^
+@@||wx3.sinaimg.cn^
+@@||wx4.sinaimg.cn^
 @@||face.t.sinajs.cn^
+@@||livephoto.us.sinaimg.cn^
+@@||g.us.sinaimg.cn^
+@@||wbox.sinaimg.cn^
+@@||d.sinaimg.cn^
+@@||new.vip.weibo.cn^
+@@||passport.weibo.cn^
 @@||tousu.sina.com.cn^
 @@||n.sinaimg.cn^
 @@||news.sina.com.cn^
