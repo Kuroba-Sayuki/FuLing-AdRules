@@ -14,11 +14,11 @@
     - 自`2025年04月28日`起，本仓库不再提供带有条目注释的规则列表。
     - 拦截列表内容：开屏广告、广告弹窗、广告SDK、网站内嵌广告。
     - 允许列表内容：应用接口、游戏接口、中国大陆网站、国际网站。
-- **网络规则**为`下列情况其它作者规则`的收集。
+- **非茯苓规则**为`下列情况其它作者规则`的收集。
     - 某些规则的旧版本。
     - 某些规则的合并版本。
     - 已经找不到出处的规则。
-- **部分网络规则存在原项目地址，推荐优先使用原项目。**
+- **部分`非茯苓规则`存在原项目地址，推荐优先使用原项目。**
 
 
 <h1 align="center">🕮茯苓规则🕮</h1>
@@ -29,7 +29,7 @@
 | 茯苓允许规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt) |
 
 
-<h1 align="center">🕮合并规则「网络」🕮</h1>
+<h1 align="center">🕮合并规则🕮</h1>
 
 > 晴雅规则原项目：[点击跳转](http://rssv.cn)「官网」
 
@@ -44,7 +44,7 @@
 | XXKiller | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/MergeRules/XXKillerMerge.txt) |
 
 
-<h1 align="center">🕮乘风规则「网络」🕮</h1>
+<h1 align="center">🕮乘风规则🕮</h1>
 
 | 名称 | GitHub直链 |
 | :-: | :-: |
@@ -52,16 +52,7 @@
 | 乘风视频规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/CfSpRules.txt) |
 
 
-<h1 align="center">🕮浏览器规则「网络」🕮</h1>
-
-| 名称 | GitHub直链 |
-| :-: | :-: |
-| 360浏览器规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/360Rules.txt) |
-| 360极速浏览器 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/360SpeedBrowserRules.txt) |
-| 夸克浏览器规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/QuarkRules.txt) |
-
-
-<h1 align="center">🕮冷漠规则「网络」🕮</h1>
+<h1 align="center">🕮冷漠规则🕮</h1>
 
 > 冷漠原项目：[点击跳转](https://github.com/Potterli20/Hosts)「GitHub」
 - `冷漠广告规则`与`冷漠广告规则「旧」`建议选择其中一个使用。
@@ -75,7 +66,7 @@
 | 冷漠广告规则「旧」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/TrLiRules.txt) |
 
 
-<h1 align="center">🕮平台规则「网络」🕮</h1>
+<h1 align="center">🕮平台规则🕮</h1>
 
 | 名称 | GitHub直链 |
 | :-: | :-: |
@@ -83,7 +74,16 @@
 | 番茄小说规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/TomatoNovelRules.txt) |
 
 
-<h1 align="center">🕮其它规则「网络」🕮</h1>
+<h1 align="center">🕮浏览器规则🕮</h1>
+
+| 名称 | GitHub直链 |
+| :-: | :-: |
+| 360浏览器规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/360Rules.txt) |
+| 360极速浏览器 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/360SpeedBrowserRules.txt) |
+| 夸克浏览器规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/QuarkRules.txt) |
+
+
+<h1 align="center">🕮未分类规则🕮</h1>
 
 > 下个ID見规则原项目：[点击跳转](https://github.com/2Gardon/SM-Ad-FuckU-hosts)「GitHub」
 
