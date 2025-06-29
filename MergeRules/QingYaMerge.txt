@@ -1,14 +1,18 @@
-! Title: 晴雅HOST规则
-! Description: qingya host
-! Version: 1.1.9
-! TimeUpdated: 2024-07-15T01:023:50+00:00
-! Expires: 1 hours (update frequency)
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! 此为合并规则，合并自以下时间段的「原规则」，并去除@@格式的白名单、去除重复规则。
-! 旧晴雅：2024-07
-! 新晴雅：2025-02、2025-03、2025-05
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#************************************************************************#
+# 文件名称：晴雅HOST规则「合并规则」「QingYaMerge」
+# 项目主页：https://github.com/Kuroba-Sayuki/FuLing-AdRules
+# 项目说明：本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。
+#************************************************************************#
+# 作者名称：Kuroba-Sayuki
+# 作者主页：https://github.com/Kuroba-Sayuki
+#************************************************************************#
+# 规则变更：合并原规则、移除「@@」格式白名单、移除合并后重复条目。
+# 其它说明：本规则合并自下方时间段的「原规则」。
+# 合并时间「旧晴雅」：2024-07
+# 合并时间「新晴雅」：2025-02、2025-03、2025-05、2025-06
+#************************************************************************#
+# 更新时间：2025-06-29
+#************************************************************************#
 
 ||cfg.imtt.qq.com^
 ||yun-hl.3g.qq.com^
@@ -940,3 +944,61 @@ ltssjy.qq.com^
 ||tnc3-bjlgy.snssdk.com^
 ||mssdk-bu.snssdk.com^
 ||amap-aos-info-nogw.amap.com^
+||abeacdataort-stsdk.vivo.com.cn^
+||about.ads.microsoft.com^
+||ad.wx.com^
+||ads*-normal-hl.zijieapi.com^
+||ads*-normal-lf.zijieapi.com^
+||ads*-normal-lq.zijieapi.com^
+||ads*-normal.zijieapi.com^
+||ads-shopping.shouqianba.com^
+||ads.log.kafka.top^
+||ads.sinaimg.cn^
+||ads.sohu.com^
+||ads.x.com^
+||adservice.google.com^
+||adservice.kugou.com^
+||adsfilebssdlbig.ali.kugou.com.wswebcdn.com^
+||adsfilebssdlbig.ali.kugou.com^
+||as.weixin.qq.com^
+||az*-upload-js.gifshow.com^
+||az*-upload.ksapisrv.com^
+||bossaudioandcomic-1252317822.image.myqcloud.com^
+||download.qidian.com^
+||feeds.vivo.com.cn^
+||feedsplat.vivo.com.cn^
+||fpvideo.shenshiads.com^
+||galileotelemetry.tencent.com^
+||guanggao-prod.cn-shanghai.log.aliyuncs.com^
+||i-hl.snssdk.com^
+||is-lq.snssdk.com^
+||log*-applog-lq.fqnovel.com^
+||miaozhen.com^
+||monitor.v2.tcyad.com^
+||open-set-api.shenshiads.com^
+||p*-ad.adukwai.com^
+||p*-ff.adkwai.com^
+||p*.adkwai.com^
+||polaris*-normal-lq.zijieapi.com^
+||pstatp.com^
+||reading-hl.snssdk.com^
+||remoteads.oss-cn-beijing.aliyuncs.com^
+||rmonitor.qq.com^
+||rtlog*-applog-lq.fqnovel.com^
+||sb.adtidy.com^
+||*-ad-sign.byteimg.com^
+||*-ad-union-sdk.pglstatp-toutiao.com^
+||*-ad.adbkwai.com^
+||*-ad.adkwai.com^
+||*-ad.adukwai.com^
+||*-reading-ad.qznovelvod.com^
+||*/snscosdownload/*/reserved/*^
+||tradplusad.com^
+||unitelogreport.reader.qq.com^
+||vas-lf-x.snssdk.com^
+||whjzjx.cn^
+||wkanx.com^
+||wximg.wxs.qq.com^
+||ywab.reader.qq.com^
+||lf-leads-fe-scm.bytecdn.com^
+||adjust.com^
