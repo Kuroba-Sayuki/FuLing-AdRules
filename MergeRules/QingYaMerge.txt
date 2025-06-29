@@ -483,7 +483,7 @@ ltssjy.qq.com^
 ||media-ynkm-fy-home.yn7oss.ctyunxs.cn^
 ||media-gdgz-fy-person.gd5oss.ctyunxs.cn^
 ||cos.ho7k.com^
-||kde.qq.com^$important
+||kde.qq.com^
 ||az4-upload.ksapisrv.com^
 ||p2-lm.adkwai.com^
 ||ad-rs6-bjmt5406.idcyz.hb1.kwaidc.com^
@@ -600,7 +600,6 @@ ltssjy.qq.com^
 ||iyes.youku.com^
 ||chn-feedback.adsrvr.cn^
 ||120.232.207.80^
-||kde.qq.com^
 ||data.ab.qq.com^
 ||xs.gdt.qq.com^
 ||rmpad.imtt.qq.com^
