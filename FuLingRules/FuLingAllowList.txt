@@ -1,5 +1,5 @@
 #************************************************************************#
-# 文件名称：茯苓允许列表
+# 文件名称：茯苓允许列表「FuLingAllowList」
 # 项目主页：https://github.com/Kuroba-Sayuki/FuLing-AdRules
 # 项目说明：本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。
 #************************************************************************#
@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-06-17
+# 更新时间：2025-07-01
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -991,6 +991,13 @@
 @@||www.internetdownloadmanager.com^
 @@||www.patreon.com^
 @@||www.deepseek.com^
+@@||static.deepseek.com^
+@@||chat.deepseek.com^
+@@||download.deepseek.com^
+@@||platform.deepseek.com^
+@@||api-docs.deepseek.com^
+@@||status.deepseek.com^
+@@||cdn.deepseek.com^
 @@||manus.im^
 @@||manus.monica.cn^
 @@||saucenao.com^
