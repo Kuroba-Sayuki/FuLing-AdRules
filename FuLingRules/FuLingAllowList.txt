@@ -536,8 +536,12 @@
 @@||dd.myapp.com^
 @@||news.qq.com^
 @@||mat1.gtimg.com^
-@@||baikebcs.bdimg.com^
+@@||baike.baidu.com^
 @@||bkssl.bdimg.com^
+@@||bkimg.cdn.bcebos.com^
+@@||baikebcs.bdimg.com^
+@@||avatar.bdstatic.com^
+@@||vd3.bdstatic.com^
 @@||t7.baidu.com^
 @@||t8.baidu.com^
 @@||t9.baidu.com^
