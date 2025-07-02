@@ -52,18 +52,28 @@
 | 乘风视频规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/CfSpRules.txt) |
 
 
-<h1 align="center">🕮冷漠规则🕮</h1>
+<h1 align="center">🕮冷莫规则🕮</h1>
 
-> 冷漠原项目：[点击跳转](https://github.com/Potterli20/Hosts)「GitHub」
-- `冷漠广告规则`与`冷漠广告规则「旧」`建议选择其中一个使用。
-- 冷漠广告规则由于本体文件过大，所以拆分成A、B两个规则文件。
+> [!CAUTION]
+> 
+> **⚠️经测试，冷莫项目为重型规则，请根据实际情况，综合考虑后，谨慎使用。**  
+>> **💡测试项目：冷莫原项目**  
+>> **💡测试时间：2025.07.02**  
+>> **📄全量黑名单：有很高的误杀率，导致基础网站被杀掉。**  
+>> **📄全量白名单：有较高的误放率，导致某些恶意网站被放行。**
+
+> 冷莫原项目：[点击跳转](https://hosts.trli.club)「官网」
+
+> 冷莫原项目：[点击跳转](https://github.com/Potterli20/Hosts)「GitHub」
+- `冷莫广告规则`与`冷莫广告规则「旧」`建议选择其中一个使用。
+- 冷莫广告规则由于本体文件过大，所以拆分成A、B两个规则文件。
 
 | 名称 | GitHub直链 |
 | :-: | :-: |
-| 冷漠油管规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/IndifferentYouTubeRules.txt) |
-| 冷漠广告规则A | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/IndifferentRulesPort01.txt) |
-| 冷漠广告规则B | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/IndifferentRulesPort02.txt) |
-| 冷漠广告规则「旧」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/TrLiRules.txt) |
+| 冷莫油管规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/IndifferentYouTubeRules.txt) |
+| 冷莫广告规则A | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/IndifferentRulesPort01.txt) |
+| 冷莫广告规则B | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/IndifferentRulesPort02.txt) |
+| 冷莫广告规则「旧」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/OtherRules/TrLiRules.txt) |
 
 
 <h1 align="center">🕮平台规则🕮</h1>
