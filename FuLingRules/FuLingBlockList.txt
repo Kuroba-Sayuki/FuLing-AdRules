@@ -1,5 +1,5 @@
 #************************************************************************#
-# 文件名称：茯苓拦截列表
+# 文件名称：茯苓拦截列表「FuLingBlockList」
 # 项目主页：https://github.com/Kuroba-Sayuki/FuLing-AdRules
 # 项目说明：本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。
 #************************************************************************#
@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-05-18
+# 更新时间：2025-07-05
 #************************************************************************#
 
 ||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^
@@ -54,6 +54,7 @@
 ||*.md410.cc^
 ||*.pnwix.cn^
 ||*.rfvjl.cn^
+||*.tnprn.cn^
 ||*.r1gu.com^
 ||*.ifllqc.cn^
 ||*.giqnyl.cn^
@@ -74,10 +75,20 @@
 ||www.ht*.vip^
 ||*.wy2qq.top^
 ||thu15.*.com^
+||*.wknij.com^
+||*.mvepu.com^
+||*.mkwqj.com^
+||*.dvagh.com^
+||*.eoxwr.com^
+||*.npupn.com^
+||*.rtnwv.com^
+||*.tfkoa.com^
+||*.uryxw.com^
 ||*.8359300.cc^
 ||*.bmdzu8m.cc^
 ||*.zzz725.top^
 ||*.wfojsm.com^
+||*.cknr6y.com^
 ||*.yzbpjz.com^
 ||*.1l036o.com^
 ||*.01fwzb.com^
@@ -93,6 +104,8 @@
 ||*.f5o640.com^
 ||*.g0d679.com^
 ||*.ewstu2.com^
+||*.dw9541.com^
+||*.myug4s.com^
 ||*.arbyyu.com^
 ||*.u101vb.com^
 ||*.59p643.com^
@@ -108,12 +121,17 @@
 ||*.p3q0tt.com^
 ||*.3adtjg.com^
 ||*.4egscv.com^
+||*.jjoiw4.com^
+||*.cru0xr.com^
 ||*.o96jic.com^
 ||*.nxue75.com^
 ||*.9tjoj6.com^
+||*.ecjkox.com^
+||*.0lzf11.com^
 ||*.x586di.com^
 ||*.hrdhej.xyz^
 ||*.qiuxl11.cn^
+||*.yzdx66.com^
 ||*.60qso7.com^
 ||*.njp878.com^
 ||*.siigck.xyz^
@@ -123,6 +141,7 @@
 ||bbcbbi.*.com^
 ||dciclc.*.top^
 ||dcivlv.*.top^
+||*.mokhuba.com^
 ||0c4d3f6.*.com^
 ||*.oneliner.cn^
 ||*.31xx958d.cc^
@@ -134,6 +153,8 @@
 ||*.jqnljze.xyz^
 ||*.xzdabyw.xyz^
 ||*.ilylbap.xyz^
+||*.nsspfqp.xyz^
+||*.ochhnea.xyz^
 ||*.lzwrhiw.xyz^
 ||*.8vx3zks.xyz^
 ||*.3dqvcli.xyz^
@@ -155,16 +176,20 @@
 ||*.y80iwf.cyou^
 ||*.bmddsofta.cc^
 ||*.yinghua-*.cc^
+||*.ky5683295.cc^
 ||*.xxsp002.cyou^
+||*.xpj2443430.cc^
 ||*.wacaoldy1.com^
 ||*.a48962121.top^
 ||*.jjzemoc3ca.top^
 ||*.tap0102mzq.top^
 ||*.bg3partner.fun^
 ||*-*-*-lrycfv.vip^
+||*.fiu07051kl.com^
 ||*.so04011koaq.com^
 ||*.aliyuncsslb.com^
 ||sat29.so*koaq.com^
+||*.ligmd359543.vip^
 ||*.aliyuncsslbintl.com^
 ||xa1jgfbdlwf2ncxq.*.com^
 ||*.jennylisnerphotography.com^
@@ -274,6 +299,8 @@
 ||as69d5.ailianna.cn^
 ||st1744302312.jdjdfwc.cn^
 ||wed1.fxqzaoa.cn^
+||ldy.szklsx.com^
+||1g.ggwww087.top^
 ||24511.nianlia.com^
 ||ctyfmc.icu^
 ||xttiu105.pjpxke.cn^
@@ -354,6 +381,8 @@
 ||www.hxkyuwr1040.vip^
 ||m.bqg16.cc^
 ||3.bdvwityy.cc^
+||244.2444396.cc^
+||568.5684214.cc^
 ||49lq.mm51-tvhn1767.vip^
 ||skej236.icu^
 ||www.v6hfl4.top^
@@ -378,6 +407,8 @@
 ||axcs.ashcnq.cn^
 ||www.hovcu4.top^
 ||facai102.sezkkb.cn^
+||dhfkw.renq.ufyij.cn^
+||urx77.cc^
 ||177638.com^
 ||yyds.vip-01.top^
 ||a.91037.icu^
@@ -400,6 +431,8 @@
 ||ffderir64.yk11eakg20pm01.com^
 ||02539717.com^
 ||99.o2in8un5qlkj533twx.com^
+||jygkdcpust12.com^
+||xfiwpoj.icu^
 ||cdn.004999.xyz^
 ||ml102.whpnd.cn^
 ||tlmlt.yuwenxuexizazhi.com^
@@ -418,6 +451,8 @@
 ||pcmlll.nyriidul.com^
 ||oqissyeygvnnhigj.ayh3.xyz^
 ||izicai.xyz^
+||j8mxiaom.10lk.top^
+||kb.13pv.top^
 ||n528m1.tyromn.com^
 ||www.ocfgaa.xyz^
 ||g7h69h29cx.com^
@@ -454,6 +489,8 @@
 ||chulian.gfowedy.cn^
 ||wrx.lesson99.com^
 ||cfcffnhqqaibabwt.ber3.xyz^
+||803.8033768.cc^
+||286.qiao286069.cc^
 ||hfisngksng.com^
 ||jf0qw.cc^
 ||n669p.top^
@@ -482,6 +519,8 @@
 ||www.xhsrt594.vip^
 ||bw102.rongll.cn^
 ||www.pufren.xyz^
+||26.26678381.vip^
+||amx782p.top^
 ||iy3m.xm849qx.pro^
 ||25.y25287524.vip^
 ||64.f64410077.com^
@@ -505,6 +544,8 @@
 ||www.btebgl.xyz^
 ||abgr2x.aprewf.cn^
 ||vj9cq8.mpyisx.cn^
+||xunzz198.com^
+||thyhh1584.com^
 ||ebb22.922-992.icu^
 ||ysh103.qgphj.cn^
 ||upload.xchina.biz^
@@ -515,6 +556,8 @@
 ||sfh35.icu^
 ||yes.8356792.cc^
 ||ss0913.utbcd.cn^
+||www.yinghua005.sbs^
+||cftmiijeth7.com^
 ||1212.ehgssdg.cn^
 ||kk1744234844.bpmzabw.cn^
 ||zbgptdfwpt7.xyz^
@@ -529,6 +572,8 @@
 ||moka113.jdjdodd.cn^
 ||2.jxx418a.cc^
 ||lksogc.mon982.vip^
+||www.xhsyt90.cc^
+||125.1254770.cc^
 ||nr8bs7xmc.pubend57124.top^
 ||qnguqmt.top^
 ||df101.fyshvb.cn^
@@ -539,6 +584,8 @@
 ||99.gn5m0bnwzvkndnoygn.com^
 ||www.qhmxwux.com^
 ||assd.hkewhqoao.cn^
+||1372.w13726954.com^
+||2018.a48487593.top^
 ||szebf270.com^
 ||www.djijrsh270.vip^
 ||ggeu.ditiehunlian.com^
@@ -546,6 +593,8 @@
 ||www.xhszd68.vip^
 ||bhgzwqy.top^
 ||g105ryj105.cfd^
+||350.40675180.vip^
+||27.27166780.vip^
 ||ww.wcav495.vip^
 ||www.kdu4127.cc^
 ||mc.bwaa011.top^
@@ -576,6 +625,8 @@
 ||da5.adfsda005.xyz^
 ||www.qqssvyk368.vip^
 ||25.y25718211.vip^
+||wbrb.japaneast.cloudapp.azure.com^
+||zc2t.jiejie51-tueo219.vip^
 ||24cdocker402.com^
 ||iwuaym.icu^
 ||kk2417456.pgszp.cn^
@@ -598,6 +649,8 @@
 ||hxg6.t906377.vip^
 ||web3.0.page.live18.club^
 ||fri28.so03281koaq.com^
+||0bc.twqbdfff.top^
+||kkjjbb0704xdx3b1.nexzcard.com^
 ||698444.lol^
 ||www.kca8531.cc^
 ||pbdhsolmxw1.com^
