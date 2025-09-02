@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-08-07
+# 更新时间：2025-09-02
 #************************************************************************#
 
 @@||intro.limestart.cn^
@@ -581,7 +581,6 @@
 @@||h5api.m.tmall.com^
 @@||item.taobao.com^
 @@||cloud.video.taobao.com^
-@@||main.m.taobao.com^
 @@||h5api.m.taobao.com^
 @@||h5.m.taobao.com^
 @@||sns.m.taobao.com^
@@ -969,8 +968,6 @@
 @@||www.cloudns.net^
 @@||www.jsdelivr.com^
 @@||cdn.jsdelivr.net^
-@@||cdnjs.com^
-@@||cdnjs.cloudflare.com^
 @@||www.bootcdn.cn^
 @@||www.bootcss.com^
 @@||heroku.com^
@@ -1154,7 +1151,6 @@
 @@||t.me^
 @@||mb-mods.net^
 @@||devuploads.com^
-@@||cdnjs.cloudflare.com^
 @@||thecubexguide.com^
 @@||jytechs.in^
 @@||dev.miuiflash.com^
