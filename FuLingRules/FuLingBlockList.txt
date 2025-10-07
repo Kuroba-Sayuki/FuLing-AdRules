@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-09-02
+# 更新时间：2025-10-07
 #************************************************************************#
 
 ||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^
@@ -193,9 +193,6 @@
 ||*.aliyuncsslbintl.com^
 ||xa1jgfbdlwf2ncxq.*.com^
 ||*.jennylisnerphotography.com^
-||*-*.ap-east-1.elb.amazonaws.com^
-||*-*.ap-southeast-1.elb.amazonaws.com^
-||*-*.ap-northeast-2.elb.amazonaws.com^
 ||static.trafficjunky.com^
 ||evtubescms.phncdn.com^
 ||video.mnaspm.com^
