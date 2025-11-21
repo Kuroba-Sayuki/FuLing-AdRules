@@ -101,6 +101,7 @@
 | AdRules Hosts List hosts | [ 订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/OtherRules/AdRulesListHosts.txt) |
 | 神机规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/OtherRules/DivineMachineRules.txt) |
 | 未知规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/OtherRules/WzRules.txt) |
+| 广告终结者 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/OtherRules/AdTerminatorRules.txt) |
 | 网友自制规则 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/OtherRules/NetizensRules.txt) |
 | 下个ID見规则「酷安」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/OtherRules/NextIDSeeRules.txt) |
 | 广告屏蔽大师「AdByBy」 | [订阅](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/OtherRules/AdbybyRules.txt) |
