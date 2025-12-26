@@ -9,16 +9,18 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-10-07
+# 更新时间：2025-12-26
 #************************************************************************#
 
 ||j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com^
 ||www.ikesepsckslp.cn^
 ||mobile.yangkeduo.com^
+||statics.woozooo.com^
 ||lite.a.market.xiaomi.com^
 ||api.installer.xiaomi.com^
 ||*ad.adbkwai.com^
 ||o1098464.ingest.sentry.io^
+||ad.scdn.io^
 ||api.admange.com^
 ||api.juliangcili.com^
 ||gromore.pangolin-sdk-toutiao.com^
@@ -141,6 +143,7 @@
 ||bbcbbi.*.com^
 ||dciclc.*.top^
 ||dcivlv.*.top^
+||*.khmhvlw.com^
 ||*.mokhuba.com^
 ||0c4d3f6.*.com^
 ||*.oneliner.cn^
@@ -161,14 +164,18 @@
 ||*.f1k4eil.xyz^
 ||*.fohbgjv.com^
 ||*.amwexgj.com^
+||*.jyzkhdq.com^
 ||*.eavztdi.com^
 ||*.cyfupnq.com^
 ||*.dmcduio.com^
 ||*.evqvxuq.com^
 ||*.bgbjjtd.com^
 ||*.dtsmndu.com^
+||*.jtkkkxy.com^
+||*.acdnrvh.com^
 ||*.javadvi.com^
 ||*.bidjora.com^
+||*.pioeaig.com^
 ||*.kweisid.top^
 ||*.jwcnmta.top^
 ||*.kwilmid.top^
@@ -411,6 +418,7 @@
 ||a.91037.icu^
 ||5845.b58456413.com^
 ||www.gg86639.vip^
+||dfsj8050.ahyyxpk.com^
 ||api.aoao11190iis.top^
 ||xshp.tiaoeng9djh.com^
 ||ww-7o1-0h.os.23v7m9.cc^
@@ -647,5 +655,6 @@
 ||0bc.twqbdfff.top^
 ||kkjjbb0704xdx3b1.nexzcard.com^
 ||698444.lol^
+||www.dbhsgxh.com^
 ||www.kca8531.cc^
 ||pbdhsolmxw1.com^
