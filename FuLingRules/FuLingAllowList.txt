@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2025-12-26
+# 更新时间：2026-02-05
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -59,6 +59,7 @@
 @@||act.hoyoverse.com^
 @@||act.zhuanzhuan.com^
 @@||activity.hdslb.com^
+@@||activity.huaweicloud.com^
 @@||acts.qidian.com^
 @@||ad-experience.bytedance.com^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
@@ -128,6 +129,7 @@
 @@||assets.oneweb.mercedes-benz.com^
 @@||assets.sb-cd.com^
 @@||assets.youlai.cn^
+@@||auth.huaweicloud.com^
 @@||auth.zijieapi.com^
 @@||avatar.bdstatic.com^
 @@||avatar.coolapk.com^
@@ -184,6 +186,7 @@
 @@||cdn.deepseek.com^
 @@||cdn.ferrari.com^
 @@||cdn.jsdelivr.net^
+@@||cdn.myhuaweicloud.com^
 @@||cdn.pinduoduo.com^
 @@||cdn.ping0.cc^
 @@||cdn.plyr.io^
@@ -231,7 +234,9 @@
 @@||community.fastly.steamstatic.com^
 @@||components.unrealengine.com^
 @@||connect.rom.miui.com^
+@@||console-intl.huaweicloud.com^
 @@||console.cloud.tencent.com^
+@@||console.huaweicloud.com^
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||coop.voicecloud.cn^
 @@||cpu.baidu.com^
@@ -672,6 +677,7 @@
 @@||manwac.xyz^
 @@||market.cloud.tencent.com^
 @@||market.m.taobao.com^
+@@||marketplace.huaweicloud.com^
 @@||mat1.gtimg.com^
 @@||mb-mods.net^
 @@||mbd.baidu.com^
@@ -690,10 +696,13 @@
 @@||miniapp.gtimg.cn^
 @@||mip.xiachufang.com^
 @@||mirrors.163.com^
+@@||mirrors.huaweicloud.com^
 @@||missav.ai^
 @@||missav.live^
 @@||missav.ws^
 @@||mivideo.g.mi.com^
+@@||mkp-intl-res.hc-cdn.com^
+@@||mkp-res.hc-cdn.com^
 @@||mlol-file.qpic.cn^
 @@||mmbiz.qpic.cn^
 @@||mms-static.pddpic.com^
@@ -759,6 +768,36 @@
 @@||npm.elemecdn.com^
 @@||nstool.netease.com^
 @@||o.alicdn.com^
+@@||obs.af-north-1.myhuaweicloud.com^
+@@||obs.af-south-1.myhuaweicloud.com^
+@@||obs.ap-southeast-1.myhuaweicloud.com^
+@@||obs.ap-southeast-2.myhuaweicloud.com^
+@@||obs.ap-southeast-3.myhuaweicloud.com^
+@@||obs.ap-southeast-4.myhuaweicloud.com^
+@@||obs.ap-southeast-5.myhuaweicloud.com^
+@@||obs.cn-east-2.myhuaweicloud.com^
+@@||obs.cn-east-3.myhuaweicloud.com^
+@@||obs.cn-east-4.myhuaweicloud.com^
+@@||obs.cn-east-5.myhuaweicloud.com^
+@@||obs.cn-north-1.myhuaweicloud.com^
+@@||obs.cn-north-11.myhuaweicloud.com^
+@@||obs.cn-north-12.myhuaweicloud.com^
+@@||obs.cn-north-2.myhuaweicloud.com^
+@@||obs.cn-north-4.myhuaweicloud.com^
+@@||obs.cn-north-9.myhuaweicloud.com^
+@@||obs.cn-south-1.myhuaweicloud.com^
+@@||obs.cn-south-2.myhuaweicloud.com^
+@@||obs.cn-south-4.myhuaweicloud.com^
+@@||obs.cn-southwest-2.myhuaweicloud.com^
+@@||obs.cn-southwest-3.myhuaweicloud.com^
+@@||obs.la-north-2.myhuaweicloud.com^
+@@||obs.la-south-2.myhuaweicloud.com^
+@@||obs.me-east-1.myhuaweicloud.com^
+@@||obs.na-mexico-1.myhuaweicloud.com^
+@@||obs.ru-northwest-2.myhuaweicloud.com^
+@@||obs.sa-brazil-1.myhuaweicloud.com^
+@@||obs.sa-peru-1.myhuaweicloud.com^
+@@||obs.tr-west-1.myhuaweicloud.com^
 @@||omofun.link^
 @@||one.one.one.one^
 @@||openapi.vmall.com^
@@ -871,6 +910,7 @@
 @@||porntop.com^
 @@||pornzog.com^
 @@||port.sec.miui.com^
+@@||portal.hc-cdn.com^
 @@||pp.myapp.com^
 @@||preview-jupiter.sys.miui.com^
 @@||privatehomeclips.com^
@@ -918,8 +958,11 @@
 @@||release.liuyun.io^
 @@||report.taptapdada.com^
 @@||res-r.qingjiaota.com^
+@@||res-static.hc-cdn.cn^
+@@||res-video.hc-cdn.com^
 @@||res.126.net^
 @@||res.cloudinary.com^
+@@||res.hc-cdn.com^
 @@||res.mall.10010.cn^
 @@||res.oplist.org.cn^
 @@||res.oplist.org^
@@ -961,6 +1004,7 @@
 @@||sdk.xyapi.game.qq.com^
 @@||se*.360simg.com^
 @@||search.sogoucdn.com^
+@@||searchrec.marketplace-intl.huaweicloud.com^
 @@||service.mkey.163.com^
 @@||sf.163.com^
 @@||sf0.market.xiaomi.com^
@@ -1055,6 +1099,7 @@
 @@||sugs.m.sm.cn^
 @@||sukebei.nyaa.si^
 @@||summer-plus.net^
+@@||support.huaweicloud.com^
 @@||support.weixin.qq.com^
 @@||surrit.com^
 @@||swap.stu.126.net^
@@ -1259,6 +1304,7 @@
 @@||www.hentai.name^
 @@||www.hisense.com^
 @@||www.hoyoverse.com^
+@@||www.huaweicloud.com^
 @@||www.ijinshan.com^
 @@||www.internetdownloadmanager.com^
 @@||www.ip138.com^
