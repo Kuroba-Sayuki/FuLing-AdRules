@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-02-05
+# 更新时间：2026-02-08
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -239,6 +239,26 @@
 @@||console.huaweicloud.com^
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||coop.voicecloud.cn^
+@@||cos.ap-bangkok.myqcloud.com^
+@@||cos.ap-beijing-1.myqcloud.com^
+@@||cos.ap-beijing-fsi.myqcloud.com^
+@@||cos.ap-beijing.myqcloud.com^
+@@||cos.ap-chengdu.myqcloud.com^
+@@||cos.ap-chongqing.myqcloud.com^
+@@||cos.ap-guangzhou.myqcloud.com^
+@@||cos.ap-hongkong.myqcloud.com^
+@@||cos.ap-jakarta.myqcloud.com^
+@@||cos.ap-nanjing.myqcloud.com^
+@@||cos.ap-seoul.myqcloud.com^
+@@||cos.ap-shanghai-fsi.myqcloud.com^
+@@||cos.ap-shanghai.myqcloud.com^
+@@||cos.ap-shenzhen-fsi.myqcloud.com^
+@@||cos.ap-singapore.myqcloud.com^
+@@||cos.ap-tokyo.myqcloud.com^
+@@||cos.eu-frankfurt.myqcloud.com^
+@@||cos.na-ashburn.myqcloud.com^
+@@||cos.na-siliconvalley.myqcloud.com^
+@@||cos.sa-saopaulo.myqcloud.com^
 @@||cpu.baidu.com^
 @@||cpucdn.baidu.com^
 @@||css.tv.itc.cn^
@@ -988,7 +1008,15 @@
 @@||s1.zhuanstatic.com^
 @@||s2.hdslb.com^
 @@||s3-us-east-1.ossfiles.com^
+@@||s3.ap-southeast-1.qiniucs.com^
+@@||s3.ap-southeast-2.qiniucs.com^
+@@||s3.ap-southeast-3.qiniucs.com^
+@@||s3.cn-east-1.qiniucs.com^
+@@||s3.cn-east-2.qiniucs.com^
+@@||s3.cn-north-1.qiniucs.com^
+@@||s3.cn-south-1.qiniucs.com^
 @@||s3.meituan.net^
+@@||s3.us-north-1.qiniucs.com^
 @@||s3.voicecloud.cn^
 @@||s3plus-img.meituan.net^
 @@||s3plus.meituan.net^
