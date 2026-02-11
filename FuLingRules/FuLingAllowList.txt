@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-02-08
+# 更新时间：2026-02-11
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -1011,11 +1011,17 @@
 @@||s3.ap-southeast-1.qiniucs.com^
 @@||s3.ap-southeast-2.qiniucs.com^
 @@||s3.ap-southeast-3.qiniucs.com^
+@@||s3.bd.bcebos.com^
+@@||s3.bj.bcebos.com^
 @@||s3.cn-east-1.qiniucs.com^
 @@||s3.cn-east-2.qiniucs.com^
 @@||s3.cn-north-1.qiniucs.com^
 @@||s3.cn-south-1.qiniucs.com^
+@@||s3.fwh.bcebos.com^
+@@||s3.gz.bcebos.com^
+@@||s3.hkg.bcebos.com^
 @@||s3.meituan.net^
+@@||s3.su.bcebos.com^
 @@||s3.us-north-1.qiniucs.com^
 @@||s3.voicecloud.cn^
 @@||s3plus-img.meituan.net^
