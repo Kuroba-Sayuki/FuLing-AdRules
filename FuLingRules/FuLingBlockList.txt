@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-02-11
+# 更新时间：2026-03-15
 #************************************************************************#
 
 /ad-sign.*/
@@ -286,10 +286,13 @@
 ||activity-ag.awemeughun.com^
 ||ad.scdn.io^
 ||ads-api.twitter.com^
+||aeventlog.beacon.qq.com^
 ||ah.bwaa301.icu^
 ||am.bwaa301.icu^
 ||amx782p.top^
+||aotheve.beacon.qq.com^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
+||api.ad.xiaomi.com^
 ||api.admange.com^
 ||api.aoao11190iis.top^
 ||api.aoao11191iis.top^
