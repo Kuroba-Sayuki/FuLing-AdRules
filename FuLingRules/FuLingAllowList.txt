@@ -140,6 +140,7 @@
 @@||awp-assets.meituan.net^
 @@||b.163.com^
 @@||b.bdstatic.com^
+@@||b23.tv^
 @@||b3log.org^
 @@||b3logfile.com^
 @@||bad.news^
