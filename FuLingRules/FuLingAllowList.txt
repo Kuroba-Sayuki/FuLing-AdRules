@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-02-11
+# 更新时间：2026-05-17
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -146,6 +146,7 @@
 @@||baijiahao.baidu.com^
 @@||baike.baidu.com^
 @@||baikebcs.bdimg.com^
+@@||bbs.huorong.cn^
 @@||bbs.tampermonkey.net.cn^
 @@||bdsmtest.org^
 @@||bdsmtv.cc^
@@ -179,6 +180,7 @@
 @@||cd001.www.duba.net^
 @@||cdn-chateva.zhhainiao.com^
 @@||cdn-go.cn^
+@@||cdn-www.huorong.cn^
 @@||cdn.akamai.steamstatic.com^
 @@||cdn.aligames.com^
 @@||cdn.ark.qq.com^
@@ -303,8 +305,10 @@
 @@||docs.scriptcat.org^
 @@||domains-ws.revved.com^
 @@||doris.yidianzixun.com^
+@@||down-tencent.huorong.cn^
 @@||down.360safe.com^
 @@||down.sandai.net^
+@@||download-cdn.clf.jetbrains.com.cn^
 @@||download-cdn.jetbrains.com.cn^
 @@||download-cdn.jetbrains.com^
 @@||download.bitcomet.com^
@@ -650,6 +654,7 @@
 @@||m.ds.163.com^
 @@||m.dxy.com^
 @@||m.facebook.com^
+@@||m.gushiwen.cn^
 @@||m.ip138.com^
 @@||m.iqiyi.com^
 @@||m.jd.com^
@@ -990,6 +995,7 @@
 @@||res.vmallres.com^
 @@||resfile.lixincsb.com^
 @@||resmedi.lixincsb.com^
+@@||resources.jetbrains.com.cn^
 @@||restapi.amap.com^
 @@||rls.tapimg.com^
 @@||s*.erome.com^
@@ -1199,6 +1205,7 @@
 @@||ty.163.com^
 @@||u.10010.cn^
 @@||u.163.com^
+@@||uc.huorong.cn^
 @@||ugame.9game.cn^
 @@||ugurl.cn^
 @@||union-click.jd.com^
@@ -1206,6 +1213,7 @@
 @@||unisdk.update.netease.com^
 @@||unpkg.zhimg.com^
 @@||uop.quark.cn^
+@@||update.huorong.cn^
 @@||updateinfo.market.xiaomi.com^
 @@||upload-images.jianshu.io^
 @@||upload.jianshu.io^
@@ -1339,12 +1347,14 @@
 @@||www.hisense.com^
 @@||www.hoyoverse.com^
 @@||www.huaweicloud.com^
+@@||www.huorong.cn^
 @@||www.ijinshan.com^
 @@||www.internetdownloadmanager.com^
 @@||www.ip138.com^
 @@||www.iqiyi.com^
 @@||www.javbangers.com^
 @@||www.jd.com^
+@@||www.jetbrains.com.cn^
 @@||www.jianshu.com^
 @@||www.jiaoyimao.com^
 @@||www.jsdelivr.com^
