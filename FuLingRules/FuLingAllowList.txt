@@ -9,17 +9,20 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-05-17
+# 更新时间：2026-07-12
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
 @@||*-open-sign.byteimg.com^
 @@||*-open.byteimg.com^
 @@||*.*.szbdyd.com^
+@@||*.95516.com^
 @@||*.a.yximgs.com^
 @@||*.akamai-cdn-content.com^
 @@||*.anjuke.com^
+@@||*.cup.com.cn^
 @@||*.dlied1.cdntips.net^
+@@||*.forgecdn.net^
 @@||*.ke.com^
 @@||*.lianjia.com^
 @@||*.mcdn.bilivideo.cn^
@@ -147,7 +150,9 @@
 @@||baijiahao.baidu.com^
 @@||baike.baidu.com^
 @@||baikebcs.bdimg.com^
+@@||base.cup.com.cn^
 @@||bbs.huorong.cn^
+@@||bbs.mcmod.cn^
 @@||bbs.tampermonkey.net.cn^
 @@||bdsmtest.org^
 @@||bdsmtv.cc^
@@ -163,6 +168,7 @@
 @@||bookcover.yuewen.com^
 @@||bossaudioandcomic-1252317822.image.myqcloud.com^
 @@||browser.360.cn^
+@@||bug.mcmod.cn^
 @@||c.58cdn.com.cn^
 @@||c.fantia.jp^
 @@||c.pc.qq.com^
@@ -228,6 +234,7 @@
 @@||cn.app.chat.xiaomi.net^
 @@||cn.bing.com^
 @@||cn.pornhub.com^
+@@||cn.unionpay.com^
 @@||cn.uptodown.com^
 @@||cnbj1.fds.api.xiaomi.com^
 @@||comate-ide.cdn.bcebos.com^
@@ -476,6 +483,7 @@
 @@||i.dell.com^
 @@||i.gtimg.cn^
 @@||i.imgur.com^
+@@||i.mcmod.cn^
 @@||i.meituan.com^
 @@||i.mi.com^
 @@||i.pximg.net^
@@ -487,6 +495,7 @@
 @@||i72.lanzoug.com^
 @@||i82.lanzoug.com^
 @@||iaas.cloud.tencent.com^
+@@||iassapi.cup.com.cn^
 @@||id.163.com^
 @@||ifdian.net^
 @@||iframe.arkoselabs.com^
@@ -615,6 +624,7 @@
 @@||lf6-cdn2-tos.bytegoofy.com^
 @@||liangcang-material.alicdn.com^
 @@||lib.sinaapp.com^
+@@||life.cup.com.cn^
 @@||lifemakeovermysg.archosaur.com^
 @@||lightnovel.us^
 @@||limestart.cn^
@@ -623,6 +633,7 @@
 @@||line3-h5-mobile-api.biligame.com^
 @@||line3-h5-pc-api.biligame.com^
 @@||line3-statics-h5-mobile-api.biligame.net^
+@@||link.mcmod.cn^
 @@||link.zhihu.com^
 @@||linux.do^
 @@||liuyun.io^
@@ -743,6 +754,8 @@
 @@||mobile.ximalaya.com^
 @@||mobile.xunlei.com^
 @@||mobile.yangkeduo.com^
+@@||modfile.mcmod.cn^
+@@||modrinth.com^
 @@||modyolo.com^
 @@||mp.163.com^
 @@||mp.yidianzixun.com^
@@ -826,6 +839,8 @@
 @@||obs.tr-west-1.myhuaweicloud.com^
 @@||omofun.link^
 @@||one.one.one.one^
+@@||open.unionpay.com^
+@@||open.unionpayintl.com^
 @@||openapi.vmall.com^
 @@||osp.meituan.net^
 @@||oss.b3logfile.com^
@@ -900,6 +915,7 @@
 @@||passport.yuewen.com^
 @@||patchwiki.biligame.com^
 @@||pay.bilibili.com^
+@@||pay.cup.com.cn^
 @@||pay.openspeech.cn^
 @@||payapp.weixin.qq.com^
 @@||pbs.twimg.com^
@@ -929,6 +945,7 @@
 @@||pl.taptap.cn^
 @@||platform.deepseek.com^
 @@||play.163.com^
+@@||play.mcmod.cn^
 @@||plyr.io^
 @@||podman.io^
 @@||pool.v6.bt.n0808.com^
@@ -1037,6 +1054,7 @@
 @@||sbanh.com^
 @@||sbfast.com^
 @@||sbfull.com^
+@@||scene.cup.com.cn^
 @@||scriptcat.org^
 @@||sd.360.cn^
 @@||sdk.jinrishici.com^
@@ -1044,6 +1062,7 @@
 @@||sdk.ptqy.gitv.tv^
 @@||sdk.xyapi.game.qq.com^
 @@||se*.360simg.com^
+@@||search.mcmod.cn^
 @@||search.sogoucdn.com^
 @@||searchrec.marketplace-intl.huaweicloud.com^
 @@||service.mkey.163.com^
@@ -1081,11 +1100,13 @@
 @@||ssl-cdn.static.browser.mi-img.com^
 @@||ssl.gstatic.com^
 @@||ssl.p.jwpcdn.com^
+@@||sso.curseforge.com^
 @@||ssr.m.goofish.com^
 @@||st.jingxi.com^
 @@||starlusts.com^
 @@||stat6.y.qq.com^
 @@||static-*.xvideos-cdn.com^
+@@||static-beta.curseforge.com^
 @@||static-cdn77.xnxx-cdn.com^
 @@||static-hw.xnxx-cdn.com^
 @@||static-l3.xnxx-cdn.com^
@@ -1103,6 +1124,7 @@
 @@||static.hdslb.com^
 @@||static.iqiyi.com^
 @@||static.itellyou.cn^
+@@||static.mcmod.cn^
 @@||static.miraheze.org^
 @@||static.pddpic.com^
 @@||static.spankbang.com^
@@ -1183,6 +1205,7 @@
 @@||tot.hoyoverse.com^
 @@||tousu.sina.cn^
 @@||tousu.sina.com.cn^
+@@||travel.cup.com.cn^
 @@||ts.market.mi-img.com^
 @@||ts1.tc.mm.bing.net^
 @@||ts2.tc.mm.bing.net^
@@ -1209,6 +1232,7 @@
 @@||uc.huorong.cn^
 @@||ugame.9game.cn^
 @@||ugurl.cn^
+@@||uiam.unionpayintl.com^
 @@||union-click.jd.com^
 @@||union.jd.com^
 @@||unisdk.update.netease.com^
@@ -1321,6 +1345,8 @@
 @@||www.cloudflare-cn.com^
 @@||www.cloudflare.com^
 @@||www.cloudns.net^
+@@||www.cup.com.cn^
+@@||www.curseforge.com^
 @@||www.deepseek.com^
 @@||www.dell.com^
 @@||www.dianping.com^
@@ -1366,6 +1392,7 @@
 @@||www.listary.com^
 @@||www.listary.net^
 @@||www.maserati.com^
+@@||www.mcmod.cn^
 @@||www.meituan.com^
 @@||www.meizu.com^
 @@||www.mercedes-benz.com.cn^
@@ -1409,6 +1436,7 @@
 @@||www.tencent.net.cn^
 @@||www.tiantiantiaosheng.com^
 @@||www.toutiao.com^
+@@||www.unionpayintl.com^
 @@||www.vmall.com^
 @@||www.wnacg.com^
 @@||www.xanimeporn.com^
