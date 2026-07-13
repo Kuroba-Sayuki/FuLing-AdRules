@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-07-12
+# 更新时间：2026-07-13
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -35,6 +35,7 @@
 @@||18comic.org^
 @@||18comic.vip^
 @@||1tian.kuaishou.com^
+@@||22.do^
 @@||316.coolapk1s.com^
 @@||39d0825d09f05.cdn.sohucs.com^
 @@||3g.163.com^
@@ -311,11 +312,13 @@
 @@||docs.doudou.fun^
 @@||docs.idqqimg.com^
 @@||docs.scriptcat.org^
+@@||docs.vilinko.com^
 @@||domains-ws.revved.com^
 @@||doris.yidianzixun.com^
 @@||down-tencent.huorong.cn^
 @@||down.360safe.com^
 @@||down.sandai.net^
+@@||down1.vilinko.com^
 @@||download-cdn.clf.jetbrains.com.cn^
 @@||download-cdn.jetbrains.com.cn^
 @@||download-cdn.jetbrains.com^
@@ -591,6 +594,7 @@
 @@||keepassxc.org^
 @@||kemono.party^
 @@||kjimg10.360buyimg.com^
+@@||klpbbs.com^
 @@||konachan.com^
 @@||kubernetes.io^
 @@||l36-danmu.hi.163.com^
@@ -626,6 +630,7 @@
 @@||lib.sinaapp.com^
 @@||life.cup.com.cn^
 @@||lifemakeovermysg.archosaur.com^
+@@||lightframe.vilinko.com^
 @@||lightnovel.us^
 @@||limestart.cn^
 @@||line1-h5-mobile-api.biligame.com^
@@ -636,6 +641,7 @@
 @@||link.mcmod.cn^
 @@||link.zhihu.com^
 @@||linux.do^
+@@||littleskin.cn^
 @@||liuyun.io^
 @@||live.douyin.com^
 @@||live.kuaishou.com^
@@ -948,6 +954,7 @@
 @@||play.mcmod.cn^
 @@||plyr.io^
 @@||podman.io^
+@@||pogget.vilinko.com^
 @@||pool.v6.bt.n0808.com^
 @@||porkbun.com^
 @@||porntop.com^
@@ -1437,6 +1444,7 @@
 @@||www.tiantiantiaosheng.com^
 @@||www.toutiao.com^
 @@||www.unionpayintl.com^
+@@||www.vilinko.com^
 @@||www.vmall.com^
 @@||www.wnacg.com^
 @@||www.xanimeporn.com^
