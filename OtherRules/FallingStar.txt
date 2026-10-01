@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Falling Star
-! Update Time: 2026-09-15
+! Update Time: 2026-10-01
 
 @@||*-album.uc.cn^
 @@||*-api.uc.cn^
@@ -8,7 +8,6 @@
 @@||a0.app.xiaomi.com^
 @@||ac.opapp.cn^
 @@||acs-m.koubei.com^
-@@||ad.moonton.cn^
 @@||adtrack.xiaojukeji.com^
 @@||aligames.com^
 @@||api.installer.xiaomi.com^
@@ -58,9 +57,13 @@
 @@||locprivate-tostc.sf-express.com^
 @@||log.dailygn.com^
 @@||log.snssdk.com^
+@@||logupdate.avlyun.sec.miui.com^
+@@||m.sm.cn^
 @@||mapi.bestpay.com.cn^
 @@||mcc.inf.miui.com^
 @@||mime.baidu.com^
+@@||moonton.cn^
+@@||moontonapp.com^
 @@||mrn.meituan.net^
 @@||music.apple.com^
 @@||nracc.ele.me^
@@ -91,6 +94,7 @@
 @@||tnc3-alisc1.snssdk.com^
 @@||toblog.ctobsnssdk.com^
 @@||tpns.tencent.com^
+@@||tracking.miui.com^
 @@||ucus.ucweb.com^
 @@||uland.taobao.com^
 @@||user-auth-server.uc.cn^
@@ -99,11 +103,13 @@
 @@||www.iconfont.cn^
 @@||www.xn--sss604efuw.com^
 @@||xn--4gqu8tcnnope.com^
+@@||xn--9swa.com^
 @@||xn--ehqx7tcnnope.com^
 @@||xn--osvr71goa.com^
 @@||xn--vhq3x51dn9bivas49nfps.com^
 @@||xp.apple.com^
 @@||ynuf.alipay.com^
+@@||youngjoygame.com^
 @@||zhuanzhuan.com^
 @@||zsusw.zs.gdgov.cn^
 ||*-adnet.vivo.com.cn^
@@ -200,8 +206,6 @@
 ||922-992.icu^
 ||9983x.com^
 ||9dg6a.xyz^
-||_https.*^
-||_svcb.*^
 ||a000p.icu^
 ||a21l.top^
 ||a48699053.top^
@@ -278,7 +282,6 @@
 ||aoqinglv.cn^
 ||aoxinshangmao.xyz^
 ||ap-o.freespace.top^
-||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||api*-normal-c-lf.amemv.com^
 ||api-cf.nn.ci^
 ||api-flow.flyme.cn^
