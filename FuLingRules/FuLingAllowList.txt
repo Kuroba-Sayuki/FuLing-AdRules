@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-09-15
+# 更新时间：2026-10-28
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -150,6 +150,8 @@
 @@||app.bilibili.com^
 @@||app.biligame.com^
 @@||app.market.xiaomi.com^
+@@||app.mi.com^
+@@||app.xiaomi.com^
 @@||app.zhuanzhuan.com^
 @@||appcenter.ms^
 @@||appdl-1-drcn.dbankcdn.com^
@@ -160,6 +162,7 @@
 @@||apps.game.qq.com^
 @@||appsec-mobile.meituan.com^
 @@||archive.biliimg.com^
+@@||archive.stardock.com^
 @@||arenascan.com^
 @@||article.zlink.toutiao.com^
 @@||assets-www.xbox.com^
@@ -302,6 +305,7 @@
 @@||console.huaweicloud.com^
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||coop.voicecloud.cn^
+@@||copilot.tencent.com^
 @@||cos.ap-bangkok.myqcloud.com^
 @@||cos.ap-beijing-1.myqcloud.com^
 @@||cos.ap-beijing-fsi.myqcloud.com^
@@ -453,6 +457,8 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||forum.trae.cn^
+@@||forums.stardock.com^
+@@||forums.stardock.net^
 @@||fourhoi.com^
 @@||framework.cdn-go.cn^
 @@||funimg.pddpic.com^
@@ -561,6 +567,7 @@
 @@||iaas.cloud.tencent.com^
 @@||iassapi.cup.com.cn^
 @@||id.163.com^
+@@||identity.stardock.com^
 @@||ifdian.net^
 @@||iframe.arkoselabs.com^
 @@||iknow-pic.cdn.bcebos.com^
@@ -1342,6 +1349,7 @@
 @@||unisdk.update.netease.com^
 @@||unpkg.zhimg.com^
 @@||uop.quark.cn^
+@@||update.appstore.vivo.com.cn^
 @@||update.huorong.cn^
 @@||updateinfo.market.xiaomi.com^
 @@||upload-images.jianshu.io^
@@ -1555,6 +1563,8 @@
 @@||www.siyuan-note.club^
 @@||www.so.com^
 @@||www.spaceship.com^
+@@||www.stardock.com^
+@@||www.stardock.net^
 @@||www.taobao.com^
 @@||www.taptap.cn^
 @@||www.taptap.io^
