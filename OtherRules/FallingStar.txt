@@ -570,7 +570,7 @@
 ||haizhlink.com^
 ||halomobi.com^
 ||haohaohao17.xyz^
-||hdns.ksyun.com$important
+||hdns.ksyun.com^
 ||henanpenqitu.com^
 ||hermes.hupu.com^
 ||herrrv.com^
