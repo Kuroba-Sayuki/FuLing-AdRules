@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Falling Star
-! Update Time: 2026-10-01
+! Update Time: 2026-10-28
 
 @@||*-album.uc.cn^
 @@||*-api.uc.cn^
@@ -22,6 +22,7 @@
 @@||c.umsns.com^
 @@||capi.jingjianx.vip^
 @@||ccc-x.jd.com^
+@@||cdn-msp*.jmdanjonproxy.xyz^
 @@||clouddrive-activity.uc.cn^
 @@||cnlogs.umeng.com^
 @@||cnlogs.umengcloud.com^
@@ -103,6 +104,7 @@
 @@||www.iconfont.cn^
 @@||www.xn--sss604efuw.com^
 @@||xn--4gqu8tcnnope.com^
+@@||xn--4gqx1hgtfdmt.com^
 @@||xn--9swa.com^
 @@||xn--ehqx7tcnnope.com^
 @@||xn--osvr71goa.com^
@@ -282,6 +284,7 @@
 ||aoqinglv.cn^
 ||aoxinshangmao.xyz^
 ||ap-o.freespace.top^
+||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||api*-normal-c-lf.amemv.com^
 ||api-cf.nn.ci^
 ||api-flow.flyme.cn^
@@ -391,6 +394,7 @@
 ||cisengai.top^
 ||cjjd14.com^
 ||click.oneplus.com^
+||cloudflare-dns.com^
 ||coin-api.y5coin.com^
 ||collect.hupu.com^
 ||comfylink.com^
@@ -429,15 +433,21 @@
 ||dmrtb.com^
 ||dnl382.com^
 ||dns*.weixin.qq.*^
+||dns-family.adguard.com^
+||dns-unfiltered.adguard.com^
 ||dns.163.com^
 ||dns.360.cn^
+||dns.adguard-dns.com^
+||dns.alidns.com^
 ||dns.bytedance.com^
+||dns.google^
 ||dns.jd.com^
 ||dns.kuaishou.com^
 ||dns.m.sm.cn^
 ||dns.pinduoduo.com^
 ||dns.qiyipic.iqiyi.com^
 ||dns.qq.com^
+||dns.quad9.net^
 ||dns.sina.com.cn^
 ||dns.sohu.com^
 ||dns.taobao.com^
@@ -447,8 +457,10 @@
 ||dns.yy.com^
 ||dns2.q2cdn.com^
 ||docs.c-ctrip.com^
+||doh.cleanbrowsing.org^
 ||doh.dns.apple.com^
 ||doh.iqiyi.com^
+||doh.opendns.com^
 ||doh.ptqy.gitv.tv^
 ||doh.qq.com^
 ||domob.cn^
@@ -494,6 +506,7 @@
 ||f64976134.com^
 ||f9bf10.xyz^
 ||fakeurl.virtual.baidu.com^
+||family.cloudflare-dns.com^
 ||fanghenet.com^
 ||fc-ccimage.baidu.com^
 ||fclick.baidu.com^
@@ -581,6 +594,7 @@
 ||htcqlpsfhl4.xyz^
 ||hthvip1902.com^
 ||htpwoc488m.xyz^
+||httpdns.*^
 ||huixuanjiasu.com^
 ||hx3m5vq.com^
 ||hxkyuwr1040.vip^
@@ -774,6 +788,7 @@
 ||ocfgaa.xyz^
 ||ofodai.com^
 ||olybvun.cc^
+||one.one.one.one^
 ||open-iflow.meizu.com^
 ||open.douyin.com^
 ||open.e.kuaishou.*^
@@ -873,13 +888,16 @@
 ||scxj1031.xyz^
 ||sd-gl.xycdn.com^
 ||sdk*xyajs.data.kuiniuca.com^
+||sdk-ab-config-cdn.yunxish.com^
 ||sdk-log.partner.sm.cn^
 ||sdk.api.oaid.wocloud.cn^
 ||sdkapp.uve.weibo.com^
 ||sealaly.net^
+||security.cloudflare-dns.com^
 ||seeye.cn^
 ||sejqb.com^
 ||sentry-ov.*.com^
+||sentry.io^
 ||sentry.io^nt
 ||sessions.bugsnag.com^
 ||sezkkb.cn^
@@ -960,6 +978,7 @@
 ||tk029.click^
 ||tmfmazuhttp-wangka.m.qq.com^
 ||tnc*-aliec*.zijieapi.com^
+||tnc*-alisc*.zijieapi.com^
 ||tnc*-alisc*.zijieapi.com^$importat
 ||tnc*-bjlgy.zijieapi.com^
 ||tnhjwrs.com^
@@ -1125,6 +1144,7 @@
 ||yunxish.com^
 ||yuwenxuexizazhi.com^
 ||yytphq.cn^
+||z23r562938.iask.in^
 ||z23r562938.iask.in^$importa
 ||za1.cfykd.cn^
 ||za1.maetg.cn^
