@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-10-28
+# 更新时间：2026-11-10
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -1078,6 +1078,8 @@
 @@||pull-m1.wxlivecdn.com^
 @@||push.chsi.com.cn^
 @@||puui.qpic.cn^
+@@||pvp.icreate.qq.com^
+@@||pvp.qq.com^
 @@||qcaptcha.so.com^
 @@||qcloudimg.tencent-cloud.cn^
 @@||qdfepccdn.qidian.com^
@@ -1431,6 +1433,7 @@
 @@||wk.idey.cn^
 @@||wl.jd.com^
 @@||world.qpic.cn^
+@@||world.qq.com^
 @@||wpvip.duba.net^
 @@||wq.360buyimg.com^
 @@||write.qq.com^
@@ -1601,6 +1604,7 @@
 @@||wx4.sinaimg.cn^
 @@||wxaurl.cn^
 @@||wxmini-api.uyouqu.com^
+@@||wxq.qq.com^
 @@||wxsnsdy.wxs.qq.com^
 @@||x.kuwo.cn^
 @@||x0.ifengimg.com^
@@ -1616,6 +1620,7 @@
 @@||yande.re^
 @@||yeah.163.com^
 @@||yep.com^
+@@||yingdi.qq.com^
 @@||ym.163.com^
 @@||youdata.163.com^
 @@||young.duba.net^
