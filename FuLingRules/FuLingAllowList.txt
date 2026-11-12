@@ -9,7 +9,7 @@
 # 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
 # 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
 #************************************************************************#
-# 更新时间：2026-11-10
+# 更新时间：2026-11-12
 #************************************************************************#
 
 @@||*-cf.xvideos-cdn.com^
@@ -349,6 +349,7 @@
 @@||ddyunbo.com^
 @@||detail.meizu.com^
 @@||detail.zol.com.cn^
+@@||dev.mi.com^
 @@||dev.miuiflash.com^
 @@||developer.extscreen.com^
 @@||devuploads.com^
@@ -550,6 +551,7 @@
 @@||hub5idx.v6.shub.sandai.net^
 @@||hub5pn.wap.sandai.net^
 @@||huluxia.com^
+@@||hyperos.developer.xiaomi.com^
 @@||i.dell.com^
 @@||i.gtimg.cn^
 @@||i.imgur.com^
@@ -601,6 +603,7 @@
 @@||img.qidian.com^
 @@||img.siwazywimg.com^
 @@||img.sogoucdn.com^
+@@||img.ssl.msdk.qq.com^
 @@||img.tapimg.com^
 @@||img.youpin.mi-img.com^
 @@||img01.sogoucdn.com^
@@ -625,6 +628,7 @@
 @@||inporn.com^
 @@||instant.io^
 @@||intro.limestart.cn^
+@@||iot.mi.com^
 @@||ip*.ahcdn.com^
 @@||ip.900cha.com^
 @@||ip.cn^
@@ -824,6 +828,7 @@
 @@||message.bilibili.com^
 @@||mgbsdk.matrix.netease.com^
 @@||midas.gtimg.cn^
+@@||mimo.mi.com^
 @@||miniapp.gtimg.cn^
 @@||mip.xiachufang.com^
 @@||mirrors.163.com^
