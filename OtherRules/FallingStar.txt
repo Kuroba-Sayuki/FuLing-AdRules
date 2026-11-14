@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Falling Star
-! Update Time: 2026-10-28
+! Update Time: 2026-11-14
 
 @@||*-album.uc.cn^
 @@||*-api.uc.cn^
@@ -163,11 +163,14 @@
 ||2634273f48e9.com^
 ||269335.com^
 ||273343.com^
+||2750249.cc^
+||275ldy0608.cc^
 ||2lc8.vip^
 ||2tsfdcp.com^
 ||31xx4325a.cc^
 ||32n.icu^
 ||3333333333333.xyz^
+||33495737.com^
 ||3377539.app^
 ||33slthiy.vip^
 ||35072.net^
@@ -195,6 +198,7 @@
 ||737qq.pw^
 ||758758.xyz^
 ||789free.fun^
+||7hgwx.com^
 ||7x8qwer.top^
 ||84652.net^
 ||8916a.xyz^
@@ -243,7 +247,7 @@
 ||adn.tapapis.cn^
 ||adnetstatic.*^
 ||adproxy.autohome.com.cn^
-||ads*-normal-hl.zijieapi.com^important
+||ads*-normal-hl.zijieapi.com^
 ||ads*.cj.sina.com.cn^
 ||ads.*^
 ||adsdk.*^
@@ -251,6 +255,7 @@
 ||adsehera.ximalaya.com^
 ||adservice.kugou.com^
 ||adserviceretry.kglink.cn^
+||adsfile.kugou.com^
 ||adult-movie.bidobido.xyz^
 ||adv.api.mucfc.com^
 ||advertise.bczeducation.*^
@@ -259,6 +264,7 @@
 ||adx.dictapis.cn^
 ||adxvip.com^
 ||afuyer.com^
+||afxgnjg.cn^
 ||ag-bj.2023126wz522.xyz^
 ||ahiae.com^
 ||ahtdqlz.cn^
@@ -287,12 +293,14 @@
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||api*-normal-c-lf.amemv.com^
 ||api-cf.nn.ci^
+||api-dc2-prod-08.cyou^
 ||api-flow.flyme.cn^
 ||api-hotjar.com^
 ||api-my-api-5hw5ou-b810d8-80-75-218-107.traefik.me^
 ||api-share.mob.com^
 ||api.e.kuaishou.cn^
 ||api.nn.ci^
+||api.sec.miui.com^
 ||api.sina.cn^
 ||api.ssp.xcultur.com^
 ||api.umengcn.org^
@@ -418,6 +426,7 @@
 ||dcloud.net.cn^
 ||deifei.com^
 ||dentsuchina.cn^
+||detection-aigc.engine.miui.com^
 ||dfdd-toubiaole.com^
 ||dgswpfxttpjvz6h9s013.com^
 ||dhgycl.cn^
@@ -430,6 +439,7 @@
 ||djlacgc.top^
 ||djvod.ndcimgs.com^
 ||dkhwyzv.com^
+||dm.wo.com.cn^
 ||dmrtb.com^
 ||dnl382.com^
 ||dns*.weixin.qq.*^
@@ -498,9 +508,12 @@
 ||efw884.vip^
 ||ehgssdg.cn^
 ||electric-shop.yaoguo.com^
+||elsmjsttx.cc^
 ||eplwgq.cn^
+||eps.caict.ac.cn^
 ||ero-labs.*^
 ||erwdesf.com^
+||etgahx.cn^
 ||ezzgnn.info^
 ||f64410077.com^
 ||f64976134.com^
@@ -517,12 +530,15 @@
 ||ffilelogapp.huya.com^
 ||fi11aa198.com^
 ||fileserverpcdn.cdn.huya.com^
+||flash.sec.miui.com^
 ||flysleep.cn^
 ||fohbgjv.com^
 ||fokm37.cn^
 ||forecast.sina.cn^
 ||fpoq818.com^
 ||fr5uptmx.com^
+||framework.sec.miui.com^
+||fraud-detection.engine.miui.com^
 ||freshmh.top^
 ||frontend-perf-service.e.kuaishou.com^
 ||frqzio.cn^
@@ -537,6 +553,7 @@
 ||g7h69h29cx.com^
 ||gad.kugou.com^
 ||gahhs029.top^
+||gateway-papa.cloud.weizhi.com^
 ||gbjluf.cn^
 ||gc.zgo.at^
 ||gclgu.cn^
@@ -696,7 +713,7 @@
 ||lkdgip.xyz^
 ||llpstudy.top^
 ||llroax.cn^
-||log*-applog-hl.fqnovel.com^important
+||log*-applog-hl.fqnovel.com^
 ||log-sdk.ksapisrv.com^
 ||log-upload-v6.mihoyo.com^
 ||log.*^
@@ -744,6 +761,7 @@
 ||mobile.app.autohome.com.cn^
 ||mobrtb.com^
 ||mobsurl.com^
+||moiqlwyyfmauwpyhcfezmtnxz.com^
 ||mon982.vip^
 ||moo39829.net^
 ||mpsysd.cn^
@@ -798,7 +816,7 @@
 ||oschina.net^
 ||oss4bpc.moji.com^
 ||oz8xhen.top^
-||p*-ad-sign.byteimg.com^important
+||p*-ad-sign.byteimg.com^
 ||p0nkhy03m.top^
 ||pages-fast.m.taobao.com^
 ||pages.c-ctrip.com^
@@ -819,6 +837,7 @@
 ||plusjrmallstatic.cdn.bcebos.com^
 ||pluto.sina.cn^
 ||pmwgmg.cn^
+||pn-tracking-bak.onetrack.mi.com^
 ||pnsblw.cn^
 ||ppdzl.cn^
 ||ppqqzkn.com^
@@ -870,7 +889,7 @@
 ||rpdi192.icu^
 ||rtawin.daikuan.360.cn^
 ||rtbapi.douyucdn.cn^
-||rtlog*-applog-hl.fqnovel.com^important
+||rtlog*-applog-hl.fqnovel.com^
 ||rup4a04-c02.tos-cn-hongkong.bytepluses.com^
 ||rzlp.xyz^
 ||rzskdw.cn^
@@ -898,7 +917,6 @@
 ||sejqb.com^
 ||sentry-ov.*.com^
 ||sentry.io^
-||sentry.io^nt
 ||sessions.bugsnag.com^
 ||sezkkb.cn^
 ||sgbh6.com^
@@ -926,6 +944,7 @@
 ||sqkt38.cc^
 ||sqznt.cn^
 ||srlrjvz.com^
+||srv.sec.miui.com^
 ||ss72269.com^
 ||ssp-landing.taptap.cn^
 ||ssp-sdk-config.uc.cn^
@@ -979,7 +998,6 @@
 ||tmfmazuhttp-wangka.m.qq.com^
 ||tnc*-aliec*.zijieapi.com^
 ||tnc*-alisc*.zijieapi.com^
-||tnc*-alisc*.zijieapi.com^$importat
 ||tnc*-bjlgy.zijieapi.com^
 ||tnhjwrs.com^
 ||tnhkwrs.com^
@@ -1032,6 +1050,7 @@
 ||v.opzero.xyz^
 ||v.smtcdns.com^
 ||v1.keepcdn.com^
+||v38w6w.top^
 ||v6hfl4.top^
 ||vegslb.com^
 ||vexd8.com^
@@ -1041,6 +1060,7 @@
 ||vip.cqtnfs.com^
 ||vip.huijujiavip.com^
 ||vipfengfei.com^
+||virus-engine.sec.miui.com^
 ||vlion.cn^
 ||vmgikpw.com^
 ||vndleo.ruwww.cn^
@@ -1087,6 +1107,7 @@
 ||x.eccorp.cc^
 ||x1abo.com^
 ||x7m1y3.*^
+||xaywl.top^
 ||xbfxs6.com^
 ||xbzb8.cc^
 ||xcdn.rltdxt.com^
@@ -1143,9 +1164,10 @@
 ||yuntukc.cn^
 ||yunxish.com^
 ||yuwenxuexizazhi.com^
+||yvresguot.cc^
 ||yytphq.cn^
 ||z23r562938.iask.in^
-||z23r562938.iask.in^$importa
+||z7e9h3es.top^
 ||za1.cfykd.cn^
 ||za1.maetg.cn^
 ||zb757.cc^
